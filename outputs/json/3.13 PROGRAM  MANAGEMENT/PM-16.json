@@ -1,0 +1,9 @@
+{
+  "PolicyId": "PM-16",
+  "PolicyName": "THREAT AWARENESS PROGRAM",
+  "Control": "Implement a threat awareness program that includes a cross-organization information-/osharing capability for threat intelligence.",
+  "Discussion": "Because of the constantly changing and increasing sophistication of adversaries, especially the advanced persistent threat (APT), it may be more likely that adversaries can successfully breach or compromise organizational systems. One of the best techniques to address this concern is for organizations to share threat information, including threat events (i.e., Itactics, techniques, and procedures) that organizations have experienced, mitigations that S organizations have found are effective against certain types of threats, and threat intelligence . Threat information sharing may be bilateral or multilateral. Bilateral threat sharing includes government-to-commercial and government-to-government cooperatives. Multilateral threat sharing includes organizations taking part in threat-sharing consortia. Threat information may require special agreements and protection, or it may be freely shared.",
+  "ControlEnhancements": " (1) THREAT AWARENESS PROGRAM  AUTOMATED MEANS FOR SHARING THREAT INTELLIGENCE\nEmploy automated mechanisms to maximize the effectiveness of sharing threat intelligence information.",
+  "RelatedControls": "IR-4, PM-12.",
+  "References": "None."
+}

@@ -1,0 +1,43 @@
+SC-1 POLICY AND PROCEDURES
+Control:
+Assignment: organization-defined personnel or a.Develop, document, and disseminate to [
+roles]:
+Selection (one or more): Organization-level; Mission/business process-level; System-1.[
+level] system and communications protection policy that:
+(a)Addresses purpose, scope, roles, responsibilities, management commitment,  h
+coordination among organizational entities, and compliance; and
+l(b)Is consistent with applicable laws, executive orders, directives, regulations, policies,  ic
+standards, and guidelines; and t
+i2.Procedures to facilitate the implementation of the system and communications  s
+protection policy and the associated system and communications protection controls; v
+Assignment: organization-defined officialb.Designate an [] to manage the development,  b
+documentation, and dissemination of the system and communications protection policy and
+procedures; and
+c.Review and update the current system and communications protection:  c
+rAssignment: organization-defined frequencyAssignment: 1.Policy [] and following [ g
+organization-defined events]; and f
+Assignment: organization-defined frequencyAssignment: 2.Procedures [] and following [ :
+torganization-defined events]. t
+Discussion:  System and communications protection policy and procedures address the controls /
+in the SC family that are implemented within systems and organizations. The risk management i.
+strategy is an important factor in establishing such policies and procedures. Policies and g
+procedures contribute to security and privacy assurance. Therefore, it is important that security 0
+and privacy programs collaborate on the development of system and communications protection 0
+8policy and procedures. Security and privacy program policies and procedures at the organization
+level are preferable, in general, and may obviate the need for mission- or system-specific policies I
+and procedures. The policy can be included as part of the general security and privacy policy or
+Pbe represented by multiple policies that reflect the complex nature of organizations. Procedures
+can be established for security and privacy programs, for mission or business processes, and for 0
+-systems, if needed. Procedures describe how the policies or controls are implemented and can 5
+rbe directed at the individual or role that is the object of the procedure. Procedures can be 5
+documented in system security and privacy plans or in one or more separate documents. Events
+that may precipitate an update to system and communications protection policy and procedures
+include assessment or audit findings, security incidents or breaches, or changes in applicable
+laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply
+restating controls does not constitute an organizational policy or procedure.
+Related Controls:  PM-9, PS-8, SA-8, SI-12.
+Control Enhancements:  None.
+References:  [OMB A-130], [SP 800-12], [SP 800-100].
+CHAPTER THREE   PAGE 292
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

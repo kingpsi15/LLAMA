@@ -1,0 +1,19 @@
+MP-2 MEDIA ACCESS
+Assignment: organization-defined types of digital and/or non-digital Control:  Restrict access to [
+mediaAssignment: organization-defined personnel or roles] to [].
+Discussion:  System media includes digital and non-digital media. Digital media includes flash
+drives, diskettes, magnetic tapes, external or removable hard disk drives (e.g., solid state,
+magnetic), compact discs, and digital versatile discs. Non-digital media includes paper and
+microfilm. Denying access to patient medical records in a community hospital unless the
+individuals seeking access to such records are authorized healthcare providers is an example of
+restricting access to non-digital media. Limiting access to the design specifications stored on
+is an example compact discs in the media library to individuals on the system development team
+of restricting access to digital media.
+TRelated Controls:  AC-19, AU-9, CP-2, CP-9, CP-10, MA-5, MP-4, MP-6, PE-2, PE-3, SC-12, SC-13,
+iSC-34, SI-12. s
+bControl Enhancements:
+t| (1) iMEDIA ACCESS  AUTOMATED RESTRICTED ACCESS o
+i[Withdrawn: Incorporated into MP-4(2).] s
+a| (2) MEDIA ACCESS  CRYPTOGRAPHIC PROTECTION
+[Withdrawn: Incorporated into SC-28(1).]
+eReferences:  [OMB A-130], [FIPS 199], [SP 800-111].

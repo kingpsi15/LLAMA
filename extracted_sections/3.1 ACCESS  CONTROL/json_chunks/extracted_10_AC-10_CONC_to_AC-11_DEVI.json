@@ -1,0 +1,5 @@
+{
+  "subheading": "AC-10 CONCURRENT SESSION CONTROL",
+  "start_text": "AC-10 CONCURRENT SESSION CONTROL h\nAssignment: org",
+  "content": "AC-10 CONCURRENT SESSION CONTROL h\nAssignment: organization-defined Control:  Limit the number of concurrent sessions for each [\naccount and/or account typeAssignment: organization-defined numberl] to []. ic\noDiscussion:  Organizations may define the maximum number of concurrent sessions for system\naccounts globally, by account type, by account, or any combination thereof. For example, is\norganizations may limit the number of concurrent sessions for system administrators or other v\niindividuals working in particularly sensitive domains or mission-critical applications. Concurrent la\nsession control addresses concurrent sessions for system accounts. It does not, however, address le\nfconcurrent sessions by single users via multiple system accounts. r\nRelated Controls:  SC-23.\naControl Enhancements:  None.\nReferences:  None. f"
+}

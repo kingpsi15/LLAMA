@@ -1,0 +1,12 @@
+PM-29 RISK MANAGEMENT PROGRAM LEADERSHIP ROLES
+Control:
+a.Appoint a Senior Accountable Official for Risk Management to align organizational
+information security and privacy management processes with strategic, operational, and
+budgetary planning processes; and T
+b.Establish a Risk Executive (function) to view and analyze risk from an organization-wide  p
+bperspective and ensure management of risk is consistent across the organization.
+tDiscussion:  The senior accountable official for risk management leads the risk executive
+(function) in organization-wide risk management activities.
+Related Controls:  PM-2, PM-19. v
+Control Enhancements:  None. b
+rReferences:  [SP 800-37], [SP 800-181].

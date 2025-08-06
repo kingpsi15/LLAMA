@@ -1,0 +1,24 @@
+pAU-4 AUDIT LOG STORAGE CAPACITY
+liAssignment: organization-defined cControl:  Allocate audit log storage capacity to accommodate [
+iaudit log retention requirements]. o
+Discussion:  Organizations consider the types of audit logging to be performed and the audit log
+processing requirements when allocating audit log storage capacity. Allocating sufficient audit
+lalog storage capacity reduces the likelihood of such capacity being exceeded and resulting in the
+lepotential loss or reduction of audit logging capability.
+eRelated Controls:  AU-2, AU-5, AU-6, AU-7, AU-9, AU-11, AU-12, AU-14, SI-4.
+Control Enhancements:
+|(1)  AUDIT LOG STORAGE CAPACITY  TRANSFER TO ALTERNATE STORAGE e
+oAssignment: organization-defined frequencyTransfer audit logs [] to a different system,
+:system component, or media other than the system or system component conducting the
+logging. t
+/Discussion:  Audit log transfer, also known as off-loading, is a common process in systems
+with limited audit log storage capacity and thus supports availability of the audit logs. The
+rinitial audit log storage is only used in a transitory fashion until the system can communicate
+1with the secondary or alternate system allocated to audit log storage, at which point the
+6AU-9(2) in audit logs are transferred. Transferring audit logs to alternate storage is similar to
+that audit logs are transferred to a different entity. However, the purpose of selecting AU-8
+9(2) is to protect the confidentiality and integrity of audit records. Organizations can select
+Teither control enhancement to obtain the benefit of increased audit log storage capacity and
+preserving the confidentiality, integrity, and availability of audit records and logs. P
+0Related Controls:  None.
+3References:  None.

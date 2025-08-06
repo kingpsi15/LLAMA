@@ -1,0 +1,67 @@
+SC-42 SENSOR CAPABILITY AND DATA h
+Control: e
+Selection (one or more): the use of devices possessing Assignment: organization-a.Prohibit [[m
+defined environmental sensing capabilitiesinAssignment: organization-defined facilities, ]  [h
+pareas, or systemsthe remote activation of environmental sensing capabilities on ];
+/organizational systems or system components with the following exceptions:Assignment:  [/
+organization-defined exceptions where remote activation of sensors is allowed]]; and i.
+gAssignment: organization-defined group of b.Provide an explicit indication of sensor use to [
+0users].
+Discussion:  Sensor capability and data applies to types of systems or system components
+characterized as mobile devices, such as cellular telephones, smart phones, and tablets. Mobile
+devices often include sensors that can collect and record data regarding the environment where T
+the system is in use. Sensors that are embedded within mobile devices include microphones,
+8cameras, Global Positioning System (GPS) mechanisms, and accelerometers. While the sensors
+on mobiles devices provide an important function, if activated covertly, such devices can -
+potentially provide a means for adversaries to learn valuable information about individuals and
+organizations. For example, remotely activating the GPS function on a mobile device could
+provide an adversary with the ability to track the movements of an individual. Organizations may
+prohibit individuals from bringing cellular telephones or digital cameras into certain designated
+facilities or controlled areas within facilities where classified information is stored or sensitive
+conversations are taking place.
+Related Controls:  SC-15.
+Control Enhancements:
+| (1) SENSOR CAPABILITY AND DATA  REPORTING TO AUTHORIZED INDIVIDUALS OR ROLES
+CHAPTER THREE   PAGE 326
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Verify that the system is configured so that data or information collected by the
+Assignment: organization-defined sensors[] is only reported to authorized individuals or
+roles.
+Discussion:  In situations where sensors are activated by authorized individuals, it is still
+possible that the data or information collected by the sensors will be sent to unauthorized
+entities.
+Related Controls:  None.
+| (2) SENSOR CAPABILITY AND DATA  AUTHORIZED USE
+Assignment: Employ the following measures so that data or information collected by [
+organization-defined sensorsAssignment: ] is only used for authorized purposes: [
+organization-defined measures].
+TDiscussion:  Information collected by sensors for a specific authorized purpose could be
+imisused for some unauthorized purpose. For example, GPS sensors that are used to support s
+utraffic navigation could be misused to track the movements of individuals. Measures to
+limitigate such activities include additional training to help ensure that authorized individuals c
+tdo not abuse their authority and, in the case where sensor data is maintained by external i
+parties, contractual restrictions on the use of such data.
+Related Controls:  PT-2.
+| (3) SENSOR CAPABILITY AND DATA  PROHIBIT USE OF DEVICESb
+[Withdrawn: Incorporated into SC-42.] f
+|o (4) SENSOR CAPABILITY AND DATA  NOTICE OF COLLECTION
+hEmploy the following measures to facilitate an individual’s awareness that personally
+gAssignment: organization-defined sensorsidentifiable information is being collected by []:
+fAssignment: organization-defined measures[].
+Discussion:  Awareness that organizational sensors are collecting data enables individuals to
+more effectively engage in managing their privacy. Measures can include conventional t
+swritten notices and sensor configurations that make individuals directly or indirectly aware
+dthrough other devices that the sensor is collecting information. The usability and efficacy of
+the notice are important considerations. o
+/Related Controls:  PT-1, PT-4, PT-5. 1
+0| (5) SENSOR CAPABILITY AND DATA  COLLECTION MINIMIZATION
+/Assignment: organization-defined sensorsEmploy [] that are configured to minimize the N
+collection of information about individuals that is not needed.
+Discussion:  Although policies to control for authorized use can be applied to information
+8once it is collected, minimizing the collection of information that is not needed mitigates
+privacy risk at the system entry point and mitigates the risk of policy control failures. Sensor -
+configurations include the obscuring of human features, such as blurring or pixelating flesh
+tones.
+Related Controls:  SA-8, SI-12.
+References:  [OMB A-130], [SP 800-124].

@@ -1,0 +1,16 @@
+SA-20 CUSTOMIZED DEVELOPMENT OF CRITICAL COMPONENTS i
+Control:  Reimplement or custom develop the following critical system components:
+eAssignment: organization-defined critical system components[].
+Discussion:  Organizations determine that certain system components likely cannot be trusted
+adue to specific threats to and vulnerabilities in those components for which there are no viable
+security controls to adequately mitigate risk. Reimplementation or custom development of such e
+rcomponents may satisfy requirements for higher assurance and is carried out by initiating o
+changes to system components (including hardware, software, and firmware) such that the :
+tstandard attacks by adversaries are less likely to succeed. In situations where no alternative
+sourcing is available and organizations choose not to reimplement or custom develop critical :
+system components, additional controls can be employed. Controls include enhanced auditing,
+orestrictions on source code and system utility access, and protection from deletion of system and
+application files. /
+Related Controls:  CP-2, RA-9, SA-8. 0
+/Control Enhancements:  None. N
+TReferences:  [SP 800-160-1].

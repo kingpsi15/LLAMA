@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "NISTSP800-53",
+      "PolicyName": "SECURITY AND PRIVACY CONTROLS FOR INFORMATION SYSTEMS AND ORGANIZATIONS",
+      "Control": "Security and privacy controls have the following structure: a  section, a related controls control enhancementsreferencessection, a  section, a  section, and a  section.",
+      "Discussion": "The  section provides additional information about a control. Organizations can use the information as needed when developing, tailoring, implementing, assessing, or monitoring controls. The information provides important considerations for implementing controls based on mission or business requirements, operational environments, or assessments of risk. The additional information can also explain the purpose of controls and often includes examples.",
+      "ControlEnhancements": "Organization-defined Parameter\n|(1) /AUDIT STORAGE CAPACITY  TRANSFER TO ALTERNATE STORAGE\nAssignment: organization-defined frequencyOff-load audit records onto a different system or media than the system being audited.",
+      "RelatedControls": "AU-2, AU-5, AU-6, AU-7, AU-9, AU-11, AU-12, AU-14, SI-4.",
+      "References": "None."
+   }

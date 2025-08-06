@@ -1,0 +1,11 @@
+SI-17 FAIL-SAFE PROCEDURES
+Control:  Implementthe indicated fail-safe procedures whenthe indicated failures occur:
+Assignment: organization-defined list of failure conditions and associated fail-safe procedures[].
+Discussion:  Failure conditions include the loss of communications among critical system
+components or between system components and operational facilities. Fail-safe procedures T
+iinclude alerting operator personnel and providing specific instructions on subsequent steps to s
+take. Subsequent steps may include doing nothing, reestablishing system settings, shutting down u
+lprocesses, restarting the system, or contacting designated organizational personnel. ic
+Related Controls:  CP-12, CP-13, SC-24, SI-13.
+Control Enhancements:  None. a
+lReferences:  None. a

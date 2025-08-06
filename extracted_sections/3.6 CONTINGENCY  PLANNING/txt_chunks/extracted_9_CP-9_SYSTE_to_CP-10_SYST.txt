@@ -1,0 +1,106 @@
+CP-9 SYSTEM BACKUP 5
+Control:
+Assignment: organization-defined a.Conduct backups of user-level information contained in [
+system componentsAssignment: organization-defined frequency consistent with recovery ] [
+time and recovery point objectives];
+Assignment: b.Conduct backups of system-level information contained in the system [
+organization-defined frequency consistent with recovery time and recovery point objectives];
+CHAPTER THREE   PAGE 125
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+c.Conduct backups ofsystem documentation, including security- and privacy-related
+Assignment: organization-defined frequency consistent with recovery time documentation [
+and recovery point objectives]; and
+d.Protect the confidentiality, integrity, and availability of backup information.
+Discussion:  System-level information includes system state information, operating system
+software, middleware, application software, and licenses. User-level information includes
+information other than system-level information. Mechanisms employed to protect the integrity
+of system backups include digital signatures and cryptographic hashes. Protection of system
+MP-5 and SC-8. System backups reflect the backup information while in transit is addressed by
+requirements in contingency plans as well as other organizational requirements for backing up
+information. Organizations may be subject to laws, executive orders, directives, regulations, or
+policies with requirements regarding specific categories of information (e.g., personal health
+information). Organizational personnel consult with the senior agency official for privacy and h
+legal counsel regarding such requirements.
+lRelated Controls:  CP-2, CP-6, CP-10, MP-4, MP-5, SC-8, SC-12, SC-13, SI-4, SI-13. ic
+oControl Enhancements:
+| (1) SYSTEM BACKUP  TESTING FOR RELIABILITY AND INTEGRITY a
+Assignment: organization-defined frequencyiTest backup information [] to verify media la
+reliability and information integrity. le
+rDiscussion:  Organizations need assurance that backup information can be reliably retrieved. e
+Reliability pertains to the systems and system components where the backup information is
+cstored, the operations used to retrieve the information, and the integrity of the information
+being retrieved. Independent and specialized tests can be used for each of the aspects of
+reliability. For example, decrypting and transporting (or transmitting) a random sample of
+obackup files from the alternate storage or backup site and comparing the information to the
+:same information at the primary processing site can provide such assurance.
+pRelated Controls:  CP-4.
+| (2) SYSTEM BACKUP  TEST RESTORATION USING SAMPLING o
+Use a sample of backup information in the restoration of selected system functions as part r
+1of contingency plan testing.
+Discussion:  Organizations need assurance that system functions can be restored correctly 0
+8and can support established organizational missions. To ensure that the selected system
+during contingency plan testing, a sample of backup functions are thoroughly exercisedI
+information is retrieved to determine whether the functions are operating as intended.
+POrganizations can determine the sample size for the functions and backup information
+based on the level of assurance needed. 0
+5Related Controls:  CP-4.
+|  (3) SYSTEM BACKUP  SEPARATE STORAGE FOR CRITICAL INFORMATION
+Assignment: organization-defined critical system software and Store backup copies of [
+other security-related information] in a separate facility or in a fire rated container that is
+not collocated with the operational system.
+Discussion:  Separate storage for critical information applies to all critical information
+regardless of the type of backup storage media. Critical system software includes operating
+systems, middleware, cryptographic key management systems, and intrusion detection
+systems. Security-related information includes inventories of system hardware, software,
+and firmware components. Alternate storage sites, including geographically distributed
+architectures, serve as separate storage facilities for organizations. Organizations may
+CHAPTER THREE   PAGE 126
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+provide separate storage by implementing automated backup processes at alternative
+storage sites (e.g., data centers). The General Services Administration (GSA) establishes
+standards and specifications for security and fire rated containers.
+.Related Controls:  CM-2, CM-6, CM-8
+| (4) SYSTEM BACKUP  PROTECTION FROM UNAUTHORIZED MODIFICATION
+[Withdrawn: Incorporated into CP-9.]
+| (5) SYSTEM BACKUP  TRANSFER TO ALTERNATE STORAGE SITE
+Assignment: Transfer system backup information to the alternate storage site [
+organization-defined time period and transfer rate consistent with the recovery time and
+recovery point objectives].
+Discussion:  System backup information can be transferred to alternate storage sites either
+helectronically or by the physical shipment of storage media.
+Related Controls:  CP-7, MP-3, MP-4, MP-5. u
+| (6) SYSTEM BACKUP  REDUNDANT SECONDARY SYSTEM a
+nConduct system backup by maintaining a redundant secondary system that is not
+collocated with the primary system and that can be activated without loss of information
+or disruption to operations. a
+Discussion:  The effect of system backup can be achieved by maintaining a redundant b
+secondary system that mirrors the primary system, including the replication of information.
+If this type of redundancy is in place and there is sufficient geographic separation between e
+the two systems, the secondary system can also serve as the alternate processing site. f
+Related Controls:  CP-7. a
+|  (7) SYSTEM BACKUP  DUAL AUTHORIZATION FOR DELETION OR DESTRUCTIONf
+Assignment: organization-Enforce dual authorization for the deletion or destruction of [
+defined backup information].
+Discussion:  Dual authorization ensures that deletion or destruction of backup information :
+cannot occur unless two qualified individuals carry out the task. Individuals deleting or
+odestroying backup information possess the skills or expertise to determine if the proposed
+deletion or destruction of information reflects organizational policies and procedures. Dual /
+authorization may also be known as two-person control. To reduce the risk of collusion, .
+organizations consider rotating dual authorization duties to other individuals. 2
+NRelated Controls:  AC-3, AC-5, MP-2.
+|. (8) SYSTEM BACKUP  CRYPTOGRAPHIC PROTECTION S
+.Implement cryptographic mechanisms to prevent unauthorized disclosure and 8
+0Assignment: organization-defined backup informationmodification of [].
+Discussion:  The selection of cryptographic mechanisms is based on the need to protect the r
+confidentiality and integrity of backup information. The strength of mechanisms selected is
+commensurate with the security category or classification of the information. Cryptographic
+protection applies to system backup information in storage at both primary and alternate
+locations. Organizations that implement cryptographic mechanisms to protect information
+at rest also consider cryptographic key management solutions.
+Related Controls:  SC-12, SC-13, SC-28.
+References:  [FIPS 140-3], [FIPS 186-4], [SP 800-34], [SP 800-130], [SP 800-152].
+CHAPTER THREE   PAGE 127
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

@@ -1,0 +1,84 @@
+CM-2 BASELINE CONFIGURATION
+Control:
+a.Develop, document, and maintain under configuration control, a current baseline
+configuration of the system; and
+b.Review and update the baseline configuration of the system:
+Assignment: organization-defined frequency1.[];
+Assignment: organization-defined circumstances2.When required due to []; and
+3.When system components are installed or upgraded.
+Discussion:  Baseline configurations for systems and system components include connectivity,
+operational, and communications aspects of systems. Baseline configurations are documented, T
+iformally reviewed, and agreed-upon specifications for systems or configuration items within s
+those systems. Baseline configurations serve as a basis for future builds, releases, or changes to u
+lsystems and include security and privacy control implementations, operational procedures, ic
+tinformation about system components, network topology, and logical placement of components i
+in the system architecture. Maintaining baseline configurations requires creating new baselines
+as organizational systems change over time. Baseline configurations of systems reflect the a
+acurrent enterprise architecture.
+lRelated Controls:  AC-19, AU-6, CA-9, CM-1, CM-3, CM-5, CM-6, CM-8, CM-9, CP-9, CP-10, CP-12, e
+rMA-2, PL-8, PM-5, SA-8, SA-10, SA-15, SC-18. e
+Control Enhancements: f
+| (1) BASELINE CONFIGURATION  REVIEWS AND UPDATES r
+[Withdrawn: Incorporated into CM-2.] f
+| :(2) BASELINE CONFIGURATION  AUTOMATION SUPPORT FOR ACCURACY AND CURRENCY
+pMaintain the currency, completeness, accuracy, and availability of the baseline
+/Assignment: organization-defined automated configuration of the system using [/
+mechanisms].
+gDiscussion:  Automated mechanisms that help organizations maintain consistent baseline
+configurations for systems include configuration management tools, hardware, software, 0
+firmware inventory tools, and network management tools. Automated tools can be used at 0
+8the organization level, mission and business process level, or system level on workstations,
+servers, notebook computers, network components, or mobile devices. Tools can be used to I
+track version numbers on operating systems, applications, types of software installed, and .
+Pcurrent patch levels. Automation support for accuracy and currency can be satisfied by the
+0CM-8(2) for organizations that combine system component inventory and implementation of
+baseline configuration activities. 5
+5Related Controls:  CM-7, IA-3, RA-5.
+| (3) BASELINE CONFIGURATION  RETENTION OF PREVIOUS CONFIGURATIONS
+Assignment: organization-defined numberRetain [] of previous versions of baseline
+configurations of the system to support rollback.
+Discussion:  Retaining previous versions of baseline configurations to support rollback
+include hardware, software, firmware, configuration files, configuration records, and
+associated documentation.
+Related Controls:  None.
+| (4) BASELINE CONFIGURATION  UNAUTHORIZED SOFTWARE
+CHAPTER THREE   PAGE 97
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+[Withdrawn: Incorporated into CM-7(4).]
+| (5) BASELINE CONFIGURATION  AUTHORIZED SOFTWARE
+[Withdrawn: Incorporated into CM-7(5).]
+| (6) BASELINE CONFIGURATION  DEVELOPMENT AND TEST ENVIRONMENTS
+Maintain a baseline configuration for system development and test environments that is
+managed separately from the operational baseline configuration.
+Discussion:  Establishing separate baseline configurations for development, testing, and
+operational environments protects systems from unplanned or unexpected events related to
+development and testing activities. Separate baseline configurations allow organizations to
+apply the configuration management that is most appropriate for each type of configuration.
+For example, the management of operational configurations typically emphasizes the need
+for stability, while the management of development or test configurations requires greater h
+flexibility. Configurations in the test environment mirror configurations in the operational
+environment to the extent practicable so that the results of the testing are representative of b
+the proposed changes to the operational systems. Separate baseline configurations do not a
+onecessarily require separate physical environments.
+isRelated Controls:  CM-4, SC-3, SC-7.
+|- (7) BASELINE CONFIGURATION  CONFIGURE SYSTEMS AND COMPONENTS FOR HIGHRISK AREAS i
+lAssignment: organization-defined systems or system components(a)Issue [] with  e
+rAssignment: organization-defined configurations[] to individuals traveling to locations e
+that the organization deems to be of significant risk; and
+(b)Apply the following controls to the systems or components when the individuals  h
+rAssignment: organization-defined controlsreturn from travel: [].
+fDiscussion:  When it is known that systems or system components will be in high-risk areas
+mexternal to the organization, additional controls may be implemented to counter the
+hincreased threat in such areas. For example, organizations can take actions for notebook
+computers used by individuals departing on and returning from travel. Actions include s
+/determining the locations that are of concern, defining the required configurations for the d
+icomponents, ensuring that components are configured as intended before travel is initiated, .
+gand applying controls to the components after travel is completed. Specially configured
+0notebook computers include computers with sanitized hard drives, limited applications, and
+0more stringent configuration settings. Controls applied to mobile devices upon return from
+travel include examining the mobile device for signs of physical tampering and purging and
+Ireimaging disk drives. Protecting information that resides on mobile devices is addressed in S
+MP (Media Protection) family. the .
+Related Controls:  MP-4, MP-5. .
+-References:  [SP 800-124], [SP 800-128].

@@ -1,0 +1,10 @@
+SA-18 TAMPER RESISTANCE AND DETECTION
+[Withdrawn: Moved to SR-9.]
+Control Enhancements:
+| (1) TAMPER RESISTANCE AND DETECTION  MULTIPLE PHASES OF SYSTEM DEVELOPMENT LIFE CYCLE
+[Withdrawn: Moved to SR-9(1).]
+CHAPTER THREE   PAGE 288
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+| (2) TAMPER RESISTANCE AND DETECTION  INSPECTION OF SYSTEMS OR COMPONENTS
+[Withdrawn: Moved to SR-10.]

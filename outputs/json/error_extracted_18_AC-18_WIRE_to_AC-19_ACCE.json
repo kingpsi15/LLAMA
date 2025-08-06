@@ -1,0 +1,35 @@
+{
+     "PolicyId": "oAC-18",
+     "PolicyName": "WIRELESS ACCESS",
+     "Control": "Establish configuration requirements, connection requirements, and implementation guidance for each type of wireless access; and Authorize each type of wireless access to the system prior to allowing such connections.",
+     "Discussion": "Wireless technologies include microwave, packet radio (ultra-high frequency or very / \nhigh frequency), 802.11x, and Bluetooth. Wireless networks use authentication protocols that provide authenticator protection and mutual authentication.\n\nWireless networking capabilities that are embedded within system components represent a significant potential vulnerability that can be exploited by adversaries. Disabling wireless capabilities when not needed for essential organizational missions or functions can reduce susceptibility to threats by adversaries involving wireless technologies.",
+     "ControlEnhancements": [
+       "WIRELESS ACCESS  AUTHENTICATION AND ENCRYPTION",
+       "WIRELESS ACCESS  MONITORING UNAUTHORIZED CONNECTIONS" // Withdrawn: Incorporated into SI-4,
+       "WIRELESS ACCESS  DISABLE WIRELESS NETWORKING",
+       "WIRELESS ACCESS  RESTRICT CONFIGURATIONS BY USERS",
+       "WIRELESS ACCESS  ANTENNAS AND TRANSMISSION POWER LEVELS"
+     ],
+     "RelatedControls": [
+       "AC-2",
+       "AC-3",
+       "AC-17",
+       "AC-19",
+       "CA-9",
+       "CM-7",
+       "IA-2",
+       "IA-3",
+       "IA-8",
+       "PL-4",
+       "SC-40",
+       "SC-43",
+       "SI-4",
+       "SC-8",
+       "SC-12",
+       "SC-13",
+       "SC-7",
+       "SC-15",
+       "PE-19"
+     ],
+     "References": "[SP 800-94], [SP 800-97]"
+   }

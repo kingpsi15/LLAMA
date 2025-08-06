@@ -1,0 +1,48 @@
+CP-10 SYSTEM RECOVERY AND RECONSTITUTION
+Control:  Provide for the recovery and reconstitution of the system to a known state within
+Assignment: organization-defined time period consistent with recovery time and recovery point [
+objectives] after a disruption, compromise, or failure.
+Discussion:  Recovery is executing contingency plan activities to restore organizational mission
+and business functions. Reconstitution takes place following recovery and includes activities for
+returning systems to fully operational states. Recovery and reconstitution operations reflect
+mission and business priorities; recovery point, recovery time, and reconstitution objectives; and
+organizational metrics consistent with contingency plan requirements. Reconstitution includes
+the deactivation of interim system capabilities that may have been needed during recovery
+operations. Reconstitution also includes assessments of fully restored system capabilities,
+reestablishment of continuous monitoring activities, system reauthorization (if required), and
+hactivities to prepare the system and organization for future disruptions, breaches, compromises,
+or failures. Recovery and reconstitution capabilities can include automated mechanisms and p
+bOrganizations establish recovery time and recovery point objectives as part manual procedures.
+aof contingency planning.
+nRelated Controls:  CP-2, CP-4, CP-6, CP-7, CP-9, IR-4, SA-8, SC-24, SI-13.
+Control Enhancements:
+| (1) SYSTEM RECOVERY AND RECONSTITUTION  CONTINGENCY PLAN TESTINGb
+[Withdrawn: Incorporated into CP-4.] f
+|o (2) SYSTEM RECOVERY AND RECONSTITUTION  TRANSACTION RECOVERY
+hImplement transaction recovery for systems that are transaction-based.
+Discussion:  Transaction-based systems include database management systems and e
+rtransaction processing systems. Mechanisms supporting transaction recovery include
+transaction rollback and transaction journaling.
+Related Controls:  None. t
+/| (3)d SYSTEM RECOVERY AND RECONSTITUTION  COMPENSATING SECURITY CONTROLS
+i. o[Withdrawn: Addressed through tailoring.]
+| (4) 0SYSTEM RECOVERY AND RECONSTITUTION  RESTORE WITHIN TIME PERIOD
+Assignment: organization-Provide the capability to restore system components within [
+defined restoration time periods] from configuration-controlled and integrity-protected /
+Sinformation representing a known, operational state for the components.
+SDiscussion:  Restoration of system components includes reimaging, which restores the
+.components to known, operational states. 8
+Related Controls:  CM-2, CM-6. -
+5| (5) SYSTEM RECOVERY AND RECONSTITUTION  FAILOVER CAPABILITY
+[Withdrawn: Incorporated into SI-13.]
+| (6) SYSTEM RECOVERY AND RECONSTITUTION  COMPONENT PROTECTION
+Protect system components used for recovery and reconstitution.
+Discussion:  Protection of system recovery and reconstitution components (i.e., hardware,
+firmware, and software) includes physical and technical controls. Backup and restoration
+components used for recovery and reconstitution include router tables, compilers, and other
+system software.
+Related Controls:  AC-3, AC-6, MP-2, MP-4, PE-3, PE-6.
+CHAPTER THREE   PAGE 128
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+References:  [SP 800-34].

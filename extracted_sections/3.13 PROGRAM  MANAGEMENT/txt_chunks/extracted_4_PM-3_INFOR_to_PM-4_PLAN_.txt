@@ -1,0 +1,20 @@
+PM-3 INFORMATION SECURITY AND PRIVACY RESOURCES
+Control:
+CHAPTER THREE    PAGE 204
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+a.Include the resources needed to implement the information security and privacy programs
+in capital planning and investment requests and document all exceptions to this
+requirement;
+b.Prepare documentation required for addressing information security and privacy programs
+in capital planning and investment requests in accordance with applicable laws, executive
+orders, directives, policies, regulations, standards; and
+c.Make available for expenditure, the planned information security and privacy resources.
+Discussion:  Organizations consider establishing champions for information security and privacy
+and, as part of including the necessary resources, assign specialized expertise and resources as
+needed. Organizations may designate and empower an Investment Review Board or similar
+group to manage and provide oversight for the information security and privacy aspects of the
+capital planning and investment control process. T
+Related Controls:  PM-4, SA-2.
+lControl Enhancements:  None. ic
+oReferences:  [OMB A-130].

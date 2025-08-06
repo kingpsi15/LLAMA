@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-49  HARDWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT",
+  "start_text": "tSC-49  HARDWARE-ENFORCED SEPARATION AND POLICY EN",
+  "content": "tSC-49  HARDWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT t\n/Control:  Implement hardware-enforced separation and policy enforcement mechanisms d\niAssignment: organization-defined security domainsbetween []. .\n/Discussion:  System owners may require additional strength of mechanism and robustness to 1\n.ensure domain separation and policy enforcement for specific types of threats and environments 6\n2of operation. Hardware-enforced separation and policy enforcement provide greater strength of\nNmechanism than software-enforced separation and policy enforcement.\nRelated Controls:  AC-4, SA-8, SC-50. .\n.Control Enhancements:  None. 8\nReferences:  [SP 800-160-1]. 5"
+}

@@ -1,0 +1,163 @@
+IA-2 IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS)
+Control:  Uniquely identify and authenticate organizational users and associate that unique
+identification with processes acting on behalf of those users.
+Discussion:  Organizations can satisfy the identification and authentication requirements by
+complying with the requirements in [HSPD 12]. Organizational users include employees or
+individuals who organizations consider to have an equivalent status to employees (e.g.,
+contractors and guest researchers). Unique identification and authentication of users applies to
+AC-14 and that occur through the all accesses other than those that are explicitly identified in
+authorized use of group authenticators without individual authentication. Since processes
+execute on behalf of groups and roles, organizations may require unique identification of
+individuals in group accounts or for detailed accountability of individual activity.
+TOrganizations employ passwords, physical authenticators, or biometrics to authenticate user
+iidentities or, in the case of multi-factor authentication, some combination thereof. Access to s
+uorganizational systems is defined as either local access or network access. Local access is any
+liaccess to organizational systems by users or processes acting on behalf of users, where access is c
+tobtained through direct connections without the use of networks. Network access is access to i
+organizational systems by users (or processes acting on behalf of users) where access is obtained
+through network connections (i.e., nonlocal accesses). Remote access is a type of network access a
+that involves communication through external networks. Internal networks include local area
+bnetworks and wide area networks.
+rThe use of encrypted virtual private networks for network connections between organization-e
+controlled endpoints and non-organization-controlled endpoints may be treated as internal o
+cnetworks with respect to protecting the confidentiality and integrity of information traversing
+the network. Identification and authentication requirements for non-organizational users are r
+. described in IA-8
+Related Controls:  AC-2, AC-3, AC-4, AC-14, AC-17, AC-18, AU-1, AU-6, IA-4, IA-5, IA-8, MA-4, MA-
+5, PE-2, PL-4, SA-4, SA-8.
+:Control Enhancements: /
+i()|-.(1) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  MULTIFACTOR o
+AUTHENTICATION TO PRIVILEGED ACCOUNTS /
+. Implement multi-factor authentication for access to privileged accounts.6
+Discussion:  Multi-factor authentication requires the use of two or more different factors to 8
+achieve authentication. The authentication factors are defined as follows: something you
+Tknow (e.g., a personal identification number [PIN]), something you have (e.g., a physical
+authenticator such as a cryptographic private key), or something you are (e.g., a biometric). P
+Multi-factor authentication solutions that feature physical authenticators include hardware
+-authenticators that provide time-based or challenge-response outputs and smart cards such
+as the U.S. Government Personal Identity Verification (PIV) card or the Department of r
+Defense (DoD) Common Access Card (CAC). In addition to authenticating users at the system
+level (i.e., at logon), organizations may employ authentication mechanisms at the application
+level, at their discretion, to provide increased security. Regardless of the type of access (i.e.,
+local, network, remote), privileged accounts are authenticated using multi-factor options
+appropriate for the level of risk. Organizations can add additional security measures, such as
+additional or more rigorous authentication mechanisms, for specific types of access.
+Related Controls:  AC-5, AC-6.
+()|-(2) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  MULTIFACTOR
+-  AUTHENTICATION TO NONPRIVILEGED ACCOUNTS
+CHAPTER THREE   PAGE 132
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Implement multi-factor authentication for access to non-privileged accounts.
+Discussion:  Multi-factor authentication requires the use of two or more different factors to
+achieve authentication. The authentication factors are defined as follows: something you
+know (e.g., a personal identification number [PIN]), something you have (e.g., a physical
+authenticator such as a cryptographic private key), or something you are (e.g., a biometric).
+Multi-factor authentication solutions that feature physical authenticators include hardware
+authenticators that provide time-based or challenge-response outputs and smart cards such
+as the U.S. Government Personal Identity Verification card or the DoD Common Access Card.
+In addition to authenticating users at the system level, organizations may also employ
+authentication mechanisms at the application level, at their discretion, to provide increased
+information security. Regardless of the type of access (i.e., local, network, remote), non-
+privileged accounts are authenticated using multi-factor options appropriate for the level of
+risk. Organizations can provide additional security measures, such as additional or more
+rigorous authentication mechanisms, for specific types of access.
+Related Controls:  AC-5. u
+()|a(3) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  LOCAL ACCESS TO PRIVILEGED
+ACCOUNTSn
+[Withdrawn: Incorporated into IA-2(1).]
+i()|-l(4) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  LOCAL ACCESS TO NONa
+l  ePRIVILEGED ACCOUNTS
+[Withdrawn: Incorporated into IA-2(2).]
+()|(5) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  INDIVIDUAL AUTHENTICATION c
+WITH GROUP AUTHENTICATIONr
+When shared accounts or authenticators are employed, require users to be individually f
+authenticated before granting access to the shared accounts or resources. m
+Discussion:  Individual authentication prior to shared group authentication mitigates the risk
+of using group accounts or authenticators. s
+Related Controls:  None.
+r()|—(6) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  ACCESS TO ACCOUNTS g
+0SEPARATE DEVICE
+Selection (one or more): local; network; Implement multi-factor authentication for [2
+/remoteSelection (one or more): privileged accounts; non-privileged accounts] access to [] N
+Ssuch that:
+(a)One of the factors is provided by a device separate from the system gaining access;
+8and
+-Assignment: organization-defined strength of mechanism (b)The device meets [
+requirements]. r
+Discussion:  The purpose of requiring a device that is separate from the system to which the
+user is attempting to gain access for one of the factors during multi-factor authentication is
+to reduce the likelihood of compromising authenticators or credentials stored on the
+system. Adversaries may be able to compromise such authenticators or credentials and
+Implementing one of the factors on a separate subsequently impersonate authorized users.
+device (e.g., a hardware token), provides a greater strength of mechanism and an increased
+level of assurance in the authentication process.
+Related Controls:  AC-6.
+CHAPTER THREE   PAGE 133
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+()|-(7) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  NETWORK ACCESS TO NON
+— PRIVILEGED ACCOUNTS  SEPARATE DEVICE
+[Withdrawn: Incorporated into IA-2(6).]
+()|—(8) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  ACCESS TO ACCOUNTS
+REPLAY RESISTANT
+Selection (one or Implement replay-resistant authentication mechanisms for access to [
+more): privileged accounts; non-privileged accounts].
+Discussion:  Authentication processes resist replay attacks if it is impractical to achieve
+successful authentications by replaying previous authentication messages. Replay-resistant
+techniques include protocols that use nonces or challenges such as time synchronous or
+cryptographic authenticators.
+Related Controls:  None. h
+()|-(9) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  NETWORK ACCESS TO NONu
+l—   iPRIVILEGED ACCOUNTS REPLAY RESISTANTc
+i[Withdrawn: Incorporated into IA-2(8).] o
+()|-  (10)  IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  SINGLE SIGNON
+Assignment: organization-defined system accounts Provide a single sign-on capability for [i
+band services].
+fDiscussion:  Single sign-on enables users to log in once and gain access to multiple system r
+resources. Organizations consider the operational efficiencies provided by single sign-on
+capabilities with the risk introduced by allowing access to multiple systems via a single c
+aauthentication event. Single sign-on can present opportunities to improve system security,
+efor example by providing the ability to add multi-factor authentication for applications and
+systems (existing and new) that may not be able to natively support multi-factor o
+authentication. :
+tRelated Controls:  None. p
+d()|— (11) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  REMOTE ACCESS SEPARATE
+o  DEVICE
+1[Withdrawn: Incorporated into IA-2(6).]
+0()|(12) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  ACCEPTANCE OF PIV
+/ CREDENTIALSN
+Accept and electronically verify Personal Identity Verification-compliant credentials.T
+Discussion:  Acceptance of Personal Identity Verification (PIV)-compliant credentials applies P
+to organizations implementing logical access control and physical access control systems. 0
+-PIV-compliant credentials are those credentials issued by federal agencies that conform to
+FIPS Publication 201 and supporting guidance documents. The adequacy and reliability of PIV r
+SP 800-79-2]. Acceptance of PIV-compliant credentials card issuers are authorized using [
+includes derived PIV credentials, the use of which is addressed in [SP 800-166]. The DOD
+Common Access Card (CAC) is an example of a PIV credential.
+Related Controls:  None.
+()|--(13) IDENTIFICATION AND AUTHENTICATION ORGANIZATIONAL USERS  OUTOFBAND
+AUTHENTICATION
+Assignment: Implement the following out-of-band authentication mechanisms under [
+organization-defined conditionsAssignment: organization-defined out-of-band ]: [
+authentication].
+CHAPTER THREE   PAGE 134
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion: Out-of-band authentication refers to the use of two separate communication
+paths to identify and authenticate users or devices to an information system. The first path
+(i.e., the in-band path) is used to identify and authenticate users or devices and is generally
+the path through which information flows. The second path (i.e., the out-of-band path) is
+used to independently verify the authentication and/or requested action. For example, a
+user authenticates via a notebook computer to a remote server to which the user desires
+access and requests some action of the server via that communication path. Subsequently,
+the server contacts the user via the user’s cell phone to verify that the requested action
+originated from the user. The user may confirm the intended action to an individual on the
+telephone or provide an authentication code via the telephone. Out-of-band authentication
+can be used to mitigate actual or suspected “man-in the-middle” attacks. The conditions or
+criteria for activation include suspicious activities, new threat indicators, elevated threat
+levels, or the impact or classification level of information in requested transactions.
+Related Controls:  IA-10, IA-11, SC-37. is
+References:  [FIPS 140-3], [FIPS 201-2], [FIPS 202], [SP 800-63-3], [SP 800-73-4], [SP 800-76-2], [SP
+lic800-78-4], [SP 800-79-2], [SP 800-156], [SP 800-166], [IR 7539], [IR 7676], [IR 7817], [IR 7849], [IR
+i7870], [IR 7874], [IR 7966]. o

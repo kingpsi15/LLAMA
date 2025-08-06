@@ -1,0 +1,72 @@
+MA-3 MAINTENANCE TOOLS
+Control:
+a.Approve, control, and monitor the use of system maintenance tools; and
+CHAPTER THREE   PAGE 163
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: organization-defined b.Review previously approved system maintenance tools [
+frequency].
+Discussion:  Approving, controlling, monitoring, and reviewing maintenance tools address
+security-related issues associated with maintenance tools that are not within system
+authorization boundaries and are used specifically for diagnostic and repair actions on
+organizational systems. Organizations have flexibility in determining roles for the approval of
+maintenance tools and how that approval is documented. A periodic review of maintenance
+tools facilitates the withdrawal of approval for outdated, unsupported, irrelevant, or no-longer-
+used tools. Maintenance tools can include hardware, software, and firmware items and may be
+pre-installed, brought in with maintenance personnel on media, cloud-based, or downloaded
+from a website. Such tools can be vehicles for transporting malicious code, either intentionally or
+unintentionally, into a facility and subsequently into systems. Maintenance tools can include
+hardware and software diagnostic test equipment and packet sniffers. The hardware and T
+isoftware components that support maintenance and are a part of the system (including the s
+software implementing utilities such as “ping,” “ls,” “ipconfig,” or the hardware and software u
+limplementing the monitoring port of an Ethernet switch) are not addressed by maintenance ic
+ttools.
+iRelated Controls:  MA-2, PE-16. s
+aControl Enhancements:
+l|  (1) MAINTENANCE TOOLS  INSPECT TOOLSe
+eInspect the maintenance tools used by maintenance personnel for improper or
+ounauthorized modifications.
+hDiscussion:  Maintenance tools can be directly brought into a facility by maintenance
+gpersonnel or downloaded from a vendor’s website. If, upon inspection of the maintenance
+ftools, organizations determine that the tools have been modified in an improper manner or r
+the tools contain malicious code, the incident is handled consistent with organizational
+policies and procedures for incident handling.
+Related Controls:  SI-7. :
+| (2)i MAINTENANCE TOOLS  INSPECT MEDIA .
+Check media containing diagnostic and test programs for malicious code before the media
+are used in the system.
+Discussion:  If, upon inspection of media containing maintenance, diagnostic, and test 2
+programs, organizations determine that the media contains malicious code, the incident is N
+handled consistent with organizational incident handling policies and procedures.
+Related Controls:  SI-3. P
+| (3) MAINTENANCE TOOLS  PREVENT UNAUTHORIZED REMOVAL 0
+3Prevent the removal of maintenance equipment containing organizational information by:
+(a)Verifying that there is no organizational information contained on the equipment;
+(b)Sanitizing or destroying the equipment;
+(c)Retaining the equipment within the facility; or
+Assignment: organization-defined personnel or roles(d)Obtaining an exemption from []
+explicitly authorizing removal of the equipment from the facility.
+Discussion:  Organizational information includes all information owned by organizations and
+any information provided to organizations for which the organizations serve as information
+stewards.
+Related Controls:  MP-6.
+CHAPTER THREE   PAGE 164
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+| (4) MAINTENANCE TOOLS  RESTRICTED TOOL USE
+Restrict the use of maintenance tools to authorized personnel only.
+Discussion:  Restricting the use of maintenance tools to only authorized personnel applies to
+systems that are used to carry out maintenance functions.
+Related Controls:  AC-3, AC-5, AC-6.
+| (5) MAINTENANCE TOOLS  EXECUTION WITH PRIVILEGE
+Monitor the use of maintenance tools that execute with increased privilege.
+Discussion:  Maintenance tools that execute with increased system privilege can result in
+unauthorized access to organizational information and assets that would otherwise be
+inaccessible.
+Related Controls:  AC-3, AC-6.
+is| (6) MAINTENANCE TOOLS  SOFTWARE UPDATES AND PATCHES
+bInspect maintenance tools to ensure the latest software updates and patches are installed.
+Discussion:  Maintenance tools using outdated and/or unpatched software can provide a
+threat vector for adversaries and result in a significant vulnerability for organizations. n
+Related Controls:  AC-3, AC-6. a
+lReferences:  [SP 800-88]. a

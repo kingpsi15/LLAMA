@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-46 CROSS DOMAIN POLICY ENFORCEMENT",
+  "start_text": "SC-46 CROSS DOMAIN POLICY ENFORCEMENT a\nlSelection",
+  "content": "SC-46 CROSS DOMAIN POLICY ENFORCEMENT a\nlSelection: physically; logicallyControl:  Implement a policy enforcement mechanism [] between a\nlethe physical and/or network interfaces for the connecting security domains.\neDiscussion:  For logical policy enforcement mechanisms, organizations avoid creating a logical\nfpath between interfaces to prevent the ability to bypass the policy enforcement mechanism. For\nphysical policy enforcement mechanisms, the robustness of physical isolation afforded by the\ngphysical implementation of policy enforcement to preclude the presence of logical covert\nfncdsmo@nsa.gov for more channels penetrating the security domain may be needed. Contact r\ninformation.\ntRelated Controls:  AC-4, SC-7. p\ndControl Enhancements:  None.\nReferences:  [SP 800-160-1]. r"
+}

@@ -1,0 +1,21 @@
+PM-27 PRIVACY REPORTING
+Control:
+Assignment: organization-defined privacy reportsa.Develop [] and disseminate to:
+Assignment: organization-defined oversight bodies1.[] to demonstrate accountability with
+statutory, regulatory, and policy privacy mandates; and
+Assignment: organization-defined officials2.[] and other personnel with responsibility for
+monitoring privacy program compliance; and
+Assignment: organization-defined frequencyhb.Review and update privacy reports [].
+Discussion:  Through internal and external reporting, organizations promote accountability and u
+ltransparency in organizational privacy operations. Reporting can also help organizations to ic
+tdetermine progress in meeting privacy compliance requirements and privacy controls, compare
+performance across the federal government, discover vulnerabilities, identify gaps in policy and
+implementation, and identify models for success. For federal agencies, privacy reports include a
+aannual senior agency official for privacy reports to OMB, reports to Congress required by
+Implementing Regulations of the 9/11 Commission Act, and other public reports required by law, b
+regulation, or policy, including internal policies of organizations. The senior agency official for
+privacy consults with legal counsel, where appropriate, to ensure that organizations meet all e
+applicable privacy reporting requirements. f
+Related Controls:  IR-9, PM-19.
+fControl Enhancements:  None.
+:References:  [FISMA], [OMB A-130], [OMB A-108] .

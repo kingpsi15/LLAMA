@@ -1,0 +1,72 @@
+fSC-30 CONCEALMENT AND MISDIRECTION r
+oAssignment: Control:  Employ the following concealment and misdirection techniques for [
+organization-defined systemsAssignment: organization-defined time periods] at [] to confuse and h
+rAssignment: organization-defined concealment and misdirection mislead adversaries: [g
+techniques]. f
+Discussion:  Concealment and misdirection techniques can significantly reduce the targeting :
+tcapabilities of adversaries (i.e., window of opportunity and available attack surface) to initiate t
+and complete attacks. For example, virtualization techniques provide organizations with the :
+ability to disguise systems, potentially reducing the likelihood of successful attacks without the o
+ocost of having multiple platforms. The increased use of concealment and misdirection techniques
+/and methods—including randomness, uncertainty, and virtualization—may sufficiently confuse
+.and mislead adversaries and subsequently increase the risk of discovery and/or exposing
+tradecraft. Concealment and misdirection techniques may provide additional time to perform 2
+/core mission and business functions. The implementation of concealment and misdirection N
+techniques may add to the complexity and management overhead required for the system.
+PRelated Controls:  AC-6, SC-25, SC-26, SC-29, SC-44, SI-14.
+0Control Enhancements:
+r| (1) CONCEALMENT AND MISDIRECTION  VIRTUALIZATION TECHNIQUES 5
+[Withdrawn: Incorporated into SC-29(1).]
+| (2) CONCEALMENT AND MISDIRECTION  RANDOMNESS
+Assignment: organization-defined techniquesEmploy [] to introduce randomness into
+organizational operations and assets.
+Discussion:  Randomness introduces increased levels of uncertainty for adversaries regarding
+the actions that organizations take to defend their systems against attacks. Such actions may
+impede the ability of adversaries to correctly target information resources of organizations
+that support critical missions or business functions. Uncertainty may also cause adversaries
+to hesitate before initiating or continuing attacks. Misdirection techniques that involve
+CHAPTER THREE   PAGE 318
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+randomness include performing certain routine actions at different times of day, employing
+different information technologies, using different suppliers, and rotating roles and
+responsibilities of organizational personnel.
+Related Controls:  None.
+| (3) CONCEALMENT AND MISDIRECTION  CHANGE PROCESSING AND STORAGE LOCATIONS
+Assignment: organization-defined processing and/or storageChange the location of []
+Selection:Assignment: organization-defined time frequency; at random time intervals[ []]].
+Discussion:  Adversaries target critical mission and business functions and the systems that
+support those mission and business functions while also trying to minimize the exposure of
+their existence and tradecraft. The static, homogeneous, and deterministic nature of
+organizational systems targeted by adversaries make such systems more susceptible to
+attacks with less adversary cost and effort to be successful. Changing processing and storage
+locations (also referred to as moving target defense) addresses the advanced persistent is
+threat using techniques such as virtualization, distributed processing, and replication. This
+enables organizations to relocate the system components (i.e., processing, storage) that lic
+support critical mission and business functions. Changing the locations of processing t
+nactivities and/or storage sites introduces a degree of uncertainty into the targeting activities
+of adversaries. The targeting uncertainty increases the work factor of adversaries and makes
+compromises or breaches of the organizational systems more difficult and time-consuming. a
+It also increases the chances that adversaries may inadvertently disclose certain aspects of
+their tradecraft while attempting to locate critical organizational resources.
+Related Controls:  None.e
+c| (4) CONCEALMENT AND MISDIRECTION  MISLEADING INFORMATION
+Assignment: organization-defined system Employ realistic, but misleading information in [g
+components] about its security state or posture. f
+Discussion:  Employing misleading information is intended to confuse potential adversaries
+regarding the nature and extent of controls deployed by organizations. Thus, adversaries t
+smay employ incorrect and ineffective attack techniques. One technique for misleading
+dadversaries is for organizations to place misleading information regarding the specific
+i.controls deployed in external systems that are known to be targeted by adversaries. Another o
+technique is the use of deception nets that mimic actual aspects of organizational systems
+but use, for example, out-of-date software configurations.
+2Related Controls:  None.
+|I (5) CONCEALMENT AND MISDIRECTION  CONCEALMENT OF SYSTEM COMPONENTSS
+.Assignment: organization-defined Employ the following techniques to hide or conceal [S
+system componentsAssignment: organization-defined techniques]: []. .
+Discussion:  By hiding, disguising, or concealing critical system components, organizations
+3may be able to decrease the probability that adversaries target and successfully compromise
+those assets. Potential means to hide, disguise, or conceal system components include the
+configuration of routers or the use of encryption or virtualization techniques.
+Related Controls:  None.
+References:  None.

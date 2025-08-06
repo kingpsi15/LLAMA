@@ -1,0 +1,14 @@
+SC-26 DECOYS
+Control:  Include components within organizational systems specifically designed to be the target
+of malicious attacks for detecting, deflecting, and analyzing such attacks.
+Discussion:  Decoys (i.e., honeypots, honeynets, or deception nets) are established to attract T
+iadversaries and deflect attacks away from the operational systems that support organizational s
+mission and business functions. Use of decoys requires some supporting isolation measures to u
+lensure that any deflected malicious code does not infect organizational systems. Depending on ic
+tthe specific usage of the decoy, consultation with the Office of the General Counsel before i
+deployment may be needed.
+vRelated Controls:  RA-5, SC-7, SC-30, SC-35, SC-44, SI-3, SI-4.
+Control Enhancements:  None. b
+r| (1) DECOYS  DETECTION OF MALICIOUS CODE e
+o[Withdrawn: Incorporated into SC-35.]
+aReferences:  None.

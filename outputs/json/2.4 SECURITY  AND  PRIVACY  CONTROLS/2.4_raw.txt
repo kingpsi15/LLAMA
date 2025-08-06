@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "2.4",
+      "PolicyName": "SECURITYANDPRIVACYCONTROLS",
+      "Control": "isThe selection and implementation of security and privacy controls reflect the objectives of information security and privacy programs and how those programs manage their respective risks. Depending on the circumstances, these objectives and risks can be independent or overlapping.",
+      "Discussion": "SThere also may be circumstances in which the selection and/or implementation of the control or control enhancement affects the ability of a program to achieve its objectives and manage its respective risks. The control discussion section may highlight specific security and/or privacy considerations so that organizations can take these considerations into account as they - determine the most effective method to implement the control. However, these considerations r are not exhaustive.",
+      "ControlEnhancements": "None",
+      "RelatedControls": "None",
+      "References": "None"
+   }

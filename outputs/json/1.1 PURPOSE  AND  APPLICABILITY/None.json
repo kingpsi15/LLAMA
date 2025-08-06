@@ -1,0 +1,9 @@
+{
+  "PolicyId": "None",
+  "PolicyName": "1.1PURPOSEANDAPPLICABILITY",
+  "Control": "The controls can be implemented within any organization or system that processes, stores, or transmits information.\nThe use of these controls is mandatory for federal information systems in accordance with a Office of Management and Budget (OMB) Circular A-130 [OMB A-130] and the provisions of the federal Information Security Modernization Act [FISMA], which requires the implementation of minimum controls to protect federal information and information systems.",
+  "Discussion": "This publication, along with other supporting NIST publications, is designed to help organizations identify the security and privacy controls needed to manage risk and to satisfy the security and privacy requirements in FISMA, the Privacy Act of 1974 [PRIVACT], OMB policies (e.g., [OMB A-130]), i.gand designated Federal Information Processing Standards (FIPS), among others. It accomplishes this objective by providing a comprehensive and flexible catalog of security and privacy controls to meet current and future protection needs based on changing threats, vulnerabilities, requirements, and technologies. The publication also improves communication among N organizations by providing a common lexicon that supports the discussion of security, privacy, and risk management concepts.",
+  "ControlEnhancements": "None",
+  "RelatedControls": "None",
+  "References": "along with other supporting NIST publications, OMB A-130, FISMA, PRIVACT"
+}

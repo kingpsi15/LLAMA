@@ -1,0 +1,137 @@
+CM-8 SYSTEM COMPONENT INVENTORY
+Control:
+a.Develop and document an inventory of system components that:
+1.Accurately reflects the system;
+2.Includes all components within the system;
+3.Does not include duplicate accounting of components or components assigned to any
+other system;
+CHAPTER THREE   PAGE 107
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+4.Is at the level of granularity deemed necessary for tracking and reporting; and
+5.Includesthe following information to achieve system component accountability:
+Assignment: organization-defined information deemed necessary to achieve effective [
+system component accountability]; and
+Assignment: organization-defined b.Review and update the system component inventory [
+frequency].
+Discussion:  System components are discrete, identifiable information technology assets that
+include hardware, software, and firmware. Organizations may choose to implement centralized
+system component inventories that include components from all organizational systems. In such
+situations, organizations ensure that the inventories include system-specific information required
+for component accountability. The information necessary for effective accountability of system
+components includes the system name, software owners, software version numbers, hardware T
+iinventory specifications, software license information, and for networked components, the s
+machine names and network addresses across all implemented protocols (e.g., IPv4, IPv6). u
+lInventory specifications include date of receipt, cost, model, serial number, manufacturer, ic
+supplier information, component type,  and physical location. t
+iPreventing duplicate accounting of system components addresses the lack of accountability that s
+occurs when component ownership and system association is not known, especially in large or v
+icomplex connected systems. Effective prevention of duplicate accounting of system components la
+lnecessitates use of a unique identifier for each component. For software inventory, centrally e
+rmanaged software that is accessed via other systems is addressed as a component of the system
+on which it is installed and managed. Software installed on multiple organizational systems and
+managed at the system level is addressed for each individual system and may appear more than c
+aonce in a centralized component inventory, necessitating a system association for each software
+eto avoid duplicate accounting of components. Scanning instance in the centralized inventory
+osystems implementing multiple network protocols (e.g., IPv4 and IPv6) can result in duplicate
+: can components being identified in different address spaces. The implementation of CM-8(7)
+help to eliminate duplicate accounting of components. t
+/Related Controls:  CM-2, CM-7, CM-9, CM-10, CM-11, CM-13, CP-2, CP-9, MA-2, MA-6, PE-20, PL-d
+i9, PM-5, SA-4, SA-5, SI-2, SR-4. .
+/Control Enhancements: 1
+|0 (1) SYSTEM COMPONENT INVENTORY  UPDATES DURING INSTALLATION AND REMOVAL
+/Update the inventory of system components as part of component installations, removals, N
+and system updates.
+Discussion:  Organizations can improve the accuracy, completeness, and consistency of
+8system component inventories if the inventories are updated as part of component
+installations or removals or during general system updates. If inventories are not updated at
+3these key times, there is a greater likelihood that the information will not be appropriately
+captured and documented. System updates include hardware, software, and firmware
+components.
+Related Controls:  PM-16.
+| (2) SYSTEM COMPONENT INVENTORY  AUTOMATED MAINTENANCE
+Maintain the currency, completeness, accuracy, and availability of the inventory of system
+Assignment: organization-defined automated mechanismscomponents using [].
+Discussion:  Organizations maintain system inventories to the extent feasible. For example,
+virtual machines can be difficult to monitor because such machines are not visible to the
+network when not in use. In such cases, organizations maintain as up-to-date, complete, and
+CHAPTER THREE   PAGE 108
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+accurate an inventory as is deemed reasonable. Automated maintenance can be achieved by
+for organizations that combine system component inventory the implementation of CM-2(2)
+and baseline configuration activities.
+Related Controls:  None.
+| (3) SYSTEM COMPONENT INVENTORY  AUTOMATED UNAUTHORIZED COMPONENT DETECTION
+(a)Detect the presence of unauthorized hardware, software, and firmware components
+Assignment: organization-defined automated mechanismswithin the system using []
+Assignment: organization-defined frequency[]; and
+Selection (b)Take the following actions when unauthorized components are detected: [
+(one or more): disable network access by such components; isolate the components;
+notifyAssignment: organization-defined personnel or roles []].
+TDiscussion:  Automated unauthorized component detection is applied in addition to the
+imonitoring for unauthorized remote connections and mobile devices. Monitoring for s
+uunauthorized system components may be accomplished on an ongoing basis or by the
+liperiodic scanning of systems for that purpose. Automated mechanisms may also be used to c
+tCM-7(9)). Automated mechanisms prevent the connection of unauthorized components (see i
+can be implemented in systems or in separate system components. When acquiring and
+implementing automated mechanisms, organizations consider whether such mechanisms a
+depend on the ability of the system component to support an agent or supplicant in order to
+bbe detected since some types of components do not have or cannot support agents (e.g., IoT
+devices, sensors). Isolation can be achieved , for example, by placing unauthorized system f
+components in separate domains or subnets or quarantining such components. This type of  e
+component isolation is commonly referred to as “sandboxing.” f
+aRelated Controls:  AC-19, CA-7, RA-5, SC-3, SC-39, SC-44, SI-3, SI-4, SI-7.
+| (4) SYSTEM COMPONENT INVENTORY  ACCOUNTABILITY INFORMATION f
+Include in the system component inventory information, a means for identifying by
+Selection (one or more): name; position; role[], individuals responsible and accountable for t
+sadministering those components.
+Discussion:  Identifying individuals who are responsible and accountable for administering o
+osystem components ensures that the assigned components are properly administered and
+/that organizations can contact those individuals if some action is required (e.g., when the 1
+.component is determined to be the source of a breach, needs to be recalled or replaced, or
+2needs to be relocated).
+Related Controls:  AC-3.
+.| (5) SYSTEM COMPONENT INVENTORY  NO DUPLICATE ACCOUNTING OF COMPONENTSS
+[Withdrawn: Incorporated into CM-8.]8
+5| (6) SYSTEM COMPONENT INVENTORY  ASSESSED CONFIGURATIONS AND APPROVED DEVIATIONS
+Include assessed component configurations and any approved deviations to current
+deployed configurations in the system component inventory.
+Discussion: Assessed configurations and approved deviations focus on configuration settings
+established by organizations for system components, the specific components that have
+been assessed to determine compliance with the required configuration settings, and any
+approved deviations from established configuration settings.
+Related Controls:  None.
+| (7) SYSTEM COMPONENT INVENTORY  CENTRALIZED REPOSITORY
+Provide a centralized repository for the inventory of system components.
+CHAPTER THREE   PAGE 109
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  Organizations may implement centralized system component inventories that
+include components from all organizational systems. Centralized repositories of component
+inventories provide opportunities for efficiencies in accounting for organizational hardware,
+software, and firmware assets. Such repositories may also help organizations rapidly identify
+the location and responsible individuals of components that have been compromised,
+breached, or are otherwise in need of mitigation actions. Organizations ensure that the
+resulting centralized inventories include system-specific information required for proper
+component accountability.
+Related Controls:  None.
+| (8) SYSTEM COMPONENT INVENTORY  AUTOMATED LOCATION TRACKING
+Assignment: Support the tracking of system components by geographic location using [
+organization-defined automated mechanisms].
+Discussion:  The use of automated mechanisms to track the location of system components is
+can increase the accuracy of component inventories. Such capability may help organizations
+rapidly identify the location and responsible individuals of system components that have lic
+been compromised, breached, or are otherwise in need of mitigation actions. The use of t
+ntracking mechanisms can be coordinated with senior agency officials for privacy if there are
+implications that affect individual privacy.
+a Related Controls:  None.
+l|e (9) SYSTEM COMPONENT INVENTORY  ASSIGNMENT OF COMPONENTS TO SYSTEMS
+(a)Assign system components to a system; and   e
+fAssignment: organization-defined personnel or (b)Receive an acknowledgement from [
+roles] of this assignment. a
+eDiscussion:  System components that are not assigned to a system may be unmanaged, lack
+the required protection, and become an organizational vulnerability. o
+Related Controls:  None.
+sReferences:  [OMB A-130], [SP 800-57-1], [SP 800-57-2], [SP 800-57-3], [SP 800-128], [IR 8011-2],
+d[IR 8011-3].

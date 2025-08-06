@@ -1,0 +1,5 @@
+{
+  "subheading": "PE-10 EMERGENCY SHUTOFF",
+  "start_text": "PE-10 EMERGENCY SHUTOFF\nControl:\nAssignment: organ",
+  "content": "PE-10 EMERGENCY SHUTOFF\nControl:\nAssignment: organization-defined system or a.Provide the capability of shutting off power to [\nindividual system components] in emergency situations;\nAssignment: organization-defined location b.Place emergency shutoff switches or devices in [\nby system or system component] to facilitate access for authorized personnel; and\nc.Protect emergency power shutoff capability from unauthorized activation.\nDiscussion:  Emergency power shutoff primarily applies to organizational facilities that contain\nconcentrations of system resources, including data centers, mainframe computer rooms, server\nrooms, and areas with computer-controlled machinery.\nhRelated Controls:  PE-15.\nControl Enhancements:u\n| a(1) EMERGENCY SHUTOFF  ACCIDENTAL AND UNAUTHORIZED ACTIVATION\nn[Withdrawn: Incorporated into PE-10.]\nReferences:  None. v"
+}

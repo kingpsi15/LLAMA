@@ -1,0 +1,31 @@
+CM-12 INFORMATION LOCATION
+Control:
+Assignment: organization-defined informationa.Identify and document the location of [] and
+hthe specific system components on which the information is processed and stored;
+b.Identify and document the users who have access to the system and system components  u
+lwhere the information is processed and stored; and ic
+c.Document changes to the location (i.e., system or system components) where the
+iinformation is processed and stored. s
+aDiscussion:  Information location addresses the need to understand where information is being
+processed and stored. Information location includes identifying where specific information types b
+and information reside in system components and how information is being processed so that
+information flow can be understood and adequate protection and policy management provided e
+for such information and system components. The security category of the information is also a f
+hfactor in determining the controls necessary to protect the information and the system
+gFIPS 199). The location of the information and component where the information resides (see
+fsystem components is also a factor in the architecture and design of the system (see SA-4, SA-8,
+SA-17).
+tRelated Controls:  AC-2, AC-3, AC-4, AC-6, AC-23, CM-8, PM-5, RA-2, SA-4, SA-8, SA-17, SC-4, SC-
+:16, SC-28, SI-4, SI-7./ /
+iControl Enhancements: .
+|1 (1) INFORMATION LOCATION  AUTOMATED TOOLS TO SUPPORT INFORMATION LOCATION
+Assignment: organization-defined information by Use automated tools to identify [0
+8information typeAssignment: organization-defined system components] on [] to ensure
+controls are in place to protect organizational information and individual privacy. I
+Discussion:  The use of automated tools helps to increase the effectiveness and efficiency of .
+the information location capability implemented within the system. Automation also helps
+organizations manage the data produced during information location activities and share
+5such information across the organization. The output of automated information location
+5tools can be used to guide and inform system architecture and design decisions.
+Related Controls:  None.
+References:  [FIPS 199], [SP 800-60-1], [SP 800-60-2].

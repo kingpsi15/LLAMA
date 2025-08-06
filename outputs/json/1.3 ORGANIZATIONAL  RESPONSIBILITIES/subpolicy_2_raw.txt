@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "",
+      "PolicyName": "NISTSP800-53, R.5 SPCISO - Security and Privacy Controls for Information Systems and Organizations",
+      "Control": "Managing security and privacy risks is a complex, multifaceted undertaking that requires:\n•Well-defined security and privacy requirements for systems and organizations;\n•The use of trustworthy information system components based on state-of-the-practice hardware, firmware, and software development and acquisition processes;\n13 Risk management is an integral part of systems engineering, systems security engineering, and privacy engineering. [OMB A-130] requires federal agencies to implement the NIST Risk Management Framework for the selection of controls for federal information systems. [EO 13800] requires federal agencies to implement the NIST Improving Critical Infrastructure Cybersecurity to manage cybersecurity risk. The NIST frameworks are also available to nonfederal organizations as optional resources.\n•Rigorous security and privacy planning and system development life cycle management;\n•The application of system security and privacy engineering principles and practices to securely develop and integrate system components into information systems;\n•The employment of security and privacy practices that are properly documented and integrated into and supportive of the institutional and operational processes of organizations; and\n•Continuous monitoring of information systems and organizations to determine the ongoing effectiveness of controls, changes in information systems and environments of operation, and the state of security and privacy organization-wide.",
+      "Discussion": "None",
+      "ControlEnhancements": "None",
+      "RelatedControls": "15 [SP 800-30]\n16 [IR 8062]\n17 [SP 800-39]\n18 [SP 800-37]\n19 [SP 800-53A]\n20 [SP 800-53B]",
+      "References": "None"
+   }

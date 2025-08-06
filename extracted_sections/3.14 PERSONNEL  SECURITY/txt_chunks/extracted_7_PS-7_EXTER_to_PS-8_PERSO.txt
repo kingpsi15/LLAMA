@@ -1,0 +1,25 @@
+PS-7 EXTERNAL PERSONNEL SECURITY
+Control:
+a.Establish personnel security requirements, including security roles and responsibilities for
+external providers;
+ib.Require external providers to comply with personnel security policies and procedures  s
+established by the organization; u
+c.Document personnel security requirements;  a
+Assignment: organization-defined personnel or rolesd.Require external providers to notify [] of
+any personnel transfers or terminations of external personnel who possess organizational a
+aAssignment: organization-credentials and/or badges, or who have system privileges within [
+defined time period]; and b
+rwith personnel security requirements. e.Monitor provider compliance e
+Discussion:  External provider refers to organizations other than the organization operating or f
+hacquiring the system. External providers include service bureaus, contractors, and other
+gorganizations that provide system development, information technology services, testing or
+fassessment services, outsourced applications, and network/security management. Organizations
+mexplicitly include personnel security requirements in acquisition-related documents. External
+hproviders may have personnel working at organizational facilities with credentials, badges, or
+system privileges issued by organizations. Notifications of external personnel changes ensure the s
+/appropriate termination of privileges and credentials. Organizations define the transfers and d
+iterminations deemed reportable by security-related characteristics that include functions, roles, .
+gand the nature of credentials or privileges associated with transferred or terminated individuals.
+.Related Controls:  AT-2, AT-3, MA-5, PE-3, PS-2, PS-3, PS-4, PS-5, PS-6, SA-5, SA-9, SA-21. 6
+Control Enhancements:  None.
+References:  [SP 800-35], [SP 800-63-3]. T

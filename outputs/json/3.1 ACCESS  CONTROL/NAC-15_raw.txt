@@ -1,0 +1,9 @@
+ {
+     "PolicyId": "NAC-15",
+     "PolicyName": "AUTOMATED MARKING",
+     "Control": "None",
+     "Discussion": "None",
+     "ControlEnhancements": "None",
+     "RelatedControls": "None",
+     "References": "Incorporated into MP-3."
+   }

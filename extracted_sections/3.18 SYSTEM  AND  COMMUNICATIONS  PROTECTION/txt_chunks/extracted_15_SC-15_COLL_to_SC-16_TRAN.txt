@@ -1,0 +1,45 @@
+SC-15 COLLABORATIVE COMPUTING DEVICES AND APPLICATIONS
+Control:
+0a.Prohibit remote activation of collaborative computing devices and applications with the
+3Assignment: organization-defined exceptions where remote activation following exceptions: [
+is to be allowed ]; and
+b.Provide an explicit indication of use to users physically present at the devices.
+Discussion:  Collaborative computing devices and applications include remote meeting devices
+and applications, networked white boards, cameras, and microphones. The explicit indication of
+use includes signals to users when collaborative computing devices and applications are
+activated.
+Related Controls:  AC-21, SC-42.
+Control Enhancements:
+CHAPTER THREE   PAGE 309
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+| (1) COLLABORATIVE COMPUTING DEVICES  PHYSICAL OR LOGICAL DISCONNECT
+Selection (one or more): physical; logicalProvide [] disconnect of collaborative computing
+devices in a manner that supports ease of use.
+Discussion:  Failing to disconnect from collaborative computing devices can result in
+subsequent compromises of organizational information. Providing easy methods to
+disconnect from such devices after a collaborative computing session ensures that
+participants carry out the disconnect activity without having to go through complex and
+Disconnect from collaborative computing devices can be manual or tedious procedures.
+automatic.
+Related Controls:  None.
+|(2) COLLABORATIVE COMPUTING DEVICES  BLOCKING INBOUND AND OUTBOUND COMMUNICATIONS
+TTRAFFIC
+[Withdrawn: Incorporated into SC-7.]
+| (3)l COLLABORATIVE COMPUTING DEVICES  DISABLING AND REMOVAL IN SECURE WORK AREASic
+tAssignment: Disable or remove collaborative computing devices and applications from [i
+organization-defined systems or system componentsAssignment: organization-defined ] in [
+secure work areasa].
+iDiscussion:  Failing to disable or remove collaborative computing devices and applications la
+from systems or system components can result in compromises of information, including le
+f A Sensitive Compartmented Information Facility (SCIF) is eavesdropping on conversations.r
+an example of a secure work area.
+cRelated Controls:  None.
+g| (4) COLLABORATIVE COMPUTING DEVICES  EXPLICITLY INDICATE CURRENT PARTICIPANTSe
+Assignment: organization-defined oProvide an explicit indication of current participants in [
+online meetings and teleconferences:].
+Discussion:  Explicitly indicating current participants prevents unauthorized individuals from p
+/participating in collaborative computing sessions without the explicit knowledge of other
+participants.
+gRelated Controls:  None.
+.References:  None. 6

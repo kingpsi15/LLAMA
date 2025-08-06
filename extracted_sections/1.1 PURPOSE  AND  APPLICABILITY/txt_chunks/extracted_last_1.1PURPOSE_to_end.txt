@@ -1,0 +1,29 @@
+1.1PURPOSEANDAPPLICABILITY l     e
+This publication establishes controls for systems and organizations. The controls can be e
+fimplemented within any organization or system that processes, stores, or transmits information.
+10The use of these controls is mandatory for federal information systems in accordance with a
+eOffice of Management and Budget (OMB) Circular A-130 [OMB A-130] and the provisions of the
+11oFederal Information Security Modernization Act [FISMA], which requires the implementation
+:12of minimum controls to protect federal information and information systems. This publication,
+along with other supporting NIST publications, is designed to help organizations identify the p
+/security and privacy controls needed to manage risk and to satisfy the security and privacy /
+requirements in FISMA, the Privacy Act of 1974 [PRIVACT], OMB policies (e.g., [OMB A-130]), i.
+gand designated Federal Information Processing Standards (FIPS), among others. It accomplishes
+0this objective by providing a comprehensive and flexible catalog of security and privacy controls
+to meet current and future protection needs based on changing threats, vulnerabilities,
+/requirements, and technologies. The publication also improves communication among N
+organizations by providing a common lexicon that supports the discussion of security, privacy,
+and risk management concepts.
+58 The Risk Management Framework in [SP 800-37] is an example of a comprehensive risk management process.
+9 This includes risk to critical infrastructure and key resources described in [HSPD-7].
+10 federal information systemA  is an information system used or operated by an agency, a contractor of an agency, or
+another organization on behalf of an agency.
+11 Information systems that have been designated as national security systems, as defined in 44 U.S.C., Section 3542,
+are not subject to the requirements in [FISMA]. However, the controls established in this publication may be selected
+for national security systems as otherwise required (e.g., the Privacy Act of 1974) or with the approval of federal
+officials exercising policy authority over such systems. [CNSSP 22] and [CNSSI 1253] provide guidance for national
+security systems. [DODI 8510.01] provides guidance for the Department of Defense.
+12 While the controls established in this publication are mandatory for federal information systems and organizations,
+other organizations such as state, local, and tribal governments as well as private sector organizations are encouraged
+to consider using these guidelines, as appropriate. See [SP 800-53B] for federal control baselines.
+CHAPTER ONE  PAGE2

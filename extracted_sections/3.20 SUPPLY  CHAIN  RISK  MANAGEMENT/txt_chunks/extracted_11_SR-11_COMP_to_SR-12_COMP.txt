@@ -1,0 +1,33 @@
+SR-11 COMPONENT AUTHENTICITY
+aControl:
+la.Develop and implement anti-counterfeit policy and procedures that include the means to  a
+ldetect and prevent counterfeit components from entering the system; and e
+Selection (one or more): source of counterfeit eb.Report counterfeit system components to [
+component;Assignment: organization-defined external reporting organizations; [] f
+Assignment: organization-defined personnel or roles[]].
+Discussion:  Sources of counterfeit components include manufacturers, developers, vendors, and
+ocontractors. Anti-counterfeiting policies and procedures support tamper resistance and provide a  m
+:level of protection against the introduction of malicious code. External reporting organizations
+tinclude CISA. p
+dRelated Controls:  PE-3, SA-4, SI-7, SR-9, SR-10.
+Control Enhancements: r
+0|- (1) COMPONENT AUTHENTICITY  ANTICOUNTERFEIT TRAINING.
+2Assignment: organization-defined personnel or rolesTrain [] to detect counterfeit system
+Ncomponents (including hardware, software, and firmware).
+TDiscussion:  None.
+PRelated Controls:  AT-3.
+0| (2) COMPONENT AUTHENTICITY  CONFIGURATION CONTROL FOR COMPONENT SERVICE AND REPAIR
+Maintain configuration control overthe following system components awaiting service or r
+Assignment: repair and serviced or repaired components awaiting return to service: [
+organization-defined system components].
+Discussion:  None.
+Related Controls:  CM-3, MA-2, MA-4, SA-10.
+|- (3) COMPONENT AUTHENTICITY  ANTICOUNTERFEIT SCANNING
+Assignment: organization-defined frequencyScan for counterfeit system components [].
+Discussion:  The type of component determines the type of scanning to be conducted (e.g.,
+web application scanning if the component is a web application).
+Related Controls:  RA-5.
+CHAPTER THREE   PAGE 372
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+References:  [ISO 20243].

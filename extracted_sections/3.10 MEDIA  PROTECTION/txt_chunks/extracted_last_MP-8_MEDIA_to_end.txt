@@ -1,0 +1,48 @@
+MP-8 MEDIA DOWNGRADING r
+Control: h
+sAssignment: organization-defined system media downgrading processa.Establish [] that
+dincludes employing downgrading mechanisms with strength and integrity commensurate
+i.with the security category or classification of the information; o
+1b.Verify that the system media downgrading process is commensurate with the security
+6category and/or classification level of the information to be removed and the access
+authorizations of the potential recipients of the downgraded information; 8
+SAssignment: organization-defined system media requiring downgradingc.Identify []; and
+d.Downgrade the identified system media using the established process.  P
+Discussion:  Media downgrading applies to digital and non-digital media subject to release 0
+outside of the organization, whether the media is considered removable or not. When applied to
+5system media, the downgrading process removes information from the media, typically by
+security category or classification level, such that the information cannot be retrieved or
+reconstructed. Downgrading of media includes redacting information to enable wider release
+and distribution. Downgrading ensures that empty space on the media is devoid of information.
+Related Controls:  None.
+Control Enhancements:
+| (1) MEDIA DOWNGRADING  DOCUMENTATION OF PROCESS
+Document system media downgrading actions.
+CHAPTER THREE   PAGE 177
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  Organizations can document the media downgrading process by providing
+information, such as the downgrading technique employed, the identification number of the
+downgraded media, and the identity of the individual that authorized and/or performed the
+downgrading action.
+Related Controls:  None.
+| (2) MEDIA DOWNGRADING  EQUIPMENT TESTING
+Assignment: organization-defined Test downgrading equipment and procedures [
+frequency] to ensure that downgrading actions are being achieved.
+Discussion:  None.
+Related Controls:  None.
+| (3) MEDIA DOWNGRADING  CONTROLLED UNCLASSIFIED INFORMATION
+iDowngrade system media containing controlled unclassified information prior to public s
+release. u
+liDiscussion:  The downgrading of controlled unclassified information uses approved c
+sanitization tools, techniques, and procedures. i
+iRelated Controls:  None. s
+a| (4) MEDIA DOWNGRADING  CLASSIFIED INFORMATION
+Downgrade system media containing classified information prior to release to individuals
+fwithout required access authorizations.
+Discussion:  Downgrading of classified information uses approved sanitization tools,
+techniques, and procedures to transfer information confirmed to be unclassified from c
+classified systems to unclassified media.
+Related Controls:  None.
+References:  [32 CFR 2002], [NSA MEDIA].
+CHAPTER THREE   PAGE 178

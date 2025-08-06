@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-25 THIN NODES",
+  "start_text": "SC-25 THIN NODES\nControl:  Employ minimal function",
+  "content": "SC-25 THIN NODES\nControl:  Employ minimal functionality and information storage on the following system\nAssignment: organization-defined system componentscomponents: [].\nCHAPTER THREE   PAGE 315\nNISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS\n_________________________________________________________________________________________________\nDiscussion:  The deployment of system components with minimal functionality reduces the need\nto secure every endpoint and may reduce the exposure of information, systems, and services to\nattacks. Reduced or minimal functionality includes diskless nodes and thin client technologies.\nRelated Controls:  SC-30, SC-44.\nControl Enhancements:  None.\nReferences:  None."
+}

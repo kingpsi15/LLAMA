@@ -1,0 +1,5 @@
+{
+  "subheading": "PE-18 LOCATION OF SYSTEM COMPONENTS",
+  "start_text": ":PE-18 LOCATION OF SYSTEM COMPONENTS\nControl:  Pos",
+  "content": ":PE-18 LOCATION OF SYSTEM COMPONENTS\nControl:  Position system components within the facility to minimize potential damage from s\n/Assignment: organization-defined physical and environmental hazards[] and to minimize the d\ni.opportunity for unauthorized access.\n1Discussion:  Physical and environmental hazards include floods, fires, tornadoes, earthquakes,\nhurricanes, terrorism, vandalism, an electromagnetic pulse, electrical interference, and other 6\nforms of incoming electromagnetic radiation. Organizations consider the location of entry points\nNwhere unauthorized individuals, while not being granted access, might nonetheless be near\nsystems. Such proximity can increase the risk of unauthorized access to organizational T\ncommunications using wireless packet sniffers or microphones, or unauthorized disclosure of\n8information.\n5Related Controls:  CP-2, PE-5, PE-19, PE-20, RA-3.\n| (1) LOCATION OF SYSTEM COMPONENTS  FACILITY SITE\n[Withdrawn: Moved to PE-23.]\nReferences:  None."
+}

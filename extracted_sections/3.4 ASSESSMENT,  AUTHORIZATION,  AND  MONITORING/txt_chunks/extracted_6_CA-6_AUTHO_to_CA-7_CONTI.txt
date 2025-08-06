@@ -1,0 +1,64 @@
+CA-6 AUTHORIZATION b
+Control: t
+ia.Assign a senior official as the authorizing official for the system;  s
+b.Assign a senior official as the authorizing official for common controls available for  a
+inheritance by organizational systems;
+fc.Ensure that the authorizing official for the system, before commencing operations:  r
+o1.Accepts the use of common controls inherited by the system; and
+a2.Authorizes the system to operate;
+d.Ensure that the authorizing official for common controls authorizes the use of those controls  f
+for inheritance by organizational systems; m
+tAssignment: organization-defined frequencye.Update the authorizations [].  t
+/Discussion:  Authorizations are official management decisions by senior officials to authorize /
+operation of systems, authorize the use of common controls for inheritance by organizational i.
+rsystems, and explicitly accept the risk to organizational operations and assets, individuals, other g
+organizations, and the Nation based on the implementation of agreed-upon controls. Authorizing 0
+officials provide budgetary oversight for organizational systems and common controls or assume 0
+8responsibility for the mission and business functions supported by those systems or common
+controls. The authorization process is a federal responsibility, and therefore, authorizing officials I
+must be federal employees. Authorizing officials are both responsible and accountable for
+Psecurity and privacy risks associated with the operation and use of organizational systems.
+Nonfederal organizations may have similar processes to authorize systems and senior officials 0
+-that assume the authorization role and associated responsibilities. 5
+Authorizing officials issue ongoing authorizations of systems based on evidence produced from
+implemented continuous monitoring programs. Robust continuous monitoring programs reduce
+the need for separate reauthorization processes. Through the employment of comprehensive
+continuous monitoring processes, the information contained in authorization packages (i.e.,
+security and privacy plans, assessment reports, and plans of action and milestones) is updated on
+an ongoing basis. This provides authorizing officials, common control providers, and system
+owners with an up-to-date status of the security and privacy posture of their systems, controls,
+and operating environments. To reduce the cost of reauthorization, authorizing officials can
+leverage the results of continuous monitoring processes to the maximum extent possible as the
+basis for rendering reauthorization decisions.
+CHAPTER THREE   PAGE 89
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  CA-2, CA-3, CA-7, PM-9, PM-10, RA-3, SA-10, SI-12.
+Control Enhancements:
+|—- (1) AUTHORIZATION  JOINT AUTHORIZATION  INTRAORGANIZATION
+Employ a joint authorization process for the system that includes multiple authorizing
+officials from the same organization conducting the authorization.
+Discussion:  Assigning multiple authorizing officials from the same organization to serve as
+co-authorizing officials for the system increases the level of independence in the risk-based
+decision-making process. It also implements the concepts of separation of duties and dual
+authorization as applied to the system authorization process. The intra-organization joint
+authorization process is most relevant for connected systems, shared systems, and systems
+with multiple information owners.
+Related Controls:  AC-6.
+|—- (2) AUTHORIZATION  JOINT AUTHORIZATION  INTERORGANIZATION u
+liEmploy a joint authorization process for the system that includes multiple authorizing c
+officials with at least one authorizing official from an organization external to the i
+organization conducting the authorization.
+Discussion:  Assigning multiple authorizing officials, at least one of whom comes from an v
+iexternal organization, to serve as co-authorizing officials for the system increases the level of la
+independence in the risk-based decision-making process. It implements the concepts of le
+separation of duties and dual authorization as applied to the system authorization process. r
+Employing authorizing officials from external organizations to supplement the authorizing
+official from the organization that owns or hosts the system may be necessary when the c
+aexternal organizations have a vested interest or equities in the outcome of the authorization
+edecision. The inter-organization joint authorization process is relevant and appropriate for
+connected systems, shared systems or services, and systems with multiple information o
+owners. The authorizing officials from the external organizations are key stakeholders of the :
+tsystem undergoing authorization. t
+Related Controls:  AC-6. /
+i.References:  [OMB A-130], [SP 800-37], [SP 800-137]. o

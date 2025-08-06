@@ -1,0 +1,33 @@
+CA-9 INTERNAL SYSTEM CONNECTIONS r
+fControl: r o
+:Assignment: organization-defined system components or a.Authorize internal connections of [
+tclasses of components] to the system; p
+db.Document, for each internal connection, the interface characteristics, security and privacy
+i.requirements, and the nature of the information communicated; o
+1Assignment: organization-defined conditionsc.Terminate internal system connections after [];
+6and
+Assignment: organization-defined frequencyd.Review [] the continued need for each internal  /
+connection. S
+Discussion:  Internal system connections are connections between organizational systems and
+8separate constituent system components (i.e., connections between components that are part of
+the same system) including components used for system development. Intra-system connections -
+include connections with mobile devices, notebook and desktop computers, tablets, printers,
+copiers, facsimile machines, scanners, sensors, and servers. Instead of authorizing each internal
+system connection individually, organizations can authorize internal connections for a class of
+system components with common characteristics and/or configurations, including printers,
+scanners, and copiers with a specified processing, transmission, and storage capability or smart
+phones and tablets with a specific baseline configuration. The continued need for an internal
+system connection is reviewed from the perspective of whether it provides support for
+organizational missions or business functions.
+Related Controls:  AC-3, AC-4, AC-18, AC-19, CM-2, IA-3, SC-7, SI-12.
+Control Enhancements:
+CHAPTER THREE   PAGE 94
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+|  (1) INTERNAL SYSTEM CONNECTIONS  COMPLIANCE CHECKS
+Perform security and privacy compliance checks on constituent system components prior
+to the establishment of the internal connection.
+Discussion:  Compliance checks include verification of the relevant baseline configuration.
+Related Controls:  CM-6.
+References:  [SP 800-124], [IR 8023].
+CHAPTER THREE   PAGE 95

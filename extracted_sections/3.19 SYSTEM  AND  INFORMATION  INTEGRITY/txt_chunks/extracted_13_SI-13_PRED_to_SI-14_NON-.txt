@@ -1,0 +1,60 @@
+SI-13 PREDICTABLE FAILURE PREVENTION
+Control:
+a.Determine mean time to failure (MTTF) for the following system components in specific
+Assignment: organization-defined system componentsenvironments of operation: []; and
+b.Provide substitute system components and a means to exchange active and standby
+Assignment: organization-defined components in accordance with the following criteria: [
+MTTF substitution criteria].
+Discussion:  While MTTF is primarily a reliability issue, predictable failure prevention is intended T
+ito address potential failures of system components that provide security capabilities. Failure s
+rates reflect installation-specific consideration rather than the industry-average. Organizations u
+ldefine the criteria for the substitution of system components based on the MTTF value with ic
+tconsideration for the potential harm from component failures. The transfer of responsibilities i
+between active and standby components does not compromise safety, operational readiness, or
+security capabilities. The preservation of system state variables is also critical to help ensure a a
+asuccessful transfer process. Standby components remain available at all times except for
+bmaintenance issues or recovery failures in progress.
+rRelated Controls:  CP-2, CP-10, CP-13, MA-2, MA-6, SA-8, SC-6. e
+Control Enhancements: f
+| (1) PREDICTABLE FAILURE PREVENTION  TRANSFERRING COMPONENT RESPONSIBILITIESr
+Take system components out of service by transferring component responsibilities to f
+mAssignment: organization-defined fraction or substitute components no later than [
+percentageh] of mean time to failure.
+sDiscussion:  Transferring primary system component responsibilities to other substitute
+dcomponents prior to primary component failure is important to reduce the risk of degraded
+i.or debilitated mission or business functions. Making such transfers based on a percentage of
+mean time to failure allows organizations to be proactive based on their risk tolerance.
+0However, the premature replacement of system components can result in the increased cost
+0of system operations.
+/Related Controls:  None. N
+| (2) PREDICTABLE FAILURE PREVENTION  TIME LIMIT ON PROCESS EXECUTION WITHOUT SUPERVISION .
+[Withdrawn: Incorporated into SI-7(16).] .
+|- (3) PREDICTABLE FAILURE PREVENTION  MANUAL TRANSFER BETWEEN COMPONENTS5
+5Manually initiate transfers between active and standby system components when the use
+Assignment: organization-defined percentageof the active component reaches [] of the
+mean time to failure.
+Discussion:  For example, if the MTTF for a system component is 100 days and the MTTF
+percentage defined by the organization is 90 percent, themanual transfer would occur after
+90 days.
+Related Controls:  None.
+| (4) PREDICTABLE FAILURE PREVENTION  STANDBY COMPONENT INSTALLATION AND NOTIFICATION
+If system component failures are detected:
+CHAPTER THREE   PAGE 353
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+(a)Ensure that the standby components are successfully and transparently installed
+Assignment: organization-defined time periodwithin []; and
+Selection (one or more): ActivateAssignment: organization-defined alarm(b)[ [];
+Automatically shut down the system; Assignment: organization-defined action[]].
+Discussion:Automatic or manual transfer of components from standby to active mode can
+occur upon the detection of component failures.
+Related Controls:  None.
+| (5) PREDICTABLE FAILURE PREVENTION  FAILOVER CAPABILITY
+Selection: real-time; near real-timeAssignment: organization-defined failover Provide [] [
+capability for the system].
+Discussion:  Failover refers to the automatic switchover to an alternate system upon the
+failure of the primary system. Failover capability includes incorporating mirrored system
+operations at alternate processing sites or periodic data mirroring at regular intervals
+defined by the recovery time periods of organizations. b
+Related Controls:  CP-6, CP-7, CP-9. a
+References:  None.

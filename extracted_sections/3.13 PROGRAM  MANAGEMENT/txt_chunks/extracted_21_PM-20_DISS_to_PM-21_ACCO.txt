@@ -1,0 +1,39 @@
+PM-20 DISSEMINATION OF PRIVACY PROGRAM INFORMATION
+Control:  Maintain a central resource webpage on the organization’s principal public website that
+serves as a central source of information about the organization’s privacy program and that:
+a.Ensures that the public has access to information about organizational privacy activities and
+can communicate with its senior agency official for privacy;
+CHAPTER THREE    PAGE 213
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+b.Ensures that organizational privacy practices and reports are publicly available; and
+c.Employs publicly facing email addresses and/or phone lines to enable the public to provide
+feedback and/or direct questions to privacy offices regarding privacy practices.
+Discussion:  For federal agencies, the webpage is located at www.[agency].gov/privacy. Federal
+agencies include public privacy impact assessments, system of records notices, computer
+PRIVACT] exemption and implementation rules, privacy matching notices and agreements, [
+reports, privacy policies, instructions for individuals making an access or amendment request,
+email addresses for questions/complaints, blogs, and periodic publications.
+Related Controls:  AC-3,  PM-19, PT-5, PT-6, PT-7, RA-8.
+Control Enhancements:
+|,T(1) DISSEMINATION OF PRIVACY PROGRAM INFORMATION  PRIVACY POLICIES ON WEBSITES
+is,  APPLICATIONS AND DIGITAL SERVICES
+Develop and post privacy policies on all external-facing websites, mobile applications, and b
+other digital services, that: a
+(a)Are written in plain language and organized in a way that is easy to understand and  n
+isnavigate;
+a(b)Provide information needed by the public to make an informed decision about
+whether and how to interact with the organization; and b
+(c)Are updated whenever the organization makes a substantive change to the practices it  f
+edescribes and includes a time/date stamp to inform the public of the date of the most
+frecent changes.
+aDiscussion:  Organizations post privacy policies on all external-facing websites, mobile
+eapplications, and other digital services. Organizations post a link to the relevant privacy
+policy on any known, major entry points to the website, application, or digital service. In o
+addition, organizations provide a link to the privacy policy on any webpage that collects :
+tpersonally identifiable information. Organizations may be subject to applicable laws, t
+executive orders, directives, regulations, or policies that require the provision of specific :
+information to the public. Organizational personnel consult with the senior agency official o
+ofor privacy and legal counsel regarding such requirements.
+1Related Controls:  None.
+0References:  [PRIVACT], [OMB A-130], [OMB M-17-06].

@@ -1,0 +1,9 @@
+{
+  "PolicyId": "AC-22",
+  "PolicyName": "PUBLICLY ACCESSIBLE CONTENT",
+  "Control": "a.Designate individuals authorized to make information publicly accessible;\nb.Train authorized individuals to ensure that publicly accessible information does not contain nonpublic information;\nc.Review the proposed content of information prior to posting onto the publicly accessible system to ensure that nonpublic information is not included;\nd.Review the content on the publicly accessible system for nonpublic information\nAssignment: organization-defined frequency[] and remove such information, if discovered.",
+  "Discussion": "In accordance with applicable laws, executive orders, directives, policies, regulations, ic standards, and guidelines, the public is not authorized to have access to nonpublic information, PRIVACT] and proprietary information. Publicly accessible content addresses systems that are controlled by the organization and accessible to a athe public, typically without identification or authentication. Posting information on non- organizational systems (e.g., non-organizational public websites, forums, and social media) is b covered by organizational policy. While organizations may have individuals who are responsible for developing and implementing policies about the information that can be made publicly accessible, publicly accessible content addresses the management of the individuals who make such information publicly accessible.",
+  "RelatedControls": "AC-3, AT-2, AT-3, AU-13",
+  "ControlEnhancements": "None.",
+  "References": "[PRIVACT]"
+}

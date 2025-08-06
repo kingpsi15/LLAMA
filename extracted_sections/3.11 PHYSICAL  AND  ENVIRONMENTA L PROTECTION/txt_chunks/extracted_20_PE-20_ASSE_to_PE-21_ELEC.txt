@@ -1,0 +1,11 @@
+licPE-20 ASSET MONITORING AND TRACKING
+nAssignment: organization-defined asset location technologiesControl:  Employ [] to track and
+Assignment: organization-defined assetsmonitor the location and movement of [] within
+Assignment: organization-defined controlled areas[]. a
+Discussion:  Asset location technologies can help ensure that critical assets—including vehicles, le
+fequipment, and system components—remain in authorized locations. Organizations consult with r
+the Office of the General Counsel and senior agency official for privacy regarding the deployment
+and use of asset location technologies to address potential privacy concerns. c
+rRelated Controls:  CM-8, PE-16, PM-8. g
+rControl Enhancements:  None. o
+References:  None.h

@@ -1,0 +1,74 @@
+hCP-7 ALTERNATE PROCESSING SITE
+Control: : /
+ia.Establish an alternate processing site, including necessary agreements to permit the transfer  .
+Assignment: organization-defined system operationsgand resumption of [] for essential
+Assignment: organization-defined time period 0mission and business functions within [
+consistent with recovery time and recovery point objectives] when the primary processing 0
+capabilities are unavailable;
+b.Make available at the alternate processing site, the equipment and supplies required to
+Stransfer and resume operations or put contracts in place to support delivery to the site
+within the organization-defined time period for transfer and resumption; and 8
+c.Provide controls at the alternate processing site that are equivalent to those at the primary  5
+site. 5
+Discussion:  Alternate processing sites are geographically distinct from primary processing sites
+and provide processing capability if the primary processing site is not available. The alternate
+processing capability may be addressed using a physical processing site or other alternatives,
+such as failover to a cloud-based service provider or other internally or externally provided
+processing service. Geographically distributed architectures that support contingency
+requirements may also be considered alternate processing sites. Controls that are covered by
+alternate processing site agreements include the environmental conditions at alternate sites,
+access rules, physical and environmental protection requirements, and the coordination for the
+transfer and assignment of personnel. Requirements are allocated to alternate processing sites
+CHAPTER THREE   PAGE 122
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+that reflect the requirements in contingency plans to maintain essential mission and business
+functions despite disruption, compromise, or failure in organizational systems.
+. Related Controls:  CP-2, CP-6, CP-8, CP-9, CP-10, MA-6, PE-3, PE-11, PE-12, PE-17, SC-36, SI-13
+Control Enhancements:
+| (1) ALTERNATE PROCESSING SITE  SEPARATION FROM PRIMARY SITE
+Identify an alternate processing site that is sufficiently separated from the primary
+processing site to reduce susceptibility to the same threats.
+Discussion:  Threats that affect alternate processing sites are defined in organizational
+assessments of risk and include natural disasters, structural failures, hostile attacks, and
+errors of omission or commission. Organizations determine what is considered a sufficient
+degree of separation between primary and alternate processing sites based on the types of
+hthreats that are of concern. For threats such as hostile attacks, the degree of separation
+between sites is less relevant. p
+Related Controls:  RA-3. lic
+i|o (2) ALTERNATE PROCESSING SITE  ACCESSIBILITY
+isIdentify potential accessibility problems to alternate processing sites in the event of an
+varea-wide disruption or disaster and outlines explicit mitigation actions.
+Discussion:  Area-wide disruptions refer to those types of disruptions that are broad in b
+geographic scope with such determinations made by organizations based on organizational
+assessments of risk.
+fRelated Controls:  RA-3.
+| r(3) ALTERNATE PROCESSING SITE  PRIORITY OF SERVICE
+fDevelop alternate processing site agreements that contain priority-of-service provisions in
+maccordance with availability requirements (including recovery time objectives).
+Discussion:  Priority of service agreements refer to negotiated agreements with service t
+sproviders that ensure that organizations receive priority treatment consistent with their
+davailability requirements and the availability of information resources for logical alternate
+i. Organizations establish recovery processing and/or at the physical alternate processing site.o
+time objectives as part of contingency planning. /
+.Related Controls:  None. 6
+| (4) ALTERNATE PROCESSING SITE  PREPARATION FOR USE/
+Prepare the alternate processing site so that the site can serve as the operational site
+Ssupporting essential mission and business functions.
+8Discussion:  Site preparation includes establishing configuration settings for systems at the
+alternate processing site consistent with the requirements for such settings at the primary
+site and ensuring that essential supplies and logistical considerations are in place.
+Related Controls:  CM-2, CM-6, CP-4.
+| (5) ALTERNATE PROCESSING SITE  EQUIVALENT INFORMATION SECURITY SAFEGUARDS
+[Withdrawn: Incorporated into CP-7.]
+| (6) ALTERNATE PROCESSING SITE  INABILITY TO RETURN TO PRIMARY SITE
+Plan and prepare for circumstances that preclude returning to the primary processing site.
+Discussion:  There may be situations that preclude an organization from returning to the
+primary processing site such as if a natural disaster (e.g., flood or a hurricane) damaged or
+CHAPTER THREE   PAGE 123
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+destroyed a facility and it was determined that rebuilding in the same location was not
+prudent.
+Related Controls:  None.
+References:  [SP 800-34].

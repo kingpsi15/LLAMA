@@ -1,0 +1,5 @@
+{
+  "subheading": "CP-12 SAFE MODE",
+  "start_text": "tCP-12 SAFE MODE i\nisAssignment: organization-defi",
+  "content": "tCP-12 SAFE MODE i\nisAssignment: organization-defined conditionsControl:  When [] are detected, enter a safe mode of\nvAssignment: organization-defined restrictions of safe mode of operationoperation with [].\nbDiscussion:  For systems that support critical mission and business functions\u2014including military\noperations, civilian space operations, nuclear power plant operations, and air traffic control f\neoperations (especially real-time operational environments)\u2014organizations can identify certain\nconditions under which those systems revert to a predefined safe mode of operation. The safe f\nmode of operation, which can be activated either automatically or manually, restricts the\ngoperations that systems can execute when those conditions are encountered. Restriction\nfincludes allowing only selected functions to execute that can be carried out under limited power r\nor with reduced communications bandwidth.\ntRelated Controls:  CM-2, SA-8, SC-24, SI-13, SI-17. p\ndControl Enhancements:  None.\nReferences:  None. r"
+}

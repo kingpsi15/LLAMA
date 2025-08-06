@@ -1,0 +1,9 @@
+{
+      "PolicyId": "None",
+      "PolicyName": "1.4RELATIONSHIPTOOTHERPUBLICATIONS",  // infer from the title before first heading
+      "Control": "None",
+      "Discussion": "None",
+      "ControlEnhancements": "None",
+      "RelatedControls": "None",
+      "References": "1.4"
+   }

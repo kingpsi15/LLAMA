@@ -1,0 +1,11 @@
+ePM-6 MEASURES OF PERFORMANCE
+mControl:  Develop, monitor, and report on the results of information security and privacy
+hmeasures of performance.
+Discussion:  Measures of performance are outcome-based metrics used by an organization to :
+measure the effectiveness or efficiency of the information security and privacy programs and the o
+controls employed in support of the program. To facilitate security and privacy risk management,
+/organizations consider aligning measures of performance with the organizational risk tolerance 1
+.as defined in the risk management strategy. 6
+8Related Controls:  CA-7, PM-9.
+Control Enhancements:  None.
+PReferences:  [OMB A-130], [SP 800-37], [SP 800-39], [SP 800-55], [SP 800-137].

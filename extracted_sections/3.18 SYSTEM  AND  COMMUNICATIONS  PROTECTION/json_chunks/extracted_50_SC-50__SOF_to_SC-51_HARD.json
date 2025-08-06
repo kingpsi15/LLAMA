@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-50  SOFTWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT",
+  "start_text": "SC-50  SOFTWARE-ENFORCED SEPARATION AND POLICY ENF",
+  "content": "SC-50  SOFTWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT\nControl:  Implement software-enforced separation and policy enforcement mechanisms between\nAssignment: organization-defined security domains[].\nDiscussion:  System owners may require additional strength of mechanism to ensure domain\nseparation and policy enforcement for specific types of threats and environments of operation.\nRelated Controls:  AC-3, AC-4, SA-8, SC-2, SC-3, SC-49.\nControl Enhancements:  None.\nReferences:  [SP 800-160-1].\nCHAPTER THREE   PAGE 330\nNISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS\n_________________________________________________________________________________________________"
+}

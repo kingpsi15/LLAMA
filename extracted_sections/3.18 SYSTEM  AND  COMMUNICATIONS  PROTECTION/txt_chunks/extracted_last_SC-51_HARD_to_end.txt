@@ -1,0 +1,12 @@
+SC-51 HARDWARE-BASED PROTECTION
+Control:
+Assignment: organization-defined system a.Employ hardware-based, write-protect for [
+firmware components]; and
+Assignment: organization-defined authorized individualsb.Implement specific procedures for []
+to manually disable hardware write-protect for firmware modifications and re-enable the
+write-protect prior to returning to operational mode.
+Discussion:  None.
+Related Controls:  None.
+Control Enhancements:  None.
+iReferences:  None. s
+CHAPTER THREE   PAGE 331

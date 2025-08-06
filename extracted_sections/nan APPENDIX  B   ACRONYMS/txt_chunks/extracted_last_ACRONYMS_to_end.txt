@@ -1,0 +1,128 @@
+ACRONYMS
+COMMON ABBREVIATIONS
+Attribute-Based Access Control ABAC
+Application Programming Interface API
+Advanced Persistent Threat  APT
+Border Gateway Protocol BGP
+hBasic Input/Output System BIOS
+uCertificate Authority/Certificate Authorities CA
+aCommon Access Card CAC
+Cryptographic Algorithm Validation Program CAVP is
+aCompact Disc CD
+lCompact Disc-Recordable CD-R e
+Confidential Information Protection and Statistical Efficiency Act eCIPSEA
+cComputer Incident Response Team CIRT
+Cybersecurity and Infrastructure Security Agency CISA e
+mCryptographic Module Validation Program CMVP
+Committee on National Security Systems Directive tCNSSD
+/Committee on National Security Systems Instruction CNSSI d
+Committee on National Security Systems Policy CNSSP r
+Concept of Operations CONOPS .
+8Controlled Unclassified Information CUI
+Common Vulnerabilities and Exposures CVE
+Common Vulnerability Scoring System CVSS
+Common Weakness Enumeration CWE -
+5Dynamic Host Configuration Protocol DHCP
+Demilitarized Zone DMZ
+Domain Name System DNS
+Domain Name System Security Extensions  DNSSEC
+Department of Defense DoD
+Defense Science Board DSB
+Digital Versatile Disc DVD
+APPENDIX B   PAGE 424
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Digital Versatile Disc-Recordable DVD-R
+Extensible Authentication Protocol EAP
+Electromagnetic Pulse EMP
+Emissions Security EMSEC
+Federal Acquisition Security Council FASC
+Federal Bridge Certification Authority FBCA
+Federal Communications Commission FCC
+Federal Indentity, Credential, and Access Management FICAM
+Fair Information Practice Principles  hFIPPs
+uFederal Information Processing Standards FIPS
+aFederal Information Security Modernization Act FISMA
+Foreign Ownership, Control, or Influence FOCI is
+Freedom of Information Act aFOIA
+File Transfer Protocol lFTP e
+Greenwich Mean Time GMT e
+cGlobal Positioning System GPS
+General Services Administration GSA e
+Homeland Security Presidential Directive mHSPD
+tHypertext Transfer Protocol HTTP t
+/Industrial Control System ICS d
+Institute of Electrical and Electronics Engineers IEEE r
+Input/Output I/O .
+Indicators of Compromise 8IOC
+Internet of Things IoT
+Internet Protocol IP
+Interagency Report or Internal Report IR -
+5Information Sharing and Analysis Centers ISAC
+Information Sharing and Analysis Organizations ISAO
+Information Technology IT
+Information Technology Laboratory ITL
+Media Access Control  MAC
+Multilevel Secure MLS
+Mean Time To Failure  MTTF
+APPENDIX B   PAGE 425
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+National Archives and Records Administration NARA
+North Atlantic Treaty Organization NATO
+Non-Disclosure Agreement NDA
+National Information Assurance Partnership NIAP
+National Initiative for Cybersecurity Education NICE
+National Institute of Standards and Technology NIST
+Not Releasable to Foreign Nationals NOFORN
+National Security Agency NSA
+National Vulnerability Database hNVD
+uOffice of the Director of National Intelligence ODNI
+aOffice of Management and Budget OMB
+Office of Personnel Management OPM is
+Operation Security aOPSEC
+Open Vulnerability and Assessment Language  lOVAL e
+Portable Document Format PDF e
+cPosition Designation System PDS
+Personally Identifiable Information PII e
+Personal Identification Number mPIN
+tPersonal Identity Verification PIV t
+/Personal Identity Verification-Interoperable PIV-I d
+Public Key Infrastructure PKI r
+Role-Based Access Control RBAC .
+Restricted Data 8RD
+Radio-Frequency Identification RFID
+Request For Proposal RFP
+Resource Public Key Infrastructure RPKI -
+5Special Access Program SAP
+Security Content Automation Protocol SCAP
+Sensitive Compartmented Information  SCI
+Sensitive Compartmented Information Facility SCIF
+Supply Chain Risk Management SCRM
+System Development Life Cycle SDLC
+Security Information and Event Management SIEM
+APPENDIX B   PAGE 426
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Subject Matter Expert SME
+Simple Mail Transfer Protocol SMTP
+Security Operations Center SOC
+Special Publication SP
+Security Technical Implementation Guide STIG
+Software Identification SWID
+Transmission Control Protocol  TCP
+Transmission Control Protocol/Internet Protocol TCP/IP
+Trusted Internet Connections hTIC
+uTransport Layer Security TLS
+aTrusted Platform Module TPM
+Telecommunications Service Priority TSP is
+Unified Extensible Firmware Interface aUEFI
+Uninterruptible Power Supply lUPS e
+United States Government Configuration Baseline USGCB e
+cUniversal Serial Bus USB
+Coordinated Universal Time UTC e
+Voice over Internet Protocol mVoIP
+tVirtual Private Network VPN t
+/Write-Once, Read-Many WORM d
+Extensible Markup Language XML r
+APPENDIX B   PAGE 427

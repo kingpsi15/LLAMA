@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-27 PLATFORM-INDEPENDENT APPLICATIONS",
+  "start_text": "SC-27 PLATFORM-INDEPENDENT APPLICATIONS o\nhControl",
+  "content": "SC-27 PLATFORM-INDEPENDENT APPLICATIONS o\nhControl:  Include within organizational systems the following platform independent applications:\nAssignment: organization-defined platform-independent applications[].\nDiscussion:  Platforms are combinations of hardware, firmware, and software components used o\noto execute software applications. Platforms include operating systems, the underlying computer\n/architectures, or both. Platform-independent applications are applications with the capability to 1\n.execute on multiple platforms. Such applications promote portability and reconstitution on 6\n2different platforms. Application portability and the ability to reconstitute on different platforms\nNincrease the availability of mission-essential functions within organizations in situations where\nsystems with specific operating systems are under attack.\nPRelated Controls:  SC-29.\n0Control Enhancements:  None.\nrReferences:  None. 5"
+}

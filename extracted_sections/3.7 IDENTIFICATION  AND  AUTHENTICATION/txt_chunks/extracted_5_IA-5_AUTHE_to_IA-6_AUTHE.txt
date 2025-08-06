@@ -1,0 +1,244 @@
+aIA-5 AUTHENTICATOR MANAGEMENT
+Control:  Manage system authenticators by:   is
+va.Verifying, as part of the initial authenticator distribution, the identity of the individual,
+lgroup, role, service, or device receiving the authenticator; a
+b.Establishing initial authenticator content for any authenticators issued by the organization;  f
+c.Ensuring that authenticators have sufficient strength of mechanism for their intended use;  o
+d.Establishing and implementing administrative procedures for initial authenticator
+gdistribution, for lost or compromised or damaged authenticators, and for revoking
+fauthenticators; r
+:e.Changing default authenticators prior to first use;
+Assignment: organization-defined time period by f.Changing or refreshing authenticators [ s
+authenticator typeAssignment: organization-defined eventsd] or when [] occur;
+g.Protecting authenticator content from unauthorized disclosure and modification;  r
+0h.Requiring individuals to take, and having devices implement, specific controls to protect
+0authenticators; and
+Ni.Changing authenticators for group or role accounts when membership to those accounts
+changes. T
+Discussion:  Authenticators include passwords, cryptographic devices, biometrics, certificates,
+0one-time password devices, and ID badges. Device authenticators include certificates and
+5passwords. Initial authenticator content is the actual content of the authenticator (e.g., the initial
+5password). In contrast, the requirements for authenticator content contain specific criteria or
+characteristics (e.g., minimum password length). Developers may deliver system components
+with factory default authentication credentials (i.e., passwords) to allow for initial installation
+and configuration. Default authentication credentials are often well known, easily discoverable,
+and present a significant risk. The requirement to protect individual authenticators may be
+PL-4 or PS-6 for authenticators in the possession of individuals and by implemented via control
+controls AC-3, AC-6, and SC-28 for authenticators stored in organizational systems, including
+passwords stored in hashed or encrypted formats or files containing encrypted or hashed
+passwords accessible with administrator privileges.
+Systems support authenticator management by organization-defined settings and restrictions for
+various authenticator characteristics (e.g., minimum password length, validation time window for
+CHAPTER THREE   PAGE 138
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+time synchronous one-time tokens, and number of allowed rejections during the verification
+stage of biometric authentication). Actions can be taken to safeguard individual authenticators,
+including maintaining possession of authenticators, not sharing authenticators with others, and
+immediately reporting lost, stolen, or compromised authenticators. Authenticator management
+includes issuing and revoking authenticators for temporary access when no longer needed.
+. Related Controls:  AC-3, AC-6, CM-6, IA-2, IA-4, IA-7, IA-8, IA-9, MA-4, PE-2, PL-4, SC-12, SC-13
+Control Enhancements:
+|- (1) AUTHENTICATOR MANAGEMENT  PASSWORDBASED AUTHENTICATION
+For password-based authentication:
+(a)Maintain a list of commonly-used, expected, or compromised passwords and update
+Assignment: organization-defined frequencythe list [] and when organizational
+hpasswords are suspected to have been compromised directly or indirectly;
+(b)Verify, when users create or update passwords, that the passwords are not found on
+the list of commonly-used, expected, or compromised passwords in IA-5(1)(a); lic
+t(c)Transmit passwords only over cryptographically-protected channels;  i
+(d)Store passwords using an approved salted key derivation function, preferably using a  is
+keyed hash;
+l(e)Require immediate selection of a new password upon account recovery;  a
+(f)Allow user selection of long passwords and passphrases, including spaces and all
+eprintable characters;
+(g)Employ automated tools to assist the user in selecting strong password  f
+authenticators; and
+Assignment: organization-(h)Enforce the following composition and complexity rules: [ e
+rdefined composition and complexity rules]. o
+:Discussion:  Password-based authentication applies to passwords regardless of whether they
+tare used in single-factor or multi-factor authentication. Long passwords or passphrases are
+:preferable over shorter passwords. Enforced composition rules provide marginal security /
+obenefits while decreasing usability. However, organizations may choose to establish certain
+rules for password generation (e.g., minimum character length for long passwords) under r
+certain circumstances and can enforce this requirement in IA-5(1)(h). Account recovery can 1
+occur, for example, in situations when a password is forgotten. Cryptographically protected 6
+2passwords include salted one-way cryptographic hashes of passwords. The list of commonly
+Nused, compromised, or expected passwords includes passwords obtained from previous
+breach corpuses, dictionary words, and repetitive or sequential characters. The list includes T
+context-specific words, such as the name of the service, username, and derivatives thereof.
+Related Controls:  IA-6. 0
+|- 3(2) AUTHENTICATOR MANAGEMENT  PUBLIC KEYBASED AUTHENTICATION
+(a)For public key-based authentication:
+(1)Enforce authorized access to the corresponding private key; and
+(2)Map the authenticated identity to the account of the individual or group; and
+(b)When public key infrastructure (PKI) is used:
+(1)Validate certificates by constructing and verifying a certification path to an
+accepted trust anchor, including checking certificate status information; and
+(2)Implement a local cache of revocation data to support path discovery and
+validation.
+CHAPTER THREE   PAGE 139
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  Public key cryptography is a valid authentication mechanism for individuals,
+machines, and devices. For PKI solutions, status information for certification paths includes
+certificate revocation lists or certificate status protocol responses. For PIV cards, certificate
+validation involves the construction and verification of a certification path to the Common
+Policy Root trust anchor, which includes certificate policy processing. Implementing a local
+cache of revocation data to support path discovery and validation also supports system
+availability in situations where organizations are unable to access revocation information via
+the network.
+Related Controls:  IA-3, SC-17.
+|- (3) AUTHENTICATOR MANAGEMENT  INPERSON OR TRUSTED EXTERNAL PARTY REGISTRATION
+[Withdrawn: Incorporated into IA-12(4).]
+T|(4) AUTHENTICATOR MANAGEMENT  AUTOMATED SUPPORT FOR PASSWORD STRENGTH
+is DETERMINATION
+b[Withdrawn: Incorporated into IA-5(1).]
+t|  (5) AUTHENTICATOR MANAGEMENT  CHANGE AUTHENTICATORS PRIOR TO DELIVERYi
+Require developers and installers of system components to provide unique authenticators is
+or change default authenticators prior to delivery and installation. v
+lDiscussion:  Changing authenticators prior to the delivery and installation of system a
+lcomponents extends the requirement for organizations to change default authenticators e
+rupon system installation by requiring developers and/or installers to provide unique e
+authenticators or change default authenticators for system components prior to delivery o
+cand/or installation. However, it typically does not apply to developers of commercial off-the-
+shelf information technology products. Requirements for unique authenticators can be r
+included in acquisition documents prepared by organizations when procuring systems or
+system components.  m
+Related Controls:  None. h
+| (6) :AUTHENTICATOR MANAGEMENT  PROTECTION OF AUTHENTICATORS
+Protect authenticators commensurate with the security category of the information to
+rwhich use of the authenticator permits access.
+Discussion:  For systems that contain multiple security categories of information without 0
+reliable physical or logical separation between categories, authenticators used to grant 0
+8access to the systems are protected commensurate with the highest security category of
+information on the systems. Security categories of information are determined as part of the I
+security categorization process. .
+Related Controls:  RA-2. .
+|- (7) AUTHENTICATOR MANAGEMENT  NO EMBEDDED UNENCRYPTED STATIC AUTHENTICATORS 5
+5Ensure that unencrypted static authenticators are not embedded in applications or other
+forms of static storage.
+Discussion:  In addition to applications, other forms of static storage include access scripts
+and function keys. Organizations exercise caution when determining whether embedded or
+stored authenticators are in encrypted or unencrypted form. If authenticators are used in
+the manner stored, then those representations are considered unencrypted authenticators.
+Related Controls:  None.
+| (8) AUTHENTICATOR MANAGEMENT  MULTIPLE SYSTEM ACCOUNTS
+Assignment: organization-defined security controlsImplement [] to manage the risk of
+compromise due to individuals having accounts on multiple systems.
+CHAPTER THREE   PAGE 140
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  When individuals have accounts on multiple systems and use the same
+authenticators such as passwords, there is the risk that a compromise of one account may
+lead to the compromise of other accounts. Alternative approaches include having different
+authenticators (passwords) on all systems, employing a single sign-on or federation
+mechanism, or using some form of one-time passwords on all systems. Organizations can
+PL-4) and access agreements (see PS-6) to mitigate the risk of also use rules of behavior (see
+multiple system accounts.
+Related Controls:  PS-6.
+| (9) AUTHENTICATOR MANAGEMENT  FEDERATED CREDENTIAL MANAGEMENT
+Assignment: Use the following external organizations to federate credentials: [
+organization-defined external organizations].
+Discussion:  Federation provides organizations with the capability to authenticate individuals
+and devices when conducting cross-organization activities involving the processing, storage, is
+or transmission of information. Using a specific list of approved external organizations for
+authentication helps to ensure that those organizations are vetted and trusted. lic
+tRelated Controls:  AU-7, AU-16. i
+is| (10) AUTHENTICATOR MANAGEMENT  DYNAMIC CREDENTIAL BINDING
+aAssignment: Bind identities and authenticators dynamically using the following rules: [
+organization-defined binding rules]. b
+Discussion:  Authentication requires some form of binding between an identity and the f
+eauthenticator that is used to confirm the identity. In conventional approaches, binding is
+festablished by pre-provisioning both the identity and the authenticator to the system. For
+example, the binding between a username (i.e., identity) and a password (i.e., authenticator) a
+is accomplished by provisioning the identity and authenticator as a pair in the system. New
+authentication techniques allow the binding between the identity and the authenticator to r
+be implemented external to a system. For example, with smartcard credentials, the identity
+and authenticator are bound together on the smartcard. Using these credentials, systems t
+scan authenticate identities that have not been pre-provisioned, dynamically provisioning the
+didentity after authentication. In these situations, organizations can anticipate the dynamic
+i.provisioning of identities. Pre-established trust relationships and mechanisms with o
+appropriate authorities to validate identities and related credentials are essential.
+.Related Controls:  AU-16, IA-5. 6
+8|- (11) AUTHENTICATOR MANAGEMENT  HARDWARE TOKENBASED AUTHENTICATION
+S[Withdrawn: Incorporated into IA-2(1) and IA-2(2).]
+| P(12) AUTHENTICATOR MANAGEMENT  BIOMETRIC AUTHENTICATION PERFORMANCE
+For biometric-based authentication, employ mechanisms that satisfy the following
+5Assignment: organization-defined biometric quality biometric quality requirements [
+5requirements ].
+Discussion:  Unlike password-based authentication, which provides exact matches of user-
+input passwords to stored passwords, biometric authentication does not provide exact
+matches. Depending on the type of biometric and the type of collection mechanism, there is
+likely to be some divergence from the presented biometric and the stored biometric that
+serves as the basis for comparison. Matching performance is the rate at which a biometric
+algorithm correctly results in a match for a genuine user and rejects other users. Biometric
+performance requirements include the match rate, which reflects the accuracy of the
+biometric matching algorithm used by a system.
+Related Controls:  AC-7.
+CHAPTER THREE   PAGE 141
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+| (13) AUTHENTICATOR MANAGEMENT  EXPIRATION OF CACHED AUTHENTICATORS
+Assignment: organization-defined time Prohibit the use of cached authenticators after [
+period].
+Discussion:  Cached authenticators are used to authenticate to the local machine when the
+network is not available. If cached authentication information is out of date, the validity of
+the authentication information may be questionable.
+Related Controls:  None.
+| (14) AUTHENTICATOR MANAGEMENT  MANAGING CONTENT OF PKI TRUST STORES
+For PKI-based authentication, employ an organization-wide methodology for managing the
+content of PKI trust stores installed across all platforms, including networks, operating
+systems, browsers, and applications.
+Discussion:  An organization-wide methodology for managing the content of PKI trust stores h
+helps improve the accuracy and currency of PKI-based authentication credentials across the
+organization. b
+aRelated Controls:  None.
+|- (15) AUTHENTICATOR MANAGEMENT  GSAAPPROVED PRODUCTS AND SERVICES is
+Use only General Services Administration-approved products and services for identity, v
+lcredential, and access management. a
+leDiscussion:  General Services Administration (GSA)-approved products and services are
+eproducts and services that have been approved through the GSA conformance program,
+owhere applicable, and posted to the GSA Approved Products List. GSA provides guidance for
+teams to design and build functional and secure systems that comply with Federal Identity, h
+rCredential, and Access Management (FICAM) policies, technologies, and implementation
+patterns.
+mRelated Controls:  None.
+t|-(16) AUTHENTICATOR MANAGEMENT  INPERSON OR TRUSTED EXTERNAL PARTY AUTHENTICATOR p
+/ISSUANCE /
+iAssignment: organization-defined types of and/or specific Require that the issuance of [.
+authenticatorsSelection: in person; by a trusted external partyg] be conducted [] before
+Assignment: organization-defined registration authority0[] with authorization by
+[Assignment: organization-defined personnel or roles]. 0
+Discussion:  Issuing authenticators in person or by a trusted external party enhances and /
+Sreinforces the trustworthiness of the identity proofing process.
+SRelated Controls:  IA-12.
+0|(17) AUTHENTICATOR MANAGEMENT  PRESENTATION ATTACK DETECTION FOR BIOMETRIC
+5 AUTHENTICATORS
+Employ presentation attack detection mechanisms for biometric-based authentication.
+Discussion:  Biometric characteristics do not constitute secrets. Such characteristics can be
+obtained by online web accesses, taking a picture of someone with a camera phone to
+obtain facial images with or without their knowledge, lifting from objects that someone has
+touched (e.g., a latent fingerprint), or capturing a high-resolution image (e.g., an iris
+pattern). Presentation attack detection technologies including liveness detection, can
+mitigate the risk of these types of attacks by making it difficult to produce artifacts intended
+to defeat the biometric sensor.
+Related Controls:  AC-7.
+|(18)  AUTHENTICATOR MANAGEMENT  PASSWORD MANAGERS
+CHAPTER THREE   PAGE 142
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: organization-defined password managers(a)Employ [] to generate and
+manage passwords; and
+Assignment: organization-defined controls(b)Protect the passwords using [].
+Discussion:  For systems where static passwords are employed, it is often a challenge to
+ensure that the passwords are suitably complex and that the same passwords are not
+employed on multiple systems. A password manager is a solution to this problem as it
+automatically generates and stores strong and different passwords for various accounts. A
+potential risk of using password managers is that adversaries can target the collection of
+passwords generated by the password manager. Therefore, the collection of passwords
+IA-5(1)(d)) and storing the requires protection including encrypting the passwords (see
+collection offline in a token.
+Related Controls:  None.
+References:  [FIPS 140-3], [FIPS 180-4], [FIPS 201-2], [FIPS 202], [SP 800-63-3], [SP 800-73-4], [SP
+p800-76-2], [SP 800-78-4], [IR 7539], [IR 7817], [IR 7849], [IR 7870], [IR 8040].

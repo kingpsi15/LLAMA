@@ -1,0 +1,17 @@
+PROGRAM MANAGEMENT CONTROLS
+[FISMA], [PRIVACT], and [OMB A-130] require federal agencies to develop, implement, and
+provide oversight for organization-wide information security and privacy programs to help
+ensure the confidentiality, integrity, and availability of federal information processed, stored,
+and transmitted by federal information systems and to protect individual privacy. The program
+management (PM) controls described in this section are implemented at the organization level
+and not directed at individual information systems. The PM controls have been designed to
+facilitate organizational compliance with applicable federal laws, executive orders, directives,
+FIPS 200] impact levels policies, regulations, and standards. The controls are independent of [h
+and, therefore, are not associated with the control baselines described in [SP 800-53B].
+lOrganizations document program management controls in the information security and privacy ic
+) and privacy program plans. The organization-wide information security program plan (see PM-1t
+nprogram plan (see PM-18) supplement system security and privacy plans (see PL-2) developed
+for organizational information systems. Together, the system security and privacy plans for the
+aindividual information systems and the information security and privacy program plans cover
+the totality of security and privacy controls employed by the organization.  b
+gQuick link to Program Management Summary Table

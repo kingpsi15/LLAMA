@@ -1,0 +1,43 @@
+PS-6 ACCESS AGREEMENTS
+Control:
+a.Develop and document access agreements for organizational systems;  T
+Assignment: organization-defined frequencyb.Review and update the access agreements [];  p
+band
+tc.Verify that individuals requiring access to organizational information and systems:   i
+i1.Sign appropriate access agreements prior to being granted access; and  s
+a2.Re-sign access agreements to maintain access to organizational systems when access
+Assignment: organization-defined frequencyagreements have been updated or []. b
+rDiscussion:  Access agreements include nondisclosure agreements, acceptable use agreements,
+rules of behavior, and conflict-of-interest agreements. Signed access agreements include an
+acknowledgement that individuals have read, understand, and agree to abide by the constraints c
+associated with organizational systems to which access is authorized. Organizations can use
+eelectronic signatures to acknowledge access agreements unless specifically prohibited by
+oorganizational policy.
+hRelated Controls:  AC-17, PE-2, PL-4, PS-2, PS-3, PS-6, PS-7, PS-8, SA-21, SI-12.
+:Control Enhancements:
+i| .(1) ACCESS AGREEMENTS  INFORMATION REQUIRING SPECIAL PROTECTION
+[Withdrawn: Incorporated into PS-3.]/
+| (2) ACCESS AGREEMENTS  CLASSIFIED INFORMATION REQUIRING SPECIAL PROTECTION0
+Verify that access to classified information requiring special protection is granted only to /
+Sindividuals who:
+S(a)Have a valid access authorization that is demonstrated by assigned official
+.government duties; 8
+(b)Satisfy associated personnel security criteria; and  -
+r(c)Have read, understood, and signed a nondisclosure agreement.  5
+Discussion:  Classified information that requires special protection includes collateral
+information, Special Access Program (SAP) information, and Sensitive Compartmented
+Information (SCI). Personnel security criteria reflect applicable laws, executive orders,
+directives, regulations, policies, standards, and guidelines.
+Related Controls:  None.
+|- (3) ACCESS AGREEMENTS  POSTEMPLOYMENT REQUIREMENTS
+(a)Notify individuals of applicable, legally binding post-employment requirements for
+protection of organizational information; and
+CHAPTER THREE    PAGE 226
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+(b)Require individuals to sign an acknowledgment of these requirements, if applicable, as
+part of granting initial access to covered information.
+Discussion:  Organizations consult with the Office of the General Counsel regarding matters
+of post-employment requirements on terminated individuals.
+Related Controls:  PS-4.
+References:  None.

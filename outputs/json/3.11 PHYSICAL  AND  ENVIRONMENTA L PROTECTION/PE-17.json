@@ -1,0 +1,9 @@
+{
+  "PolicyId": "PE-17",
+  "PolicyName": "ALTERNATE WORK SITE",
+  "Control": "Assignment:\norganization-defined alternate work sites\na.Determine and document the allowed for use by employees;\nAssignment: organization-defined b.\nEmploy the following controls at alternate work sites: [controls];\nc.Assess the effectiveness of controls at alternate work sites; and\nh.Provide a means for employees to communicate with information security and privacy personnel in case of incidents.",
+  "Discussion": "Alternate work sites include government facilities or the private residences of employees. While distinct from alternative processing sites, alternate work sites can provide readily available alternate locations during contingency operations. Organizations can define different sets of controls for specific alternate work sites or types of sites depending on the activities conducted at the sites. Implementing and assessing the effectiveness of organization-defined controls and providing a means to communicate incidents at alternate work sites supports the contingency planning activities of organizations.",
+  "ControlEnhancements": "None.",
+  "RelatedControls": "AC-17, AC-18, CP-7.",
+  "References": "[SP 800-46]"
+}

@@ -1,0 +1,51 @@
+:PS-3 PERSONNEL SCREENING
+sControl:
+oa.Screen individuals prior to authorizing access to the system; and
+gAssignment: organization-defined conditions b.Rescreen individuals in accordance with [
+0requiring rescreening and, where rescreening is so indicated, the frequency of rescreening].
+Discussion:  Personnel screening and rescreening activities reflect applicable laws, executive
+orders, directives, regulations, policies, standards, guidelines, and specific criteria established for
+the risk designations of assigned positions. Examples of personnel screening include background T
+investigations and agency checks. Organizations may define different rescreening conditions and
+8frequencies for personnel accessing systems based on types of information processed, stored, or
+transmitted by the systems. -
+5Related Controls:  AC-2, IA-4, MA-5, PE-2, PM-12, PS-2, PS-6, PS-7, SA-21.
+Control Enhancements:
+| (1) PERSONNEL SCREENING  CLASSIFIED INFORMATION
+Verify that individuals accessing a system processing, storing, or transmitting classified
+information are cleared and indoctrinated to the highest classification level of the
+information to which they have access on the system.
+Discussion:  Classified information is the most sensitive information that the Federal
+Government processes, stores, or transmits. It is imperative that individuals have the
+requisite security clearances and system access authorizations prior to gaining access to such
+CHAPTER THREE    PAGE 223
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+information. Access authorizations are enforced by system access controls (see AC-3) and
+flow controls (see AC-4).
+Related Controls:  AC-3, AC-4.
+| (2) PERSONNEL SCREENING  FORMAL INDOCTRINATION
+Verify that individuals accessing a system processing, storing, or transmitting types of
+classified information that require formal indoctrination, are formally indoctrinated for all
+the relevant types of information to which they have access on the system.
+Discussion:  Types of classified information that require formal indoctrination include Special
+Access Program (SAP), Restricted Data (RD), and Sensitive Compartmented Information (SCI).
+Related Controls:  AC-3, AC-4.
+| (3) PERSONNEL SCREENING  INFORMATION REQUIRING SPECIAL PROTECTIVE MEASURES
+iVerify that individuals accessing a system processing, storing, or transmitting information s
+requiring special protection: u
+li(a)Have valid access authorizations that are demonstrated by assigned official c
+government duties; and i
+iAssignment: organization-defined additional personnel screening criteria(b)Satisfy [].  s
+vDiscussion:  Organizational information that requires special protection includes controlled
+launclassified information. Personnel security criteria include position sensitivity background
+lescreening requirements.
+Related Controls:  None.
+| (4) PERSONNEL SCREENING  CITIZENSHIP REQUIREMENTSc
+rAssignment: Verify that individuals accessing a system processing, storing, or transmitting [
+organization-defined information typesAssignment: organization-defined ] meet [
+citizenship requirements ]. m
+hDiscussion:  None.
+sRelated Controls:  None.
+References:  [EO 13526], [EO 13587], [FIPS 199], [FIPS 201-2], [SP 800-60-1], [SP 800-60-2], [SP
+r800-73-4], [SP 800-76-2], [SP 800-78-4].

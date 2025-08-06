@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-41 PORT AND I/O DEVICE ACCESS",
+  "start_text": "SC-41 PORT AND I/O DEVICE ACCESS\nSelection: Physic",
+  "content": "SC-41 PORT AND I/O DEVICE ACCESS\nSelection: Physically; LogicallyAssignment: organization-defined Control:  [] disable or remove [\nconnection ports or input/output devices] onthe following systems or system components:\nAssignment: organization-defined systems or system components[].\nDiscussion:  Connection ports include Universal Serial Bus (USB), Thunderbolt, and Firewire (IEEE\n1394). Input/output (I/O) devices include compact disc and digital versatile disc drives. Disabling\nlicor removing such connection ports and I/O devices helps prevent the exfiltration of information\nifrom systems and the introduction of malicious code from those ports or devices. Physically o\ndisabling or removing ports and/or devices is the stronger action. is\nRelated Controls:  AC-20, MP-7. a\nControl Enhancements:  None.\neReferences:  None."
+}

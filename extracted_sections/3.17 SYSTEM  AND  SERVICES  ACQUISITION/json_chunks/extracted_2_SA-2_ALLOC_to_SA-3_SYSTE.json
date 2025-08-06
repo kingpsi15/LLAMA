@@ -1,0 +1,5 @@
+{
+  "subheading": "SA-2 ALLOCATION OF RESOURCES",
+  "start_text": "SA-2 ALLOCATION OF RESOURCES\nControl:\na.Determine ",
+  "content": "SA-2 ALLOCATION OF RESOURCES\nControl:\na.Determine the high-level information security and privacy requirements for the system or\nsystem service in mission and business process planning;\nb.Determine, document, and allocate the resources required to protect the system or system\nservice as part of the organizational capital planning and investment control process; and\nc.Establish a discrete line item for information security and privacy in organizational\nprogramming and budgeting documentation.\nDiscussion:  Resource allocation for information security and privacy includes funding for system\nand services acquisition, sustainment, and supply chain-related risks throughout the system\nTdevelopment life cycle.\nRelated Controls:  PL-7, PM-3, PM-11, SA-9, SR-3, SR-5. p\nlControl Enhancements:  None. ic\nReferences:  [OMB A-130], [SP 800-37], [SP 800-160-1]."
+}

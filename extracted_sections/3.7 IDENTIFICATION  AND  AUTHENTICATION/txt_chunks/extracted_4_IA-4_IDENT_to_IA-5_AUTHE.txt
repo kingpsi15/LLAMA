@@ -1,0 +1,87 @@
+hIA-4 IDENTIFIER MANAGEMENT
+eControl:  Manage system identifiers by:
+mAssignment: organization-defined personnel or rolesa.Receiving authorization from [] to assign
+han individual, group, role, service, or device identifier;
+b.Selecting an identifier that identifies an individual, group, role, service, or device;  :
+ic.Assigning the identifier to the intended individual, group, role, service, or device; and  .
+/Assignment: organization-defined time periodd.Preventing reuse of identifiers for [].  1
+Discussion:  Common device identifiers include Media Access Control (MAC) addresses, Internet 0
+8Protocol (IP) addresses, or device-unique token identifiers. The management of individual
+identifiers is not applicable to shared system accounts. Typically, individual identifiers are the I
+usernames of the system accounts assigned to those individuals. In such instances, the account
+PAC-2 use account names provided by IA-4. Identifier management also management activities of
+0addresses individual identifiers not necessarily associated with system accounts. Preventing the
+reuse of identifiers implies preventing the assignment of previously used individual, group, role, 5
+rservice, or device identifiers to different individuals, groups, roles, services, or devices. 5
+Related Controls:  AC-5, IA-2, IA-3, IA-5, IA-8, IA-9, IA-12, MA-4, PE-2, PE-3, PE-4, PL-4, PM-12, PS-
+3, PS-4, PS-5, SC-37.
+Control Enhancements:
+| (1) IDENTIFIER MANAGEMENT  PROHIBIT ACCOUNT IDENTIFIERS AS PUBLIC IDENTIFIERS
+Prohibit the use of system account identifiers that are the same as public identifiers for
+individual accounts.
+Discussion:  Prohibiting account identifiers as public identifiers applies to any publicly
+disclosed account identifier used for communication such as, electronic mail and instant
+CHAPTER THREE   PAGE 136
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+messaging. Prohibiting the use of systems account identifiers that are the same as some
+public identifier, such as the individual identifier section of an electronic mail address, makes
+it more difficult for adversaries to guess user identifiers. Prohibiting account identifiers as
+public identifiers without the implementation of other supporting controls only complicates
+guessing of identifiers. Additional protections are required for authenticators and credentials
+to protect the account.
+.Related Controls:  AT-2, PT-7
+| (2) IDENTIFIER MANAGEMENT  SUPERVISOR AUTHORIZATION
+[Withdrawn: Incorporated into IA-12(1).]
+| (3) IDENTIFIER MANAGEMENT  MULTIPLE FORMS OF CERTIFICATION
+[Withdrawn: Incorporated into IA-12(2).]
+is| (4) IDENTIFIER MANAGEMENT  IDENTIFY USER STATUS
+bAssignment: Manage individual identifiers by uniquely identifying each individual as [
+organization-defined characteristic identifying individual status ].a
+Discussion:  Characteristics that identify the status of individuals include contractors, foreign n
+nationals, and non-organizational users. Identifying the status of individuals by these
+characteristics provides additional information about the people with whom organizational a
+lapersonnel are communicating. For example, it might be useful for a government employee
+leto know that one of the individuals on an email message is a contractor.
+Related Controls:  None. e
+| c(5) IDENTIFIER MANAGEMENT  DYNAMIC MANAGEMENT
+rAssignment: organization-Manage individual identifiers dynamically in accordance with [g
+defined dynamic identifier policy ].f
+Discussion:  In contrast to conventional approaches to identification that presume static
+accounts for preregistered users, many distributed systems establish identifiers at runtime
+for entities that were previously unknown. When identifiers are established at runtime for s
+previously unknown entities, organizations can anticipate and provision for the dynamic d
+i.establishment of identifiers. Pre-established trust relationships and mechanisms with
+gappropriate authorities to validate credentials and related identifiers are essential.
+Related Controls:  AC-16. .
+8|- (6) IDENTIFIER MANAGEMENT  CROSSORGANIZATION MANAGEMENT
+SCoordinate with the following external organizations for cross-organization management
+.Assignment: organization-defined external organizationsof identifiers: []. S
+.Discussion:  Cross-organization identifier management provides the capability to identify 8
+0individuals, groups, roles, or devices when conducting cross-organization activities involving
+3the processing, storage, or transmission of information.
+Related Controls:  AU-16, IA-2, IA-5.
+|- (7) IDENTIFIER MANAGEMENT  INPERSON REGISTRATION
+[Withdrawn: Incorporated into IA-12(4).]
+| (8) IDENTIFIER MANAGEMENT  PAIRWISE PSEUDONYMOUS IDENTIFIERS
+Generate pairwise pseudonymous identifiers.
+Discussion:  A pairwise pseudonymous identifier is an opaque unguessable subscriber
+identifier generated by an identity provider for use at a specific individual relying party.
+Generating distinct pairwise pseudonymous identifiers with no identifying information about
+a subscriber discourages subscriber activity tracking and profiling beyond the operational
+CHAPTER THREE   PAGE 137
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+requirements established by an organization. The pairwise pseudonymous identifiers are
+unique to each relying party except in situations where relying parties can show a
+demonstrable relationship justifying an operational need for correlation, or all parties
+consent to being correlated in such a manner.
+. Related Controls:  IA-5
+| (9) IDENTIFIER MANAGEMENT  ATTRIBUTE MAINTENANCE AND PROTECTION
+Maintain the attributes for each uniquely identified individual, device, or service in
+Assignment: organization-defined protected central storage[].
+, it is important to Discussion:  For each of the entities covered in IA-2, IA-3, IA-8, and IA-9
+maintain the attributes for each authenticated entity on an ongoing basis in a central
+(protected) store.
+TRelated Controls:  None.
+References:  [FIPS 201-2], [SP 800-63-3], [SP 800-73-4], [SP 800-76-2], [SP 800-78-4]. p

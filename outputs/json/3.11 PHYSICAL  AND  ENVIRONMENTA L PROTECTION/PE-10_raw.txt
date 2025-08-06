@@ -1,0 +1,9 @@
+ {
+     "PolicyId": "PE-10",
+     "PolicyName": "EMERGENCY SHUTOFF",
+     "Control": "Assignment:\norganization-defined system or a.Provide the capability of shutting off power to individual system components in emergency situations;\nAssignment: organization-defined location b.Place emergency shutoff switches or devices by system or system component to facilitate access for authorized personnel;\nand c.Protect emergency power shutoff capability from unauthorized activation.",
+     "Discussion": "Emergency power shutoff primarily applies to organizational facilities that contain concentrations of system resources, including data centers, mainframe computer rooms, server rooms, and areas with computer-controlled machinery.",
+     "RelatedControls": "hRelated Controls: PE-15.",
+     "ControlEnhancements": "Control Enhancements:\nu\na(1) EMERGENCY SHUTOFF  ACCIDENTAL AND UNAUTHORIZED ACTIVATION\nn[Withdrawn: Incorporated into PE-10.]",
+     "References": "References: None. v"
+   }

@@ -1,0 +1,12 @@
+SI-15 INFORMATION OUTPUT FILTERING :
+iControl:  Validate information output fromthe following software programs and/or applications .
+Assignment: gto ensure that the information is consistent with the expected content: [
+organization-defined software programs and/or applications0].
+2Discussion:  Certain types of attacks, including SQL injections, produce output results that are
+Nunexpected or inconsistent with the output results that would be expected from software
+programs or applications. Information output filtering focuses on detecting extraneous content,
+Spreventing such extraneous content from being displayed, and then alerting monitoring tools
+that anomalous behavior has been discovered. 8
+Related Controls:  SI-3, SI-4, SI-11. 5
+Control Enhancements:  None.
+References:  None.

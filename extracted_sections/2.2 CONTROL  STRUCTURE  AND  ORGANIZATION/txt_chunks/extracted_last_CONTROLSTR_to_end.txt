@@ -1,0 +1,123 @@
+2.2CONTROLSTRUCTUREANDORGANIZATION
+Security and privacy controls described in this publication have a well-defined organization and
+structure. For ease of use in the security and privacy control selection and specification process,
+25familiesb Each family contains controls that are related to the controls are organized into 20 .
+aspecific topic of the family. A two-character identifier uniquely identifies each control family
+PS(e.g.,  for Personnel Security). Security and privacy controls may involve aspects of policy, n
+oversight, supervision, manual processes, and automated mechanisms that are implemented by
+asystems or actions by individuals. Table 1 lists the security and privacy control families and their
+associated family identifiers.  b
+TABLE 1: SECURITY AND PRIVACY CONTROL FAMILIES e
+hIDFAMILYIDFAMILY
+Access Control Physical and Environmental Protection  AC PE e
+oAwareness and Training Planning  AT PL
+:Audit and Accountability Program Management  AU PM
+tAssessment, Authorization, and Monitoring Personnel Security CA PS p
+/Configuration Management PII Processing and Transparency CM PT /
+Contingency Planning Risk Assessment CP RA i.
+gIdentification and Authentication System and Services Acquisition IA SA
+0Incident Response System and Communications Protection IR SC
+Maintenance  System and Information Integrity MA SI
+/Media Protection  Supply Chain Risk Management MP SR N
+0Families of controls contain base controls and control enhancements, which are directly related
+5to their base controls. Control enhancements either add functionality or specificity to a base
+control or increase the strength of a base control. Control enhancements are used in systems
+and environments of operation that require greater protection than the protection provided by
+the base control. The need for organizations to select and implement control enhancements is
+due to the potential adverse organizational or individual impacts or when organizations require
+additions to the base control functionality or assurance based on assessments of risk. The
+25 Of the 20 control families in NIST SP 800-53, 17 are aligned with the minimum security requirements in [FIPS 200].
+The Program Management (PM), PII Processing and Transparency (PT), and Supply Chain Risk Management (SR)
+families address enterprise-level program management, privacy, and supply chain risk considerations pertaining to
+federal mandates emergent since [FIPS 200].
+CHAPTER TWO  PAGE 8
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+alwaysselection and implementation of control enhancements  requires the selection and
+implementation of the base control.
+The families are arranged in alphabetical order, while the controls and control enhancements
+within each family are in numerical order. The order of the families, controls, and control
+notenhancements does  imply any logical progression, level of prioritization or importance, or
+order in which the controls or control enhancements are to be implemented. Rather, it reflects
+the order in which they were included in the catalog. Control designations are not re-used when
+a control is withdrawn.
+base controldiscussion Security and privacy controls have the following structure: a  section, a
+related controlscontrol enhancementsreferencessection, a  section, a  section, and a  section.
+Figure 1 illustrates the structure of a typical control. h
+Control IdentifierControl Name
+i sOrganization-defined Parameter
+aAU-4 AUDIT STORAGE CAPACITY
+laAssignment: organization-Control:  Allocate audit record storage capacity to accommodate [
+Base le
+defined audit record retention requirements].
+fControlr e
+Discussion:  Organizations consider the types of auditing to be performed and the audit
+processing requirements when allocating audit storage capacity. Allocating sufficient audit
+storage capacity reduces the likelihood of such capacity being exceeded and resulting in the a
+potential loss or reduction of auditing capability. e
+Related Controls:  AU-2, AU-5, AU-6, AU-7, AU-9, AU-11, AU-12, AU-14, SI-4. m
+tControl Enhancements:
+p Organization-defined Parameter
+/|(1) /AUDIT STORAGE CAPACITY  TRANSFER TO ALTERNATE STORAGE
+iAssignment: organization-defined frequencyOff-load audit records [] onto a different .Control o
+gEnhancementsystem or media than the system being audited.
+Discussion:  Off-loading is a process designed to preserve the confidentiality and .
+integrity of audit records by moving the records from the primary system to a secondary 2
+/It is a common process in systems with limited audit storage or alternate system.N
+Scapacity; the audit storage is used only in a transitory fashion until the system can
+communicate with the secondary or alternate system designated for storing the audit S
+records, at which point the information is transferred. .
+Related Controls:  None.
+r References:  None.5
+Sources for additional information related to the control
+FIGURE 1: CONTROL STRUCTURE
+controlThe  section prescribes a security or privacy capability to be implemented. Security and
+privacy capabilities are achieved by the activities or actions, automated or nonautomated,
+carried out by information systems and organizations. Organizations designate the responsibility
+for control development, implementation, assessment, and monitoring. Organizations have the
+CHAPTER TWO  PAGE 9
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+flexibility to implement the controls selected in whatever manner that satisfies organizational
+mission or business needs consistent with law, regulation, and policy.
+discussionThe  section provides additional information about a control. Organizations can use
+the information as needed when developing, tailoring, implementing, assessing, or monitoring
+controls. The information provides important considerations for implementing controls based
+on mission or business requirements, operational environments, or assessments of risk. The
+additional information can also explain the purpose of controls and often includes examples.
+Control enhancements may also include a separate discussion sectionwhen the discussion
+information is applicable only to a specific control enhancement.
+related controlsThe  section provides a list of controls from the control catalog that impact or
+support the implementation of a particular control or control enhancement, address a related h
+security or privacy capability, or are referenced in the discussion section. Control enhancements p
+are inherently related to their base control. Thus, related controls that are referenced in the
+base control are not repeated in the control enhancements. However, there may be related
+ncontrols identified for control enhancements that are not referenced in the base control (i.e.,
+the related control is only associated with the specific control enhancement). Controls may also a
+be related to enhancements of other base controls. When a control is designated as a related
+bcontrol, a corresponding designation is made on that control in its source location in the catalog
+fto illustrate the two-way relationship. Additionally, each control in a given family is inherently r
+related to the -1 control (Policy and Procedures) in the same family. Therefore, the relationship
+related between the -1 control and the other controls in the same family is not specified in the c
+controls section for each control. r
+control enhancementsThe  section provides statements of security and privacy capability that  m
+augment a base control. The control enhancements are numbered sequentially within each h
+control so that the enhancements can be easily identified when selected to supplement the
+/base control. Each control enhancement has a short subtitle to indicate the intended function or d
+i.capability provided by the enhancement. In the AU-4 example, if the control enhancement is
+selected, the control designation becomes AU-4(1). The numerical designation of a control
+enhancement is used only to identify that enhancement within the control. The designation is .
+not indicative of the strength of the control enhancement, level of protection, priority, degree of 2
+Nimportance, or any hierarchical relationship among the enhancements. Control enhancements
+are not intended to be selected independently. That is, if a control enhancement is selected, T
+then the corresponding base control is also selected and implemented.  P
+-referencesThe  section includes a list of applicable laws, policies, standards, guidelines, websites,
+26r The and other useful references that are relevant to a specific control or control enhancement.
+references section also includes hyperlinks to publications for obtaining additional information
+for control development, implementation, assessment, and monitoring.
+For some controls, additional flexibility is provided by allowing organizations to define specific
+values for designated parameters associated with the controls. Flexibility is achieved as part of a
+assignmentselectiontailoring process using  and  operations embedded within the controls and
+26 References are provided to assist organizations in understanding and implementing the security and privacy
+controls and are not intended to be inclusive or complete.
+CHAPTER TWO  PAGE 10

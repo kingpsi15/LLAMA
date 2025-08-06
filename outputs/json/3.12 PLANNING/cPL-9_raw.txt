@@ -1,0 +1,9 @@
+ {
+     "PolicyId": "cPL-9",
+     "PolicyName": "CENTRAL MANAGEMENT",
+     "Control": " Centrally manage [].  e",
+     "Discussion": "Central management refers to organization-wide management and implementation of selected controls and processes. This includes planning, implementing, assessing, authorizing, tand monitoring the organization-defined, centrally managed controls and processes.",
+     "ControlEnhancements": "None.",
+     "RelatedControls": "PL-8, PM-9.",
+     "References": "[OMB A-130], [SP 800-37]"
+   }

@@ -1,0 +1,17 @@
+PE-12 EMERGENCY LIGHTING
+Control:  Employ and maintain automatic emergency lighting for the system that activates in the
+event of a power outage or disruption and that covers emergency exits and evacuation routes
+within the facility.
+pDiscussion:  The provision of emergency lighting applies primarily to organizational facilities that
+contain concentrations of system resources, including data centers, server rooms, and lic
+mainframe computer rooms. Emergency lighting provisions for the system are described in the
+ncontingency plan for the organization. If emergency lighting for the system fails or cannot be
+provided, organizations consider alternate processing sites for power-related contingencies.
+Related Controls:  CP-2, CP-7.i la
+leControl Enhancements:
+| (1) EMERGENCY LIGHTING  ESSENTIAL MISSION AND BUSINESS FUNCTIONS
+cProvide emergency lighting for all areas within the facility supporting essential mission and
+business functions. r
+Discussion:  Organizations define their essential missions and functions. f
+Related Controls:  None.
+tReferences:  None. p

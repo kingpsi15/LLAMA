@@ -1,0 +1,5 @@
+{
+  "subheading": "SI-17 FAIL-SAFE PROCEDURES",
+  "start_text": "SI-17 FAIL-SAFE PROCEDURES\nControl:  Implementthe ",
+  "content": "SI-17 FAIL-SAFE PROCEDURES\nControl:  Implementthe indicated fail-safe procedures whenthe indicated failures occur:\nAssignment: organization-defined list of failure conditions and associated fail-safe procedures[].\nDiscussion:  Failure conditions include the loss of communications among critical system\ncomponents or between system components and operational facilities. Fail-safe procedures T\niinclude alerting operator personnel and providing specific instructions on subsequent steps to s\ntake. Subsequent steps may include doing nothing, reestablishing system settings, shutting down u\nlprocesses, restarting the system, or contacting designated organizational personnel. ic\nRelated Controls:  CP-12, CP-13, SC-24, SI-13.\nControl Enhancements:  None. a\nlReferences:  None. a"
+}

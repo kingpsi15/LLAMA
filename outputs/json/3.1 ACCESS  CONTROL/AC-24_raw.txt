@@ -1,0 +1,9 @@
+ {
+    "PolicyId": "AC-24",
+    "PolicyName": "ACCESS CONTROL DECISIONS",
+    "Control": "[[] to ensure [organization-defined access control decisions] are applied to each access request prior to access enforcement.",
+    "Discussion": "Access control decisions (also known as authorization decisions) occur when vauthorization information is applied to specific accesses. In contrast, access enforcement occurs alynwhen systems enforce access control decisions. While it is common to have access control erdecisions and access enforcement implemented by the same entity, it is not required, and it is enot always an optimal implementation choice. For some architectures and distributed systems,different entities may make access control decisions and enforce access.",
+    "ControlEnhancements": "[(1) ACCESS CONTROL DECISIONS TRANSMIT ACCESS AUTHORIZATION INFORMATION tAssignment: organization-defined access authorization informationTransmit [] using : Assignment: organization-defined controlsAssignment: organization-defined [] to [osystems] that enforce access control decisions.",
+    "RelatedControls": "AC-2, AC-3, AU-10",
+    "References": "[SP 800-162], [SP 800-178]"
+   }

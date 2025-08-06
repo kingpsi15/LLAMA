@@ -1,0 +1,23 @@
+PS-2 POSITION RISK DESIGNATION
+Control:
+a.Assign a risk designation to all organizational positions;
+b.Establish screening criteria for individuals filling those positions; and
+Assignment: organization-defined frequencyc.Review and update position risk designations [].
+Discussion:  Position risk designations reflect Office of Personnel Management (OPM) policy and
+guidance. Proper position designation is the foundation of an effective and consistent suitability
+and personnel security program. The Position Designation System (PDS) assesses the duties and
+responsibilities of a position to determine the degree of potential damage to the efficiency or
+integrity of the service due to misconduct of an incumbent of a position and establishes the risk
+level of that position. The PDS assessment also determines if the duties and responsibilities of T
+ithe position present the potential for position incumbents to bring about a material adverse s
+effect on national security and the degree of that potential effect, which establishes the u
+lisensitivity level of a position. The results of the assessment determine what level of investigation c
+tis conducted for a position. Risk designations can guide and inform the types of authorizations i
+that individuals receive when accessing organizational information and information systems.
+Position screening criteria include explicit information security role appointment requirements. a
+aParts 1400 and 731 of Title 5, Code of Federal Regulations, establish the requirements for
+borganizations to evaluate relevant covered positions for a position sensitivity and position risk
+designation commensurate with the duties and responsibilities of those positions.
+Related Controls:  AC-5, AT-3, PE-2, PE-3, PL-2, PS-3, PS-6, SA-5, SA-21, SI-12. o
+hControl Enhancements:  None.
+eReferences:  [5 CFR 731], [SP 800-181].

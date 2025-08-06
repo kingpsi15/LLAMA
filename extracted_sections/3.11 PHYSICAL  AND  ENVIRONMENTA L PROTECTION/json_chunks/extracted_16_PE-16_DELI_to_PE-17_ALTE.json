@@ -1,0 +1,5 @@
+{
+  "subheading": "PE-16 DELIVERY AND REMOVAL",
+  "start_text": "PE-16 DELIVERY AND REMOVAL\nControl:\nAssignment: or",
+  "content": "PE-16 DELIVERY AND REMOVAL\nControl:\nAssignment: organization-defined types of system componentsa.Authorize and control []\nentering and exiting the facility; and\nb.Maintain records of the system components.\nDiscussion:  Enforcing authorizations for entry and exit of system components may require\nrestricting access to delivery areas and isolating the areas from the system and media libraries.\nRelated Controls:  CM-3, CM-8, MA-2, MA-3, MP-5, PE-20, SR-2, SR-3, SR-4, SR-6.\nCHAPTER THREE   PAGE 190\nNISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS\n_________________________________________________________________________________________________\nControl Enhancements:  None.\nReferences:  None."
+}

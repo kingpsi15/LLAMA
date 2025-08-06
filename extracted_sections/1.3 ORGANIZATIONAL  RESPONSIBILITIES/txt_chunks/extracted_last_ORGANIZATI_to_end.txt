@@ -1,0 +1,83 @@
+control selection process can be part of an organization-wide risk management process, a
+13 the Risk Management Framework [SP 800-37], systems engineering process [SP 800-160-1],
+14the Cybersecurity Framework [NIST CSF], or the Privacy Framework [NIST PF]. The control
+selection criteria can be guided and informed by many factors, including mission and business
+needs, stakeholder protection needs, threats, vulnerabilities, and requirements to comply with
+federal laws, executive orders, directives, regulations, policies, standards, and guidelines. The
+combination of a catalog of security and privacy controls and a risk-based control selection
+process can help organizations comply with stated security and privacy requirements, obtain
+adequate security for their information systems, and protect the privacy of individuals.
+1.2TARGETAUDIENCE
+This publication is intended to serve a diverse audience, including:
+l•Individuals with system, information security, privacy, or risk management and oversight i c
+tresponsibilities, including authorizing officials, chief information officers, senior agency i
+information security officers, and senior agency officials for privacy; is
+•Individuals with system development responsibilities, including mission owners, program  a
+managers, system engineers, system security engineers, privacy engineers, hardware and b
+software developers, system integrators, and acquisition or procurement officials; f
+•o Individuals with logistical or disposition-related responsibilities, including program
+hmanagers, procurement officials, system integrators, and property managers;
+e•Individuals with security and privacy implementation and operations responsibilities,
+including mission or business owners, system owners, information owners or stewards,  m
+system administrators, continuity planners, and system security or privacy officers; h
+•Individuals with security and privacy assessment and monitoring responsibilities, including  :
+auditors, Inspectors General, system evaluators, control assessors, independent verifiers o
+and validators, and analysts; and r
+•Commercial entities, including industry partners, producing component products and  .
+systems, creating security and privacy technologies, or providing services or capabilities that 2
+Nsupport information security or privacy.
+1.3ORGANIZATIONALRESPONSIBILITIES     P
+0Managing security and privacy risks is a complex, multifaceted undertaking that requires:
+•5Well-defined security and privacy requirements for systems and organizations;
+•The use of trustworthy information system components based on state-of-the-practice
+hardware, firmware, and software development and acquisition processes;
+13 Risk management is an integral part of systems engineering, systems security engineering, and privacy engineering.
+14 [OMB A-130] requires federal agencies to implement the NIST Risk Management Framework for the selection of
+Framework for controls for federal information systems. [EO 13800] requires federal agencies to implement the NIST
+Improving Critical Infrastructure Cybersecurity to manage cybersecurity risk. The NIST frameworks are also available
+to nonfederal organizations as optional resources.
+CHAPTER ONE  PAGE3
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+•Rigorous security and privacy planning and system development life cycle management;
+•The application of system security and privacy engineering principles and practices to
+securely develop and integrate system components into information systems;
+•The employment of security and privacy practices that are properly documented and
+integrated into and supportive of the institutional and operational processes of
+organizations; and
+•Continuous monitoring of information systems and organizations to determine the ongoing
+effectiveness of controls, changes in information systems and environments of operation,
+and the state of security and privacy organization-wide.
+TOrganizations continuously assess the security and privacy risks to organizational operations and
+isassets, individuals, other organizations, and the Nation. Security and privacy risks arise from the
+planning and execution of organizational mission and business functions, placing information
+systems into operation, or continuing system operations. Realistic assessments of risk require a
+othorough understanding of the susceptibility to threats based on the specific vulnerabilities in
+isinformation systems and organizations and the likelihood and potential adverse impacts of
+v15 Risk assessments also require successful exploitations of such vulnerabilities by those threats.
+la16an understanding of privacy risks.
+To address the organization’s concerns about assessment and determination of risk, security
+and privacy requirements are satisfied with the knowledge and understanding of the f
+h17organizational risk management strategy. The risk management strategy considers the cost,
+schedule, performance, and supply chain issues associated with the design, development,
+racquisition, deployment, operation, sustainment, and disposal of organizational systems. A risk
+18management process is then applied to manage risk on an ongoing basis. :
+The catalog of security and privacy controls can be effectively used to protect organizations, :
+oindividuals, and information systems from traditional and advanced persistent threats and
+privacy risks arising from the processing of personally identifiable information (PII) in varied r
+operational, environmental, and technical scenarios. The controls can be used to demonstrate
+compliance with a variety of governmental, organizational, or institutional security and privacy 0
+8requirements. Organizations have the responsibility to select the appropriate security and
+Iprivacy controls, to implement the controls correctly, and to demonstrate the effectiveness of S
+19.the controls in satisfying security and privacy requirements. Security and privacy controls can S
+baselinesoverlaysalso be used in developing specialized  or  for unique or specialized missions or .
+0business applications, information systems, threat concerns, operational environments,
+203 technologies, or communities of interest.
+15 [SP 800-30] provides guidance on the risk assessment process.
+16 [IR 8062] introduces privacy risk concepts.
+17 [SP 800-39] provides guidance on risk management processes and strategies.
+18 [SP 800-37] provides a comprehensive risk management process.
+19 [SP 800-53A] provides guidance on assessing the effectiveness of controls.
+20 [SP 800-53B] provides guidance for tailoring security and privacy control baselines and for developing overlays to
+support the specific protection needs and requirements of stakeholders and their organizations.
+CHAPTER ONE  PAGE4

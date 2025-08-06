@@ -1,0 +1,37 @@
+SC-36 DISTRIBUTED PROCESSING AND STORAGE v
+Selection: Control:  Distribute the following processing and storage components across multiple [b
+physical locations; logical domainsAssignment: organization-defined processing and storage ]: [
+components]. e
+Discussion:  Distributing processing and storage across multiple physical locations or logical c
+adomains provides a degree of redundancy or overlap for organizations. The redundancy and
+eoverlap increase the work factor of adversaries to adversely impact organizational operations,
+oassets, and individuals. The use of distributed processing and storage does not assume a single
+primary processing or storage location. Therefore, it allows for parallel processing and storage. :
+Related Controls:  CP-6, CP-7, PL-8, SC-32. s
+Control Enhancements: o
+g| (1) DISTRIBUTED PROCESSING AND STORAGE  POLLING TECHNIQUES
+(a)Employ polling techniques to identify potential faults, errors, or compromises to the  .
+Assignment: organization-defined following processing and storage components: [2
+/distributed processing and storage components]; and N
+(b)Take the following actions in response to identified faults, errors, or compromises:  T
+Assignment: organization-definedactions[ ].
+Discussion:  Distributed processing and/or storage may be used to reduce opportunities for 0
+-adversaries to compromise the confidentiality, integrity, or availability of organizational
+information and systems. However, the distribution of processing and storage components r
+does not prevent adversaries from compromising one or more of the components. Polling
+compares the processing results and/or storage content from the distributed components
+and subsequently votes on the outcomes. Polling identifies potential faults, compromises, or
+errors in the distributed processing and storage components.
+Related Controls:  SI-4.
+| (2) DISTRIBUTED PROCESSING AND STORAGE  SYNCHRONIZATION
+Assignment: Synchronize the following duplicate systems or system components: [
+organization-defined duplicate systems or system components].
+CHAPTER THREE   PAGE 322
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  SC-36 and CP-9(6) require the duplication of systems or system components in
+distributed locations. The synchronization of duplicated and redundant services and data
+helps to ensure that information contained in the distributed locations can be used in the
+mission or business functions of organizations, as needed.
+Related Controls:  CP-9.
+References:  [SP 800-160-2].

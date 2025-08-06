@@ -1,0 +1,14 @@
+SI-16 MEMORY PROTECTION
+Control:  Implement the following controls to protect the system memory from unauthorized
+Assignment: organization-defined controlscode execution: [].
+Discussion:  Some adversaries launch attacks with the intent of executing code in non-executable
+regions of memory or in memory locations that are prohibited. Controls employed to protect
+memory include data execution prevention and address space layout randomization. Data
+CHAPTER THREE   PAGE 355
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+execution prevention controls can either be hardware-enforced or software-enforced with
+hardware enforcement providing the greater strength of mechanism.
+. Related Controls:  AC-25, SC-3, SI-7
+Control Enhancements:  None.
+References:  None.

@@ -1,0 +1,13 @@
+PE-4 ACCESS CONTROL FOR TRANSMISSION
+Assignment: organization-defined system distribution and Control:  Control physical access to [lic
+transmission linesAssignment: organization-defined ] within organizational facilities using [
+nsecurity controls].
+Discussion:  Security controls applied to system distribution and transmission lines prevent
+accidental damage, disruption, and physical tampering. Such controls may also be necessary to i
+prevent eavesdropping or modification of unencrypted transmissions. Security controls used to le
+fcontrol physical access to system distribution and transmission lines include disconnected or r
+locked spare jacks, locked wiring closets, protection of cabling by conduit or cable trays, and
+wiretapping sensors.
+rRelated Controls:  AT-3, IA-4, MP-2, MP-4, PE-2, PE-3, PE-5, PE-9, SC-7, SC-8. g
+rControl Enhancements:  None. o
+References:  None. h

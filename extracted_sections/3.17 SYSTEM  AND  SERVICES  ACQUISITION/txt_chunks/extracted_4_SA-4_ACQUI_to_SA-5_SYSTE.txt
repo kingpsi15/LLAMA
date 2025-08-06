@@ -1,0 +1,197 @@
+SA-4 ACQUISITION PROCESS
+Control:  Include the following requirements, descriptions, and criteria, explicitly or by reference,
+Selection (one or more): standardized contract language;Assignment: organization-using [ [
+defined contract language]] in the acquisition contract for the system, system component, or
+system service:
+a.Security and privacy functional requirements;
+b.Strength of mechanism requirements;
+c.Security and privacy assurance requirements;
+d.Controls needed to satisfy the security and privacy requirements.
+e.Security and privacy documentation requirements;
+if.Requirements for protecting security and privacy documentation;  s
+bg.Description of the system development environment and environment in which the system
+is intended to operate; a
+h.Allocation of responsibility or identification of parties responsible for information security,
+privacy, and supply chain risk management; and a
+li.Acceptance criteria.  a
+Discussion:  Security and privacy functional requirements are typically derived from the high-
+level security and privacy requirements described in SA-2. The derived requirements include e
+security and privacy capabilities, functions, and mechanisms. Strength requirements associated f
+hwith such capabilities, functions, and mechanisms include degree of correctness, completeness,
+gresistance to tampering or bypass, and resistance to direct attack. Assurance requirements
+finclude development processes, procedures, and methodologies as well as the evidence from
+mdevelopment and assessment activities that provide grounds for confidence that the required
+hSP 800-160-1] functionality is implemented and possesses the required strength of mechanism. [
+describes the process of requirements engineering as part of the system development life cycle. s
+Controls can be viewed as descriptions of the safeguards and protection capabilities appropriate o
+for achieving the particular security and privacy objectives of the organization and for reflecting
+/the security and privacy requirements of stakeholders. Controls are selected and implemented in 1
+.order to satisfy system requirements and include developer and organizational responsibilities. 6
+2Controls can include technical, administrative, and physical aspects. In some cases, the selection
+Nand implementation of a control may necessitate additional specification by the organization in
+the form of derived requirements or instantiated control parameter values. The derived T
+requirements and control parameter values may be necessary to provide the appropriate level of
+8implementation detail for controls within the system development life cycle.
+5Security and privacy documentation requirements address all stages of the system development
+life cycle. Documentation provides user and administrator guidance for the implementation and 5
+operation of controls. The level of detail required in such documentation is based on the security
+categorization or classification level of the system and the degree to which organizations depend
+on the capabilities, functions, or mechanisms to meet risk response expectations. Requirements
+can include mandated configuration settings that specify allowed functions, ports, protocols, and
+services. Acceptance criteria for systems, system components, and system services are defined in
+the same manner as the criteria for any organizational acquisition or procurement.
+, Related Controls:  CM-6, CM-8, PS-7, SA-3, SA-5, SA-8, SA-11, SA-15, SA-16, SA-17, SA-21, SR-3
+SR-5.
+Control Enhancements:
+CHAPTER THREE   PAGE 252
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+|(1) ACQUISITION PROCESS  FUNCTIONAL PROPERTIES OF CONTROLS
+Require the developer of the system, system component, or system service to provide a
+description of the functional properties of the controls to be implemented.
+Discussion:  Functional properties of security and privacy controls describe the functionality
+(i.e., security or privacy capability, functions, or mechanisms) visible at the interfaces of the
+controls and specifically exclude functionality and data structures internal to the operation
+of the controls.
+Related Controls:  None.
+| (2) ACQUISITION PROCESS  DESIGN AND IMPLEMENTATION INFORMATION FOR CONTROLS
+Require the developer of the system, system component, or system service to provide
+Selection (one or design and implementation information for the controls that includes: [
+Tmore): security-relevant external system interfaces; high-level design; low-level design;
+issource code or hardware schematics; Assignment: organization-defined design and [
+uimplementation informationAssignment: organization-defined level of detail]] at [].
+Discussion:  Organizations may require different levels of detail in the documentation for the a
+odesign and implementation of controls in organizational systems, system components, or
+isystem services based on mission and business requirements, requirements for resiliency s
+and trustworthiness, and requirements for analysis and testing. Systems can be partitioned v
+iinto multiple subsystems. Each subsystem within the system can contain one or more la
+modules. The high-level design for the system is expressed in terms of subsystems and the le
+interfaces between subsystems providing security-relevant functionality. The low-level r
+design for the system is expressed in terms of modules and the interfaces between modules
+providing security-relevant functionality. Design and implementation documentation can c
+ainclude manufacturer, version, serial number, verification hash signature, software libraries
+eused, date of purchase or download, and the vendor or download source. Source code and
+hardware schematics are referred to as the implementation representation of the system. o
+Related Controls:  None.
+s|,, (3) ACQUISITION PROCESS  DEVELOPMENT METHODS TECHNIQUES AND PRACTICES
+oRequire the developer of the system, system component, or system service to
+demonstrate the use of a system development life cycle process that includes: r
+Assignment: organization-defined systems engineering methods(a)[];  0
+0Assignment: organization-definedSelection (one or more): systems security; privacy (b)[ []
+engineering methods]; and
+SAssignment: organization-defined software development methods; testing, (c)[
+.evaluation, assessment, verification, and validation methods; and quality control S
+processes]. .
+Discussion:  Following a system development life cycle that includes state-of-the-practice
+3software development methods, systems engineering methods, systems security and privacy
+engineering methods, and quality control processes helps to reduce the number and severity
+of latent errors within systems, system components, and system services. Reducing the
+number and severity of such errors reduces the number of vulnerabilities in those systems,
+components, and services. Transparency in the methods and techniques that developers
+select and implement for systems engineering, systems security and privacy engineering,
+software development, component and system assessments, and quality control processes
+provides an increased level of assurance in the trustworthiness of the system, system
+component, or system service being acquired.
+Related Controls:  None.
+| (4) ACQUISITION PROCESS  ASSIGNMENT OF COMPONENTS TO SYSTEMS
+CHAPTER THREE   PAGE 253
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+[Withdrawn: Incorporated into CM-8(9).]
+|,, (5) ACQUISITION PROCESS  SYSTEM COMPONENT AND SERVICE CONFIGURATIONS
+Require the developer of the system, system component, or system service to:
+Assignment: organization-defined (a)Deliver the system, component, or service with [
+security configurations] implemented; and
+(b)Use the configurations as the default for any subsequent system, component, or
+service reinstallation or upgrade.
+Discussion:  Examples of security configurations include the U.S. Government Configuration
+Baseline (USGCB), Security Technical Implementation Guides (STIGs), and any limitations on
+functions, ports, protocols, and services. Security characteristics can include requiring that
+default passwords have been changed.
+Related Controls:  None.
+| (6) ACQUISITION PROCESS  USE OF INFORMATION ASSURANCE PRODUCTSu
+li(a)Employ only government off-the-shelf or commercial off-the-shelf information  c
+assurance and information assurance-enabled information technology products that i
+compose an NSA-approved solution to protect classified information when the
+anetworks used to transmit the information are at a lower classification level than the
+information being transmitted; and i
+(b)Ensure that these products have been evaluated and/or validated by NSA or in  le
+accordance with NSA-approved procedures. r
+Discussion:  Commercial off-the-shelf IA or IA-enabled information technology products used o
+cto protect classified information by cryptographic means may be required to use NSA-
+NSA CSFC]. approved key management. See [r
+Related Controls:  SC-8, SC-12, SC-13. f
+|- :(7) ACQUISITION PROCESS  NIAPAPPROVED PROTECTION PROFILES
+p(a)Limit the use of commercially provided information assurance and information
+/assurance-enabled information technology products to those products that have been /
+successfully evaluated against a National Information Assurance partnership (NIAP)-i.
+rapproved Protection Profile for a specific technology type, if such a profile exists; and g
+0(b)Require, if no NIAP-approved Protection Profile exists for a specific technology type
+0but a commercially provided information technology product relies on cryptographic
+functionality to enforce its security policy, that the cryptographic module is FIPS-
+Ivalidated or NSA-approved. S
+.] for Discussion:  See [NIAP CCEVS] for additional information on NIAP. See [NIST CMVPS
+additional information on FIPS-validated cryptographic modules. .
+Related Controls:  IA-7, SC-12, SC-13.
+| 5(8) ACQUISITION PROCESS  CONTINUOUS MONITORING PLAN FOR CONTROLS
+Require the developer of the system, system component, or system service to produce a
+plan for continuous monitoring of control effectiveness that is consistent with the
+continuous monitoring program of the organization.
+Discussion:  The objective of continuous monitoring plans is to determine if the planned,
+required, and deployed controls within the system, system component, or system service
+continue to be effective over time based on the inevitable changes that occur. Developer
+continuous monitoring plans include a sufficient level of detail such that the information can
+be incorporated into continuous monitoring programs implemented by organizations.
+Continuous monitoring plans can include the types of control assessment and monitoring
+CHAPTER THREE   PAGE 254
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+activities planned, frequency of control monitoring, and actions to be taken when controls
+fail or become ineffective.
+. Related Controls:  CA-7
+|,,, (9) ACQUISITION PROCESS  FUNCTIONS PORTS PROTOCOLS AND SERVICES IN USE
+Require the developer of the system, system component, or system service to identify the
+functions, ports, protocols, and services intended for organizational use.
+Discussion:  The identification of functions, ports, protocols, and services early in the system
+development life cycle (e.g., during the initial requirements definition and design stages)
+allows organizations to influence the design of the system, system component, or system
+service. This early involvement in the system development life cycle helps organizations
+avoid or minimize the use of functions, ports, protocols, or services that pose unnecessarily
+high risks and understand the trade-offs involved in blocking specific ports, protocols, or
+services or requiring system service providers to do so. Early identification of functions, is
+ports, protocols, and services avoids costly retrofitting of controls after the system,
+SA-9 describes the requirements for component, or system service has been implemented. lic
+external system services. Organizations identify which functions, ports, protocols, and t
+nservices are provided from external sources.
+Related Controls:  CM-7, SA-9. a
+l| a(10) ACQUISITION PROCESS  USE OF APPROVED PIV PRODUCTS
+Employ only information technology products on the FIPS 201-approved products list for
+Personal Identity Verification (PIV) capability implemented within organizational systems. e
+fDiscussion:  Products on the FIPS 201-approved products list meet NIST requirements for
+Personal Identity Verification (PIV) of Federal Employees and Contractors. PIV cards are used a
+for multi-factor authentication in systems and organizations.
+Related Controls:  IA-2, IA-8, PM-9. o
+h| (11) ACQUISITION PROCESS  SYSTEM OF RECORDS
+sAssignment: organization-defined Privacy Act requirementsInclude [] in the acquisition
+contract for the operation of a system of records on behalf of an organization to
+accomplish an organizational mission or function. o
+/Discussion: When, by contract, an organization provides for the operation of a system of 1
+.records to accomplish an organizational mission or function, the organization, consistent 6
+2PRIVACT] to be applied to the system of with its authority, causes the requirements of the [
+Nrecords.
+TRelated Controls:  PT-6.
+|. (12) ACQUISITION PROCESS  DATA OWNERSHIP8
+(a)Include organizational data ownership requirements in the acquisition contract; and  -
+r(b)Require all data to be removed from the contractor’s system and returned to the  5
+Assignment: organization-defined time frameorganization within [].
+Discussion: Contractors who operate a system that contains data owned by an organization
+initiating the contract have policies and procedures in place to remove the data from their
+systems and/or return the data in a time frame defined by the contract.
+Related Controls:  None.
+References:  [PRIVACT], [OMB A-130], [ISO 15408-1], [ISO 15408-2], [ISO 15408-3], [ISO 29148],
+[FIPS 140-3], [FIPS 201-2], [SP 800-35], [SP 800-37], [SP 800-70], [SP 800-73-4], [SP 800-137], [SP
+800-160-1], [SP 800-161], [IR 7539], [IR 7622], [IR 7676], [IR 7870], [IR 8062], [NIAP CCEVS], [NSA
+CSFC].
+CHAPTER THREE   PAGE 255
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

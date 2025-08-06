@@ -1,0 +1,11 @@
+SI-21 INFORMATION REFRESH
+hAssignment: organization-defined informationAssignment: organization-Control:  Refresh [] at [
+defined frequencies] or generate the information on demand and delete the information when p
+bno longer needed.
+tDiscussion:  Retaining information for longer than it is needed makes it an increasingly valuable i
+and enticing target for adversaries. Keeping information available for the minimum period of
+time needed to support organizational missions or business functions reduces the opportunity a
+afor adversaries to compromise, capture, and exfiltrate that information.
+lRelated Controls:  SI-14. e
+Control Enhancements:  None. e
+References:  [OMB A-130], [SP 800-160-2]. c

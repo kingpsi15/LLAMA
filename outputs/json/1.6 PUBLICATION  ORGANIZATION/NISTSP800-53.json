@@ -1,0 +1,9 @@
+{
+  "PolicyId": "NISTSP800-53",
+  "PolicyName": "Security and Privacy Controls for Information Systems and Organizations",
+  "Control": "CHAPTER TWO\n\u2022 provides a consolidated catalog of security and privacy controls including a discussion section to explain the purpose of each control and to provide useful information regarding control implementation and assessment, a list of related controls to show the relationships and dependencies among controls, and a list of references to supporting publications that may be helpful to organizations.",
+  "Discussion": "None",
+  "ControlEnhancements": "None",
+  "RelatedControls": "None",
+  "References": "None"
+}

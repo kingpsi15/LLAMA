@@ -1,0 +1,31 @@
+IR-7 INCIDENT RESPONSE ASSISTANCE
+Control:  Provide an incident response support resource, integral to the organizational incident
+response capability, that offers advice and assistance to users of the system for the handling and
+reporting of incidents.
+Discussion:  Incident response support resources provided by organizations include help desks,
+assistance groups, automated ticketing systems to open and track incident response tickets, and
+access to forensics services or consumer redress services, when required.
+Related Controls:  AT-2, AT-3, IR-4, IR-6, IR-8, PM-22, PM-26, SA-9, SI-18.
+Control Enhancements:
+|(1) INCIDENT RESPONSE ASSISTANCE  AUTOMATION SUPPORT FOR AVAILABILITY OF INFORMATION AND
+T SUPPORT
+Assignment: Increase the availability of incident response information and support using [p
+borganization-defined automated mechanisms].
+Discussion:  Automated mechanisms can provide a push or pull capability for users to obtain
+incident response assistance. For example, individuals may have access to a website to query n
+the assistance capability, or the assistance capability can proactively send incident response
+information to users (general distribution or targeted) as part of increasing understanding of a
+lacurrent response capabilities and support.
+Related Controls:  None.
+| (2) INCIDENT RESPONSE ASSISTANCE  COORDINATION WITH EXTERNAL PROVIDERSo
+(a)Establish a direct, cooperative relationship between its incident response capability  h
+rand external providers of system protection capability; and g
+f(b)Identify organizational incident response team members to the external providers.  r
+Discussion:  External providers of a system protection capability include the Computer :
+tNetwork Defense program within the U.S. Department of Defense. External providers help to
+protect, monitor, analyze, detect, and respond to unauthorized activity within organizational :
+information systems and networks. It may be beneficial to have agreements in place with
+oexternal providers to clarify the roles and responsibilities of each party before an incident
+occurs. /
+6Related Controls:  None.
+References:  [OMB A-130], [IR 7559]. /

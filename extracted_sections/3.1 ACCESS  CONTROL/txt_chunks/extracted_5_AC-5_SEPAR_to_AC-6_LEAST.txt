@@ -1,0 +1,18 @@
+AC-5 SEPARATION OF DUTIES
+Control:
+Assignment: organization-defined duties of individuals requiring a.Identify and document [
+hseparation]; and
+b.Define system access authorizations to support separation of duties.  u
+Discussion:  Separation of duties addresses the potential for abuse of authorized privileges and a
+helps to reduce the risk of malevolent activity without collusion. Separation of duties includes
+idividing mission or business functions and support functions among different individuals or roles, s
+conducting system support functions with different individuals, and ensuring that security v
+lpersonnel who administer access control functions do not also administer audit functions. a
+lBecause separation of duty violations can span systems and application domains, organizations e
+rconsider the entirety of systems and system components when developing policy on separation e
+AC-2, of duties. Separation of duties is enforced through the account management activities in
+caccess control mechanisms in AC-3, and identity management activities in IA-2, IA-4, and IA-12.
+gRelated Controls:  AC-2, AC-3, AC-6, AU-9, CM-5, CM-11, CP-9, IA-2, IA-4, IA-5, IA-12, MA-3, MA-5,
+fPS-2, SA-8, SA-17.
+:Control Enhancements:  None.
+References:  None. s

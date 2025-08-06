@@ -1,0 +1,20 @@
+MP-3 MEDIA MARKING h
+Control: e
+a.Mark system media indicating the distribution limitations, handling caveats, and applicable  m
+security markings (if any) of the information; and h
+sAssignment: organization-defined types of system mediab.Exempt [] from marking if the media
+Assignment: organization-definedcontrolled areasremain within [ ].
+rDiscussion:  Security marking refers to the application or use of human-readable security g
+attributes. Digital media includes diskettes, magnetic tapes, external or removable hard disk
+drives (e.g., solid state, magnetic), flash drives, compact discs, and digital versatile discs. Non-
+digital media includes paper and microfilm. Controlled unclassified information is defined by the 8
+National Archives and Records Administration along with the appropriate safeguarding and
+T32 CFR 2002]. Security dissemination requirements for such information and is codified in [
+markings are generally not required for media that contains information determined by P
+organizations to be in the public domain or to be publicly releasable. Some organizations may 0
+-require markings for public information indicating that the information is publicly releasable.
+rSystem media marking reflects applicable laws, executive orders, directives, policies, regulations,
+standards, and guidelines.
+Related Controls:  AC-16, CP-9, MP-5, PE-22, SI-12.
+Control Enhancements:  None.
+References:  [EO 13556], [32 CFR 2002], [FIPS 199].

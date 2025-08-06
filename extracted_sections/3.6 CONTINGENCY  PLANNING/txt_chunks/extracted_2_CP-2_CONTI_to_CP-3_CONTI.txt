@@ -1,0 +1,133 @@
+CP-2 CONTINGENCY PLAN
+Control:
+a.Develop a contingency plan for the system that:
+1.Identifies essential mission and business functions and associated contingency
+requirements;
+2.Provides recovery objectives, restoration priorities, and metrics;
+3.Addresses contingency roles, responsibilities, assigned individuals with contact
+information;
+4.Addresses maintaining essential mission and business functions despite a system
+disruption, compromise, or failure;
+i5.Addresses eventual, full system restoration without deterioration of the controls  s
+originally planned and implemented; u
+6.Addresses the sharing of contingency information; and  a
+Assignment: organization-defined personnel or roles7.Is reviewed and approved by [];
+Assignment: organization-defined key b.Distribute copies of the contingency plan to [ v
+lcontingency personnel (identified by name and/or by role) and organizational elements]; a
+c.Coordinate contingency planning activities with incident handling activities;
+Assignment: organization-defined frequencyd.Review the contingency plan for the system [];
+he.Update the contingency plan to address changes to the organization, system, or
+genvironment of operation and problems encountered during contingency plan
+fimplementation, execution, or testing;
+Assignment: organization-defined key :f.Communicate contingency plan changes to [
+contingency personnel (identified by name and/or by role) and organizational elements]; t
+/g.Incorporate lessons learned from contingency plan testing, training, or actual contingency  d
+iactivities into contingency testing and training; and .
+/h.Protect the contingency plan from unauthorized disclosure and modification.  1
+Discussion:  Contingency planning for systems is part of an overall program for achieving 0
+8continuity of operations for organizational mission and business functions. Contingency planning
+Iaddresses system restoration and implementation of alternative mission or business processes
+when systems are compromised or breached. Contingency planning is considered throughout the .
+Psystem development life cycle and is a fundamental part of the system design. Systems can be
+0designed for redundancy, to provide backup capabilities, and for resilience. Contingency plans
+reflect the degree of restoration required for organizational systems since not all systems need 5
+to fully recover to achieve the level of continuity of operations desired. System recovery 5
+objectives reflect applicable laws, executive orders, directives, regulations, policies, standards,
+guidelines, organizational risk tolerance, and system impact level.
+Actions addressed in contingency plans include orderly system degradation, system shutdown,
+fallback to a manual mode, alternate information flows, and operating in modes reserved for
+when systems are under attack. By coordinating contingency planning with incident handling
+activities, organizations ensure that the necessary planning activities are in place and activated in
+the event of an incident. Organizations consider whether continuity of operations during an
+. incident conflicts with the capability to automatically disable the system, as specified in IR-4(5)
+Incident response planning is part of contingency planning for organizations and is addressed in
+IR (Incident Response) family. the
+CHAPTER THREE   PAGE 116
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  CP-3, CP-4, CP-6, CP-7, CP-8, CP-9, CP-10, CP-11, CP-13, IR-4, IR-6, IR-8, IR-9,
+MA-6, MP-2, MP-4, MP-5, PL-2, PM-8, PM-11, SA-15, SA-20, SC-7, SC-23, SI-12.
+Control Enhancements:
+| (1) CONTINGENCY PLAN  COORDINATE WITH RELATED PLANS
+Coordinate contingency plan development with organizational elements responsible for
+related plans.
+Discussion:  Plans that are related to contingency plans include Business Continuity Plans,
+Disaster Recovery Plans, Critical Infrastructure Plans, Continuity of Operations Plans, Crisis
+Communications Plans, Insider Threat Implementation Plans, Data Breach Response Plans,
+Cyber Incident Response Plans, Breach Response Plans, and Occupant Emergency Plans.
+Related Controls:  None.
+| i(2) CONTINGENCY PLAN  CAPACITY PLANNINGs
+uConduct capacity planning so that necessary capacity for information processing,
+litelecommunications, and environmental support exists during contingency operations. c
+oDiscussion:  Capacity planning is needed because different threats can result in a reduction
+iof the available processing, telecommunications, and support services intended to support s
+essential mission and business functions. Organizations anticipate degraded operations v
+iduring contingency operations and factor the degradation into capacity planning. For la
+capacity planning, environmental support refers to any environmental factor for which the le
+organization determines that it needs to provide support in a contingency situation, even if r
+in a degraded state. Such determinations are based on an organizational assessment of risk,
+system categorization (impact level), and organizational risk tolerance. c
+Related Controls:  PE-11, PE-12, PE-13, PE-14, PE-18, SC-5. g
+|o (3) CONTINGENCY PLAN  RESUME MISSION AND BUSINESS FUNCTIONS
+Selection: all; essentialPlan for the resumption of [] mission and business functions within h
+pAssignment: organization-defined time period[] of contingency plan activation.
+/Discussion:  Organizations may choose to conduct contingency planning activities to resume d
+imission and business functions as part of business continuity planning or as part of business .
+gimpact analyses. Organizations prioritize the resumption of mission and business functions.
+0The time period for resuming mission and business functions may be dependent on the
+0severity and extent of the disruptions to the system and its supporting infrastructure.
+/Related Controls:  None. N
+T| (4) CONTINGENCY PLAN  RESUME ALL MISSION AND BUSINESS FUNCTIONS
+[Withdrawn: Incorporated into CP-2(3).]
+| (5) CONTINGENCY PLAN  CONTINUE MISSION AND BUSINESS FUNCTIONS-
+rSelection: all; essentialPlan for the continuance of [] mission and business functions with 5
+minimal or no loss of operational continuity and sustains that continuity until full system
+restoration at primary processing and/or storage sites.
+Discussion:  Organizations may choose to conduct the contingency planning activities to
+continue mission and business functions as part of business continuity planning or business
+impact analyses. Primary processing and/or storage sites defined by organizations as part of
+contingency planning may change depending on the circumstances associated with the
+contingency.
+Related Controls:  None.
+| (6) CONTINGENCY PLAN  ALTERNATE PROCESSING AND STORAGE SITES
+CHAPTER THREE   PAGE 117
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Selection: all; essentialPlan for the transfer of [] mission and business functions to
+alternate processing and/or storage sites with minimal or no loss of operational continuity
+and sustain that continuity through system restoration to primary processing and/or
+storage sites.
+Discussion:  Organizations may choose to conduct contingency planning activities for
+alternate processing and storage sites as part of business continuity planning or business
+impact analyses. Primary processing and/or storage sites defined by organizations as part of
+contingency planning may change depending on the circumstances associated with the
+contingency.
+Related Controls:  None.
+| (7) CONTINGENCY PLAN  COORDINATE WITH EXTERNAL SERVICE PROVIDERS
+Coordinate the contingency plan with the contingency plans of external service providers
+to ensure that contingency requirements can be satisfied. is
+uDiscussion:  When the capability of an organization to carry out its mission and business
+lifunctions is dependent on external service providers, developing a comprehensive and c
+ttimely contingency plan may become more challenging. When mission and business i
+functions are dependent on external service providers, organizations coordinate contingency
+planning activities with the external entities to ensure that the individual plans reflect the a
+overall contingency needs of the organization.
+Related Controls:  SA-9. le
+e| (8) CONTINGENCY PLAN  IDENTIFY CRITICAL ASSETS e
+fSelection: all; essentialIdentify critical system assets supporting [] mission and business
+functions. a
+eDiscussion:  Organizations may choose to identify critical assets as part of criticality analysis,
+business continuity planning, or business impact analyses. Organizations identify critical o
+system assets so that additional controls can be employed (beyond the controls routinely :
+timplemented) to help ensure that organizational mission and business functions can t
+continue to be conducted during contingency operations. The identification of critical :
+information assets also facilitates the prioritization of organizational resources. Critical o
+osystem assets include technical and operational aspects. Technical aspects include system
+/components, information technology services, information technology products, and 1
+.mechanisms. Operational aspects include procedures (i.e., manually executed operations) 6
+2and personnel (i.e., individuals operating technical controls and/or executing manual
+procedures). Organizational program protection plans can assist in identifying critical assets. N
+If critical assets are resident within or supported by external service providers, organizations
+SCP-2(7) as a control enhancement. consider implementing
+8Related Controls:  CM-8, RA-9.
+References:  [SP 800-34], [IR 8179].

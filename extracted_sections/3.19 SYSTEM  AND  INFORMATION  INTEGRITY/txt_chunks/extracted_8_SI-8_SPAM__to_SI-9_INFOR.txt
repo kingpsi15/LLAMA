@@ -1,0 +1,32 @@
+SI-8 SPAM PROTECTION
+Control:
+CHAPTER THREE   PAGE 348
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+a.Employ spam protection mechanisms at system entry and exit points to detect and act on
+unsolicited messages; and
+b.Update spam protection mechanisms when new releases are available in accordance with
+organizational configuration management policy and procedures.
+Discussion:  System entry and exit points include firewalls, remote-access servers, electronic mail
+servers, web servers, proxy servers, workstations, notebook computers, and mobile devices.
+Spam can be transported by different means, including email, email attachments, and web
+accesses. Spam protection mechanisms include signature definitions.
+Related Controls:  PL-9, SC-5, SC-7, SC-38, SI-3, SI-4.
+Control Enhancements:
+|  T(1) SPAM PROTECTION CENTRAL MANAGEMENT
+[Withdrawn: Incorporated into PL-9.]
+|  l(2) SPAM PROTECTION  AUTOMATIC UPDATESic
+tAssignment: organization-defined Automatically update spam protection mechanisms [i
+frequency].
+Discussion:  Using automated mechanisms to update spam protection mechanisms helps to v
+iensure that updates occur on a regular basis and provide the latest content and protection la
+capabilities. le
+Related Controls:  None. e
+f| (3) SPAM PROTECTION CONTINUOUS LEARNING CAPABILITY
+Implement spam protection mechanisms with a learning capability to more effectively
+eidentify legitimate communications traffic.
+Discussion:  Learning mechanisms include Bayesian filters that respond to user inputs that  m
+identify specific traffic as spam or legitimate by updating algorithm parameters and thereby
+pmore accurately separating types of traffic.
+/Related Controls:  None. d
+References:  [SP 800-45], [SP 800-177].

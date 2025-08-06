@@ -1,0 +1,22 @@
+mIR-5 INCIDENTMONITORING
+tControl:  Track and document incidents. t
+Discussion:  Documenting incidents includes maintaining records about each incident, the status /
+of the incident, and other pertinent information necessary for forensics as well as evaluating i.
+incident details, trends, and handling. Incident information can be obtained from a variety of g
+sources, including network monitoring, incident reports, incident response teams, user 0
+complaints, supply chain partners, audit monitoring, physical access monitoring, and user and 0
+8IR-4 provides information on the types of incidents that are appropriate administrator reports.
+for monitoring. I
+SRelated Controls:  AU-6, AU-7, IR-4, IR-6, IR-8, PE-6, PM-5, SC-5, SC-7, SI-3, SI-4, SI-7.
+Control Enhancements: 0
+3|,, (1) INCIDENT MONITORING  AUTOMATED TRACKING DATA COLLECTION AND ANALYSIS
+Assignment: Track incidents and collect and analyze incident information using [
+organization-defined automated mechanisms].
+Discussion:  Automated mechanisms for tracking incidents and collecting and analyzing
+incident information include Computer Incident Response Centers or other electronic
+databases of incidents and network monitoring devices.
+Related Controls:  None.
+References:  [SP 800-61].
+CHAPTER THREE   PAGE 156
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

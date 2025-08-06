@@ -1,0 +1,326 @@
+SI-4 SYSTEM MONITORING
+Control:
+CHAPTER THREE   PAGE 336
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+a.Monitor the system to detect:
+1.Attacks and indicators of potential attacks in accordance with the following monitoring
+Assignment: organization-defined monitoring objectivesobjectives: []; and
+2.Unauthorized local, network, and remote connections;
+b.Identify unauthorized use of the system throughthe following techniques and methods:
+Assignment: organization-defined techniques and methods[];
+c.Invoke internal monitoring capabilities or deploy monitoring devices:
+1. Strategically within the system to collect organization-determined essential information;
+2. At ad hoc locations within the system to track specific types of transactions of interest
+to the organization; h
+d.Analyze detected events and anomalies;  u
+e.Adjust the level of system monitoring activity when there is a change in risk to organizational  a
+ooperations and assets, individuals, other organizations, or the Nation;
+f.Obtain legal opinion regarding system monitoring activities; and
+iAssignment: organization-defined system monitoring informationAssignment: g.Provide [] to [ la
+organization-defined personnel or rolesSelection (one or more): as needed;Assignment: ] [ [le
+forganization-defined frequency]]. r
+Discussion:  System monitoring includes external and internal monitoring. External monitoring
+hincludes the observation of events occurring at external interfaces to the system. Internal
+monitoring includes the observation of events occurring within the system. Organizations g
+monitor systems by observing audit activities in real time or by observing other system aspects f
+msuch as access patterns, characteristics of access, and other actions. The monitoring objectives
+hguide and inform the determination of the events. System monitoring capabilities are achieved
+through a variety of tools and techniques, including intrusion detection and prevention systems,
+/malicious code protection software, scanning tools, audit record monitoring software, and
+inetwork monitoring software. .
+/Depending on the security architecture, the distribution and configuration of monitoring devices 1
+.may impact throughput at key internal and external boundaries as well as at other locations
+2across a network due to the introduction of network throughput latency. If throughput
+management is needed, such devices are strategically located and deployed as part of an N
+established organization-wide security architecture. Strategic locations for monitoring devices
+Sinclude selected perimeter locations and near key servers and server farms that support critical
+.applications. Monitoring devices are typically employed at the managed interfaces associated 8
+0. The information collected is a function of the organizational with controls SC-7 and AC-17
+3monitoring objectives and the capability of systems to support such objectives. Specific types of
+transactions of interest include Hypertext Transfer Protocol (HTTP) traffic that bypasses HTTP
+proxies. System monitoring is an integral part of organizational continuous monitoring and
+incident response programs, and output from system monitoring serves as input to those
+programs. System monitoring requirements, including the need for specific types of system
+AC-2g, AC-2(7), AC-2(12)(a), AC-17(1), AU-monitoring, may be referenced in other controls (e.g.,
+13, AU-13(1), AU-13(2), CM-3f, CM-6d, MA-3a, MA-4a, SC-5(3)(b), SC-7a, SC-7(24)(b), SC-18b, SC-
+43b). Adjustments to levels of system monitoring are based on law enforcement information,
+intelligence information, or other sources of information. The legality of system monitoring
+activities is based on applicable laws, executive orders, directives, regulations, policies,
+standards, and guidelines.
+CHAPTER THREE   PAGE 337
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  AC-2, AC-3, AC-4, AC-8, AC-17, AU-2, AU-6, AU-7, AU-9, AU-12, AU-13, AU-14,
+CA-7, CM-3, CM-6, CM-8, CM-11, IA-10, IR-4, MA-3, MA-4, PL-9, PM-12, RA-5, RA-10, SC-5, SC-7,
+SC-18, SC-26, SC-31, SC-35, SC-36, SC-37, SC-43, SI-3, SI-6, SI-7, SR-9, SR-10.
+Control Enhancements:
+|- (1) SYSTEM MONITORING  SYSTEMWIDE INTRUSION DETECTION SYSTEM
+Connect and configure individual intrusion detection tools into a system-wide intrusion
+detection system.
+Discussion:  Linking individual intrusion detection tools into a system-wide intrusion
+detection system provides additional coverage and effective detection capabilities. The
+information contained in one intrusion detection tool can be shared widely across the
+organization, making the system-wide detection capability more robust and powerful.
+Related Controls:  None. h
+|- (2) SYSTEM MONITORING  AUTOMATED TOOLS AND MECHANISMS FOR REALTIME ANALYSISu
+liEmploy automated tools and mechanisms to support near real-time analysis of events. c
+oDiscussion:  Automated tools and mechanisms include host-based, network-based,
+itransport-based, or storage-based event monitoring tools and mechanisms or security s
+information and event management (SIEM) technologies that provide real-time analysis of v
+iAutomated monitoring alerts and notifications generated by organizational systems.la
+techniques can create unintended privacy risks because automated controls may connect to le
+external or otherwise unrelated systems. The matching of records between these systems r
+may create linkages with unintended consequences. Organizations assess and document
+these risks in their privacy impact assessment and make determinations that are in c
+aalignment with their privacy program plan.
+Related Controls:  PM-23, PM-25.
+| (3) SYSTEM MONITORING  AUTOMATED TOOL AND MECHANISM INTEGRATION
+tEmploy automated tools and mechanisms to integrate intrusion detection tools and
+:mechanisms into access control and flow control mechanisms. /
+Discussion:  Using automated tools and mechanisms to integrate intrusion detection tools
+rand mechanisms into access and flow control mechanisms facilitates a rapid response to
+attacks by enabling the reconfiguration of mechanisms in support of attack isolation and
+elimination.
+Related Controls:  PM-23, PM-25.
+| (4) SYSTEM MONITORING  INBOUND AND OUTBOUND COMMUNICATIONS TRAFFICT
+P(a)Determine criteria for unusual or unauthorized activities or conditions for inbound
+and outbound communications traffic; 0
+5Assignment: organization-(b)Monitor inbound and outbound communications traffic [
+5defined frequencyAssignment: organization-defined unusual or unauthorized ] for [
+activities or conditions].
+Discussion:  Unusual or unauthorized activities or conditions related to system inbound and
+outbound communications traffic includes internal traffic that indicates the presence of
+malicious code or unauthorized use of legitimate code or credentials within organizational
+systems or propagating among system components, signaling to external systems, and the
+unauthorized exporting of information. Evidence of malicious code or unauthorized use of
+legitimate code or credentials is used to identify potentially compromised systems or system
+components.
+Related Controls:  None.
+CHAPTER THREE   PAGE 338
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+|- (5) SYSTEM MONITORING  SYSTEMGENERATED ALERTS
+Assignment: organization-defined personnel or rolesAlert [] when the following system-
+Assignment: generated indications of compromise or potential compromise occur: [
+organization-defined compromise indicators].
+Discussion:  Alerts may be generated from a variety of sources, including audit records or
+inputs from malicious code protection mechanisms, intrusion detection or prevention
+mechanisms, or boundary protection devices such as firewalls, gateways, and routers. Alerts
+can be automated and may be transmitted telephonically, by electronic mail messages, or by
+text messaging. Organizational personnel on the alert notification list can include system
+administrators, mission or business owners, system owners, information owners/stewards,
+senior agency information security officers, senior agency officials for privacy, system
+security officers, or privacy officers. In contrast to alerts generated by the system, alerts
+TSI-4(12) focus on information sources external to the system, generated by organizations in
+issuch as suspicious activity reports and reports on potential insider threats.
+Related Controls:  AU-4, AU-5, PE-6. b
+|- (6) SYSTEM MONITORING  RESTRICT NONPRIVILEGED USERSt
+[Withdrawn: Incorporated into AC-6(10).]
+v| (7) SYSTEM MONITORING  AUTOMATED RESPONSE TO SUSPICIOUS EVENTSa
+Assignment: organization-defined incident response personnel (identified by (a)Notify [b
+name and/or by role) ] of detected suspicious events; and
+e Assignment: organization-defined least-the following actions upon detection: [(b)Take
+fdisruptive actions to terminate suspicious events].
+Discussion:  Least-disruptive actions include initiating requests for human responses.
+Related Controls:  None.
+| (8) SYSTEM MONITORING  PROTECTION OF MONITORING INFORMATION:
+t[Withdrawn: Incorporated into SI-4.] p
+d| (9) SYSTEM MONITORING  TESTING OF MONITORING TOOLS AND MECHANISMS
+oAssignment: organization-defined Test intrusion-monitoring tools and mechanisms [
+/frequency]. 1
+6Discussion:  Testing intrusion-monitoring tools and mechanisms is necessary to ensure that
+the tools and mechanisms are operating correctly and continue to satisfy the monitoring 8
+objectives of organizations. The frequency and depth of testing depends on the types of
+Ttools and mechanisms used by organizations and the methods of deployment.
+PRelated Controls:  None.
+0| (10) SYSTEM MONITORING  VISIBILITY OF ENCRYPTED COMMUNICATIONS
+Assignment: organization-defined encrypted communications rMake provisions so that [
+trafficAssignment: organization-defined system monitoring tools and ] is visible to [
+mechanisms].
+Discussion:  Organizations balance the need to encrypt communications traffic to protect
+data confidentiality with the need to maintain visibility into such traffic from a monitoring
+perspective. Organizations determine whether the visibility requirement applies to internal
+encrypted traffic, encrypted traffic intended for external destinations, or a subset of the
+traffic types.
+Related Controls:  None.
+| (11) SYSTEM MONITORING  ANALYZE COMMUNICATIONS TRAFFIC ANOMALIES
+CHAPTER THREE   PAGE 339
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Analyze outbound communications traffic at the external interfaces to the system and
+Assignment: organization-defined interior points within the systemselected [] to discover
+anomalies.
+Discussion:  Organization-defined interior points include subnetworks and subsystems.
+Anomalies within organizational systems include large file transfers, long-time persistent
+connections, attempts to access information from unexpected locations, the use of unusual
+protocols and ports, the use of unmonitored network protocols (e.g., IPv6 usage during IPv4
+transition), and attempted communications with suspected malicious external addresses.
+Related Controls:  None.
+|- (12) SYSTEM MONITORING  AUTOMATED ORGANIZATIONGENERATED ALERTS
+Assignment: organization-defined personnel or rolesAssignment: Alert [] using [
+organization-defined automated mechanisms] when the following indications of
+inappropriate or unusual activities with security or privacy implications occur: is
+Assignment: organization-defined activities that trigger alerts[].
+liDiscussion:  Organizational personnel on the system alert notification list include system c
+tadministrators, mission or business owners, system owners, senior agency information i
+security officer, senior agency official for privacy, system security officers, or privacy officers.
+Automated organization-generated alerts are the security alerts generated by organizations a
+and transmitted using automated means. The sources for organization-generated alerts are
+bfocused on other entities such as suspicious activity reports and reports on potential insider
+threats. In contrast to alerts generated by the organization, alerts generated by the system f
+SI-4(5) focus on information sources that are internal to the systems, such as audit in e
+records. f
+aRelated Controls:  None.
+| (13) SYSTEM MONITORING  ANALYZE TRAFFIC AND EVENT PATTERNSf
+(a)Analyze communications traffic and event patterns for the system;
+t(b)Develop profiles representing common traffic and event patterns; and  t
+/(c)Use the traffic and event profiles in tuning system-monitoring devices.
+Discussion:  Identifying and understanding common communications traffic and event i.
+patterns help organizations provide useful information to system monitoring devices to g
+more effectively identify suspicious or anomalous traffic and events when they occur. Such 0
+information can help reduce the number of false positives and false negatives during system 0
+8monitoring.
+Related Controls:  None.S
+| (14) SYSTEM MONITORING  WIRELESS INTRUSION DETECTIONP
+0Employ a wireless intrusion detection system to identify rogue wireless devices and to
+5detect attack attempts and potential compromises or breaches to the system.
+Discussion:  Wireless signals may radiate beyond organizational facilities. Organizations
+proactively search for unauthorized wireless connections, including the conduct of thorough
+scans for unauthorized wireless access points. Wireless scans are not limited to those areas
+within facilities containing systems but also include areas outside of facilities to verify that
+unauthorized wireless access points are not connected to organizational systems.
+Related Controls:  AC-18, IA-3.
+| (15) SYSTEM MONITORING  WIRELESS TO WIRELINE COMMUNICATIONS
+Employ an intrusion detection system to monitor wireless communications traffic as the
+traffic passes from wireless to wireline networks.
+CHAPTER THREE   PAGE 340
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  Wireless networks are inherently less secure than wired networks. For example,
+wireless networks are more susceptible to eavesdroppers or traffic analysis than wireline
+networks. When wireless to wireline communications exist, the wireless network could
+become a port of entry into the wired network. Given the greater facility of unauthorized
+network access via wireless access points compared to unauthorized wired network access
+from within the physical boundaries of the system, additional monitoring of transitioning
+traffic between wireless and wired networks may be necessary to detect malicious activities.
+Employing intrusion detection systems to monitor wireless communications traffic helps to
+ensure that the traffic does not contain malicious code prior to transitioning to the wireline
+network.
+Related Controls:  AC-18.
+| (16) SYSTEM MONITORING  CORRELATE MONITORING INFORMATION
+hCorrelate information from monitoring tools and mechanisms employed throughout the
+system. p
+Discussion:  Correlating information from different system monitoring tools and mechanisms lic
+can provide a more comprehensive view of system activity. Correlating system monitoring t
+ntools and mechanisms that typically work in isolation—including malicious code protection
+software, host monitoring, and network monitoring—can provide an organization-wide
+monitoring view and may reveal otherwise unseen attack patterns. Understanding the a
+capabilities and limitations of diverse monitoring tools and mechanisms and how to
+maximize the use of information generated by those tools and mechanisms can help
+eorganizations develop, operate, and maintain effective monitoring programs. The correlation
+oof monitoring information is especially important during the transition from older to newer
+technologies (e.g., transitioning from IPv4 to IPv6 network protocols). h
+gRelated Controls:  AU-6.
+o| (17) SYSTEM MONITORING  INTEGRATED SITUATIONAL AWARENESS m
+hCorrelate information from monitoring physical, cyber, and supply chain activities to
+achieve integrated, organization-wide situational awareness. s
+dDiscussion:  Correlating monitoring information from a more diverse set of information
+i.sources helps to achieve integrated situational awareness. Integrated situational awareness o
+from a combination of physical, cyber, and supply chain monitoring activities enhances the
+capability of organizations to more quickly detect sophisticated attacks and investigate the
+SI-4(16), which methods and techniques employed to carry out such attacks. In contrast to
+correlates the various cyber monitoring information, integrated situational awareness is /
+Sintended to correlate monitoring beyond the cyber domain. Correlation of monitoring
+.information from multiple activities may help reveal attacks on organizations that are S
+operating across multiple attack vectors. .
+0Related Controls:  AU-16, PE-6, SR-2, SR-4, SR-6.
+r| (18) 5SYSTEM MONITORING  ANALYZE TRAFFIC AND COVERT EXFILTRATION
+Analyze outbound communications traffic at external interfaces to the system and at the
+Assignment: following interior points to detect covert exfiltration of information: [
+organization-defined interior points within the system].
+Discussion:  Organization-defined interior points include subnetworks and subsystems.
+Covert means that can be used to exfiltrate information include steganography.
+Related Controls:  None.
+| (19) SYSTEM MONITORING  RISK FOR INDIVIDUALS
+CHAPTER THREE   PAGE 341
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: organization-defined additional monitoringImplement [] of individuals who
+Assignment: organization-defined sourceshave been identified by [] as posing an increased
+level of risk.
+Discussion:  Indications of increased risk from individuals can be obtained from different
+sources, including personnel records, intelligence agencies, law enforcement organizations,
+and other sources. The monitoring of individuals is coordinated with the management, legal,
+security, privacy, and human resource officials who conduct such monitoring. Monitoring is
+conducted in accordance with applicable laws, executive orders, directives, regulations,
+policies, standards, and guidelines.
+Related Controls:  None.
+| (20) SYSTEM MONITORING  PRIVILEGED USERS
+Assignment: Implementthe following additional monitoring of privileged users: [
+organization-defined additional monitoring]. is
+uDiscussion:  Privileged users have access to more sensitive information, including security-
+lirelated information, than the general user population. Access to such information means c
+tthat privileged users can potentially do greater damage to systems and organizations than i
+non-privileged users. Therefore, implementing additional monitoring on privileged users
+helps to ensure that organizations can identify malicious activity at the earliest possible time a
+and take appropriate actions.
+Related Controls:  AC-18. le
+e| (21) SYSTEM MONITORING  PROBATIONARY PERIODSe
+fAssignment: Implementthe following additional monitoring of individuals during [
+organization-defined probationary periodAssignment: organization-defined additional ]: [a
+monitoring].
+Discussion:  During probationary periods, employees do not have permanent employment o
+status within organizations. Without such status or access to information that is resident on :
+tthe system, additional monitoring can help identify any potentially malicious activity or t
+inappropriate behavior. :
+oRelated Controls:  AC-18.
+| (22) SYSTEM MONITORING  UNAUTHORIZED NETWORK SERVICES/
+.Assignment: (a)Detect network services that have not been authorized or approved by [ 6
+2organization-defined authorization or approval processes]; and
+Selection (one or more): Audit; AlertAssignment: organization-defined personnel or (b)[ [
+Troleswhen detected. ]]
+Discussion:  Unauthorized or unapproved network services include services in service-
+0oriented architectures that lack organizational verification or validation and may therefore
+5be unreliable or serve as malicious rogues for valid services.
+Related Controls:  CM-7.
+|- (23) SYSTEM MONITORING  HOSTBASED DEVICES
+Assignment: Implementthe following host-based monitoring mechanisms at [
+organization-defined system componentsAssignment: organization-defined host-based ]: [
+monitoring mechanisms].
+Discussion:  Host-based monitoring collects information about the host (or system in which it
+resides). System components in which host-based monitoring can be implemented include
+servers, notebook computers, and mobile devices. Organizations may consider employing
+host-based monitoring mechanisms from multiple product developers or vendors.
+Related Controls:  AC-18, AC-19.
+CHAPTER THREE   PAGE 342
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+| (24) SYSTEM MONITORING  INDICATORS OF COMPROMISE
+Assignment: organization-defined personnel or rolesDiscover, collect, and distribute to [],
+Assignment: organization-defined sourcesprovided by []. indicators of compromise
+Discussion:  Indicators of compromise (IOC) are forensic artifacts from intrusions that are
+identified on organizational systems at the host or network level. IOCs provide valuable
+information on systems that have been compromised. IOCs can include the creation of
+registry key values. IOCs for network traffic include Universal Resource Locator or protocol
+elements that indicate malicious code command and control servers. The rapid distribution
+and adoption of IOCs can improve information security by reducing the time that systems
+Threat indicators, signatures, and organizations are vulnerable to the same exploit or attack.
+tactics, techniques, procedures, and other indicators of compromise may be available via
+government and non-government cooperatives, including the Forum of Incident Response
+Tand Security Teams, the United States Computer Emergency Readiness Team, the Defense
+isIndustrial Base Cybersecurity Information Sharing Program, and the CERT Coordination
+uCenter.
+licRelated Controls:  AC-18.
+n| (25) SYSTEM MONITORING  OPTIMIZE NETWORK TRAFFIC ANALYSIS
+aProvide visibility into network traffic at external and key internal system interfaces to
+optimize the effectiveness of monitoring devices.   i
+Discussion:  Encrypted traffic, asymmetric routing architectures, capacity and latency le
+limitations, and transitioning from older to newer technologies (e.g., IPv4 to IPv6 network r
+protocol transition) may result in blind spots for organizations when analyzing network
+traffic. Collecting, decrypting, pre-processing, and distributing only relevant traffic to c
+amonitoring devices can streamline the efficiency and use of devices and optimize traffic
+eanalysis.
+Related Controls:  None.  m
+References:  [OMB A-130], [FIPS 140-3], [SP 800-61], [SP 800-83], [SP 800-92], [SP 800-94], [SP t
+s800-137].

@@ -1,0 +1,43 @@
+oAC-9 PREVIOUS LOGON NOTIFICATION
+Control:  Notify the user, upon successful logon to the system, of the date and time of the last a
+alogon.
+lDiscussion:  Previous logon notification is applicable to system access via human user interfaces e
+rand access to systems that occurs in other types of architectures. Information about the last e
+successful logon allows the user to recognize if the date and time provided is not consistent with
+cthe user’s last access.
+gRelated Controls:  AC-7, PL-4.
+oControl Enhancements:
+h| (1) PREVIOUS LOGON NOTIFICATION  UNSUCCESSFUL LOGONSt
+Notify the user, upon successful logon, of the number of unsuccessful logon attempts since :
+the last successful logon. o
+Discussion:  Information about the number of unsuccessful logon attempts since the last r
+1successful logon allows the user to recognize if the number of unsuccessful logon attempts is
+6consistent with the user’s actual logon attempts.
+8Related Controls:  None.
+| (2) PREVIOUS LOGON NOTIFICATION  SUCCESSFUL AND UNSUCCESSFUL LOGONS
+Selection: successful logons; Notify the user, upon successful logon, of the number of [P
+unsuccessful logon attempts; bothAssignment: organization-defined time period] during [].
+Discussion:  Information about the number of successful and unsuccessful logon attempts 5
+rwithin a specified time period allows the user to recognize if the number and type of logon 5
+attempts are consistent with the user’s actual logon attempts.
+Related Controls:  None.
+| (3) PREVIOUS LOGON NOTIFICATION  NOTIFICATION OF ACCOUNT CHANGES
+Assignment: organization-defined Notify the user, upon successful logon, of changes to [
+security-related characteristics or parameters of the user’s accountAssignment: ] during [
+organization-defined time period].
+Discussion:  Information about changes to security-related account characteristics within a
+specified time period allows users to recognize if changes were made without their
+knowledge.
+CHAPTER THREE   PAGE 41
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  None.
+|  (4) PREVIOUS LOGON NOTIFICATION  ADDITIONAL LOGON INFORMATION
+Notify the user, upon successful logon, of the following additional information:
+Assignment: organization-defined additional information[].
+Discussion:Organizations can specify additional information to be provided to users upon
+logon, including the location of the last logon. User location is defined as information that
+can be determined by systems, such as Internet Protocol (IP) addresses from which network
+logons occurred, notifications of local logons, or device identifiers.
+Related Controls:  None.
+References:  None.

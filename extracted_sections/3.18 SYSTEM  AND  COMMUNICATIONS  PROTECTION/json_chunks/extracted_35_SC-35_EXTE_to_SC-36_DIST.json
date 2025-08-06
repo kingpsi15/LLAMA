@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-35 EXTERNAL MALICIOUS CODE IDENTIFICATION",
+  "start_text": "SC-35 EXTERNAL MALICIOUS CODE IDENTIFICATION\nContr",
+  "content": "SC-35 EXTERNAL MALICIOUS CODE IDENTIFICATION\nControl:  Include system components that proactively seek to identify network-based malicious\ncode or malicious websites.\nDiscussion:  External malicious code identification differs from decoys in SC-26 in that the\ncomponents actively probe networks, including the Internet, in search of malicious code\ncontained on external websites. Like decoys, the use of external malicious code identification\ntechniques requires some supporting isolation measures to ensure that any malicious code\ndiscovered during the search and subsequently executed does not infect organizational systems.\nVirtualization is a common technique for achieving such isolation. T\nRelated Controls:  SC-7, SC-26, SC-44, SI-3, SI-4.\nlControl Enhancements:  None. ic\noReferences:  None."
+}

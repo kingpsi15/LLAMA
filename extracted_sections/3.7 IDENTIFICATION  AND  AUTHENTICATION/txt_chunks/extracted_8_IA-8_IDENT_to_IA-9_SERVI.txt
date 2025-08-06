@@ -1,0 +1,83 @@
+IA-8 IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS)
+Control:  Uniquely identify and authenticate non-organizational users or processes acting on
+behalf of non-organizational users.
+CHAPTER THREE   PAGE 143
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  Non-organizational users include system users other than organizational users
+explicitly covered by IA-2. Non-organizational users are uniquely identified and authenticated for
+accesses other than those explicitly identified and documented in AC-14. Identification and
+authentication of non-organizational users accessing federal systems may be required to protect
+federal, proprietary, or privacy-related information (with exceptions noted for national security
+systems). Organizations consider many factors—including security, privacy, scalability, and
+practicality—when balancing the need to ensure ease of use for access to federal information
+and systems with the need to protect and adequately mitigate risk.
+Related Controls:  AC-2, AC-6, AC-14, AC-17, AC-18, AU-6, IA-2, IA-4, IA-5, IA-10, IA-11, MA-4, RA-
+3, SA-4, SC-8.
+Control Enhancements:
+(-)|T(1) IDENTIFICATION AND AUTHENTICATION NONORGANIZATIONAL USERS  ACCEPTANCE OF PIV
+is CREDENTIALS FROM OTHER AGENCIES
+Accept and electronically verify Personal Identity Verification-compliant credentials from b
+other federal agencies. a
+Discussion:  Acceptance of Personal Identity Verification (PIV) credentials from other federal n
+isagencies applies to both logical and physical access control systems. PIV credentials are
+vthose credentials issued by federal agencies that conform to FIPS Publication 201 and
+lasupporting guidelines. The adequacy and reliability of PIV card issuers are addressed and
+leSP 800-79-2].  authorized using [
+Related Controls:  PE-3.
+(-)|(2)c IDENTIFICATION AND AUTHENTICATION NONORGANIZATIONAL USERS  ACCEPTANCE OF EXTERNAL
+AUTHENTICATORSr
+(a)Accept only external authenticators that are NIST-compliant; and  f
+(b)Document and maintain a list of accepted external authenticators.
+tDiscussion:  Acceptance of only NIST-compliant external authenticators applies to t
+organizational systems that are accessible to the public (e.g., public-facing websites). :
+External authenticators are issued by nonfederal government entities and are compliant o
+oSP 800-63B]. Approved external authenticators meet or exceed the minimum Federal with [
+Government-wide technical, security, privacy, and organizational maturity requirements. /
+Meeting or exceeding Federal requirements allows Federal Government relying parties to .
+trust external authenticators in connection with an authentication transaction at a specified 2
+/authenticator assurance level. N
+Related Controls:  None. T
+(-)|-(3) IDENTIFICATION AND AUTHENTICATION NONORGANIZATIONAL USERS  USE OF FICAMAPPROVED .
+0PRODUCTS
+3[Withdrawn: Incorporated into IA-8(2).]
+(-)| (4) IDENTIFICATION AND AUTHENTICATION NONORGANIZATIONAL USERS  USE OF DEFINED PROFILES
+Assignment: organization-Conform to the following profiles for identity management [
+defined identity management profiles].
+Discussion:  Organizations define profiles for identity management based on open identity
+management standards. To ensure that open identity management standards are viable,
+robust, reliable, sustainable, and interoperable as documented, the Federal Government
+assesses and scopes the standards and technology implementations against applicable laws,
+executive orders, directives, policies, regulations, standards, and guidelines.
+Related Controls:  None.
+CHAPTER THREE   PAGE 144
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+(-)|-(5) IDENTIFICATION AND AUTHENTICATION NONORGANIZATIONAL USERS  ACCEPTANCE OF PIVI
+CREDENTIALS
+Assignment: organization-Accept and verify federated or PKI credentials that meet [
+defined policy ].
+Discussion:  Acceptance of PIV-I credentials can be implemented by PIV, PIV-I, and other
+commercial or external identity providers. The acceptance and verification of PIV-I-compliant
+credentials apply to both logical and physical access control systems. The acceptance and
+verification of PIV-I credentials address nonfederal issuers of identity cards that desire to
+interoperate with United States Government PIV systems and that can be trusted by Federal
+Government-relying parties. The X.509 certificate policy for the Federal Bridge Certification
+Authority (FBCA) addresses PIV-I requirements. The PIV-I card is commensurate with the PIV
+credentials as defined in cited references. PIV-I credentials are the credentials issued by a
+TPIV-I provider whose PIV-I certificate policy maps to the Federal Bridge PIV-I Certificate
+isPolicy. A PIV-I provider is cross-certified with the FBCA (directly or through another PKI
+ubridge) with policies that have been mapped and approved as meeting the requirements of
+lithe PIV-I policies defined in the FBCA certificate policy. c
+oRelated Controls:  None.
+(-)| (6) IDENTIFICATION AND AUTHENTICATION NONORGANIZATIONAL USERS  DISASSOCIABILITYa
+Implement the following measures to disassociate user attributes or identifier assertion i
+relationships among individuals, credential service providers, and relying parties: le
+fAssignment: organization-defined measures[]. r
+Discussion:  Federated identity solutions can create increased privacy risks due to the
+tracking and profiling of individuals. Using identifier mapping tables or cryptographic c
+techniques to blind credential service providers and relying parties from each other or to
+emake identity attributes less visible to transmitting parties can reduce these privacy risks.
+Related Controls:  None. m
+References:  [OMB A-130], [FED PKI], [FIPS 201-2], [SP 800-63-3], [SP 800-79-2], [SP 800-116], [IR t
+s8062].

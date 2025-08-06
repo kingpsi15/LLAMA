@@ -1,0 +1,12 @@
+aAT-6 TRAINING FEEDBACK
+Control:  Provide feedback on organizational training results to the following personnel f
+mAssignment: organization-defined frequencyAssignment: organization-defined personnel[]: [].
+tDiscussion:  Training feedback includes awareness training results and role-based training results. t
+Training results, especially failures of personnel in critical roles, can be indicative of a potentially :
+serious problem. Therefore, it is important that senior managers are made aware of such o
+osituations so that they can take appropriate response actions. Training feedback supports the
+/AT-2b and AT-3b. evaluation and update of organizational training described in 1
+Related Controls:  None. 0
+Control Enhancements:  None. N
+References:  None.
+CHAPTER THREE   PAGE 64

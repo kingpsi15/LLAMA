@@ -1,0 +1,9 @@
+{
+  "PolicyId": "MP-8",
+  "PolicyName": "MEDIA DOWNGRADING",
+  "Control": "hsAssignment: organization-defined system media downgrading processa.Establish [] that ... d.Downgrade the identified system media using the established process.",
+  "Discussion": "Media downgrading applies to digital and non-digital media subject to release 0 outside of the organization, whether the media is considered removable or not. When applied to 5system media, the downgrading process removes information from the media, typically by security category or classification level, such that the information cannot be retrieved or reconstructed. Downgrading of media includes redacting information to enable wider release and distribution. Downgrading ensures that empty space on the media is devoid of information.\nOrganizations can document the media downgrading process by providing information, such as the downgrading technique employed, the identification number of the downgraded media, and the identity of the individual that authorized and/or performed the downgrading action.",
+  "ControlEnhancements": "(1) MEDIA DOWNGRADING  DOCUMENTATION OF PROCESS\nDocument system media downgrading actions.\nCHAPTER THREE   PAGE 177; (2) MEDIA DOWNGRADING  EQUIPMENT TESTING\nAssignment: organization-defined Test downgrading equipment and procedures [frequency]\nDiscussion:  None.\nRelated Controls:  None.; (3) MEDIA DOWNGRADING  CONTROLLED UNCLASSIFIED INFORMATION\ndowngrade system media containing controlled unclassified information prior to public s release.\nliDiscussion:  The downgrading of controlled unclassified information uses approved c sanitization tools, techniques, and procedures.; (4) MEDIA DOWNGRADING  CLASSIFIED INFORMATION\nDowngrade system media containing classified information prior to release to individuals without required access authorizations.",
+  "RelatedControls": "None.",
+  "References": "[32 CFR 2002], [NSA MEDIA].\nCHAPTER THREE   PAGE 178"
+}

@@ -1,0 +1,37 @@
+PE-11 EMERGENCY POWER le
+Selection (one or more): an Control:  Provide an uninterruptible power supply to facilitate [e
+orderly shutdown of the system; transition of the system to long-term alternate power] in the
+hevent of a primary power source loss.
+eDiscussion:  An uninterruptible power supply (UPS) is an electrical system or mechanism that
+provides emergency power when there is a failure of the main power source. A UPS is typically o
+used to protect computers, data centers, telecommunication equipment, or other electrical :
+tequipment where an unexpected power disruption could cause injuries, fatalities, serious t
+mission or business disruption, or loss of data or information. A UPS differs from an emergency :
+power system or backup generator in that the UPS provides near-instantaneous protection from o
+ounanticipated power interruptions from the main power source by providing energy stored in
+/batteries, supercapacitors, or flywheels. The battery duration of a UPS is relatively short but 1
+.provides sufficient time to start a standby power source, such as a backup generator, or properly 6
+2shut down the system.
+Related Controls:  AT-3, CP-2, CP-7.I
+SControl Enhancements:
+0|—   (1) EMERGENCY POWER  ALTERNATE POWER SUPPLY MINIMAL OPERATIONAL CAPABILITY
+Selection: manually; Provide an alternate power supply for the system that is activated [3
+automatically] and that can maintain minimally required operational capability in the
+event of an extended loss of the primary power source.
+Discussion:  Provision of an alternate power supply with minimal operating capability can be
+satisfied by accessing a secondary commercial power supply or other external power supply.
+Related Controls:  None.
+|—-  (2) EMERGENCY POWER  ALTERNATE POWER SUPPLY SELFCONTAINED
+Selection: manually; Provide an alternate power supply for the system that is activated [
+automatically] and that is:
+(a)Self-contained;
+CHAPTER THREE   PAGE 187
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+(b)Not reliant on external power generation; and
+Selection: minimally required operational capability; full (c)Capable of maintaining [
+operational capability] in the event of an extended loss of the primary power source.
+Discussion:  The provision of a long-term, self-contained power supply can be satisfied by
+using one or more generators with sufficient capacity to meet the needs of the organization.
+Related Controls:  None.
+References:  None.

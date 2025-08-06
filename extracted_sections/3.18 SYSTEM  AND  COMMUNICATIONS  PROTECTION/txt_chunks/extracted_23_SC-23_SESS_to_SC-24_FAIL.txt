@@ -1,0 +1,39 @@
+NSC-23 SESSION AUTHENTICITY
+Control:  Protect the authenticity of communications sessions. .
+8Discussion:  Protecting session authenticity addresses communications protection at the session
+level, not at the packet level. Such protection establishes grounds for confidence at both ends of
+3communications sessions in the ongoing identities of other parties and the validity of transmitted
+information. Authenticity protection includes protecting against “man-in-the-middle” attacks,
+session hijacking, and the insertion of false information into sessions.
+Related Controls:  AU-10, SC-8, SC-10, SC-11.
+Control Enhancements:
+| (1) SESSION AUTHENTICITY  INVALIDATE SESSION IDENTIFIERS AT LOGOUT
+Invalidate session identifiers upon user logout or other session termination.
+Discussion:  Invalidating session identifiers at logout curtails the ability of adversaries to
+capture and continue to employ previously valid session IDs.
+CHAPTER THREE   PAGE 314
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  None.
+|-  (2) SESSION AUTHENTICITY  USERINITIATED LOGOUTS AND MESSAGE DISPLAYS
+[Withdrawn: Incorporated into AC-12(1).]
+|- (3) SESSION AUTHENTICITY  UNIQUE SYSTEMGENERATED SESSION IDENTIFIERS
+Assignment: organization-Generate a unique session identifier for each session with [
+defined randomness requirements] and recognize only session identifiers that are system-
+generated.
+Discussion:  Generating unique session identifiers curtails the ability of adversaries to reuse
+previously valid session IDs. Employing the concept of randomness in the generation of
+unique session identifiers protects against brute-force attacks to determine future session
+identifiers.
+hRelated Controls:  AC-10, SC-12, SC-13.
+u|  (4) SESSION AUTHENTICITY  UNIQUE SESSION IDENTIFIERS WITH RANDOMIZATION
+[Withdrawn: Incorporated into SC-23(3).] a
+| (5) SESSION AUTHENTICITY  ALLOWED CERTIFICATE AUTHORITIES
+Assignment: organization-defined certificate authoritiesOnly allow the use of [] for
+iverification of the establishment of protected sessions. la
+lDiscussion:  Reliance on certificate authorities for the establishment of secure sessions e
+rincludes the use of Transport Layer Security (TLS) certificates. These certificates, after e
+verification by their respective certificate authorities, facilitate the establishment of o
+cprotected sessions between web clients and web servers.
+rRelated Controls:  SC-12, SC-13. g
+rReferences:  [SP 800-52], [SP 800-77], [SP 800-95], [SP 800-113]. o

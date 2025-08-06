@@ -1,0 +1,12 @@
+gPM-2 INFORMATION SECURITY PROGRAM LEADERSHIP ROLE
+.Control:  Appoint a senior agency information security officer with the mission and resources to 6
+2coordinate, develop, implement, and maintain an organization-wide information security
+Nprogram.
+Discussion:  The senior agency information security officer is an organizational official. For .
+federal agencies (as defined by applicable laws, executive orders, regulations, directives, policies,
+0and standards), this official is the senior agency information security officer. Organizations may
+5also refer to this official as the senior information security officer or chief information security
+officer. 5
+Related Controls:  None.
+Control Enhancements:  None.
+References:  [OMB M-17-25], [SP 800-37], [SP 800-39], [SP 800-181].

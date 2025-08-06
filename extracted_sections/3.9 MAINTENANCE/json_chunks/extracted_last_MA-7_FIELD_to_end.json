@@ -1,0 +1,5 @@
+{
+  "subheading": "MA-7 FIELD MAINTENANCE",
+  "start_text": "MA-7 FIELD MAINTENANCE\nAssignment: organization-de",
+  "content": "MA-7 FIELD MAINTENANCE\nAssignment: organization-defined systems or Control:  Restrict or prohibit field maintenance on [h\nsystem componentsAssignment: organization-defined trusted maintenance facilities] to [].\nlDiscussion:  Field maintenance is the type of maintenance conducted on a system or system ic\ncomponent after the system or component has been deployed to a specific site (i.e., operational t\nnenvironment). In certain instances, field maintenance (i.e., local maintenance at the site) may not\nbe executed with the same degree of rigor or with the same quality control checks as depot\nmaintenance. For critical systems designated as such by the organization, it may be necessary to a\nrestrict or prohibit field maintenance at the local site and require that such maintenance be b\nconducted in trusted facilities with additional controls.\nRelated Controls:  MA-2, MA-4, MA-5.\nControl Enhancements:  None. h\nReferences:  None. e\nCHAPTER THREE   PAGE 170"
+}

@@ -1,0 +1,5 @@
+{
+  "subheading": "SI-15 INFORMATION OUTPUT FILTERING",
+  "start_text": "SI-15 INFORMATION OUTPUT FILTERING :\niControl:  Va",
+  "content": "SI-15 INFORMATION OUTPUT FILTERING :\niControl:  Validate information output fromthe following software programs and/or applications .\nAssignment: gto ensure that the information is consistent with the expected content: [\norganization-defined software programs and/or applications0].\n2Discussion:  Certain types of attacks, including SQL injections, produce output results that are\nNunexpected or inconsistent with the output results that would be expected from software\nprograms or applications. Information output filtering focuses on detecting extraneous content,\nSpreventing such extraneous content from being displayed, and then alerting monitoring tools\nthat anomalous behavior has been discovered. 8\nRelated Controls:  SI-3, SI-4, SI-11. 5\nControl Enhancements:  None.\nReferences:  None."
+}

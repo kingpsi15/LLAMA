@@ -1,0 +1,27 @@
+PE-9 POWER EQUIPMENT AND CABLING o
+Control:  Protect power equipment and power cabling for the system from damage and a
+destruction. e
+Discussion:  Organizations determine the types of protection necessary for the power equipment  m
+and cabling employed at different locations that are both internal and external to organizational
+pfacilities and environments of operation. Types of power equipment and cabling include internal
+/cabling and uninterruptable power sources in offices or data centers, generators and power
+cabling outside of buildings, and power sources for self-contained components such as satellites,
+rvehicles, and other deployable systems.
+Related Controls:  PE-4. .
+Control Enhancements: 8
+S|  (1) POWER EQUIPMENT AND CABLING  REDUNDANT CABLING
+Assignment: Employ redundant power cabling paths that are physically separated by [
+8organization-defined distance].
+-Discussion:  Physically separate and redundant power cables ensure that power continues to
+rflow in the event that one of the cables is cut or otherwise damaged.
+Related Controls:  None.
+|  (2) POWER EQUIPMENT AND CABLING  AUTOMATIC VOLTAGE CONTROLS
+Assignment: organization-defined critical system Employ automatic voltage controls for [
+components].
+Discussion:  Automatic voltage controls can monitor and control voltage. Such controls
+include voltage regulators, voltage conditioners, and voltage stabilizers.
+Related Controls:  None.
+References:  None.
+CHAPTER THREE   PAGE 186
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

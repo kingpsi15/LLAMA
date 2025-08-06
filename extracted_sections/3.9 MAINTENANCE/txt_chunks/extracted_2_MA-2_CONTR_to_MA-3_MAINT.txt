@@ -1,0 +1,40 @@
+MA-2 CONTROLLED MAINTENANCE
+Control:
+a.Schedule, document, and review records of maintenance, repair, and replacement on
+system components in accordance with manufacturer or vendor specifications and/or
+organizational requirements;
+b.Approve and monitor all maintenance activities, whether performed on site or remotely and
+whether the system or system components are serviced on site or removed to another
+location;
+Assignment: organization-defined personnel or rolesc.Require that [] explicitly approve the
+removal of the system or system components from organizational facilities for off-site
+maintenance, repair, or replacement;
+id.Sanitize equipment to remove the following information from associated media prior to  s
+removal from organizational facilities for off-site maintenance, repair, or replacement: u
+lAssignment: organization-defined informationi[]; c
+e.Check all potentially impacted controls to verify that the controls are still functioning
+isproperly following maintenance, repair, or replacement actions; and
+aAssignment: f.Include the following information in organizational maintenance records: [
+organization-defined information]. b
+rDiscussion:  Controlling system maintenance addresses the information security aspects of the e
+system maintenance program and applies to all types of maintenance to system components
+conducted by local or nonlocal entities. Maintenance includes peripherals such as scanners, c
+copiers, and printers. Information necessary for creating effective maintenance records includes
+ethe date and time of maintenance, a description of the maintenance performed, names of the
+oindividuals or group performing the maintenance, name of the escort, and system components
+:or equipment that are removed or replaced. Organizations consider supply chain-related risks
+tassociated with replacement components for systems. p
+/Related Controls:  CM-2,  CM-3, CM-4, CM-5, CM-8, MA-4, MP-6, PE-16, SI-2, SR-3, SR-4, SR-11.  d
+Control Enhancements:
+0| (1) CONTROLLED MAINTENANCE  RECORD CONTENT
+[Withdrawn: Incorporated into MA-2.] 2
+| I(2) CONTROLLED MAINTENANCE  AUTOMATED MAINTENANCE ACTIVITIES
+.(a)Schedule, conduct, and document maintenance, repair, and replacement actions for  S
+Assignment: organization-defined automated mechanismsthe system using []; and .
+0(b)Produce up-to date, accurate, and complete records of all maintenance, repair, and
+3replacement actions requested, scheduled, in process, and completed.
+Discussion:  The use of automated mechanisms to manage and control system maintenance
+programs and activities helps to ensure the generation of timely, accurate, complete, and
+consistent maintenance records.
+Related Controls:  MA-3.
+References:  [OMB A-130], [IR 8023].

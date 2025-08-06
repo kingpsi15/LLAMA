@@ -1,0 +1,50 @@
+1.4RELATIONSHIPTOOTHERPUBLICATIONS
+This publication defines controls to satisfy a diverse set of security and privacy requirements
+that have been levied on information systems and organizations and that are consistent with
+and complementary to other recognized national and international information security and
+privacy standards. To develop a broadly applicable and technically sound set of controls for
+binformation systems and organizations, many sources were considered during the development
+aof this publication. These sources included requirements and controls from the manufacturing,
+defense, financial, healthcare, transportation, energy, intelligence, industrial control, and audit n
+communities as well as national and international standards organizations. In addition, the
+acontrols in this publication are used by the national security community in publications such as
+] to provide Committee on National Security Systems (CNSS) Instruction No. 1253 [CNSSI 1253b
+guidance specific to systems designated as national security systems. Whenever possible, the f
+econtrols have been mapped to international standards to help ensure maximum usability and
+f22applicability. The relationship of this publication to other risk management, security, privacy,
+aand publications can be found at [FISMA IMP].
+o1.5REVISIONSANDEXTENSIONS       m
+tThe security and privacy controls described in this publication represent the state-of-the-t
+:practice protection measures for individuals, information systems, and organizations. The
+ocontrols are reviewed and revised periodically to reflect the experience gained from using the
+controls; new or revised laws, executive orders, directives, regulations, policies, and standards; r
+changing security and privacy requirements; emerging threats, vulnerabilities, attack and
+information processing methods; and the availability of new technologies. 0
+IThe security and privacy controls in the control catalog are also expected to change over time as
+controls are withdrawn, revised, and added. In addition to the need for change, the need for .
+stability is addressed by requiring that proposed modifications to security and privacy controls .
+go through a rigorous and transparent public review process to obtain public and private sector 0
+feedback and to build a consensus for such change. The review process provides a technically 3
+sound, flexible, and stable set of security and privacy controls for the organizations that use the
+control catalog.
+1.6PUBLICATIONORGANIZATION
+The remainder of this special publication is organized as follows:
+21 Authorizing officials or their designated representatives, by accepting the security and privacy plans, agree to the
+security and privacy controls proposed to meet the security and privacy requirements for organizations and systems.
+22 Mapping tables are available at [SP 800-53 RES].
+CHAPTER ONE  PAGE5
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+• describes the fundamental concepts associated with security and privacy  Chapter Two
+controls, including the structure of the controls, how the controls are organized in the
+consolidated catalog, control implementation approaches, the relationship between security
+and privacy controls, and trustworthiness and assurance.
+• provides a consolidated catalog of security and privacy controls including a  Chapter Three
+discussion section to explain the purpose of each control and to provide useful information
+regarding control implementation and assessment, a list of related controls to show the
+relationships and dependencies among controls, and a list of references to supporting
+publications that may be helpful to organizations.
+•, , , and  provide additional information on  ReferencesGlossaryAcronymsControl Summaries
+23the use of security and privacy controls.
+23 Unless otherwise stated, all references to NIST publications refer to the most recent version of those publications.
+CHAPTER ONE  PAGE6

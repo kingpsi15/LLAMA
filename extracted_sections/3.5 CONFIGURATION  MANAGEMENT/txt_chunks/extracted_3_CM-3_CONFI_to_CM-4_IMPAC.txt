@@ -1,0 +1,121 @@
+CM-3 CONFIGURATION CHANGE CONTROL
+Control:
+a.Determine and document the types of changes to the system that are configuration-
+controlled;
+b.Review proposed configuration-controlled changes to the system and approve or disapprove
+such changes with explicit consideration for security and privacy impact analyses;
+c.Document configuration change decisions associated with the system;
+d.Implement approved configuration-controlled changes to the system;
+CHAPTER THREE   PAGE 98
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: e.Retain records of configuration-controlled changes to the system for [
+organization-defined time period];
+f.Monitor and review activities associated with configuration-controlled changes to the
+system; and
+g.Coordinate and provide oversight for configuration change control activities through
+Assignment: organization-defined configuration change control element[] that convenes
+Selection (one or more):Assignment: organization-defined frequencyAssignment: [ []; when [
+organization-defined configuration change conditions]].
+Discussion:  Configuration change control for organizational systems involves the systematic
+proposal, justification, implementation, testing, review, and disposition of system changes,
+including system upgrades and modifications. Configuration change control includes changes to
+baseline configurations, configuration items of systems, operational procedures, configuration T
+isettings for system components, remediate vulnerabilities, and unscheduled or unauthorized s
+changes. Processes for managing configuration changes to systems include Configuration Control u
+lBoards or Change Advisory Boards that review and approve proposed changes. For changes that ic
+impact privacy risk, the senior agency official for privacy updates privacy impact assessments and t
+system of records notices. For new systems or major upgrades, organizations consider including
+representatives from the development organizations on the Configuration Control Boards or a
+aChange Advisory Boards. Auditing of changes includes activities before and after changes are
+SA-10. made to systems and the auditing activities required to implement such changes. See also b
+rRelated Controls:  CA-7, CM-2, CM-4, CM-5, CM-6, CM-9, CM-11, IA-3, MA-2, PE-16, PT-6, RA-8,
+SA-8, SA-10, SC-28, SC-34, SC-37, SI-2, SI-3, SI-4, SI-7, SI-10, SR-11.
+hControl Enhancements:
+e|,,(1) CONFIGURATION CHANGE CONTROL  AUTOMATED DOCUMENTATION NOTIFICATION AND
+PROHIBITION OF CHANGES m
+hAssignment: organization-defined automated mechanismsUse [] to:
+s(a)Document proposed changes to the system;
+Assignment: organization-defined approval authorities(b)Notify [] of proposed changes  o
+oto the system and request change approval;
+1(c)Highlight proposed changes to the system that have not been approved or
+6Assignment: organization-defined time perioddisapproved within [];
+8(d)Prohibit changes to the system until designated approvals are received;
+S(e)Document all changes to the system; and
+SAssignment: organization-defined personnel(f)Notify [] when approved changes to the
+.system are completed. 8
+Discussion:  None. -
+rRelated Controls:  None. 5
+|,, (2) CONFIGURATION CHANGE CONTROL  TESTING VALIDATION AND DOCUMENTATION OF CHANGES
+Test, validate, and document changes to the system before finalizing the implementation
+of the changes.
+Discussion:  Changes to systems include modifications to hardware, software, or firmware
+components and configuration settings defined in CM-6. Organizations ensure that testing
+does not interfere with system operations that support organizational mission and business
+functions. Individuals or groups conducting tests understand security and privacy policies
+and procedures, system security and privacy policies and procedures, and the health, safety,
+and environmental risks associated with specific facilities or processes. Operational systems
+CHAPTER THREE   PAGE 99
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+may need to be taken offline, or replicated to the extent feasible, before testing can be
+conducted. If systems must be taken offline for testing, the tests are scheduled to occur
+during planned system outages whenever possible. If the testing cannot be conducted on
+operational systems, organizations employ compensating controls.
+Related Controls:  None.
+| (3) CONFIGURATION CHANGE CONTROL  AUTOMATED CHANGE IMPLEMENTATION
+Implement changes to the current system baseline and deploy the updated baseline across
+Assignment: organization-defined automated mechanismsthe installed base using [].
+Discussion:  Automated tools can improve the accuracy, consistency, and availability of
+configuration baseline information. Automation can also provide data aggregation and data
+correlation capabilities, alerting mechanisms, and dashboards to support risk-based
+decision-making within the organization.
+iRelated Controls:  None.s
+b| (4) CONFIGURATION CHANGE CONTROL  SECURITY AND PRIVACY REPRESENTATIVES
+Assignment: organization-defined Require [security and privacy representatives] to be t
+nAssignment: organization-defined configuration change control elementmembers of the [].
+aDiscussion:  Information security and privacy representatives include system security
+officers, senior agency information security officers, senior agency officials for privacy, or i
+bsystem privacy officers. Representation by personnel with information security and privacy
+expertise is important because changes to system configurations can have unintended side f
+eeffects, some of which may be security- or privacy-relevant. Detecting such changes early in
+fthe process can help avoid unintended, negative consequences that could ultimately affect
+the security and privacy posture of systems. The configuration change control element a
+referred to in the second organization-defined parameter reflects the change control
+CM-3g. elements defined by organizations in r
+Related Controls:  None. :
+| (5) CONFIGURATION CHANGE CONTROL  AUTOMATED SECURITY RESPONSE s
+d Implementthe following security responses automatically if baseline configurations are
+Assignment: organization-defined security changed in an unauthorized manner: [o
+responses]. /
+.Discussion:  Automated security responses include halting selected system functions, halting 6
+2system processing, and issuing alerts or notifications to organizational personnel when there
+Nis an unauthorized modification of a configuration item.
+TRelated Controls:  None.
+| .(6) CONFIGURATION CHANGE CONTROL  CRYPTOGRAPHY MANAGEMENT 8
+Ensure that cryptographic mechanisms used to provide the following controls are under -
+Assignment: organization-defined controlsconfiguration management: [].
+Discussion:  The controls referenced in the control enhancement refer to security and
+privacy controls from the control catalog. Regardless of the cryptographic mechanisms
+employed, processes and procedures are in place to manage those mechanisms. For
+example, if system components use certificates for identification and authentication, a
+process is implemented to address the expiration of those certificates.
+Related Controls:  SC-12.
+| (7) CONFIGURATION CHANGE CONTROL  REVIEW SYSTEM CHANGES
+CHAPTER THREE   PAGE 100
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: organization-defined frequencyReview changes to the system [] or when
+Assignment: organization-defined circumstances[] to determine whether unauthorized
+changes have occurred.
+Discussion:  Indications that warrant a review of changes to the system and the specific
+circumstances justifying such reviews may be obtained from activities carried out by
+or continuous monitoring process. organizations during the configuration change process
+Related Controls:  AU-6, AU-7, CM-3.
+| (8) CONFIGURATION CHANGE CONTROL  PREVENT OR RESTRICT CONFIGURATION CHANGES
+Prevent or restrict changes to the configuration of the system under the following
+Assignment: organization-defined circumstancescircumstances: [].
+Discussion:  System configuration changes can adversely affect critical system security and
+Tprivacy functionality. Change restrictions can be enforced through automated mechanisms.
+Related Controls:  None.
+References:  [SP 800-124], [SP 800-128], [IR 8062].  lic

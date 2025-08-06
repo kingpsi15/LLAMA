@@ -1,0 +1,28 @@
+PM-16 THREAT AWARENESS PROGRAM
+:Control:  Implement a threat awareness program that includes a cross-organization information-/
+osharing capability for threat intelligence.
+gDiscussion:  Because of the constantly changing and increasing sophistication of adversaries,
+0especially the advanced persistent threat (APT), it may be more likely that adversaries can
+0successfully breach or compromise organizational systems. One of the best techniques to
+address this concern is for organizations to share threat information, including threat events (i.e., /
+Itactics, techniques, and procedures) that organizations have experienced, mitigations that S
+organizations have found are effective against certain types of threats, and threat intelligence .
+(i.e., indications and warnings about threats). Threat information sharing may be bilateral or
+multilateral. Bilateral threat sharing includes government-to-commercial and government-to-
+5government cooperatives. Multilateral threat sharing includes organizations taking part in threat-
+5sharing consortia. Threat information may require special agreements and protection, or it may
+be freely shared.
+Related Controls:  IR-4, PM-12.
+Control Enhancements:
+| (1) THREAT AWARENESS PROGRAM  AUTOMATED MEANS FOR SHARING THREAT INTELLIGENCE
+Employ automated mechanisms to maximize the effectiveness of sharing threat
+intelligence information.
+Discussion:  To maximize the effectiveness of monitoring, it is important to know what
+threat observables and indicators the sensors need to be searching for. By using well-
+CHAPTER THREE    PAGE 211
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+established frameworks, services, and automated tools, organizations improve their ability
+to rapidly share and feed the relevant threat detection signatures into monitoring tools.
+Related Controls:  None.
+References:  None.

@@ -1,0 +1,9 @@
+{
+  "PolicyId": "PM-17",
+  "PolicyName": "PROTECTING CONTROLLED UNCLASSIFIED INFORMATION ON EXTERNAL SYSTEMS",
+  "Control": "a.Establish policy and procedures to ensure that requirements for the protection of controlled unclassified information that is processed, stored or transmitted on external systems, are implemented in accordance with applicable laws, executive orders, directives, policies, regulations, and standards; and\nb.Review and update the policy and procedures [] is",
+  "Discussion": "Controlled unclassified information is defined by the National Archives and Records administration along with the safeguarding and dissemination requirements for such information i32 CFR 2002] and, specifically for systems external to the federal organization, and is codified in [o 32 CFR 2002.14h. The policy prescribes the specific use and conditions to be implemented in accordance with organizational procedures, including via its contracting processes.",
+  "RelatedControls": "CA-6, PM-10.",
+  "ControlEnhancements": "None.",
+  "References": "[32 CFR 2002], [SP 800-171], [SP 800-172], [NARA CUI]"
+}

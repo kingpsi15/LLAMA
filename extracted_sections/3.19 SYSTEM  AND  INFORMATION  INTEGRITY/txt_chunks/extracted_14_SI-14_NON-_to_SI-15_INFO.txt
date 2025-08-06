@@ -1,0 +1,58 @@
+SI-14 NON-PERSISTENCE
+lAssignment: organization-defined system components and eControl:  Implement non-persistent [
+rservicesSelection (one or more): upon end of ] that are initiated in a known state and terminated [e
+session of use; periodically at Assignment: organization-defined frequency[]]. o
+Discussion:  Implementation of non-persistent components and services mitigates risk from
+gadvanced persistent threats (APTs) by reducing the targeting capability of adversaries (i.e.,
+fwindow of opportunity and available attack surface) to initiate and complete attacks. By r
+implementing the concept of non-persistence for selected system components, organizations can
+provide a trusted, known state computing resource for a specific time period that does not give t
+sadversaries sufficient time to exploit vulnerabilities in organizational systems or operating
+denvironments. Since the APT is a high-end, sophisticated threat with regard to capability, intent,
+i.and targeting, organizations assume that over an extended period, a percentage of attacks will o
+be successful. Non-persistent system components and services are activated as required using
+protected information and terminated periodically or at the end of sessions. Non-persistence
+0increases the work factor of adversaries attempting to compromise or breach organizational
+systems. /
+Non-persistence can be achieved by refreshing system components, periodically reimaging T
+components, or using a variety of common virtualization techniques. Non-persistent services can
+8be implemented by using virtualization techniques as part of virtual machines or as new
+instances of processes on physical machines (either persistent or non-persistent). The benefit of -
+periodic refreshes of system components and services is that it does not require organizations to
+first determine whether compromises of components or services have occurred (something that
+may often be difficult to determine). The refresh of selected system components and services
+occurs with sufficient frequency to prevent the spread or intended impact of attacks, but not
+with such frequency that it makes the system unstable. Refreshes of critical components and
+services may be done periodically to hinder the ability of adversaries to exploit optimum
+windows of vulnerabilities.
+. Related Controls:  SC-30, SC-34, SI-21
+Control Enhancements:
+-| (1) NONPERSISTENCE  REFRESH FROM TRUSTED SOURCES
+CHAPTER THREE   PAGE 354
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Obtain software and data employed during system component and service refreshes from
+Assignment: organization-defined trusted sources the following trusted sources: [].
+Discussion:  Trusted sources include software and data from write-once, read-only media or
+from selected offline secure storage facilities.
+Related Controls:  None.
+-|- (2) NONPERSISTENCE  NONPERSISTENT INFORMATION
+Selection: Refresh Assignment: organization-defined informationAssignment: (a)[[] [
+organization-defined frequencyGenerate Assignment: organization-defined ]; [
+information on demand]]; and
+(b)Delete information when no longer needed.
+Discussion:  Retaining information longer than is needed makes the information a potential
+target for advanced adversaries searching for high value assets to compromise through
+unauthorized disclosure, unauthorized modification, or exfiltration. For system-related
+information, unnecessary retention provides advanced adversaries information that can b
+licassist in their reconnaissance and lateral movement through the system.
+Related Controls:  None.
+-|- a(3) NONPERSISTENCE  NONPERSISTENT CONNECTIVITY
+iEstablish connections to the system on demand and terminate connections after la
+Selection: completion of a request; a period of non-use[]. le
+Discussion:  Persistent connections to systems can provide advanced adversaries with paths e
+to move laterally through systems and potentially position themselves closer to high value o
+cassets. Limiting the availability of such connections impedes the adversary’s ability to move
+freely through organizational systems. r
+Related Controls:  SC-10. f
+References:  None. :

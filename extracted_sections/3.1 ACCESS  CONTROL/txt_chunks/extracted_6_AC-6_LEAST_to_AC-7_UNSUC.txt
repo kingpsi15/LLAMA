@@ -1,0 +1,122 @@
+iAC-6 LEAST PRIVILEGE .
+1Control:  Employ the principle of least privilege, allowing only authorized accesses for users (or
+6processes acting on behalf of users) that are necessary to accomplish assigned organizational
+tasks.
+IDiscussion:  Organizations employ least privilege for specific duties and systems. The principle of S
+least privilege is also applied to system processes, ensuring that the processes have access to .
+systems and operate at privilege levels no higher than necessary to accomplish organizational
+missions or business functions. Organizations consider the creation of additional processes, roles,
+5and accounts as necessary to achieve least privilege. Organizations apply least privilege to the
+5development, implementation, and operation of organizational systems.
+Related Controls:  AC-2, AC-3, AC-5, AC-16, CM-5, CM-11, PL-2, PM-12, SA-8, SA-15, SA-17, SC-38.
+Control Enhancements:
+|  (1) LEAST PRIVILEGE  AUTHORIZE ACCESS TO SECURITY FUNCTIONS
+Assignment: organization-defined individuals or rolesAuthorize access for [] to:
+Assignment: organization-defined security functions (deployed in hardware, software, (a)[
+and firmware)]; and
+Assignment: organization-defined security-relevant information(b)[].
+CHAPTER THREE   PAGE 36
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:Security functions include establishing system accounts, configuring access
+authorizations (i.e., permissions, privileges), configuring settings for events to be audited,
+and establishing intrusion detection parameters. Security-relevant information includes
+filtering rules for routers or firewalls, configuration parameters for security services,
+cryptographic key management information, and access control lists. Authorized personnel
+include security administrators, system administrators, system security officers, system
+programmers, and other privileged users.
+Related Controls:  AC-17, AC-18, AC-19, AU-9, PE-2.
+|-  (2) LEAST PRIVILEGE  NONPRIVILEGED ACCESS FOR NONSECURITY FUNCTIONS
+Assignment: organization-Require that users of system accounts (or roles) with access to [
+defined security functions or security-relevant information] use non-privileged accounts or
+roles, when accessing nonsecurity functions.
+Discussion:Requiring the use of non-privileged accounts when accessing nonsecurity   is
+functions limits exposure when operating from within privileged accounts or roles. The
+inclusion of roles addresses situations where organizations implement access control lic
+policies, such as role-based access control, and where a change of role provides the same t
+ndegree of assurance in the change of access authorizations for the user and the processes
+acting on behalf of the user as would be provided by a change between a privileged and non-
+privileged account. a
+bRelated Controls:  AC-17, AC-18, AC-19, PL-4.
+r|  (3)e LEAST PRIVILEGE  NETWORK ACCESS TO PRIVILEGED COMMANDS
+Assignment: organization-defined privileged commandsAuthorize network access to []
+hAssignment: organization-defined compelling operational needsonly for [] and document
+the rationale for such access in the security plan for the system. g
+Discussion:  Network access is any access across a network connection in lieu of local access r
+(i.e., user being physically present at the device).
+tRelated Controls:  AC-17, AC-18, AC-19. t
+/|  (4) LEAST PRIVILEGE  SEPARATE PROCESSING DOMAINSd
+Provide separate processing domains to enable finer-grained allocation of user privileges. o
+/Discussion:  Providing separate processing domains for finer-grained allocation of user 1
+.privileges includes using virtualization techniques to permit additional user privileges within 6
+2a virtual machine while restricting privileges to other virtual machines or to the underlying
+Nphysical machine, implementing separate physical domains, and employing hardware or
+software domain separation mechanisms. T
+Related Controls:  AC-4, SC-2, SC-3, SC-30, SC-32, SC-39. P
+|  0(5) LEAST PRIVILEGE  PRIVILEGED ACCOUNTS
+Assignment: organization-defined personnel Restrict privileged accounts on the system to [
+or roles].
+Discussion:Privileged accounts, including super user accounts, are typically described as
+system administrator for various types of commercial off-the-shelf operating systems.
+Restricting privileged accounts to specific personnel or roles prevents day-to-day users from
+accessing privileged information or privileged functions. Organizations may differentiate in
+the application of restricting privileged accounts between allowed privileges for local
+accounts and for domain accounts provided that they retain the ability to control system
+configurations for key parameters and as otherwise necessary to sufficiently mitigate risk.
+Related Controls:  IA-2, MA-3, MA-4.
+CHAPTER THREE   PAGE 37
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+|-  (6) LEAST PRIVILEGE  PRIVILEGED ACCESS BY NONORGANIZATIONAL USERS
+Prohibit privileged access to the system by non-organizational users.
+Discussion:  An organizational user is an employee or an individual considered by the
+organization to have the equivalent status of an employee. Organizational users include
+contractors, guest researchers, or individuals detailed from other organizations. A non-
+organizational user is a user who is not an organizational user. Policies and procedures for
+granting equivalent status of employees to individuals include a need-to-know, citizenship,
+and the relationship to the organization.
+Related Controls:  AC-18, AC-19, IA-2, IA-8.
+| (7) LEAST PRIVILEGE  REVIEW OF USER PRIVILEGES
+Assignment: organization-defined frequency(a)Review [] the privileges assigned to
+TAssignment: organization-defined roles or classes of users[] to validate the need for
+issuch privileges; and
+(b)Reassign or remove privileges, if necessary, to correctly reflect organizational mission b
+and business needs. a
+Discussion:  The need for certain assigned user privileges may change over time to reflect n
+ischanges in organizational mission and business functions, environments of operation,
+vtechnologies, or threats. A periodic review of assigned user privileges is necessary to
+ladetermine if the rationale for assigning such privileges remains valid. If the need cannot be
+lerevalidated, organizations take appropriate corrective actions.
+Related Controls:  CA-7.
+|  (8)c LEAST PRIVILEGE  PRIVILEGE LEVELS FOR CODE EXECUTION
+rPreventthe following software from executing at higher privilege levels than users
+Assignment: organization-defined software executing the software: [].
+mDiscussion:  In certain situations, software applications or programs need to execute with
+helevated privileges to perform required functions. However, depending on the software
+functionality and configuration, if the privileges required for execution are at a higher level s
+/than the privileges assigned to organizational users invoking such applications or programs, d
+ithose users may indirectly be provided with greater privileges than assigned. .
+Related Controls:  None. /
+| (9) LEAST PRIVILEGE  LOG USE OF PRIVILEGED FUNCTIONS 0
+Log the execution of privileged functions. /
+Discussion:The misuse of privileged functions, either intentionally or unintentionally by
+Sauthorized users or by unauthorized external entities that have compromised system
+.accounts, is a serious and ongoing concern and can have significant adverse impacts on
+0organizations. Logging and analyzing the use of privileged functions is one way to detect
+such misuse and, in doing so, help mitigate the risk from insider threats and the advanced 3
+persistent threat.
+Related Controls:  AU-2, AU-3, AU-12.
+|- (10) LEAST PRIVILEGE  PROHIBIT NONPRIVILEGED USERS FROM EXECUTING PRIVILEGED FUNCTIONS
+Prevent non-privileged users from executing privileged functions.
+Discussion:Privileged functions include disabling, circumventing, or altering implemented
+security or privacy controls, establishing system accounts, performing system integrity
+checks, and administering cryptographic key management activities. Non-privileged users
+are individuals who do not possess appropriate authorizations. Privileged functions that
+require protection from non-privileged users include circumventing intrusion detection and
+CHAPTER THREE   PAGE 38
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+prevention mechanisms or malicious code protection mechanisms. Preventing non-
+. privileged users from executing privileged functions is enforced by AC-3
+Related Controls:  None.
+References:  None.

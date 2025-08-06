@@ -1,0 +1,19 @@
+PE-17 ALTERNATE WORK SITE
+Control:
+Assignment: organization-defined alternate work sitesa.Determine and document the []
+allowed for use by employees;
+Assignment: organization-defined b.Employ the following controls at alternate work sites: [
+controls];
+c.Assess the effectiveness of controls at alternate work sites; and
+hd.Provide a means for employees to communicate with information security and privacy
+personnel in case of incidents. p
+lDiscussion:  Alternate work sites include government facilities or the private residences of ic
+temployees. While distinct from alternative processing sites, alternate work sites can provide
+readily available alternate locations during contingency operations. Organizations can define
+different sets of controls for specific alternate work sites or types of sites depending on the a
+awork-related activities conducted at the sites. Implementing and assessing the effectiveness of
+organization-defined controls and providing a means to communicate incidents at alternate work b
+sites supports the contingency planning activities of organizations.
+Related Controls:  AC-17, AC-18, CP-7. o
+hControl Enhancements:  None.
+eReferences:  [SP 800-46].

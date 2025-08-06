@@ -1,0 +1,15 @@
+PE-10 EMERGENCY SHUTOFF
+Control:
+Assignment: organization-defined system or a.Provide the capability of shutting off power to [
+individual system components] in emergency situations;
+Assignment: organization-defined location b.Place emergency shutoff switches or devices in [
+by system or system component] to facilitate access for authorized personnel; and
+c.Protect emergency power shutoff capability from unauthorized activation.
+Discussion:  Emergency power shutoff primarily applies to organizational facilities that contain
+concentrations of system resources, including data centers, mainframe computer rooms, server
+rooms, and areas with computer-controlled machinery.
+hRelated Controls:  PE-15.
+Control Enhancements:u
+| a(1) EMERGENCY SHUTOFF  ACCIDENTAL AND UNAUTHORIZED ACTIVATION
+n[Withdrawn: Incorporated into PE-10.]
+References:  None. v

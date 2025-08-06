@@ -1,0 +1,29 @@
+SC-37 OUT-OF-BAND CHANNELS
+Control:  Employ the following out-of-band channels for the physical delivery or electronic
+Assignment: organization-defined information, system components, or devicestransmission of []
+Assignment: organization-defined individuals or systemsAssignment: organization-defined to []: [
+out-of-band channels].
+Discussion:  Out-of-band channels include local, non-network accesses to systems; network paths
+physically separate from network paths used for operational traffic; or non-electronic paths, such
+licas the U.S. Postal Service. The use of out-of-band channels is contrasted with the use of in-band
+ichannels (i.e., the same channels) that carry routine operational traffic. Out-of-band channels do o
+not have the same vulnerability or exposure as in-band channels. Therefore, the confidentiality, is
+integrity, or availability compromises of in-band channels will not compromise or adversely affect
+the out-of-band channels. Organizations may employ out-of-band channels in the delivery or i
+transmission of organizational items, including authenticators and credentials; cryptographic key le
+fmanagement information; system and data backups; configuration management changes for r
+hardware, firmware, or software; security updates; maintenance information; and malicious
+code protection updates.
+rRelated Controls:  AC-2, CM-3, CM-5, CM-7, IA-2, IA-4, IA-5, MA-4, SC-12, SI-3, SI-4, SI-7. g
+rControl Enhancements: o
+--|(1)  hOUTOFBAND CHANNELS  ENSURE DELIVERY AND TRANSMISSION
+Assignment: organization-defined controlsAssignment: Employ [] to ensure that only [s
+/organization-defined individuals or systems] receive the following information, system d
+iAssignment: organization-defined information, system components, or devices: [.
+gcomponents, or devices].
+Discussion:  Techniques employed by organizations to ensure that only designated systems .
+or individuals receive certain information, system components, or devices include sending 2
+/authenticators via an approved courier service but requiring recipients to show some form N
+Sof government-issued photographic identification as a condition of receipt.
+Related Controls:  None.
+0References:  [SP 800-57-1], [SP 800-57-2], [SP 800-57-3].

@@ -1,0 +1,12 @@
+AC-10 CONCURRENT SESSION CONTROL h
+Assignment: organization-defined Control:  Limit the number of concurrent sessions for each [
+account and/or account typeAssignment: organization-defined numberl] to []. ic
+oDiscussion:  Organizations may define the maximum number of concurrent sessions for system
+accounts globally, by account type, by account, or any combination thereof. For example, is
+organizations may limit the number of concurrent sessions for system administrators or other v
+iindividuals working in particularly sensitive domains or mission-critical applications. Concurrent la
+session control addresses concurrent sessions for system accounts. It does not, however, address le
+fconcurrent sessions by single users via multiple system accounts. r
+Related Controls:  SC-23.
+aControl Enhancements:  None.
+References:  None. f

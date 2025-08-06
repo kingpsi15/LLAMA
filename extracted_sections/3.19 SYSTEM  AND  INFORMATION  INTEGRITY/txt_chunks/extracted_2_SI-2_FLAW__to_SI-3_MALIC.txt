@@ -1,0 +1,76 @@
+SI-2 FLAW REMEDIATION
+Control:
+a.Identify, report, and correct system flaws;
+b.Test software and firmware updates related to flaw remediation for effectiveness and
+potential side effects before installation;
+Assignment: organization-c.Install security-relevant software and firmware updates within [
+defined time period] of the release of the updates; and
+d.Incorporate flaw remediation into the organizational configuration management process.
+Discussion:  The need to remediate system flaws applies to all types of software and firmware.
+Organizations identify systems affected by software flaws, including potential vulnerabilities
+hresulting from those flaws, and report this information to designated organizational personnel
+with information security and privacy responsibilities. Security-relevant updates include patches, p
+bservice packs, and malicious code signatures. Organizations also address flaws discovered during
+assessments, continuous monitoring, incident response activities, and system error handling. By a
+incorporating flaw remediation into configuration management processes, required remediation
+isactions can be tracked and verified.
+aOrganization-defined time periods for updating security-relevant software and firmware may
+vary based on a variety of risk factors, including the security category of the system, the criticality b
+of the update (i.e., severity of the vulnerability related to the discovered flaw), the organizational
+risk tolerance, the mission supported by the system, or the threat environment. Some types of e
+flaw remediation may require more testing than other types. Organizations determine the type f
+hof testing needed for the specific type of flaw remediation activity under consideration and the
+gtypes of changes that are to be configuration-managed. In some situations, organizations may
+fdetermine that the testing of software or firmware updates is not necessary or practical, such as r
+when implementing simple malicious code signature updates. In testing decisions, organizations
+consider whether security-relevant software or firmware updates are obtained from authorized
+sources with appropriate digital signatures. s
+oSI-Related Controls:  CA-5, CM-3, CM-4, CM-5, CM-6, CM-8, MA-2, RA-5, SA-8, SA-10, SA-11, SI-3,
+5, SI-7, SI-11. r
+0Control Enhancements:
+2| (1) FLAW REMEDIATION  CENTRAL MANAGEMENT 8
+[Withdrawn: Incorporated into PL-9.] I
+S|  (2) FLAW REMEDIATION  AUTOMATED FLAW REMEDIATION STATUS
+Determine if system components have applicable security-relevant software and firmware
+Assignment: organization-defined automated mechanisms-updates installed using []
+Assignment: organization-defined frequency[]. r
+Discussion:  Automated mechanisms can track and determine the status of known flaws for
+system components.
+Related Controls:  CA-7, SI-4.
+| (3) FLAW REMEDIATION  TIME TO REMEDIATE FLAWS AND BENCHMARKS FOR CORRECTIVE ACTIONS
+(a)Measure the time between flaw identification and flaw remediation; and
+Assignment: (b)Establish the following benchmarks for taking corrective actions: [
+organization-defined benchmarks].
+Discussion:  Organizations determine the time it takes on average to correct system flaws
+after such flaws have been identified and subsequently establish organizational benchmarks
+CHAPTER THREE   PAGE 333
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+(i.e., time frames) for taking corrective actions. Benchmarks can be established by the type
+of flaw or the severity of the potential vulnerability if the flaw can be exploited.
+Related Controls:  None.
+|  (4) FLAW REMEDIATION  AUTOMATED PATCH MANAGEMENT TOOLS
+Employ automated patch management tools to facilitate flaw remediation to the following
+Assignment: organization-defined system componentssystem components: [].
+Discussion:  Using automated tools to support patch management helps to ensure the
+timeliness and completeness of system patching operations.
+Related Controls:  None.
+|  (5) FLAW REMEDIATION  AUTOMATIC SOFTWARE AND FIRMWARE UPDATES
+Assignment: organization-defined security-relevant software and firmware Install [T
+updatesAssignment: organization-defined system componentsi] automatically to []. s
+uDiscussion:  Due to system integrity and availability concerns, organizations consider the
+limethodology used to carry out automatic updates. Organizations balance the need to c
+ensure that the updates are installed as soon as possible with the need to maintain i
+configuration management and control with any mission or operational impacts that
+aautomatic updates might impose.
+iRelated Controls:  None. la
+| (6)  FLAW REMEDIATION  REMOVAL OF PREVIOUS VERSIONS OF SOFTWARE AND FIRMWARE
+eAssignment: organization-defined software and firmware Remove previous versions of [
+fcomponents] after updated versions have been installed.
+Discussion:  Previous versions of software or firmware components that are not removed
+efrom the system after updates have been installed may be exploited by adversaries. Some
+oproducts may automatically remove previous versions of software and firmware from the
+:system.
+pRelated Controls:  None.
+dReferences:  [OMB A-130], [FIPS 140-3], [FIPS 186-4], [SP 800-39], [SP 800-40], [SP 800-128], [IR
+i.7788]. o

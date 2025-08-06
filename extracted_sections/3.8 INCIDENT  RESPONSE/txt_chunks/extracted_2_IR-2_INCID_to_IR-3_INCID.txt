@@ -1,0 +1,57 @@
+IR-2 INCIDENT RESPONSE TRAINING
+Control:
+a.Provide incident response training to system users consistent with assigned roles and
+responsibilities:
+Assignment: organization-defined time period1.Within [] of assuming an incident response
+role or responsibility or acquiring system access;
+2.When required by system changes; and
+Assignment: organization-defined frequency3.[] thereafter; and
+Assignment: organization-defined b.Review and update incident response training content [
+frequencyAssignment: organization-defined events] and following [].
+iDiscussion:  Incident response training is associated with the assigned roles and responsibilities s
+of organizational personnel to ensure that the appropriate content and level of detail are u
+lincluded in such training. For example, users may only need to know who to call or how to ic
+trecognize an incident; system administrators may require additional training on how to handle i
+incidents; and incident responders may receive more specific training on forensics, data
+collection techniques, reporting, system recovery, and system restoration. Incident response a
+atraining includes user training in identifying and reporting suspicious activities from external and
+AT-2 or AT-3. internal sources. Incident response training for users may be provided as part of b
+Events that may precipitate an update to incident response training content include, but are not
+limited to, incident response plan testing or response to an actual incident (lessons learned), e
+assessment or audit findings, or changes in applicable laws, executive orders, directives, f
+hregulations, policies, standards, and guidelines.
+eRelated Controls:  AT-2, AT-3, AT-4, CP-3, IR-3, IR-4, IR-8, IR-9.
+Control Enhancements:
+t|  (1) INCIDENT RESPONSE TRAINING  SIMULATED EVENTSp
+/Incorporate simulated events into incident response training to facilitate the required
+response by personnel in crisis situations. i.
+Discussion:  Organizations establish requirements for responding to incidents in incident
+0response plans. Incorporating simulated events into incident response training helps to
+0ensure that personnel understand their individual responsibilities and what specific actions
+to take in crisis situations. /
+Related Controls:  None.
+P| (2) INCIDENT RESPONSE TRAINING  AUTOMATED TRAINING ENVIRONMENTS
+Assignment: organization-Provide an incident response training environment using [0
+defined automated mechanisms]. 3
+Discussion:  Automated mechanisms can provide a more thorough and realistic incident
+response training environment.This can be accomplished, for example, by providing more
+complete coverage of incident response issues, selecting more realistic training scenarios
+and environments, and stressing the response capability.
+Related Controls:  None.
+|  (3) INCIDENT RESPONSE TRAINING  BREACH
+Provide incident response training on how to identify and respond to a breach, including
+the organization’s process for reporting a breach.
+CHAPTER THREE   PAGE 150
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  For federal agencies, an incident that involves personally identifiable
+information is considered a breach. A breach results in the loss of control, compromise,
+unauthorized disclosure, unauthorized acquisition, or a similar occurrence where a person
+other than an authorized user accesses or potentially accesses personally identifiable
+information or an authorized user accesses or potentially accesses such information for
+other than authorized purposes. The incident response training emphasizes the obligation of
+individuals to report both confirmed and suspected breaches involving information in any
+medium or form, including paper, oral, and electronic. Incident response training includes
+IR-2(1). tabletop exercises that simulate a breach. See
+Related Controls:  None.
+References:  [OMB M-17-12], [SP 800-50].

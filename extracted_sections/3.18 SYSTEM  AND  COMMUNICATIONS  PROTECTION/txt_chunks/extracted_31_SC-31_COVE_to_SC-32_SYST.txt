@@ -1,0 +1,38 @@
+SC-31 COVERT CHANNEL ANALYSIS
+Control:
+CHAPTER THREE   PAGE 319
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+a.Perform a covert channel analysis to identify those aspects of communications within the
+Selection (one or more): storage; timingsystem that are potential avenues for covert []
+channels; and
+b.Estimate the maximum bandwidth of those channels.
+Discussion:  Developers are in the best position to identify potential areas within systems that
+might lead to covert channels. Covert channel analysis is a meaningful activity when there is the
+potential for unauthorized information flows across security domains, such as in the case of
+systems that contain export-controlled information and have connections to external networks
+(i.e., networks that are not controlled by organizations). Covert channel analysis is also useful for
+multilevel secure systems, multiple security level systems, and cross-domain systems.
+Related Controls:  AC-3, AC-4, SA-8, SI-11.
+Control Enhancements: h
+| u(1) COVERT CHANNEL ANALYSIS  TEST COVERT CHANNELS FOR EXPLOITABILITY
+licTest a subset of the identified covert channels to determine the channels that are
+iexploitable. o
+isDiscussion:  None.
+Related Controls:  None. a
+| (2) COVERT CHANNEL ANALYSIS  MAXIMUM BANDWIDTHle
+Selection (one or more): storage; Reduce the maximum bandwidth for identified covert [e
+timingAssignment: organization-defined values] channels to []. o
+Discussion:  The complete elimination of covert channels, especially covert timing channels, h
+is usually not possible without significant performance impacts. g
+fRelated Controls:  None. r
+|  (3) COVERT CHANNEL ANALYSIS  MEASURE BANDWIDTH IN OPERATIONAL ENVIRONMENTSh
+Assignment: organization-defined subset of identified covert Measure the bandwidth of [s
+/channels] in the operational environment of the system. d
+i.Discussion:  Measuring covert channel bandwidth in specified operational environments o
+helps organizations determine how much information can be covertly leaked before such /
+leakage adversely affects mission or business functions. Covert channel bandwidth may be .
+significantly different when measured in settings that are independent of the specific
+/environments of operation, including laboratories or system development environments.
+Related Controls:  None. T
+PReferences:  None.

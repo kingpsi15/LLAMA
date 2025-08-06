@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "PE-15",
+      "PolicyName": "WATER DAMAGE PROTECTION",
+      "Control": "Protect the system from damage resulting from water leakage by providing master r shutoff or isolation valves that are accessible, working properly, and known to key personnel.",
+      "Discussion": "The provision of water damage protection primarily applies to organizational facilities that contain concentrations of system resources, including data centers, server rooms, and mainframe computer rooms. Isolation valves can be employed in addition to or in lieu of master shutoff valves to shut off water supplies in specific areas of concern without affecting the entire organizations.",
+      "ControlEnhancements": "i.\n/| (1) WATER DAMAGE PROTECTION  AUTOMATION SUPPORT 1\n6Assignment: organization-defined Detect the presence of water near the system and alert [personnel or rolesAssignment: organization-defined automated mechanisms] using []. 8\nDiscussion: Automated mechanisms include notification systems, water detection sensors, I and alarms.",
+      "RelatedControls": "AT-3, PE-10.",
+      "References": "None."
+   }

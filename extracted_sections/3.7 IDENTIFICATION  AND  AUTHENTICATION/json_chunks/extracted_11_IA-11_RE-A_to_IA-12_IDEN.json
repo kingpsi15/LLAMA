@@ -1,0 +1,5 @@
+{
+  "subheading": "IA-11 RE-AUTHENTICATION",
+  "start_text": "mIA-11 RE-AUTHENTICATION\ntAssignment: organization",
+  "content": "mIA-11 RE-AUTHENTICATION\ntAssignment: organization-defined Control:  Require users to re-authenticate when [t\ncircumstances or situations requiring re-authentication].  :\niDiscussion:  In addition to the re-authentication requirements associated with device locks, .\ngorganizations may require re-authentication of individuals in certain situations, including when\nroles, authenticators or credentials change, when security categories of systems change, when 0\nthe execution of privileged functions occurs, after a fixed time period, or periodically. 0\nNRelated Controls:  AC-3, AC-11, IA-2, IA-3, IA-4, IA-8.\nControl Enhancements:  None.\n.References:  None. 8"
+}

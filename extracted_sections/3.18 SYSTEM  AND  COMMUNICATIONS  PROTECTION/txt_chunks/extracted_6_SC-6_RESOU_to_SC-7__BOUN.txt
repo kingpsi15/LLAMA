@@ -1,0 +1,10 @@
+SC-6 RESOURCE AVAILABILITY
+pAssignment: organization-defined Control:  Protect the availability of resources by allocating [
+resourcesSelection (one or more): priority; quota;Assignment: organization-defined ] by [ [lic
+controls]].
+Discussion:  Priority protection prevents lower-priority processes from delaying or interfering is
+with the system that services higher-priority processes. Quotas prevent users or processes from
+obtaining more than predetermined amounts of resources. i
+Related Controls:  SC-5.
+Control Enhancements:  None.
+References:  [OMB M-08-05], [DHS TIC]. h

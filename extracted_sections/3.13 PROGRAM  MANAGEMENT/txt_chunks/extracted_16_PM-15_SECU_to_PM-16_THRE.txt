@@ -1,0 +1,20 @@
+PM-15 SECURITY AND PRIVACY GROUPS AND ASSOCIATIONS
+Control:  Establish and institutionalize contact with selected groups and associations within the
+security and privacy communities:
+a.To facilitate ongoing security and privacy education and training for organizational
+personnel;
+b.To maintain currency with recommended security and privacy practices, techniques, and
+technologies; and
+c.To share current security and privacy information, including threats, vulnerabilities, and  T
+iincidents. s
+bDiscussion:  Ongoing contact with security and privacy groups and associations is important in an
+environment of rapidly changing technologies and threats. Groups and associations include a
+special interest groups, professional associations, forums, news groups, users’ groups, and peer
+igroups of security and privacy professionals in similar organizations. Organizations select security s
+and privacy groups and associations based on mission and business functions. Organizations v
+lshare threat, vulnerability, and incident information as well as contextual insights, compliance a
+ltechniques, and privacy problems consistent with applicable laws, executive orders, directives, e
+rpolicies, regulations, standards, and guidelines. e
+Related Controls:  SA-11, SI-5. f
+Control Enhancements:  None.
+fReferences:  [OMB A-130].

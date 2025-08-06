@@ -1,0 +1,32 @@
+SA-22 UNSUPPORTED SYSTEM COMPONENTS
+iControl: l a
+a.Replace system components when support for the components is no longer available from
+the developer, vendor, or manufacturer; or
+b.Provide the following options for alternative sources for continued support for unsupported  c
+aSelection (one or more): in-house support; Assignment: organization-defined components [[
+support from external providers]]. e
+mDiscussion:  Support for system components includes software patches, firmware updates,
+replacement parts, and maintenance contracts. An example of unsupported components h
+pincludes when vendors no longer provide critical software patches or product updates, which can
+result in an opportunity for adversaries to exploit weaknesses in the installed components. /
+Exceptions to replacing unsupported system components include systems that provide critical i.
+mission or business capabilities where newer technologies are not available or where the g
+systems are so isolated that installing replacement components is not an option. 0
+Alternative sources for support address the need to provide continued support for system 2
+/components that are no longer supported by the original manufacturers, developers, or vendors N
+when such components remain essential to organizational mission and business functions. If
+Snecessary, organizations can establish in-house support by developing customized patches for
+.critical software components or, alternatively, obtain the services of external providers who 8
+0provide ongoing support for the designated unsupported components through contractual
+relationships. Such contractual relationships can include open-source software value-added 3
+vendors. The increased risk of using unsupported system components can be mitigated, for
+example, by prohibiting the connection of such components to public or uncontrolled networks,
+or implementing other forms of isolation.
+.Related Controls:  PL-2, SA-3
+Control Enhancements:
+| (1) UNSUPPORTED SYSTEM COMPONENTS  ALTERNATIVE SOURCES FOR CONTINUED SUPPORT
+[Withdrawn: Incorporated into SA-22.]
+References:  None.
+CHAPTER THREE   PAGE 290
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

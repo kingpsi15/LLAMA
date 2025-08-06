@@ -1,0 +1,43 @@
+PE-1 POLICY AND PROCEDURES
+Control:
+Assignment: organization-defined personnel or a.Develop, document, and disseminate to [
+roles]:
+Selection (one or more): Organization-level; Mission/business process-level; System-1.[
+level] physical and environmental protection policy that:
+h(a)Addresses purpose, scope, roles, responsibilities, management commitment,
+coordination among organizational entities, and compliance; and p
+l(b)Is consistent with applicable laws, executive orders, directives, regulations, policies,  ic
+tstandards, and guidelines; and
+i2.Procedures to facilitate the implementation of the physical and environmental  s
+protection policy and the associated physical and environmental protection controls; v
+Assignment: organization-defined officialb.Designate an [] to manage the development,  b
+documentation, and dissemination of the physical and environmental protection policy and
+procedures; and e
+c.Review and update the current physical and environmental protection:  c
+Assignment: organization-defined frequencyAssignment: g1.Policy [] and following [
+organization-defined eventsf]; and
+Assignment: organization-defined frequencyAssignment: :2.Procedures [] and following [
+torganization-defined events]. t
+/Discussion:  Physical and environmental protection policy and procedures address the controls in d
+ithe PE family that are implemented within systems and organizations. The risk management .
+gstrategy is an important factor in establishing such policies and procedures. Policies and
+0procedures contribute to security and privacy assurance. Therefore, it is important that security
+and privacy programs collaborate on the development of physical and environmental protection 0
+8policy and procedures. Security and privacy program policies and procedures at the organization
+Ilevel are preferable, in general, and may obviate the need for mission- or system-specific policies
+and procedures. The policy can be included as part of the general security and privacy policy or .
+be represented by multiple policies that reflect the complex nature of organizations. Procedures
+0can be established for security and privacy programs, for mission or business processes, and for
+systems, if needed. Procedures describe how the policies or controls are implemented and can 5
+be directed at the individual or role that is the object of the procedure. Procedures can be 5
+documented in system security and privacy plans or in one or more separate documents. Events
+that may precipitate an update to physical and environmental protection policy and procedures
+include assessment or audit findings, security incidents or breaches, or changes in applicable
+laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply
+restating controls does not constitute an organizational policy or procedure.
+Related Controls:  AT-3, PM-9, PS-8, SI-12.
+Control Enhancements:  None.
+References:  [SP 800-12], [SP 800-30], [SP 800-39], [SP 800-100].
+CHAPTER THREE   PAGE 179
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

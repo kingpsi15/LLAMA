@@ -1,0 +1,29 @@
+hAC-11 DEVICE LOCK
+Control: :
+Selection (one or more): initiating a device lock after ia.Prevent further access to the system by [ .
+Assignment: organization-defined time period of inactivity;requiring the user to initiate a [] g
+device lock before leaving the system unattended]; and 0
+2b.Retain the device lock until the user reestablishes access using established identification and
+Nauthentication procedures.
+Discussion:  Device locks are temporary actions taken to prevent logical access to organizational
+Psystems when users stop work and move away from the immediate vicinity of those systems but
+0do not want to log out because of the temporary nature of their absences. Device locks can be
+implemented at the operating system level or at the application level. A proximity lock may be 5
+rused to initiate the device lock (e.g., via a Bluetooth-enabled device or dongle). User-initiated 5
+device locking is behavior or policy-based and, as such, requires users to take physical action to
+initiate the device lock. Device locks are not an acceptable substitute for logging out of systems,
+such as when organizations require users to log out at the end of workdays.
+Related Controls:  AC-2, AC-7, IA-11, PL-4.
+Control Enhancements:
+|- (1) DEVICE LOCK  PATTERNHIDING DISPLAYS
+Conceal, via the device lock, information previously visible on the display with a publicly
+. viewable image
+CHAPTER THREE   PAGE 42
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:The pattern-hiding display can include static or dynamic images, such as
+patterns used with screen savers, photographic images, solid colors, clock, battery life
+indicator, or a blank screen with the caveat that controlled unclassified information is not
+displayed.
+Related Controls:  None.
+References:  None.

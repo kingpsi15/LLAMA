@@ -1,0 +1,41 @@
+INTRODUCTION
+THE NEED TO PROTECT INFORMATION, SYSTEMS, ORGANIZATIONS, AND INDIVIDUALS
+1Modern information systems can include a variety of computing platforms (e.g., industrial
+control systems, general purpose computing systems, cyber-physical systems, super computers,
+weapons systems, communications systems, environmental control systems, medical devices,
+embedded devices, sensors, and mobile devices such as smart phones and tablets). These
+platforms all share a common foundation—computers with complex hardware, software and
+firmware providing a capability that supports the essential mission and business functions of
+2h  organizations.
+bSecurity controls are the safeguards or countermeasures employed within a system or an
+aorganization to protect the confidentiality, integrity, and availability of the system and its
+3n risk. Privacy controls are the administrative, information and to manage information security
+technical, and physical safeguards employed within a system or an organization to manage
+a4privacy risks and to ensure compliance with applicable privacy requirements. Security and
+bprivacy controls are selected and implemented to satisfy security and privacy requirements
+levied on a system or organization. Security and privacy requirements are derived from f
+applicable laws, executive orders, directives, regulations, policies, standards, and mission needs
+to ensure the confidentiality, integrity, and availability of information processed, stored, or c
+transmitted and to manage risks to individual privacy.
+o5 are important tasks The selection, design, and implementation of security and privacy controls m
+:6 that have significant implications for the operations and assets of organizations as well as the
+pwelfare of individuals and the Nation. Organizations should answer several key questions when
+/addressing information security and privacy controls:
+•What security and privacy controls are needed to satisfy security and privacy requirements  r
+1and to adequately manage mission/business risks or risks to individuals?
+•Have the selected controls been implemented or is there a plan in place to do so?  2
+•What is the required level of assurance (i.e., grounds for confidence) that the selected  I
+7 controls, as designed and implemented, are effective?.
+1information systemr An  is a discrete set of information resources organized for the collection, processing,
+maintenance, use, sharing, dissemination, or disposition of information [OMB A-130].
+2organization The term  describes an entity of any size, complexity, or positioning within an organizational structure
+(e.g., a federal agency or, as appropriate, any of its operational elements).
+3information securitysecurity The two terms  and  are used synonymously in this publication.
+4security privacy controls [OMB A-130] defines and .
+5 Controls provide safeguards and countermeasures in systems security and privacy engineering processes to reduce
+risk during the system development life cycle.
+6 Organizational operations include mission, functions, image, and reputation.
+7 Security and privacy control effectiveness addresses the extent to which the controls are implemented correctly,
+operating as intended, and producing the desired outcome with respect to meeting the designated security and
+privacy requirements [SP 800-53A].
+CHAPTER ONE  PAGE1

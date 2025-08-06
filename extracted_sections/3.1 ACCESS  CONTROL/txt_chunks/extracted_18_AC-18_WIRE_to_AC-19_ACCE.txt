@@ -1,0 +1,53 @@
+oAC-18 WIRELESS ACCESS
+aControl:
+a.Establish configuration requirements, connection requirements, and implementation  f
+mguidance for each type of wireless access; and
+tb.Authorize each type of wireless access to the system prior to allowing such connections.  t
+Discussion:  Wireless technologies include microwave, packet radio (ultra-high frequency or very /
+high frequency), 802.11x, and Bluetooth. Wireless networks use authentication protocols that i.
+provide authenticator protection and mutual authentication. g
+Related Controls:  AC-2, AC-3, AC-17, AC-19, CA-9, CM-7, IA-2, IA-3, IA-8, PL-4, SC-40, SC-43, SI-4. .
+8Control Enhancements:
+| (1) WIRELESS ACCESS  AUTHENTICATION AND ENCRYPTION
+Selection (one or more): Protect wireless access to the system using authentication of [P
+users; devices] and encryption.
+Discussion:  Wireless networking capabilities represent a significant potential vulnerability 5
+rthat can be exploited by adversaries. To protect systems with wireless access points, strong 5
+authentication of users and devices along with strong encryption can reduce susceptibility to
+threats by adversaries involving wireless technologies.
+Related Controls:  SC-8, SC-12, SC-13.
+| (2) WIRELESS ACCESS  MONITORING UNAUTHORIZED CONNECTIONS
+[Withdrawn: Incorporated into SI-4.]
+| (3) WIRELESS ACCESS  DISABLE WIRELESS NETWORKING
+Disable, when not intended for use, wireless networking capabilities embedded within
+system components prior to issuance and deployment.
+CHAPTER THREE   PAGE 50
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  Wireless networking capabilities that are embedded within system components
+represent a significant potential vulnerability that can be exploited by adversaries. Disabling
+wireless capabilities when not needed for essential organizational missions or functions can
+reduce susceptibility to threats by adversaries involving wireless technologies.
+Related Controls:  None.
+| (4) WIRELESS ACCESS  RESTRICT CONFIGURATIONS BY USERS
+Identify and explicitly authorize users allowed to independently configure wireless
+networking capabilities.
+Discussion:  Organizational authorizations to allow selected users to configure wireless
+networking capabilities are enforced, in part, by the access enforcement mechanisms
+employed within organizational systems.
+TRelated Controls:  SC-7, SC-15.
+| p(5) WIRELESS ACCESS  ANTENNAS AND TRANSMISSION POWER LEVELS
+lSelect radio antennas and calibrate transmission power levels to reduce the probability ic
+that signals from wireless access points can be received outside of organization-controlled t
+boundaries.
+aDiscussion:  Actions that may be taken to limit unauthorized use of wireless communications
+outside of organization-controlled boundaries include reducing the power of wireless i
+btransmissions so that the transmissions are less likely to emit a signal that can be captured
+outside of the physical perimeters of the organization, employing measures such as f
+eemissions security to control wireless emanations, and using directional or beamforming
+fantennas that reduce the likelihood that unintended receivers will be able to intercept
+signals. Prior to taking such mitigating actions, organizations can conduct periodic wireless a
+surveys to understand the radio frequency profile of organizational systems as well as other
+systems that may be operating in the area. r
+Related Controls:  PE-19. :
+References:  [SP 800-94], [SP 800-97].

@@ -1,0 +1,46 @@
+AU-16 CROSS-ORGANIZATIONAL AUDIT LOGGING
+Assignment: organization-defined methodsAssignment: Control:  Employ [] for coordinating [
+organization-defined audit information] among external organizations when audit information is
+transmitted across organizational boundaries.
+Discussion:  When organizations use systems or services of external organizations, the audit
+hlogging capability necessitates a coordinated, cross-organization approach. For example,
+maintaining the identity of individuals who request specific services across organizational p
+bboundaries may often be difficult, and doing so may prove to have significant performance and
+aprivacy ramifications. Therefore, it is often the case that cross-organizational audit logging simply
+captures the identity of individuals who issue requests at the initial system, and subsequent n
+i sOrganizations consider systems record that the requests originated from authorized individuals.
+vincluding processes for coordinating audit information requirements and protection of audit
+linformation in information exchange agreements. a
+Related Controls:  AU-3, AU-6, AU-7, CA-3, PT-7. f
+Control Enhancements: o
+-|  (1) CROSSORGANIZATIONAL AUDIT LOGGING  IDENTITY PRESERVATIONa
+ePreserve the identity of individuals in cross-organizational audit trails.
+Discussion:  Identity preservation is applied when there is a need to be able to trace actions  m
+that are performed across organizational boundaries to a specific individual.
+Related Controls:  IA-2, IA-4, IA-5, IA-8. s
+-|  o(2) CROSSORGANIZATIONAL AUDIT LOGGING  SHARING OF AUDIT INFORMATION
+rAssignment: organization-defined Provide cross-organizational audit information to [g
+organizationsAssignment: organization-defined cross-organizational sharing ] based on [0
+agreements]. 0
+Discussion:  Due to the distributed nature of the audit information, cross-organization
+Isharing of audit information may be essential for effective analysis of the auditing being S
+performed. For example, the audit records of one organization may not provide sufficient .
+information to determine the appropriate or inappropriate use of organizational information
+0resources by individuals in other organizations. In some instances, only individuals’ home
+5organizations have the appropriate knowledge to make such determinations, thus requiring
+5the sharing of audit information among organizations.
+Related Controls:  IR-4, SI-4.
+-| (3) CROSSORGANIZATIONAL AUDITING  DISASSOCIABILITY
+Assignment: organization-defined measuresImplement [] to disassociate individuals from
+audit information transmitted across organizational boundaries.
+Discussion:  Preserving identities in audit trails could have privacy ramifications, such as
+enabling the tracking and profiling of individuals, but may not be operationally necessary.
+These risks could be further amplified when transmitting information across organizational
+boundaries. Implementing privacy-enhancing cryptographic techniques can disassociate
+individuals from audit information and reduce privacy risk while maintaining accountability.
+CHAPTER THREE   PAGE 81
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  None.
+References:  None.
+CHAPTER THREE   PAGE 82

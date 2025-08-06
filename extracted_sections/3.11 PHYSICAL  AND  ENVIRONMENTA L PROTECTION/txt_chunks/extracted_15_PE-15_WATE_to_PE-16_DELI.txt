@@ -1,0 +1,17 @@
+PE-15 WATER DAMAGE PROTECTION
+fControl:  Protect the system from damage resulting from water leakage by providing master r
+shutoff or isolation valves that are accessible, working properly, and known to key personnel.
+Discussion:  The provision of water damage protection primarily applies to organizational h
+rfacilities that contain concentrations of system resources, including data centers, server rooms, g
+and mainframe computer rooms. Isolation valves can be employed in addition to or in lieu of f
+mmaster shutoff valves to shut off water supplies in specific areas of concern without affecting
+hentire organizations.
+Related Controls:  AT-3, PE-10. :
+Control Enhancements: i.
+/| (1) WATER DAMAGE PROTECTION  AUTOMATION SUPPORT 1
+6Assignment: organization-defined Detect the presence of water near the system and alert [
+personnel or rolesAssignment: organization-defined automated mechanisms] using []. 8
+Discussion:  Automated mechanisms include notification systems, water detection sensors, I
+and alarms. .
+Related Controls:  None. .
+References:  None. -

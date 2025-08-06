@@ -1,0 +1,22 @@
+5SC-32 SYSTEM PARTITIONING
+Assignment: organization-defined system componentsControl:  Partition the system into []
+Selection: physical; logicalAssignment: residing in separate [] domains or environments based on [
+organization-defined circumstances for physical or logical separation of components].
+Discussion:  System partitioning is part of a defense-in-depth protection strategy. Organizations
+determine the degree of physical separation of system components. Physical separation options
+include physically distinct components in separate racks in the same room, critical components in
+separate rooms, and geographical separation of critical components. Security categorization can
+guide the selection of candidates for domain partitioning. Managed interfaces restrict or prohibit
+network access and information flow among partitioned system components.
+Related Controls:  AC-4, AC-6, SA-8, SC-2, SC-3, SC-7, SC-36.
+CHAPTER THREE   PAGE 320
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Control Enhancements:
+| (1) SYSTEM PARTITIONING  SEPARATE PHYSICAL DOMAINS FOR PRIVILEGED FUNCTIONS
+Partition privileged functions into separate physical domains.
+Discussion:  Privileged functions that operate in a single physical domain may represent a
+single point of failure if that domain becomes compromised or experiences a denial of
+service.
+Related Controls:  None.
+References:  [FIPS 199], [IR 8179].

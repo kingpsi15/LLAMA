@@ -1,0 +1,35 @@
+MP-4 MEDIA STORAGE
+Control:
+CHAPTER THREE   PAGE 172
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: organization-defined types of digital a.Physically control and securely store [
+and/or non-digital mediaAssignment: organization-defined controlled areas] within []; and
+b.Protect system media types defined in MP-4a until the media are destroyed or sanitized
+using approved equipment, techniques, and procedures.
+Discussion:  System media includes digital and non-digital media. Digital media includes flash
+drives, diskettes, magnetic tapes, external or removable hard disk drives (e.g., solid state,
+magnetic), compact discs, and digital versatile discs. Non-digital media includes paper and
+microfilm. Physically controlling stored media includes conducting inventories, ensuring
+procedures are in place to allow individuals to check out and return media to the library, and
+maintaining accountability for stored media. Secure storage includes a locked drawer, desk, or
+cabinet or a controlled media library. The type of media storage is commensurate with the
+security category or classification of the information on the media. Controlled areas are spaces
+that provide physical and procedural controls to meet the requirements established for h
+protecting information and systems. Fewer controls may be needed for media that contains
+binformation determined to be in the public domain, publicly releasable, or have limited adverse
+impacts on organizations, operations, or individuals if accessed by other than authorized a
+opersonnel. In these situations, physical access controls provide adequate protection.
+Related Controls:  AC-19, CP-2, CP-6, CP-9, CP-10, MP-2, MP-7, PE-3, PL-2, SC-12, SC-13, SC-28, a
+aSC-34, SI-12.
+lControl Enhancements: e
+| (1) eMEDIA STORAGE  CRYPTOGRAPHIC PROTECTION
+[Withdrawn: Incorporated into SC-28(1).]
+r| (2) MEDIA STORAGE  AUTOMATED RESTRICTED ACCESS g
+Restrict access to media storage areas and log access attempts and access granted using r
+Assignment: organization-defined automated mechanisms[].
+tDiscussion:  Automated mechanisms include keypads, biometric readers, or card readers on t
+the external entries to media storage areas. :
+oRelated Controls:  AC-3, AU-2, AU-6, AU-9, AU-12, PE-3.
+References:  [FIPS 199], [SP 800-56A], [SP 800-56B], [SP 800-56C], [SP 800-57-1], [SP 800-57-2],
+[SP 800-57-3], [SP 800-111].

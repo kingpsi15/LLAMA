@@ -1,0 +1,2 @@
+AU-15 ALTERNATE AUDIT LOGGING CAPABILITY
+[Withdrawn: Moved to AU-5(5).]

@@ -1,0 +1,5 @@
+{
+  "subheading": "SR-10 INSPECTION OF SYSTEMS OR COMPONENTS",
+  "start_text": "SR-10 INSPECTION OF SYSTEMS OR COMPONENTS\nSelectio",
+  "content": "SR-10 INSPECTION OF SYSTEMS OR COMPONENTS\nSelection (one or more): at Control:  Inspectthe following systems or system components [\nrandom;Assignment: organization-defined frequency upon Assignment: organization- at [],[\ndefined indications of need for inspectionAssignment: organization-]] to detect tampering: [\ndefined systems or system components].\nDiscussion:  The inspection of systems or systems components for tamper resistance and\ndetection addresses physical and logical tampering and is applied to systems and system\ncomponents removed from organization-controlled areas. Indications of a need for inspection\ninclude changes in packaging, specifications, factory location, or entity in which the part is\npurchased, and when individuals return from travel to high-risk locations.\niRelated Controls:  AT-3, PM-30, SI-4, SI-7, SR-3, SR-4, SR-5, SR-9, SR-11.  s\nbReferences:  [ISO 20243]."
+}

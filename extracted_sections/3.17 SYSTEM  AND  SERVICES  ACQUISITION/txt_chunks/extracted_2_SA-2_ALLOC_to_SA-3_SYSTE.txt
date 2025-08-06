@@ -1,0 +1,14 @@
+SA-2 ALLOCATION OF RESOURCES
+Control:
+a.Determine the high-level information security and privacy requirements for the system or
+system service in mission and business process planning;
+b.Determine, document, and allocate the resources required to protect the system or system
+service as part of the organizational capital planning and investment control process; and
+c.Establish a discrete line item for information security and privacy in organizational
+programming and budgeting documentation.
+Discussion:  Resource allocation for information security and privacy includes funding for system
+and services acquisition, sustainment, and supply chain-related risks throughout the system
+Tdevelopment life cycle.
+Related Controls:  PL-7, PM-3, PM-11, SA-9, SR-3, SR-5. p
+lControl Enhancements:  None. ic
+References:  [OMB A-130], [SP 800-37], [SP 800-160-1].

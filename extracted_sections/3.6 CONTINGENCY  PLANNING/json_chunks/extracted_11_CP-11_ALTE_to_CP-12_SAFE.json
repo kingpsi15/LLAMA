@@ -1,0 +1,5 @@
+{
+  "subheading": "CP-11 ALTERNATE COMMUNICATIONS PROTOCOLS",
+  "start_text": "CP-11 ALTERNATE COMMUNICATIONS PROTOCOLS\nAssignmen",
+  "content": "CP-11 ALTERNATE COMMUNICATIONS PROTOCOLS\nAssignment: organization-defined alternative Control:  Provide the capability to employ [\ncommunications protocols] in support of maintaining continuity of operations.\nDiscussion:  Contingency plans and the contingency training or testing associated with those\nplans incorporate an alternate communications protocol capability as part of establishing\nresilience in organizational systems. Switching communications protocols may affect software\napplications and operational aspects of systems. Organizations assess the potential side effects\nof introducing alternate communications protocols prior to implementation.\nRelated Controls:  CP-2, CP-8, CP-13.\nhControl Enhancements:  None.\nReferences:  None. u"
+}

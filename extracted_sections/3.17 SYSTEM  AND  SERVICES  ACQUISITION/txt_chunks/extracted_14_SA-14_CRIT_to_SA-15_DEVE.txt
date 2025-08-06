@@ -1,0 +1,5 @@
+SA-14 CRITICALITY ANALYSIS
+[Withdrawn: Incorporated into RA-9.]
+Control Enhancements:
+| (1) CRITICALITY ANALYSIS  CRITICAL COMPONENTS WITH NO VIABLE ALTERNATIVE SOURCING
+[Withdrawn: Incorporated into SA-20.]

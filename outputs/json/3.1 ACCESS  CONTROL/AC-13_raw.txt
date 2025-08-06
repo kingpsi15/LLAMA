@@ -1,0 +1,9 @@
+ {
+     "PolicyId": "AC-13",
+     "PolicyName": "SUPERVISION AND REVIEW — ACCESS CONTROL",
+     "Control": "None",
+     "Discussion": "None",
+     "ControlEnhancements": "None",
+     "RelatedControls": "None",
+     "References": "[Withdrawn: Incorporated into AC-2 and AU-6.]"
+   }

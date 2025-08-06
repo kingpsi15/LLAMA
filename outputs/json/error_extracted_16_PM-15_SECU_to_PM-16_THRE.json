@@ -1,0 +1,13 @@
+{
+    "PolicyId": "PM-15",
+    "PolicyName": "SECURITY AND PRIVACY GROUPS AND ASSOCIATIONS",
+    "Control": "Establish and institutionalize contact with selected groups and associations within the security and privacy communities:",
+      "a.To facilitate ongoing security and privacy education and training for organizational personnel;",
+      "b.To maintain currency with recommended security and privacy practices, techniques, and technologies;",
+      "and",
+      "c.To share current security and privacy information, including threats, vulnerabilities, and incidents." ,
+    "Discussion": "Ongoing contact with security and privacy groups and associations is important in an environment of rapidly changing technologies and threats. Groups and associations include a special interest groups, professional associations, forums, news groups, users’ groups, and peer groups of security and privacy professionals in similar organizations. Organizations select security and privacy groups and associations based on mission and business functions. Organizations v share threat, vulnerability, and incident information as well as contextual insights, compliance techniques, and privacy problems consistent with applicable laws, executive orders, directives, e regulations, standards, and guidelines.",
+    "RelatedControls": "SA-11, SI-5.",
+    "ControlEnhancements": "None.",
+    "References": "[OMB A-130]"
+  }

@@ -1,0 +1,9 @@
+{
+  "PolicyId": "PM-19",
+  "PolicyName": "PRIVACY PROGRAM LEADERSHIP ROLE",
+  "Control": "Appoint a senior agency official for privacy with the authority, mission, accountability,\nand resources to coordinate, develop, and implement, applicable privacy requirements and\nmanage privacy risks through the organization-wide privacy program.",
+  "Discussion": "The privacy officer is an organizational official. For federal agencies\u2014as defined by\napplicable laws, executive orders, directives, regulations, policies, standards, and guidelines\u2014this T\nofficial is designated as the senior agency official for privacy. Organizations may also refer to this\nofficial as the chief privacy officer. The senior agency official for privacy also has roles on the data\nmanagement board (see PM-24).",
+  "RelatedControls": "PM-18, PM-20, PM-23, PM-24, PM-27.",
+  "ControlEnhancements": "None.",
+  "References": "[OMB A-130]"
+}

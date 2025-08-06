@@ -1,0 +1,28 @@
+PM-4 PLAN OF ACTION AND MILESTONES PROCESS  v
+Control: b
+ra.Implement a process to ensure that plans of action and milestones for the information  e
+security, privacy, and supply chain risk management programs and associated organizational
+systems: c
+g1.Are developed and maintained;
+o2.Document the remedial information security, privacy, and supply chain risk
+:management actions to adequately respond to risk to organizational operations and
+tassets, individuals, other organizations, and the Nation; and
+/3.Are reported in accordance with established reporting requirements.  d
+b.Review plans of action and milestones for consistency with the organizational risk
+/management strategy and organization-wide priorities for risk response actions. 1
+Discussion:  The plan of action and milestones is a key organizational document and is subject to 0
+reporting requirements established by the Office of Management and Budget. Organizations
+Idevelop plans of action and milestones with an organization-wide perspective, prioritizing risk
+response actions and ensuring consistency with the goals and objectives of the organization. Plan .
+of action and milestones updates are based on findings from control assessments and continuous
+0monitoring activities. There can be multiple plans of action and milestones corresponding to the
+5information system level, mission/business process level, and organizational/governance level.
+While plans of action and milestones are required for federal organizations, other types of 5
+organizations can help reduce risk by documenting and tracking planned remediations. Specific
+CA-5. guidance on plans of action and milestones at the system level is provided in
+Related Controls:  CA-5, CA-7, PM-3, RA-7, SI-12.
+Control Enhancements:  None.
+References:  [PRIVACT], [OMB A-130], [SP 800-37].
+CHAPTER THREE    PAGE 205
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

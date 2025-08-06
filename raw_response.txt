@@ -1,0 +1,11 @@
+ {
+     "PolicyId": "AC-2",
+     "PolicyName": "ACCOUNT MANAGEMENT",
+     "Control": "a.Define and document the types of accounts allowed and specifically prohibited for use within the system;\nb.Assign account managers;\nc.Specify:\n1.Authorized users of the system;\n2.Group and role membership;\n3.Access authorizations (i.e., privileges) and [ p(as required)] for each account;\nd.Create, enable, modify, disable, and remove accounts in accordance with [ vorganization-defined policy, procedures, prerequisites, and criteria]; g.Monitor the use of accounts;\nh.Notify account managers and [] within: i.[] when accounts are no longer required; j.Review accounts for compliance with account management requirements [Sorganization-defined frequency]; k.Establish and implement a process for changing shared or group account authenticators (if deployed) when individuals are removed from the group; l.Align account management processes with personnel termination and transfer processes.",
+     "Description": "None",
+     "Discussion": "Examples of system account types include individual, shared, group, system, guest, anonymous, and open accounts.\n\nThe use of accounts such as shared accounts or group accounts should be restricted to minimize the risks associated with unaccountable access.",
+     "Dynamic Privilege Management": "Implement capabilities for dynamic access control approaches that rely on runtime access control decisions facilitated by dynamic privilege management, such as attribute-based access control. While user identities remain relatively constant over time, user privileges typically change more frequently based on ongoing mission or business requirements and the operational needs of organizations.",
+     "Privileged Role Access": "Establish and administer privileged user accounts in accordance with a role-based access scheme; monitor privileged role or attribute assignments; monitor changes to roles or attributes; revoke access when privileged role or attribute assignments are no longer appropriate.",
+     "Atypical Usage Monitoring": "Monitor system accounts for atypical usage and report atypical usage of system accounts to personnel or roles",
+     "High-Risk Individuals Account Disable": "Disable accounts of individuals within a specified time period following discovery of significant risks"
+   }

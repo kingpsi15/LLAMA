@@ -1,0 +1,39 @@
+ {
+      "Information Flow Enforcement": [
+         {
+            "Control ID": "26",
+            "Control Name": "Audit Filtering Actions",
+            "Control Description": "When transferring information between different security domains, record and audit content filtering actions and results for the information being filtered."
+         },
+         {
+            "Control ID": "27",
+            "Control Name": "Redundant Independent Filtering Mechanisms",
+            "Control Description": "When transferring information between different security domains, implement content filtering solutions that provide redundant and independent filtering mechanisms for each data type."
+         },
+         {
+            "Control ID": "28",
+            "Control Name": "Linear Filter Pipelines",
+            "Control Description": "When transferring information between different security domains, implement a linear content filter pipeline that is enforced with discretionary and mandatory access controls."
+         },
+         {
+            "Control ID": "29",
+            "Control Name": "Filter Orchestration Engines",
+            "Control Description": "When transferring information between different security domains, employ content filter orchestration engines to ensure that: (a) Content filtering mechanisms successfully complete execution without errors; and (b) Content filtering actions occur in the correct order and comply with organization-defined policy."
+         },
+         {
+            "Control ID": "30",
+            "Control Name": "Filter Mechanisms Using Multiple Processes",
+            "Control Description": "When transferring information between different security domains, implement content filtering mechanisms using multiple processes."
+         },
+         {
+            "Control ID": "31",
+            "Control Name": "Failed Content Transfer Prevention",
+            "Control Description": "When transferring information between different security domains, prevent the transfer of failed content to the receiving domain."
+         },
+         {
+            "Control ID": "32",
+            "Control Name": "Process Requirements for Information Transfer",
+            "Control Description": "When transferring information between different security domains, the process that transfers information between filter pipelines: (a) Does not filter message content; (b) Validates filtering metadata; (c) Ensures the content associated with the filtering metadata has successfully completed filtering; and (d) Transfers the content to the destination filter pipeline."
+         }
+      ]
+   }

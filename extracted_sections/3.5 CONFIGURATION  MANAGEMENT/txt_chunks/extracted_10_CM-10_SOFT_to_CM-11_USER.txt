@@ -1,0 +1,33 @@
+/CM-10 SOFTWARE USAGE RESTRICTIONS N
+Control:  .
+.a.Use software and associated documentation in accordance with contract agreements and  8
+0copyright laws;
+rb.Track the use of software and associated documentation protected by quantity licenses to
+control copying and distribution; and
+c.Control and document the use of peer-to-peer file sharing technology to ensure that this
+capability is not used for the unauthorized distribution, display, performance, or
+reproduction of copyrighted work.
+Discussion:  Software license tracking can be accomplished by manual or automated methods,
+depending on organizational needs.Examples of contract agreements include software license
+agreements and non-disclosure agreements.
+Related Controls:  AC-17, AU-6, CM-7, CM-8, PM-30, SC-7.
+CHAPTER THREE   PAGE 111
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Control Enhancements:
+|- (1) SOFTWARE USAGE RESTRICTIONS  OPENSOURCE SOFTWARE
+Assignment: Establish the following restrictions on the use of open-source software: [
+organization-defined restrictions].
+Discussion:  Open-source software refers to software that is available in source code form.
+Certain software rights normally reserved for copyright holders are routinely provided under
+software license agreements that permit individuals to study, change, and improve the
+software. From a security perspective, the major advantage of open-source software is that
+it provides organizations with the ability to examine the source code. In some cases, there is
+an online community associated with the software that inspects, tests,  updates, and reports
+on issues found in software on an ongoing basis. However, remediating vulnerabilities in
+open-source software may be problematic. There may also be licensing issues associated
+hwith open-source software, including the constraints on derivative use of such software.
+Open-source software that is available only in binary form may increase the level of risk in p
+busing such software.
+Related Controls:  SI-7. t
+References:  None.i s

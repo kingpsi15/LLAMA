@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "None",
+      "PolicyName": "NIST SP 800-53, R.5 SPC ISO: Security and Privacy Controls for Information Systems and Organizations",
+      "Control": "Three approaches to implementing the controls in Chapter Three are:\n(1) a system-specific (inheritable) control implementation approach,\n(2) a control implementation hybrid approach,\nand (3) a control implementation approach.",
+      "Discussion": "Each control implementation approach has a specific objective and focus that helps organizations select the appropriate controls, implement the controls in an effective manner, and satisfy security and privacy requirements. A specific control implementation approach may achieve cost benefits by leveraging security and privacy capabilities across multiple systems and environments of operation.",
+      "ControlEnhancements": "inheritableCommon controls are controls whose implementation results in a capability that is shared by multiple systems or programs.",
+      "RelatedControls": "Many of the controls needed to protect organizational information systems—including many physical and environmental protection controls, personnel security controls, and incident response controls—are inheritable and, therefore, are good candidates for common control implementation.",
+      "References": "NIST SP 800-37 provides additional guidance on control implementation approaches (formerly referred to as control Risk Management Framework designations) and how the different approaches are used in the."
+   }

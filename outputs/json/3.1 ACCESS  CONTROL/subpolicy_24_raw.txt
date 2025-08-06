@@ -1,0 +1,31 @@
+ {
+      "Mandatory Access Control": {
+         "Enforcement": "organization-defined mandatory access control policy",
+         "Covered Subjects and Objects": "organization-defined"
+      },
+      "Discretionary Access Control": {
+         "Enforcement": "organization-defined discretionary access control policy",
+         "Covered Subjects and Objects": "organization-defined"
+      },
+      "Controlled Release of Information": {
+         "Conditions for Release": [
+            "The receiving system provides appropriate controls",
+            "Controls are used to validate the appropriateness of the information designated for release"
+         ]
+      },
+      "Assert and Enforce Application Access": {
+         "Requirements": [
+            "Requires applications to assert, as part of the installation process, the access needed to system applications and functions",
+            "Provides an enforcement mechanism to prevent unauthorized access",
+            "Approves access changes after initial installation of the application"
+         ]
+      },
+      "Attribute-Based Access Control": {
+         "Enforcement": "organization-defined attribute-based access control policy",
+         "Attributes for Access": "organization-defined attributes and rules"
+      },
+      "Individual Access": {
+         "Mechanisms": "organization-defined mechanisms",
+         "Elements of Personally Identifiable Information": "organization-defined elements"
+      }
+   }

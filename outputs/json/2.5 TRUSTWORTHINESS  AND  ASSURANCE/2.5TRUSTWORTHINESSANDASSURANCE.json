@@ -1,0 +1,9 @@
+{
+  "PolicyId": "2.5TRUSTWORTHINESSANDASSURANCE",
+  "PolicyName": "The trustworthiness of systems, system components, and system services is an important part of the risk management strategies developed by organizations.",
+  "Control": "In general, the task of providing meaningful assurance that a system is likely to do what is expected of it can be enhanced by techniques that simplify or narrow the analysis by, for example, increasing the discipline applied to the system architecture, software design, specifications, code style, and configuration management. Security and privacy controls address functionality and assurance. Certain controls focus primarily on functionality while other controls focus primarily on assurance. Some controls can support functionality and assurance.",
+  "Discussion": "None",
+  "ControlEnhancements": "Security and privacy controls address functionality and assurance. Certain controls focus primarily on functionality while other controls focus primarily on assurance. Some controls can support functionality and assurance.",
+  "RelatedControls": "Assurance-related controls are identified in the control summary tables in Appendix C",
+  "References": "29 Resources to support information security and privacy program collaboration are available at [SP 800-53 RES].\n30[ SP 800-160-1]\n31 See [NEUM04]"
+}

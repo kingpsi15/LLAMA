@@ -1,0 +1,41 @@
+AC-12 SESSION TERMINATION
+Assignment: organization-defined Control:  Automatically terminate a user session after [
+conditions or trigger events requiring session disconnect].
+Discussion:  Session termination addresses the termination of user-initiated logical sessions (in
+contrast to SC-10, which addresses the termination of network connections associated with
+communications sessions (i.e., network disconnect)). A logical session (for local, network, and
+remote access) is initiated whenever a user (or process acting on behalf of a user) accesses an
+licorganizational system. Such user sessions can be terminated without terminating network
+isessions. Session termination ends all processes associated with a user’s logical session except o
+for those processes that are specifically created by the user (i.e., session owner) to continue after is
+the session is terminated. Conditions or trigger events that require automatic termination of the
+session include organization-defined periods of user inactivity, targeted responses to certain i
+types of incidents, or time-of-day restrictions on system use. le
+eRelated Controls:  MA-4, SC-10, SC-23.
+Control Enhancements:
+r|-  (1) SESSION TERMINATION  USERINITIATED LOGOUTSg
+Provide a logout capability for user-initiated communications sessions whenever r
+Assignment: organization-defined information authentication is used to gain access to [
+resources]. t
+Discussion:  Information resources to which users gain access via authentication include local :
+workstations, databases, and password-protected websites or web-based services. o
+Related Controls:  None. r
+| (2) SESSION TERMINATION  TERMINATION MESSAGE .
+2Display an explicit logout message to users indicating the termination of authenticated
+Ncommunications sessions.
+TDiscussion:  Logout messages for web access can be displayed after authenticated sessions
+have been terminated. However, for certain types of sessions, including file transfer protocol P
+(FTP) sessions, systems typically send logout messages as final messages prior to terminating
+sessions. -
+Related Controls:  None. 5
+| (3) SESSION TERMINATION  TIMEOUT WARNING MESSAGE
+Assignment:  Display an explicit message to users indicating that the session will endin [
+organization-defined time until end of session].
+Discussion:  To increase usability, notify users of pending session termination and prompt
+users to continue the session. The pending session termination time period is based on the
+AC-12 base control.  parameters defined in the
+Related Controls:  None.
+References:  None.
+CHAPTER THREE   PAGE 43
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

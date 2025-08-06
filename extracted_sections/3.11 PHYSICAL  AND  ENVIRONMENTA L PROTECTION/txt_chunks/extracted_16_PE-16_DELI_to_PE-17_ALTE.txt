@@ -1,0 +1,13 @@
+PE-16 DELIVERY AND REMOVAL
+Control:
+Assignment: organization-defined types of system componentsa.Authorize and control []
+entering and exiting the facility; and
+b.Maintain records of the system components.
+Discussion:  Enforcing authorizations for entry and exit of system components may require
+restricting access to delivery areas and isolating the areas from the system and media libraries.
+Related Controls:  CM-3, CM-8, MA-2, MA-3, MP-5, PE-20, SR-2, SR-3, SR-4, SR-6.
+CHAPTER THREE   PAGE 190
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Control Enhancements:  None.
+References:  None.

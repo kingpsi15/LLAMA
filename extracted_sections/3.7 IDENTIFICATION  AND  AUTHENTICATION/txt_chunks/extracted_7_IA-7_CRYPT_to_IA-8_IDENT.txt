@@ -1,0 +1,10 @@
+IA-7 CRYPTOGRAPHIC MODULE AUTHENTICATION 2
+Control:  Implement mechanisms for authentication to a cryptographic module that meet the I
+requirements of applicable laws, executive orders, directives, policies, regulations, standards,
+Pand guidelines for such authentication.
+0Discussion:  Authentication mechanisms may be required within a cryptographic module to
+authenticate an operator accessing the module and to verify that the operator is authorized to 3
+assume the requested role and perform services within that role.
+Related Controls:  AC-3, IA-5, SA-4, SC-12, SC-13.
+Control Enhancements:  None.
+References:  [FIPS 140-3].

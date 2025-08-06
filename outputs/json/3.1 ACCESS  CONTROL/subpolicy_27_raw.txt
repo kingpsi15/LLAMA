@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "",
+      "PolicyName": "iAC-6 LEAST PRIVILEGE",
+      "Control": "Employ the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) that are necessary to accomplish assigned organizational tasks.",
+      "Discussion": "Organizations employ least privilege for specific duties and systems. The principle of least privilege is also applied to system processes, ensuring that the processes have access to systems and operate at privilege levels no higher than necessary to accomplish organizational missions or business functions. Organizations consider the creation of additional processes, roles, and accounts as necessary to achieve least privilege. Organizations apply least privilege to the development, implementation, and operation of organizational systems.",
+      "ControlEnhancements": ["(1) LEAST PRIVILEGE  AUTHORIZE ACCESS TO SECURITY FUNCTIONS", "(2) LEAST PRIVILEGE  NONPRIVILEGED ACCESS FOR NONSECURITY FUNCTIONS", "(3) LEAST PRIVILEGE  NETWORK ACCESS TO PRIVILEGED COMMANDS", "(4) LEAST PRIVILEGE  SEPARATE PROCESSING DOMAINS", "(5) LEAST PRIVILEGE  PRIVILEGED ACCOUNTS", "(6) LEAST PRIVILEGE  PRIVILEGED ACCESS BY NONORGANIZATIONAL USERS", "(7) LEAST PRIVILEGE  REVIEW OF USER PRIVILEGES", "(8) LEAST PRIVILEGE  PRIVILEGE LEVELS FOR CODE EXECUTION", "(9) LEAST PRIVILEGE  LOG USE OF PRIVILEGED FUNCTIONS", "(10) LEAST PRIVILEGE  PROHIBIT NONPRIVILEGED USERS FROM EXECUTING PRIVILEGED FUNCTIONS"],
+      "RelatedControls": "AC-2, AC-3, AC-5, AC-16, CM-5, CM-11, PL-2, PM-12, SA-8, SA-15, SA-17, SC-38, AC-17, AC-18, AC-19, AU-9, PE-2, IA-2, MA-3, MA-4, AC-18, AC-19, IA-8, CA-7",
+      "References": "None"
+   }

@@ -1,0 +1,31 @@
+2.4SECURITYANDPRIVACYCONTROLS t      i
+isThe selection and implementation of security and privacy controls reflect the objectives of
+information security and privacy programs and how those programs manage their respective a
+risks. Depending on the circumstances, these objectives and risks can be independent or b
+overlapping. Federal information security programs are responsible for protecting information
+and information systems from unauthorized access, use, disclosure, disruption, modification, or e
+fdestruction (i.e., unauthorized activity or system behavior) to provide confidentiality, integrity,
+and availability. Those programs are also responsible for managing security risk and for ensuring a
+ecompliance with applicable security requirements. Federal privacy programs are responsible for
+omanaging risks to individuals associated with the creation, collection, use, processing, storage,
+:maintenance, dissemination, disclosure, or disposal (collectively referred to as “processing”) of
+t28 When a system PII and for ensuring compliance with applicable privacy requirements.p
+/processes PII, the information security program and the privacy program have a shared /
+responsibility for managing the security risks for the PII in the system. Due to this overlap in i.
+gresponsibilities, the controls that organizations select to manage these security risks will
+0generally be the same regardless of their designation as security or privacy controls in control
+baselines or program or system plans.
+SThere also may be circumstances in which the selection and/or implementation of the control or
+Scontrol enhancement affects the ability of a program to achieve its objectives and manage its
+respective risks. The control discussion section may highlight specific security and/or privacy 8
+considerations so that organizations can take these considerations into account as they -
+determine the most effective method to implement the control. However, these considerations r
+are not exhaustive.
+(Content of Audit Records) to support For example, an organization might select AU-3
+monitoring for unauthorized access to an information asset that does not include PII. Since the
+28 Privacy programs may also choose to consider the risks to individuals that may arise from their interactions with
+information systems, where the processing of personally identifiable information may be less impactful than the
+effect that the system has on individuals’ behavior or activities. Such effects would constitute risks to individual
+autonomy, and organizations may need to take steps to manage those risks in addition to information security and
+privacy risks.
+CHAPTER TWO  PAGE 13

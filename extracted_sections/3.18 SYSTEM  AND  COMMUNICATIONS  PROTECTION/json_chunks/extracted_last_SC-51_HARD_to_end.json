@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-51 HARDWARE-BASED PROTECTION",
+  "start_text": "SC-51 HARDWARE-BASED PROTECTION\nControl:\nAssignmen",
+  "content": "SC-51 HARDWARE-BASED PROTECTION\nControl:\nAssignment: organization-defined system a.Employ hardware-based, write-protect for [\nfirmware components]; and\nAssignment: organization-defined authorized individualsb.Implement specific procedures for []\nto manually disable hardware write-protect for firmware modifications and re-enable the\nwrite-protect prior to returning to operational mode.\nDiscussion:  None.\nRelated Controls:  None.\nControl Enhancements:  None.\niReferences:  None. s\nCHAPTER THREE   PAGE 331"
+}

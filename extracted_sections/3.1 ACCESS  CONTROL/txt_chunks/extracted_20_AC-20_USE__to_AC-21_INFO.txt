@@ -1,0 +1,104 @@
+AC-20 USE OF EXTERNAL SYSTEMS
+Control:
+hSelection (one or more): Establish Assignment: organization-defined terms and conditions;a.[[]
+Identify Assignment: organization-defined controls asserted to be implemented on external [p
+bsystems]], consistent with the trust relationships established with other organizations
+owning, operating, and/or maintaining external systems, allowing authorized individuals to: a
+1.Access the system from external systems; and
+2.Process, store, or transmit organization-controlled information using external systems; v
+lor a
+Assignment: organizationally-defined types of external systemsb.Prohibit the use of [].
+Discussion:  External systems are systems that are used by but not part of organizational systems,
+and for which the organization has no direct control over the implementation of required c
+controls or the assessment of control effectiveness. External systems include personally owned
+esystems, components, or devices; privately owned computing and communications devices in
+ocommercial or public facilities; systems owned or controlled by nonfederal organizations;
+:systems managed by contractors; and federal information systems that are not owned by,
+toperated by, or under the direct supervision or authority of the organization. External systems
+:also include systems owned or operated by other components within the same organization and
+osystems within the organization with different authorization boundaries. Organizations have the
+option to prohibit the use of any type of external system or prohibit the use of specified types of
+external systems, (e.g., prohibit the use of any external system that is not organizationally owned 1
+.or prohibit the use of personally-owned systems). 6
+For some external systems (i.e., systems operated by other organizations), the trust relationships
+Ithat have been established between those organizations and the originating organization may be S
+such that no explicit terms and conditions are required. Systems within these organizations may .
+not be considered external. These situations occur when, for example, there are pre-existing
+0information exchange agreements (either implicit or explicit) established between organizations
+5or components or when such agreements are specified by applicable laws, executive orders,
+directives, regulations, policies, or standards. Authorized individuals include organizational 5
+personnel, contractors, or other individuals with authorized access to organizational systems and
+over which organizations have the authority to impose specific rules of behavior regarding
+system access. Restrictions that organizations impose on authorized individuals need not be
+uniform, as the restrictions may vary depending on trust relationships between organizations.
+Therefore, organizations may choose to impose different security restrictions on contractors
+than on state, local, or tribal governments.
+External systems used to access public interfaces to organizational systems are outside the scope
+. Organizations establish specific terms and conditions for the use of external systems in of AC-20
+accordance with organizational security policies and procedures. At a minimum, terms and
+conditions address the specific types of applications that can be accessed on organizational
+CHAPTER THREE   PAGE 53
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+systems from external systems and the highest security category of information that can be
+processed, stored, or transmitted on external systems. If the terms and conditions with the
+owners of the external systems cannot be established, organizations may impose restrictions on
+organizational personnel using those external systems.
+.Related Controls:  AC-2, AC-3, AC-17, AC-19, CA-3, PL-2, PL-4, SA-9, SC-7
+Control Enhancements:
+| (1) USE OF EXTERNAL SYSTEMS  LIMITS ON AUTHORIZED USE
+Permit authorized individuals to use an external system to access the system or to process,
+store, or transmit organization-controlled information only after:
+(a)Verification of the implementation of controls on the external system as specified in
+the organization’s security and privacy policies and security and privacy plans; or
+(b)Retention of approved system connection or processing agreements with the  is
+organizational entity hosting the external system.
+liDiscussion:  Limiting authorized use recognizes circumstances where individuals using c
+texternal systems may need to access organizational systems. Organizations need assurance i
+that the external systems contain the necessary controls so as not to compromise, damage,
+or otherwise harm organizational systems. Verification that the required controls have been a
+aimplemented can be achieved by external, independent assessments, attestations, or other
+bmeans, depending on the confidence level required by organizations.
+fRelated Controls:  CA-2.r
+o|— (2) USE OF EXTERNAL SYSTEMS  PORTABLE STORAGE DEVICES  RESTRICTED USE
+Restrict the use of organization-controlled portable storage devices by authorized a
+Assignment: organization-defined restrictionsindividuals on external systems using [].
+Discussion:  Limits on the use of organization-controlled portable storage devices in external o
+systems include restrictions on how the devices may be used and under what conditions the :
+tdevices may be used. t
+:Related Controls:  MP-7, SC-41. /
+i.|-— (3) USE OF EXTERNAL SYSTEMS  NONORGANIZATIONALLY OWNED SYSTEMS   RESTRICTED USE o
+/Restrict the use of non-organizationally owned systems or system components to process, 1
+.Assignment: organization-defined [store, or transmit organizational information using6
+2restrictions].
+Discussion:  Non-organizationally owned systems or system components include systems or
+Tsystem components owned by other organizations as well as personally owned devices.
+There are potential risks to using non-organizationally owned systems or components. In P
+AC-20 b.). In other cases, some cases, the risk is sufficiently high as to prohibit such use (see
+the use of such systems or system components may be allowed but restricted in some way. -
+Restrictions include requiring the implementation of approved controls prior to authorizing r
+the connection of non-organizationally owned systems and components; limiting access to
+types of information, services, or applications; using virtualization techniques to limit
+processing and storage activities to servers or system components provisioned by the
+organization; and agreeing to the terms and conditions for usage. Organizations consult with
+the Office of the General Counsel regarding legal issues associated with using personally
+owned devices, including requirements for conducting forensic analyses during
+investigations after an incident.
+Related Controls:  None.
+|— (4) USE OF EXTERNAL SYSTEMS  NETWORK ACCESSIBLE STORAGE DEVICES  PROHIBITED USE
+CHAPTER THREE   PAGE 54
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: organization-defined network accessible storage devicesProhibit the use of []
+in external systems.
+Discussion:  Network-accessible storage devices in external systems include online storage
+devices in public, hybrid, or community cloud-based systems.
+Related Controls:  None.
+|— (5) USE OF EXTERNAL SYSTEMS  PORTABLE STORAGE DEVICES  PROHIBITED USE
+Prohibit the use of organization-controlled portable storage devices by authorized
+individuals on external systems.
+Discussion:  Limits on the use of organization-controlled portable storage devices in external
+systems include a complete prohibition of the use of such devices. Prohibiting such use is
+enforced using technical methods and/or nontechnical (i.e., process-based) methods.
+Related Controls:  MP-7, PL-4, PS-6, SC-41. h
+pReferences:  [FIPS 199], [SP 800-171], [SP 800-172]. u

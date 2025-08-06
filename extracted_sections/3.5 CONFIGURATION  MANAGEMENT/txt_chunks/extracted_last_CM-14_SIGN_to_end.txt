@@ -1,0 +1,13 @@
+lCM-14 SIGNED COMPONENTS ic
+Assignment: organization-defined software and firmware Control:  Prevent the installation of [ n
+icomponentss] without verification that the component has been digitally signed using a certificate
+vthat is recognized and approved by the organization.
+bDiscussion:  Software and firmware components prevented from installation unless signed with
+recognized and approved certificates include software and firmware version updates, patches,
+service packs, device drivers, and basic input/output system updates. Organizations can identify e
+applicable software and firmware components by type, by specific items, or a combination of f
+hboth. Digital signatures and organizational verification of such signatures is a method of code
+gauthentication.
+rRelated Controls:  CM-7, SC-12, SC-13, SI-7. o
+References:  [IR 8062].h
+CHAPTER THREE   PAGE 114

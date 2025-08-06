@@ -1,0 +1,9 @@
+{
+  "PolicyId": "None",
+  "PolicyName": "PROGRAM MANAGEMENT CONTROLS",
+  "Control": "lOrganizations document program management controls in the information security and privacy ic ",
+  "Discussion": "The organization-wide information security program plan (see PM-1t\nprogram plan (see PM-18) supplement system security and privacy plans (see PL-2) developed for organizational information systems. Together, the system security and privacy plans for the individual information systems and the information security and privacy program plans cover the totality of security and privacy controls employed by the organization.",
+  "ControlEnhancements": "None",
+  "RelatedControls": "None",
+  "References": "FISMA, PRIVACT, OMB A-130, FIPS 200, SP 800-53B, PM-1t program plan (see PM-18), PL-2"
+}

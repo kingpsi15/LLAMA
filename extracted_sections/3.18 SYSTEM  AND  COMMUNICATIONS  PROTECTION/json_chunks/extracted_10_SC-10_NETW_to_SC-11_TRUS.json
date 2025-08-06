@@ -1,0 +1,5 @@
+{
+  "subheading": "SC-10 NETWORK DISCONNECT",
+  "start_text": "SC-10 NETWORK DISCONNECT :\niControl:  Terminate th",
+  "content": "SC-10 NETWORK DISCONNECT :\niControl:  Terminate the network connection associated with a communications session at the .\ngAssignment: organization-defined time period end of the session or after [] of inactivity.\n.Discussion:  Network disconnect applies to internal and external networks. Terminating network 6\n2connections associated with specific communications sessions includes de-allocating TCP/IP\nNaddress or port pairs at the operating system level and de-allocating the networking assignments\nat the application level if multiple application sessions are using a single operating system-level\nSnetwork connection. Periods of inactivity may be established by organizations and include time\nperiods by type of network access or for specific network accesses. 8\nRelated Controls:  AC-17, SC-23. 5\nControl Enhancements:  None.\nReferences:  None."
+}

@@ -1,0 +1,44 @@
+2.5TRUSTWORTHINESSANDASSURANCE
+The trustworthiness of systems, system components, and system services is an important part a
+la30Trustworthinessof the risk management strategies developed by organizations. , in this b
+context, means worthy of being trusted to fulfill whatever requirements may be needed for a
+component, subsystem, system, network, application, mission, business function, enterprise, or e
+31f Trustworthiness requirements can include attributes of reliability, dependability, other entity.
+performance, resilience, safety, security, privacy, and survivability under a range of potential a
+eadversity in the form of disruptions, hazards, threats, and privacy risks. Effective measures of
+otrustworthiness are meaningful only to the extent that the requirements are complete, well-
+:defined, and can be accurately assessed.
+:functionalityTwo fundamental concepts that affect the trustworthiness of systems are  and /
+assurance. Functionality is defined in terms of the security and privacy features, functions, i.
+mechanisms, services, procedures, and architectures implemented within organizational g
+0systems and programs and the environments in which those systems and programs operate.
+0Assurance is the measure of confidence that the system functionality is implemented correctly,
+operating as intended, and producing the desired outcome with respect to meeting the security /
+Sand privacy requirements for the system—thus possessing the capability to accurately mediate
+Sand enforce established security and privacy policies.
+0In general, the task of providing meaningful assurance that a system is likely to do what is
+expected of it can be enhanced by techniques that simplify or narrow the analysis by, for
+example, increasing the discipline applied to the system architecture, software design,
+specifications, code style, and configuration management. Security and privacy controls address
+functionality and assurance. Certain controls focus primarily on functionality while other
+controls focus primarily on assurance. Some controls can support functionality and assurance.
+29 Resources to support information security and privacy program collaboration are available at [SP 800-53 RES].
+30[ SP 800-160-1] provides guidance on systems security engineering and the application of security design principles
+to achieve trustworthy systems.
+31 See [NEUM04].
+CHAPTER TWO  PAGE 14
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Organizations can select assurance-related controls to define system development activities,
+generate evidence about the functionality and behavior of the system, and trace the evidence to
+the system elements that provide such functionality or exhibit such behavior. The evidence is
+used to obtain a degree of confidence that the system satisfies the stated security and privacy
+requirements while supporting the organization’s mission and business functions. Assurance-
+. related controls are identified in the control summary tables in Appendix C
+EVIDENCE OF CONTROL IMPLEMENTATION
+During control selection and implementation, it is important for organizations to consider the
+Tevidence (e.g., artifacts, documentation) that will be needed to support current and future
+iscontrol assessments. Such assessments help determine whether the controls are implemented
+ucorrectly, operating as intended, and satisfying security and privacy policies—thus, providing
+lirisk-basedessential information for senior leaders to make informed  decisions. c
+CHAPTER TWO  PAGE 15

@@ -1,0 +1,18 @@
+PM-10 AUTHORIZATION PROCESS  b
+rControl: e
+a.Manage the security and privacy state of organizational systems and the environments in  f
+hwhich those systems operate through authorization processes;
+eb.Designate individuals to fulfill specific roles and responsibilities within the organizational risk
+omanagement process; and
+hc.Integrate the authorization processes into an organization-wide risk management program.
+:Discussion:  Authorization processes for organizational systems and environments of operation
+orequire the implementation of an organization-wide risk management process and associated
+security and privacy standards and guidelines. Specific roles for risk management processes
+include a risk executive (function) and designated authorizing officials for each organizational 1
+.system and common control provider. The authorization processes for the organization are 6
+2integrated with continuous monitoring processes to facilitate ongoing understanding and
+Nacceptance of security and privacy risks to organizational operations, organizational assets,
+individuals, other organizations, and the Nation. T
+Related Controls:  CA-6, CA-7, PL-2.
+Control Enhancements:  None.
+References:  [SP 800-37], [SP 800-39], [SP 800-181]. 5

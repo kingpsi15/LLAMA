@@ -1,0 +1,357 @@
+SC-7  BOUNDARY PROTECTION
+Control:  :
+pa.Monitor and control communications at the external managed interfaces to the system and
+at key internal managed interfaces within the system; /
+oSelection: b.Implement subnetworks for publicly accessible system components that are [
+physically; logically] separated from internal organizational networks; and /
+c.Connect to external networks or systems only through managed interfaces consisting of  0
+8boundary protection devices arranged in accordance with an organizational security and
+privacy architecture. I
+SDiscussion:  Managed interfaces include gateways, routers, firewalls, guards, network-based
+.malicious code analysis, virtualization systems, or encrypted tunnels implemented within a
+0security architecture. Subnetworks that are physically or logically separated from internal
+networks are referred to as demilitarized zones or DMZs. Restricting or prohibiting interfaces 3
+within organizational systems includes restricting external web traffic to designated web servers
+within managed interfaces, prohibiting external traffic that appears to be spoofing internal
+SP addresses, and prohibiting internal traffic that appears to be spoofing external addresses. [
+800-189] provides additional information on source address validation techniques to prevent
+ingress and egress of traffic with spoofed addresses. Commercial telecommunications services
+are provided by network components and consolidated management systems shared by
+customers. These services may also include third party-provided access lines and other service
+elements. Such services may represent sources of increased risk despite contract security
+provisions. Boundary protection may be implemented as a common control for all or part of an
+organizational network such that the boundary to be protected is greater than a system-specific
+boundary (i.e., an authorization boundary).
+CHAPTER THREE   PAGE 297
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  AC-4, AC-17, AC-18, AC-19, AC-20, AU-13, CA-3, CM-2, CM-4, CM-7, CM-10, CP-
+8, CP-10, IR-4, MA-4, PE-3, PL-8, PM-12, SA-8, SA-17, SC-5, SC-26, SC-32, SC-35, SC-43.
+Control Enhancements:
+| (1) BOUNDARY PROTECTION  PHYSICALLY SEPARATED SUBNETWORKS
+[Withdrawn: Incorporated into SC-7.]
+| (2) BOUNDARY PROTECTION  PUBLIC ACCESS
+[Withdrawn: Incorporated into SC-7.]
+| (3) BOUNDARY PROTECTION  ACCESS POINTS
+Limit the number of external network connections to the system.
+Discussion:  Limiting the number of external network connections facilitates monitoring of
+inbound and outbound communications traffic. The Trusted Internet Connection [DHS TIC]
+pinitiative is an example of a federal guideline that requires limits on the number of external
+network connections. Limiting the number of external network connections to the system is  lic
+important during transition periods from older to newer technologies (e.g., transitioning
+from IPv4 to IPv6 network protocols). Such transitions may require implementing the older n
+and newer technologies simultaneously during the transition period and thus increase the
+number of access points to the system. a
+Related Controls:  None. b
+r| (4) BOUNDARY PROTECTION  EXTERNAL TELECOMMUNICATIONS SERVICESe
+o(a)Implement a managed interface for each external telecommunication service;
+(b)Establish a traffic flow policy for each managed interface;
+(c)Protect the confidentiality and integrity of the information being transmitted across e
+reach interface; o
+:(d)Document each exception to the traffic flow policy with a supporting mission or
+tbusiness need and duration of that need; p
+/Assignment: organization-defined (e)Review exceptions to the traffic flow policy [ /
+frequency] and remove exceptions that are no longer supported by an explicit mission i.
+or business need; g
+0(f)Prevent unauthorized exchange of control plane traffic with external networks;
+(g)Publish information to enable remote networks to detect unauthorized control plane  2
+/traffic from internal networks; and N
+(h)Filter unauthorized control plane traffic from external networks.  T
+PDiscussion:  External telecommunications services can provide data and/or voice
+communications services. Examples of control plane traffic include Border Gateway Protocol 0
+-protocols.See [SP 800-189] (BGP) routing, Domain Name System (DNS), and management
+rfor additional information on the use of the resource public key infrastructure (RPKI) to
+protect BGP routes and detect unauthorized BGP announcements.
+Related Controls:  AC-3, SC-8, SC-20, SC-21, SC-22.
+|—  (5) BOUNDARY PROTECTION  DENY BY DEFAULT ALLOW BY EXCEPTION
+Deny network communications traffic by default and allow network communications
+Selection (one or more): at managed interfaces; for Assignment: traffic by exception [[
+organization-defined systems]].
+Discussion:  Denying by default and allowing by exception applies to inbound and outbound
+network communications traffic. A deny-all, permit-by-exception network communications
+traffic policy ensures that only those system connections that are essential and approved are
+CHAPTER THREE   PAGE 298
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+allowed. Deny by default, allow by exception also applies to a system that is connected to an
+external system.
+Related Controls:  None.
+| (6) BOUNDARY PROTECTION  RESPONSE TO RECOGNIZED FAILURES
+[Withdrawn: Incorporated into SC-7(18).]
+| (7) BOUNDARY PROTECTION  SPLIT TUNNELING FOR REMOTE DEVICES
+Prevent split tunneling for remote devices connecting to organizational systems unless the
+Assignment: organization-defined safeguardssplit tunnel is securely provisioned using [].
+Discussion:  Split tunneling is the process of allowing a remote user or device to establish a
+non-remote connection with a system and simultaneously communicate via some other
+connection to a resource in an external network. This method of network access enables a
+huser to access remote devices and simultaneously, access uncontrolled networks. Split
+ptunneling might be desirable by remote users to communicate with local system resources,
+such as printers or file servers. However, split tunneling can facilitate unauthorized external
+aconnections, making the system vulnerable to attack and to exfiltration of organizational
+information. Split tunneling can be prevented by disabling configuration settings that allow n
+issuch capability in remote devices and by preventing those configuration settings from being
+vconfigurable by users. Prevention can also be achieved by the detection of split tunneling (or
+laof configuration settings that allow split tunneling) in the remote device, and by prohibiting
+lethe connection if the remote device is using split tunneling. A virtual private network (VPN)
+can be used to securely provision a split tunnel. A securely provisioned VPN includes locking e
+connectivity to exclusive, managed, and named environments, or to a specific set of pre-o
+capproved addresses, without user control.
+Related Controls:  None. g
+|o (8) BOUNDARY PROTECTION  ROUTE TRAFFIC TO AUTHENTICATED PROXY SERVERS
+Assignment: organization-defined internal communications traffic  Assignment: Route []to[h
+porganization-defined external networks] through authenticated proxy servers at managed
+/interfaces. /
+iDiscussion:  External networks are networks outside of organizational control. A proxy server .
+gis a server (i.e., system or application) that acts as an intermediary for clients requesting
+0system resources from non-organizational or other organizational servers. System resources
+0that may be requested include files, connections, web pages, or services. Client requests
+established through a connection to a proxy server are assessed to manage complexity and
+Iprovide additional protection by limiting direct connectivity. Web content filtering devices S
+are one of the most common proxy servers that provide access to the Internet. Proxy servers .
+can support the logging of Transmission Control Protocol sessions and the blocking of
+0specific Uniform Resource Locators, Internet Protocol addresses, and domain names. Web
+5proxies can be configured with organization-defined lists of authorized and unauthorized
+websites. Note that proxy servers may inhibit the use of virtual private networks (VPNs) and 5
+create the potential for “man-in-the-middle” attacks (depending on the implementation).
+Related Controls:  AC-3.
+| (9) BOUNDARY PROTECTION  RESTRICT THREATENING OUTGOING COMMUNICATIONS TRAFFIC
+(a)Detect and deny outgoing communications traffic posing a threat to external systems;
+(b)Audit the identity of internal users associated with denied communications.
+Discussion:  Detecting outgoing communications traffic from internal actions that may pose
+threats to external systems is known as extrusion detection. Extrusion detection is carried
+out within the system at managed interfaces. Extrusion detection includes the analysis of
+CHAPTER THREE   PAGE 299
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+incoming and outgoing communications traffic while searching for indications of internal
+threats to the security of external systems. Internal threats to external systems include
+traffic indicative of denial-of-service attacks, traffic with spoofed source addresses, and
+Organizations have criteria to determine, update, and traffic that contains malicious code.
+manage identified threats related to extrusion detection.
+. Related Controls:  AU-2, AU-6, SC-5, SC-38, SC-44, SI-3, SI-4
+| (10) BOUNDARY PROTECTION  PREVENT EXFILTRATION
+(a)Prevent the exfiltration of information; and
+Assignment: organization-defined frequency(b)Conduct exfiltration tests [].
+Discussion:  Prevention of exfiltration applies to both the intentional and unintentional
+exfiltration of information. Techniques used to prevent the exfiltration of information from
+Tsystems may be implemented at internal endpoints, external boundaries, and across
+imanaged interfaces and include adherence to protocol formats, monitoring for beaconing s
+uactivity from systems, disconnecting external network interfaces except when explicitly
+lineeded, employing traffic profile analysis to detect deviations from the volume and types of c
+ttraffic expected, call backs to command and control centers, conducting penetration testing, i
+monitoring for steganography, disassembling and reassembling packet headers, and using
+data loss and data leakage prevention tools. Devices that enforce strict adherence to a
+protocol formats include deep packet inspection firewalls and Extensible Markup Language
+b(XML) gateways. The devices verify adherence to protocol formats and specifications at the
+application layer and identify vulnerabilities that cannot be detected by devices that operate f
+at the network or transport layers. The prevention of exfiltration is similar to data loss e
+prevention or data leakage prevention and is closely associated with cross-domain solutions f
+and system guards that enforce information flow requirements.
+Related Controls:  AC-2, CA-8, SI-3. e
+|m (11) BOUNDARY PROTECTION  RESTRICT INCOMING COMMUNICATIONS TRAFFIC
+Assignment: organization-defined authorized Only allow incoming communications from [t
+ssourcesAssignment: organization-defined authorized destinations] to be routed to [].
+Discussion:  General source address validation techniques are applied to restrict the use of o
+oillegal and unallocated source addresses as well as source addresses that should only be
+/used within the system. The restriction of incoming communications traffic provides 1
+.determinations that source and destination address pairs represent authorized or allowed
+2communications. Determinations can be based on several factors, including the presence of
+such address pairs in the lists of authorized or allowed communications, the absence of such N
+address pairs in lists of unauthorized or disallowed pairs, or meeting more general rules for
+SStrong authentication of network authorized or allowed source and destination pairs.
+.addresses is not possible without the use of explicit security protocols, and thus, addresses 8
+0can often be spoofed. Further, identity-based incoming traffic restriction methods can be
+3employed, including router access control lists and firewall rules.
+Related Controls:  AC-3.
+|- (12) BOUNDARY PROTECTION  HOSTBASED PROTECTION
+Assignment: organization-defined host-based boundary protection Implement [
+mechanismsAssignment: organization-defined system components] at [].
+Discussion:  Host-based boundary protection mechanisms include host-based firewalls.
+System components that employ host-based boundary protection mechanisms include
+servers, workstations, notebook computers, and mobile devices.
+Related Controls:  None.
+CHAPTER THREE   PAGE 300
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+|,,(13) BOUNDARY PROTECTION  ISOLATION OF SECURITY TOOLS MECHANISMS AND SUPPORT
+COMPONENTS
+Assignment: organization-defined information security tools, mechanisms, and Isolate [
+support components] from other internal system components by implementing physically
+separate subnetworks with managed interfaces to other components of the system.
+Discussion:  Physically separate subnetworks with managed interfaces are useful in isolating
+computer network defenses from critical operational processing networks to prevent
+adversaries from discovering the analysis and forensics techniques employed by
+organizations.
+Related Controls:  SC-2, SC-3.
+| (14) BOUNDARY PROTECTION  PROTECT AGAINST UNAUTHORIZED PHYSICAL CONNECTIONS
+Assignment: organization-defined Protect against unauthorized physical connections at [
+managed interfaces].
+bDiscussion:  Systems that operate at different security categories or classification levels may
+share common physical and environmental controls, since the systems may share space a
+owithin the same facilities. In practice, it is possible that these separate systems may share
+icommon equipment rooms, wiring closets, and cable distribution paths. Protection against s
+unauthorized physical connections can be achieved by using clearly identified and physically v
+lseparated cable trays, connection frames, and patch panels for each side of managed a
+linterfaces with physical access controls that enforce limited authorized access to these e
+ritems. e
+oRelated Controls:  PE-4, PE-19.
+|a (15) BOUNDARY PROTECTION  NETWORKED PRIVILEGED ACCESSES
+Route networked, privileged accesses through a dedicated, managed interface for
+purposes of access control and auditing.  m
+Discussion:  Privileged access provides greater accessibility to system functions, including h
+psecurity functions. Adversaries attempt to gain privileged access to systems through remote
+access to cause adverse mission or business impacts, such as by exfiltrating information or /
+Routing networked, privileged access requests bringing down a critical system capability.i.
+rthrough a dedicated, managed interface further restricts privileged access for increased g
+access control and auditing. 0
+0Related Controls:  AC-2, AC-3, AU-2, SI-4.
+| (16) BOUNDARY PROTECTION  PREVENT DISCOVERY OF SYSTEM COMPONENTS
+Prevent the discovery of specific system components that represent a managed interface. .
+Discussion:  Preventing the discovery of system components representing a managed .
+interface helps protect network addresses of those components from discovery through 0
+common tools and techniques used to identify devices on networks. Network addresses are
+5not available for discovery and require prior knowledge for access. Preventing the discovery
+of components and devices can be accomplished by not publishing network addresses, using
+network address translation, or not entering the addresses in domain name systems.
+Another prevention technique is to periodically change network addresses.
+Related Controls:  None.
+| (17) BOUNDARY PROTECTION  AUTOMATED ENFORCEMENT OF PROTOCOL FORMATS
+Enforce adherence to protocol formats.
+Discussion:  System components that enforce protocol formats include deep packet
+inspection firewalls and XML gateways. The components verify adherence to protocol
+CHAPTER THREE   PAGE 301
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+formats and specifications at the application layer and identify vulnerabilities that cannot be
+detected by devices operating at the network or transport layers.
+. Related Controls:  SC-4
+| (18) BOUNDARY PROTECTION  FAIL SECURE
+Prevent systems from entering unsecure states in the event of an operational failure of a
+boundary protection device.
+Discussion:Fail secure is a condition achieved by employing mechanisms to ensure that in
+the event of operational failures of boundary protection devices at managed interfaces,
+systems do not enter into unsecure states where intended security properties no longer
+hold. Managed interfaces include routers, firewalls, and application gateways that reside on
+protected subnetworks (commonly referred to as demilitarized zones). Failures of boundary
+protection devices cannot lead to or cause information external to the devices to enter the
+devices nor can failures permit unauthorized information releases. is
+uRelated Controls:  CP-2, CP-12, SC-24.
+a|-(19) BOUNDARY PROTECTION  BLOCK COMMUNICATION FROM NONORGANIZATIONALLY CONFIGURED
+nHOSTS
+Assignment: organization-Block inbound and outbound communications traffic between [a
+adefined communication clients] that are independently configured by end users and
+external service providers. b
+fDiscussion:Communication clients independently configured by end users and external   r
+e service providers include instant messaging clientsand video conferencing software and
+fapplications. Traffic blocking does not apply to communication clients that are configured by
+organizations to perform authorized functions. a
+eRelated Controls:  None.
+| (20) BOUNDARY PROTECTION  DYNAMIC ISOLATION AND SEGREGATION
+tAssignment: organization-defined system Provide the capability to dynamically isolate [t
+components] from other system components. :
+oDiscussion:The capability to dynamically isolate certain internal system components is
+useful when it is necessary to partition or separate system components of questionable r
+1origin from components that possess greater trustworthiness. Component isolation reduces
+6the attack surface of organizational systems. Isolating selected system components can also
+limit the damage from successful attacks when such attacks occur.
+Related Controls:  None. I
+S| (21) BOUNDARY PROTECTION  ISOLATION OF SYSTEM COMPONENTS
+Assignment: organization-defined Employ boundary protection mechanisms to isolate [
+system componentsAssignment: organization-defined missions and/or ] supporting [-
+business functions]. r
+Discussion:  Organizations can isolate system components that perform different mission or
+business functions. Such isolation limits unauthorized information flows among system
+components and provides the opportunity to deploy greater levels of protection for selected
+system components. Isolating system components with boundary protection mechanisms
+provides the capability for increased protection of individual system components and to
+more effectively control information flows between those components. Isolating system
+components provides enhanced protection that limits the potential harm from hostile cyber-
+attacks and errors. The degree of isolation varies depending upon the mechanisms chosen.
+Boundary protection mechanisms include routers, gateways, and firewalls that separate
+system components into physically separate networks or subnetworks; cross-domain devices
+CHAPTER THREE   PAGE 302
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+that separate subnetworks; virtualization techniques; and the encryption of information
+flows among system components using distinct encryption keys.
+.Related Controls:  CA-9
+| (22) BOUNDARY PROTECTION  SEPARATE SUBNETS FOR CONNECTING TO DIFFERENT SECURITY DOMAINS
+Implement separate network addresses to connect to systems in different security
+domains.
+Discussion:  The decomposition of systems into subnetworks (i.e., subnets) helps to provide
+the appropriate level of protection for network connections to different security domains
+that contain information with different security categories or classification levels.
+Related Controls:  None.
+| (23) BOUNDARY PROTECTION  DISABLE SENDER FEEDBACK ON PROTOCOL VALIDATION FAILURE
+iDisable feedback to senders on protocol format validation failure. s
+uDiscussion:  Disabling feedback to senders when there is a failure in protocol validation
+liformat prevents adversaries from obtaining information that would otherwise be c
+unavailable. i
+iRelated Controls:  None. s
+a| (24) BOUNDARY PROTECTION  PERSONALLY IDENTIFIABLE INFORMATION
+For systems that process personally identifiable information:
+r(a)Apply the following processing rules to data elements of personally identifiable  e
+Assignment: organization-defined processing rules information: [];
+(b)Monitor for permitted processing at the external interfaces to the system and at key  h
+rinternal boundaries within the system;
+f(c)Document each processing exception; and  r
+(d)Review and remove exceptions that are no longer supported.
+Discussion:  Managing the processing of personally identifiable information is an important t
+aspect of protecting an individual’s privacy. Applying, monitoring for, and documenting :
+exceptions to processing rules ensure that personally identifiable information is processed o
+only in accordance with established privacy requirements.
+Related Controls:  PT-2, SI-15.
+| (25) BOUNDARY PROTECTION  UNCLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS2
+NAssignment: organization-defined unclassified national Prohibit the direct connection of [
+security systemAssignment: organization-] to an external network without the use of [T
+defined boundary protection device].
+Discussion:  A direct connection is a dedicated physical or virtual connection between two or 0
+-more systems. Organizations typically do not have complete control over external networks,
+rincluding the Internet. Boundary protection devices (e.g., firewalls, gateways, and routers)
+mediate communications and information flows between unclassified national security
+systems and external networks.
+Related Controls:  None.
+| (26) BOUNDARY PROTECTION  CLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS
+Prohibit the direct connection of a classified national security system to an external
+Assignment: organization-defined boundary protection network without the use of [
+device].
+Discussion:  A direct connection is a dedicated physical or virtual connection between two or
+more systems. Organizations typically do not have complete control over external networks,
+CHAPTER THREE   PAGE 303
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+including the Internet. Boundary protection devices (e.g., firewalls, gateways, and routers)
+mediate communications and information flows between classified national security systems
+and external networks. In addition, approved boundary protection devices (typically
+managed interface or cross-domain systems) provide information flow enforcement from
+systems to external networks.
+Related Controls:  None.
+|- (27) BOUNDARY PROTECTION  UNCLASSIFIED NONNATIONAL SECURITY SYSTEM CONNECTIONS
+Assignment: organization-defined unclassified non-Prohibit the direct connection of [
+national security systemAssignment: ] to an external network without the use of [
+organization-defined boundary protection device].
+Discussion:  A direct connection is a dedicated physical or virtual connection between two or
+more systems. Organizations typically do not have complete control over external networks,
+including the Internet. Boundary protection devices (e.g., firewalls, gateways, and routers) is
+mediate communications and information flows between unclassified non-national security
+systems and external networks. lic
+tRelated Controls:  None. i
+is| (28) BOUNDARY PROTECTION  CONNECTIONS TO PUBLIC NETWORKS
+aAssignment: organization-defined systemProhibit the direct connection of [] to a public
+network. b
+Discussion:  A direct connection is a dedicated physical or virtual connection between two or f
+emore systems. A public network is a network accessible to the public, including the Internet
+fand organizational extranets with public access.
+aRelated Controls:  None.
+| f(29) BOUNDARY PROTECTION  SEPARATE SUBNETS TO ISOLATE FUNCTIONSr
+Selection: physically; logicallyImplement [] separate subnetworks to isolate the following
+Assignment: organization-defined critical critical system components and functions: [t
+ssystem components and functions].
+Discussion:  Separating critical system components and functions from other noncritical o
+system components and functions through separate subnetworks may be necessary to
+/reduce susceptibility to a catastrophic or debilitating breach or compromise that results in 1
+.system failure. For example, physically separating the command and control function from 6
+2the in-flight entertainment function through separate subnetworks in a commercial aircraft
+Nprovides an increased level of assurance in the trustworthiness of critical system functions.
+TRelated Controls:  None.
+References:  [OMB A-130], [FIPS 199], [SP 800-37], [SP 800-41], [SP 800-77], [SP 800-189]. .

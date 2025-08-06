@@ -1,0 +1,44 @@
+AC-24 ACCESS CONTROL DECISIONS p
+lSelection: Establish procedures; Implement mechanismsAssignment: Control:  [] to ensure [ic
+torganization-defined access control decisions] are applied to each access request prior to access i
+enforcement.
+Discussion:  Access control decisions (also known as authorization decisions) occur when v
+lauthorization information is applied to specific accesses. In contrast, access enforcement occurs a
+lwhen systems enforce access control decisions. While it is common to have access control e
+rdecisions and access enforcement implemented by the same entity, it is not required, and it is e
+not always an optimal implementation choice. For some architectures and distributed systems,
+cdifferent entities may make access control decisions and enforce access.
+gRelated Controls:  AC-2, AC-3.
+o Control Enhancements:
+h| (1) ACCESS CONTROL DECISIONS  TRANSMIT ACCESS AUTHORIZATION INFORMATION t
+Assignment: organization-defined access authorization informationTransmit [] using :
+Assignment: organization-defined controlsAssignment: organization-defined [] to [o
+osystems] that enforce access control decisions.
+1Discussion:  Authorization processes and access control decisions may occur in separate
+6parts of systems or in separate systems. In such instances, authorization information is
+transmitted securely (e.g., using cryptographic mechanisms) so that timely access control
+decisions can be enforced at the appropriate locations. To support the access control
+decisions, it may be necessary to transmit as part of the access authorization information T
+supporting security and privacy attributes. This is because in distributed systems, there are
+8various access control decisions that need to be made, and different entities make these
+decisions in a serial fashion, each requiring those attributes to make the decisions. -
+Protecting access authorization information ensures that such information cannot be
+altered, spoofed, or compromised during transmission.
+Related Controls:  AU-10.
+| (2) ACCESS CONTROL DECISIONS  NO USER OR PROCESS IDENTITY
+Assignment: organization-defined security or Enforce access control decisions based on [
+privacy attributes] that do not include the identity of the user or process acting on behalf
+of the user.
+Discussion:  In certain situations, it is important that access control decisions can be made
+without information regarding the identity of the users issuing the requests. These are
+generally instances where preserving individual privacy is of paramount importance. In other
+CHAPTER THREE   PAGE 57
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+situations, user identification information is simply not needed for access control decisions,
+and especially in the case of distributed systems, transmitting such information with the
+needed degree of assurance may be very expensive or difficult to accomplish. MAC, RBAC,
+ABAC, and label-based control policies, for example, might not include user identity as an
+attribute.
+Related Controls:  None.
+References:  [SP 800-162], [SP 800-178].

@@ -1,0 +1,10 @@
+PM-8 CRITICAL INFRASTRUCTURE PLAN  e
+mControl:  Address information security and privacy issues in the development, documentation,
+hand updating of a critical infrastructure and key resources protection plan.
+Discussion:  Protection strategies are based on the prioritization of critical assets and resources. :
+The requirement and guidance for defining critical infrastructure and key resources and for o
+opreparing an associated critical infrastructure protection plan are found in applicable laws,
+/executive orders, directives, policies, regulations, standards, and guidelines.
+Related Controls:  CP-2, CP-4, PE-18, PL-2, PM-9, PM-11, PM-18, RA-3, SI-12. 0
+/Control Enhancements:  None. N
+References:  [EO 13636], [OMB A-130], [HSPD 7], [DHS NIPP].

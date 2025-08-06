@@ -1,0 +1,47 @@
+PS-4 PERSONNEL TERMINATION
+/Control:  Upon termination of individual employment: N
+TAssignment: organization-defined time perioda.Disable system access within [];
+b.Terminate or revoke any authenticators and credentials associated with the individual;  .
+-Assignment: organization-defined c.Conduct exit interviews that include a discussion of [
+information security topics]; r
+d.Retrieve all security-related organizational system-related property; and
+e.Retain access to organizational information and systems formerly controlled by terminated
+individual.
+Discussion:  System property includes hardware authentication tokens, system administration
+technical manuals, keys, identification cards, and building passes. Exit interviews ensure that
+terminated individuals understand the security constraints imposed by being former employees
+and that proper accountability is achieved for system-related property. Security topics at exit
+interviews include reminding individuals of nondisclosure agreements and potential limitations
+on future employment. Exit interviews may not always be possible for some individuals, including
+CHAPTER THREE    PAGE 224
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+in cases related to the unavailability of supervisors, illnesses, or job abandonment. Exit
+interviews are important for individuals with security clearances. The timely execution of
+termination actions is essential for individuals who have been terminated for cause. In certain
+situations, organizations consider disabling the system accounts of individuals who are being
+terminated prior to the individuals being notified.
+. Related Controls:  AC-2, IA-4, PE-2, PM-12, PS-6, PS-7
+Control Enhancements:
+|- (1) PERSONNEL TERMINATION  POSTEMPLOYMENT REQUIREMENTS
+(a)Notify terminated individuals of applicable, legally binding post-employment
+requirements for the protection of organizational information; and
+(b)Require terminated individuals to sign an acknowledgment of post-employment
+hrequirements as part of the organizational termination process.
+pDiscussion:  Organizations consult with the Office of the General Counsel regarding matters
+of post-employment requirements on terminated individuals. lic
+tRelated Controls:  None. i
+is| (2) PERSONNEL TERMINATION  AUTOMATED ACTIONS
+Assignment: organization-defined automated mechanismsSelection (one or aUse [] to [
+more): notify Assignment: organization-defined personnel or rolesof individual [] b
+termination actionsdisable access to system resources; ].
+eDiscussion:  In organizations with many employees, not all personnel who need to know
+fabout termination actions receive the appropriate notifications, or if such notifications are
+received, they may not occur in a timely manner. Automated mechanisms can be used to
+send automatic alerts or notifications to organizational personnel or roles when individuals
+fare terminated. Such automatic alerts or notifications can be conveyed in a variety of ways, r
+including via telephone, electronic mail, text message, or websites. Automated mechanisms
+can also be employed to quickly and thoroughly disable access to system resources after an t
+semployee is terminated.
+Related Controls:  None. o
+References:  None. g

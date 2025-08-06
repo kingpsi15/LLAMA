@@ -1,0 +1,19 @@
+rRA-6 TECHNICAL SURVEILLANCE COUNTERMEASURES SURVEY g
+Assignment: organization-Control:  Employ a technical surveillance countermeasures survey at [.
+defined locationsSelection (one or more): Assignment: organization-defined frequency] [[]; when 2
+/Assignment: organization-defined events or the following events or indicators occur: [N
+Sindicators]].
+PDiscussion:  A technical surveillance countermeasures surveyis a service provided by qualified
+personnel to detect the presence of technical surveillance devices and hazards and to identify 0
+-technical security weaknesses that could be used in the conduct of a technical penetration of the
+rsurveyed facility. Technical surveillance countermeasures surveys also provide evaluations of the
+technical security posture of organizations and facilities and include visual, electronic, and
+physical examinations of surveyed facilities, internally and externally. The surveys also provide
+useful input for risk assessments and information regarding organizational exposure to potential
+adversaries.
+Related Controls:  None.
+Control Enhancements:  None.
+References:  None.
+CHAPTER THREE   PAGE 245
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________

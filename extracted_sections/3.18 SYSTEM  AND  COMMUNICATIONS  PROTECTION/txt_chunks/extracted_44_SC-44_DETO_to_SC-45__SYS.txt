@@ -1,0 +1,16 @@
+SC-44 DETONATION CHAMBERS
+i  Assignment: organization-defined Control:Employ a detonation chamber capability within [s
+system, system component, or location]. u
+Discussion:  Detonation chambers, also known as dynamic execution environments, allow a
+organizations to open email attachments, execute untrusted or suspicious applications, and
+iexecute Universal Resource Locator requests in the safety of an isolated environment or a s
+virtualized sandbox. Protected and isolated execution environments provide a means of v
+ldetermining whether the associated attachments or applications contain malicious code. While a
+lrelated to the concept of deception nets, the employment of detonation chambers is not e
+rintended to maintain a long-term environment in which adversaries can operate and their e
+actions can be observed. Rather, detonation chambers are intended to quickly identify malicious
+ccode and either reduce the likelihood that the code is propagated to user environments of
+operation or prevent such propagation completely.
+Related Controls:  SC-7, SC-18, SC-25, SC-26, SC-30, SC-35, SC-39, SI-3, SI-7.
+Control Enhancements:  None.
+pReferences:  [SP 800-177].

@@ -1,0 +1,36 @@
+iCM-11 USER-INSTALLED SOFTWARE la
+Control:
+Assignment: organization-defined policiesa.Establish [] governing the installation of software
+by users; c
+rAssignment: b.Enforce software installation policies through the following methods: [ g
+organization-defined methods]; and f
+Assignment: organization-defined frequencyc.Monitor policy compliance [].  :
+pDiscussion:  If provided the necessary privileges, users can install software in organizational
+systems. To maintain control over the software installed, organizations identify permitted and /
+prohibited actions regarding software installation. Permitted software installations include i.
+updates and security patches to existing software and downloading new applications from g
+organization-approved “app stores.” Prohibited software installations include software with 0
+unknown or suspect pedigrees or software that organizations consider potentially malicious. 0
+8Policies selected for governing user-installed software are organization-developed or provided by
+some external entity. Policy enforcement methods can include procedural methods and I
+automated methods.
+.Related Controls:  AC-3, AU-6, CM-2, CM-3, CM-5, CM-6, CM-7, CM-8, PL-4, SI-4, SI-7.8
+-Control Enhancements: 5
+-|  (1) USERINSTALLED SOFTWARE  ALERTS FOR UNAUTHORIZED INSTALLATIONS
+[Withdrawn: Incorporated into CM-8(3).]
+-| (2) USERINSTALLED SOFTWARE  SOFTWARE INSTALLATION WITH PRIVILEGED STATUS
+Allow user installation of software only with explicit privileged status.
+Discussion:  Privileged status can be obtained, for example, by serving in the role of system
+administrator.
+Related Controls:  AC-5, AC-6.
+-| (3) USERINSTALLED SOFTWARE  AUTOMATED ENFORCEMENT AND MONITORING
+CHAPTER THREE   PAGE 112
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Assignment: Enforce and monitor compliance with software installation policies using [
+organization-defined automated mechanisms].
+Discussion:  Organizations enforce and monitor compliance with software installation
+policies using automated mechanisms to more quickly detect and respond to unauthorized
+software installation which can be an indicator of an internal or external hostile attack.
+Related Controls:  None.
+References:  None.

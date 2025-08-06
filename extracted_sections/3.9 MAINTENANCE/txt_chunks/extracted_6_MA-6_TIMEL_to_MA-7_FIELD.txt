@@ -1,0 +1,51 @@
+MA-6 TIMELY MAINTENANCE
+Assignment: organization-defined Control:  Obtain maintenance support and/or spare parts for [
+system componentsAssignment: organization-defined time period] within [] of failure.
+hDiscussion:  Organizations specify the system components that result in increased risk to
+organizational operations and assets, individuals, other organizations, or the Nation when the p
+bfunctionality provided by those components is not operational. Organizational actions to obtain
+maintenance support include having appropriate contracts in place. a
+Related Controls:  CM-8, CP-2, CP-7, RA-7, SA-15, SI-13, SR-2, SR-3, SR-4.
+vControl Enhancements:
+b| (1) TIMELY MAINTENANCE  PREVENTIVE MAINTENANCE
+fAssignment: organization-defined system Perform preventive maintenance on [r
+componentsAssignment: organization-defined time intervals] at [].
+cDiscussion:  Preventive maintenance includes proactive care and the servicing of system
+components to maintain organizational equipment and facilities in satisfactory operating r
+condition. Such maintenance provides for the systematic inspection, tests, measurements,
+adjustments, parts replacement, detection, and correction of incipient failures either before  m
+:they occur or before they develop into major defects. The primary goal of preventive
+tmaintenance is to avoid or mitigate the consequences of equipment failures. Preventive p
+:maintenance is designed to preserve and restore equipment reliability by replacing worn /
+ocomponents before they fail. Methods of determining what preventive (or other) failure
+management policies to apply include original equipment manufacturer recommendations; r
+1statistical failure records; expert opinion; maintenance that has already been conducted on
+6similar equipment; requirements of codes, laws, or regulations within a jurisdiction; or
+measured values and performance indications.
+Related Controls:  None. I
+S| (2) TIMELY MAINTENANCE  PREDICTIVE MAINTENANCE
+Assignment: organization-defined system Perform predictive maintenance on [
+componentsAssignment: organization-defined time intervals-] at [].
+rDiscussion:  Predictive maintenance evaluates the condition of equipment by performing 5
+periodic or continuous (online) equipment condition monitoring. The goal of predictive
+maintenance is to perform maintenance at a scheduled time when the maintenance activity
+is most cost-effective and before the equipment loses performance within a threshold. The
+predictive component of predictive maintenance stems from the objective of predicting the
+future trend of the equipment's condition. The predictive maintenance approach employs
+principles of statistical process control to determine at what point in the future maintenance
+activities will be appropriate. Most predictive maintenance inspections are performed while
+equipment is in service, thus minimizing disruption of normal system operations. Predictive
+maintenance can result in substantial cost savings and higher system reliability.
+Related Controls:  None.
+CHAPTER THREE   PAGE 169
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+| (3) TIMELY MAINTENANCE  AUTOMATED SUPPORT FOR PREDICTIVE MAINTENANCE
+Transfer predictive maintenance data to a maintenance management system using
+Assignment: organization-defined automated mechanisms[].
+Discussion:  A computerized maintenance management system maintains a database of
+information about the maintenance operations of organizations and automates the
+processing of equipment condition data to trigger maintenance planning, execution, and
+reporting.
+Related Controls:  None.
+References:  None.

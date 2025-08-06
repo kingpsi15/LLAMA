@@ -1,0 +1,1309 @@
+GLOSSARY
+COMMON TERMS AND DEFINITIONS
+Appendix A provides definitions for terminology used in NIST Special Publication 800-53. Sources
+for terms used in this publication are cited as applicable. Where no citation is noted, the source
+of the definition is Special Publication 800-53.
+The process of granting or denying specific requests for access control
+[FIPS 201-2]obtaining and using information and related information
+hprocessing services; and to enter specific physical facilities (e.g.,
+pFederal buildings, military establishments, and border crossing
+entrances).  lic
+oSecurity protections commensurate with the risk resulting from adequate security
+i [OMB A-130]sthe unauthorized access, use, disclosure, disruption,
+vmodification, or destruction of information. This includes
+laensuring that information hosted on behalf of an agency and
+information systems and applications used by the agency
+operate effectively and provide appropriate confidentiality, e
+integrity, and availability protections through the application of f
+cost-effective security controls. a
+advanced persistent An adversary that possesses sophisticated levels of expertise and
+othreat
+msignificant resources which allow it to create opportunities to
+: [SP 800-39]
+hachieve its objectives by using multiple attack vectors, including
+cyber, physical, and deception. These objectives typically include s
+destablishing and extending footholds within the IT infrastructure
+of the targeted organizations for purposes of exfiltrating o
+/information, undermining or impeding critical aspects of a
+.mission, program, or organization; or positioning itself to carry 6
+2out these objectives in the future. The advanced persistent
+threat pursues its objectives repeatedly over an extended
+Tperiod; adapts to defenders’ efforts to resist it; and is
+Pdetermined to maintain the level of interaction needed to
+0execute its objectives.
+Any executive agency or department, military department, agency
+[OMB A-130]Federal Government corporation, Federal Government-
+controlled corporation, or other establishment in the Executive
+Branch of the Federal Government, or any independent
+executive agencyregulatory agency. See .
+Intelligence products and/or organizations and activities that all-source intelligence
+[DODTERMS]incorporate all sources of information, most frequently including
+human resources intelligence, imagery intelligence,
+measurement and signature intelligence, signals intelligence,
+and open-source data in the production of finished intelligence.
+APPENDIX A   PAGE 394
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A software program hosted by an information system. application
+[SP 800-37]
+control assessment risk assessmentSee or . assessment
+The objectives for the security and privacy control assessments assessment plan
+and a detailed roadmap of how to conduct such assessments.
+The individual, group, or organization responsible for conducting assessor
+a security or privacy control assessment.
+A control parameter that allows an organization to assign a assignment operation
+specific, organization-defined value to the control or control
+enhancement (e.g., assigning a list of roles to be notified or a
+hvalue for the frequency of testing).
+organization-defined control parameters selection See and u
+lioperation. c
+Grounds for justified confidence that a [security or privacy] claim assurance n
+is [ISO/IEC 15026, Adapted]has been or will be achieved.
+aNote 1: Assurance is typically obtained relative to a set of specific claims. The
+scope and focus of such claims may vary (e.g., security claims, safety claims) b
+and the claims themselves may be interrelated.
+Note 2: Assurance is obtained through techniques and methods that generate e
+o credible evidence to substantiate claims.
+aThe set of points on the boundary of a system, a system attack surface
+ecomponent, or an environment where an attacker can try to
+oenter, cause an effect on, or extract data from, that system,
+component, or environment.
+sIndependent review and examination of records and activities to audit
+[CNSSI 4009]assess the adequacy of system controls, to ensure compliance o
+with established policies and operational procedures.
+0A chronological record of system activities, including records of audit log
+0 [CNSSI 4009]system accesses and operations performed in a given period.
+An individual entry in an audit log related to an audited event. audit record
+SA process that manipulates collected audit information and audit record reduction
+.organizes it into a summary format that is more meaningful to 8
+analysts.
+5A chronological record that reconstructs and examines the audit trail
+sequence of activities surrounding or leading to a specific
+operation, procedure, or event in a security-relevant transaction
+from inception to result.
+Verifying the identity of a user, process, or device, often as a authentication
+[FIPS 200]prerequisite to allowing access to resources in a system.
+APPENDIX A   PAGE 395
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Something that the claimant possesses and controls (typically a authenticator
+cryptographic module or password) that is used to authenticate
+the claimant’s identity. This was previously referred to as a
+token.
+The property of being genuine and being able to be verified and authenticity
+trusted; confidence in the validity of a transmission, message, or
+authenticationmessage originator. See .
+Access privileges granted to a user, program, or process or the authorization
+[CNSSI 4009]act of granting those privileges.
+All components of an information system to be authorized for authorization boundary
+T [OMB A-130]operation by an authorizing official. This excludes separately
+authorized systems to which the information system is
+connected. b
+tThe official management decision given by a senior Federal authorization to operate i
+[OMB A-130]official or officials to authorize operation of an information
+asystem and to explicitly accept the risk to agency operations
+i(including mission, functions, image, or reputation), agency la
+assets, individuals, other organizations, and the Nation based on le
+rthe implementation of an agreed-upon set of security and e
+privacy controls. Authorization also applies to common controls o
+inherited by agency information systems. h
+A senior Federal official or executive with the authority to authorizing official e
+r [OMB A-130]authorize (i.e., assume responsibility for) the operation of an o
+:information system or the use of a designated set of common
+tcontrols at an acceptable level of risk to agency operations p
+/(including mission, functions, image, or reputation), agency /
+assets, individuals, other organizations, and the Nation. i.
+/Ensuring timely and reliable access to and use of information.  availability 1
+. [FISMA] 6
+control baselineSee. baseline /
+A documented set of specifications for a system, or a baseline configuration T
+[SP 800-128, Adapted]configuration item within a system, that has been formally P
+reviewed and agreed on at a given point in time, and which can 0
+be changed only through change control procedures. 5
+authorization Physical or logical perimeter of a system. See also boundary
+boundaryinterface[CNSSI 4009] and .
+Monitoring and control of communications at the external boundary protection
+interface to a system to prevent and detect malicious and other
+unauthorized communications using boundary protection
+devices.
+APPENDIX A   PAGE 396
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A device (e.g., gateway, router, firewall, guard, or encrypted boundary protection
+tunnel) that facilitates the adjudication of different system device
+security policies for connected systems or provides boundary
+protection. The boundary may be the authorization boundary for
+a system, the organizational network boundary, or a logical
+boundary defined by the organization.
+The loss of control, compromise, unauthorized disclosure, breach
+[OMB M-17-12]unauthorized acquisition, or any similar occurrence where: a
+person other than an authorized user accesses or potentially
+accesses personally identifiable information; or an authorized
+user accesses personally identifiable information for another
+than authorized purpose. h
+An attribute associated with an assessment method that breadth u
+l [SP 800-53A]iaddresses the scope or coverage of the assessment objects c
+included with the assessment. i
+A combination of mutually reinforcing security and/or privacy capability
+controls implemented by technical, physical, and procedural a
+means. Such controls are typically selected to achieve a common b
+information security- or privacy-related purpose.
+The organization-wide management and implementation of central management o
+selected security and privacy controls and related processes. h
+rCentral management includes planning, implementing, g
+assessing, authorizing, and monitoring the organization-defined, f
+centrally managed security and privacy controls and processes.
+tA value that (a) is computed by a function that is dependent on the checksum p
+:contents of a data object and (b) is stored or transmitted together with /[IETF 4949]
+othe object, for detecting changes in the data.
+The senior official that provides advice and other assistance to /chief information officer
+.[OMB A-130]the head of the agency and other senior management personnel 6
+2of the agency to ensure that IT is acquired and information
+resources are managed for the agency in a manner that achieves
+Tthe agency’s strategic goals and information resources
+Pmanagement goals; and is responsible for ensuring agency
+0compliance with, and prompt, efficient, and effective
+5implementation of, the information policies and information
+5resources management responsibilities, including the reduction
+of information collection burdens on the public.
+chief information security senior agency information security officerSee .
+officer
+See classified national security information. classified information
+classified national Information that has been determined pursuant to Executive
+security information
+Order (E.O.) 13526 or any predecessor order to require
+[EO 13526]
+protection against unauthorized disclosure and is marked to
+indicate its classified status when in documentary form.
+APPENDIX A   PAGE 397
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A system service provided by a commercial service provider to a commodity service
+large and diverse set of consumers. The organization acquiring or
+receiving the commodity service possesses limited visibility into
+the management structure and operations of the provider, and
+while the organization may be able to negotiate service-level
+agreements, the organization is typically not able to require that
+the provider implement specific security or privacy controls.
+A telecommunications company that holds itself out to the common carrier
+public for hire to provide communications transmission services.
+A security or privacy control that is inherited by multiple common control
+[OMB A-130]information systems or programs.
+An organizational official responsible for the development, common control provider
+[SP 800-37]  implementation, assessment, and monitoring of common b
+controls (i.e., security or privacy controls inheritable by systems). a
+Governing document that provides a comprehensive, rigorous common criteria
+a [CNSSI 4009]method for specifying security function and assurance
+irequirements for products and systems.  la
+common secure A recognized standardized and established benchmark that
+econfiguration
+stipulates specific secure configuration settings for a given e
+[SP 800-128]o
+finformation technology platform.
+rThe security and privacy controls employed in lieu of the compensating controls
+controls in the baselines described in NIST Special Publication f
+m800-53B that provide equivalent or comparable protection for a
+hsystem or organization.
+:system componentSee . component /
+i.Preserving authorized restrictions on information access and confidentiality o
+[FISMA] disclosure, including means for protecting personal privacy and /
+.proprietary information.
+Process for controlling modifications to hardware, firmware, configuration control
+I [SP 800-128]software, and documentation to protect the system against S
+.improper modifications before, during, and after system S
+.implementation.
+An aggregation of system components that is designated for configuration item 5
+r [SP 800-128]configuration management and treated as a single entity in the 5
+configuration management process.
+configuration A collection of activities focused on establishing and maintaining
+management
+the integrity of information technology products and systems,
+[SP 800-128]
+through control of processes for initializing, changing, and
+monitoring the configurations of those products and systems
+throughout the system development life cycle.
+APPENDIX A   PAGE 398
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+The set of parameters that can be changed in hardware, configuration settings
+[SP 800-128] software, or firmware that affect the security posture and/or
+functionality of the system.
+Maintaining ongoing awareness to support organizational risk continuous monitoring
+[SP 800-137]decisions.
+security controlprivacy controlSee  or . control
+The testing or evaluation of the controls in an information control assessment
+[SP 800-37]system or an organization to determine the extent to which the
+controls are implemented correctly, operating as intended, and
+producing the desired outcome with respect to meeting the
+security or privacy requirements for the system or the
+organization.
+lassessorSee . control assessor ic
+Predefined sets of controls specifically assembled to address the control baseline
+i s[SP 800-53B]protection needs of groups, organizations, or communities of
+privacy control baselinesecurity control baselineinterest. See  or .
+A measure of whether a security or privacy control contributes control effectiveness le
+to the reduction of information security or privacy risk. r
+Augmentation of a security or privacy control to build in control enhancement f
+additional but related functionality to the control, increase the
+strength of the control, or add assurance to the control. e
+A situation in which a system or application receives protection control inheritance m
+hfrom security or privacy controls (or portions of controls) that
+are developed, implemented, assessed, authorized, and s
+dmonitored by entities other than those responsible for the
+i.system or application; entities either internal or external to the o
+organization where the system or application resides. See /
+.common control.
+8organization-defined control parameterSee . control parameter
+Any area or space for which an organization has confidence that controlled area T
+the physical and procedural protections provided are sufficient P
+to meet the requirements established for protecting the 0
+information and/or information system. 5
+An interface to a system with a set of mechanisms that enforces controlled interface
+the security policies and controls the flow of information
+between connected systems.
+APPENDIX A   PAGE 399
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+controlled unclassified Information that the Government creates or possesses, or that
+information
+an entity creates or possesses for or on behalf of the
+[32 CFR 2002]
+Government, that a law, regulation, or Government-wide policy
+requires or permits an agency to handle using safeguarding or
+dissemination controls. However, CUI does not include classified
+information or information a non-executive branch entity
+possesses and maintains in its own systems that did not come
+from, or was not created or possessed by or for, an executive
+branch agency or an entity acting for an agency.
+An unauthorized copy or substitute that has been identified, counterfeit
+[SP 800-161]marked, and/or altered by a source other than the item's legally
+authorized source and has been misrepresented to be an h
+authorized item of the legally authorized source.
+liActions, devices, procedures, techniques, or other measures that countermeasures c
+t [FIPS 200]reduce the vulnerability of a system. Synonymous with security i
+controls and safeguards. is
+An unintended or unauthorized intra-system channel that covert channel a
+[CNSSI 4009]enables two cooperating entities to transfer information in a way b
+that violates the system's security policy but does not exceed the
+eentities' access authorizations.
+Determination of the extent to which the security policy model covert channel analysis h
+r [CNSSI 4009]and subsequent lower-level program descriptions may allow g
+unauthorized access to information. f
+:A system feature that enables one system entity to signal covert storage channel
+t [CNSSI 4009]information to another entity by directly or indirectly writing to a p
+/storage location that is later directly or indirectly read by the /
+second entity.  i.
+/A system feature that enables one system entity to signal covert timing channel 1
+. [CNSSI 4009, Adapted]information to another by modulating its own use of a system 6
+resource in such a way as to affect system response time
+observed by the second entity.
+SAn object or data structure that authoritatively binds an identity, credential
+.[SP 800-63-3]via an identifier or identifiers, and (optionally) additional  8
+attributes, to at least one authenticator possessed and
+controlled by a subscriber.
+Systems and assets, whether physical or virtual, so vital to the critical infrastructure
+[USA PATRIOT] United States that the incapacity or destruction of such systems
+and assets would have a debilitating impact on security, national
+economic security, national public health or safety, or any
+combination of those matters.
+A form of controlled interface that provides the ability to cross domain solution
+[CNSSI 1253]manually and/or automatically access and/or transfer
+information between different security domains.
+APPENDIX A   PAGE 400
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+The set of hardware, software, and/or firmware that implements cryptographic module
+[FIPS 140-3]Approved security functions (including cryptographic algorithms
+and key generation) and is contained within the cryptographic
+boundary.
+Prevention of damage to, protection of, and restoration of cybersecurity
+[OMB A-130] computers, electronic communications systems, electronic
+communications services, wire communication, and electronic
+communication, including information contained therein, to
+ensure its availability, integrity, authentication, confidentiality,
+and nonrepudiation.
+The interdependent network of information technology cyberspace
+[CNSSI 4009] infrastructures that includes the Internet, telecommunications is
+networks, computer systems, and embedded processors and u
+licontrollers in critical industries. c
+A system operation that processes personally identifiable data action n
+[IR 8062]information.
+iAn analytical process that attempts to find correlations or data mining la
+patterns in large data sets for the purpose of data or knowledge le
+rdiscovery. e
+fGeneral term for any process of removing the association de-identification
+[ISO 25237]between a set of identifying data and the data subject.  a
+A planned, systematic set of multidisciplinary activities that seek defense in breadth f
+m[CNSSI 4009]to identify, manage, and reduce risk of exploitable vulnerabilities
+hat every stage of the system, network, or subcomponent life
+scycle, including system, network, or product design and
+ddevelopment; manufacturing; packaging; assembly; system
+ointegration; distribution; operations; maintenance; and
+/retirement. 1
+0An information security strategy that integrates people, defense in depth
+technology, and operations capabilities to establish variable /
+Sbarriers across multiple layers and missions of the organization.
+PAn attribute associated with an assessment method that depth
+[SP 800-53A]0addresses the rigor and level of detail associated with the
+5application of the method.
+A general term that includes developers or manufacturers of developer
+systems, system components, or system services; systems
+integrators; vendors; and product resellers. The development of
+systems, components, or services can occur internally within
+organizations or through external entities.
+A form of electronic media where data is stored in digital (as digital media
+opposed to analog) form.
+APPENDIX A   PAGE 401
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+An access control policy that is enforced over all subjects and discretionary access
+objects in a system where the policy specifies that a subject that control
+has been granted access to information can do one or more of
+the following: pass the information to other subjects or objects;
+grant its privileges to other subjects; change the security
+attributes of subjects, objects, systems, or system components;
+choose the security attributes to be associated with newly-
+created or revised objects; or change the rules governing access
+control. Mandatory access controls restrict this capability.
+Enabling the processing of personally identifiable information or disassociability
+events without association to individuals or devices beyond the
+[IR 8062]
+operational requirements of the system.  h
+An environment or context that includes a set of system domain u
+liresources and a set of system entities that have the right to c
+access the resources as defined by a common security policy, i
+security domainsecurity model, or security architecture. See . is
+An organization with a defined mission/goal and a defined enterprise a
+[CNSSI 4009]boundary, using systems to execute that mission, and with b
+responsibility for managing its own risks and performance. An
+eenterprise may consist of all or some of the following business
+faspects: acquisition, program management, human resources,
+afinancial management, security, and systems, information and
+eorganizationmission management. See .
+A strategic information asset base, which defines the mission; enterprise architecture
+[OMB A-130]the information necessary to perform the mission; the t
+stechnologies necessary to perform the mission; and the
+transitional processes for implementing new technologies in
+oresponse to changing mission needs; and includes a baseline
+architecture; a target architecture; and a sequencing plan. 1
+0The physical surroundings in which an information system environment of operation
+[OMB A-130] /processes, stores, and transmits information.
+Any observable occurrence in a system. event
+P [SP 800-61, Adapted]
+An executive department specified in 5 U.S.C., Sec. 101; a executive agency 0
+[OMB A-130]military department specified in 5 U.S.C., Sec. 102; an 3
+independent establishment as defined in 5 U.S.C., Sec. 104(1);
+and a wholly owned Government corporation fully subject to the
+provisions of 31 U.S.C., Chapter 91.
+The unauthorized transfer of information from a system. exfiltration
+A system or component of a system that is used by but is not a external system (or
+part of an organizational system and for which the organization component)
+has no direct control over the implementation of required
+security and privacy controls or the assessment of control
+effectiveness.
+APPENDIX A   PAGE 402
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A system service that is provided by an external service provider external system service
+and for which the organization has no direct control over the
+implementation of required security and privacy controls or the
+assessment of control effectiveness.
+A provider of external system services to an organization external system service
+through a variety of consumer-producer relationships, including provider
+joint ventures, business partnerships, outsourcing arrangements
+(i.e., through contracts, interagency agreements, lines of
+business arrangements), licensing agreements, and/or supply
+chain exchanges.
+A network not controlled by the organization. external network
+The capability to switch over automatically (typically without failover
+human intervention or warning) to a redundant or standby b
+system upon the failure or abnormal termination of the a
+previously active system. n
+aAn information system used or operated by an executive agency, federal information
+iby a contractor of an executive agency, or by another system la
+[OMB A-130]organization on behalf of an executive agency. le
+A cryptographic module validated by the Cryptographic Module FIPS-validated e
+fValidation Program (CMVP) to meet requirements specified in cryptography
+FIPS Publication 140-3 (as amended). As a prerequisite to CMVP a
+validation, the cryptographic module is required to employ a e
+cryptographic algorithm implementation that has successfully o
+:passed validation testing by the Cryptographic Algorithm
+tNSA-approved cryptographyValidation Program (CAVP). See . p
+dComputer programs and data stored in hardware - typically in firmware
+o[CNSSI 4009]read-only memory (ROM) or programmable read-only memory
+/(PROM) - such that the programs and data cannot be 1
+.dynamically written or modified during execution of the 6
+hardwaresoftwareprograms. See  and .
+SsoftwareThe material physical components of a system. See  and hardware
+. firmware[CNSSI 4009]S.
+0A system in which at least one security objective (i.e., high-impact system
+5[FIPS 200]confidentiality, integrity, or availability) is assigned a FIPS
+5Publication 199 potential impact value of high.
+A security or privacy control that is implemented for an hybrid control
+[OMB A-130]information system in part as a common control and in part as a
+system-specific control.
+Unique data used to represent a person’s identity and associated
+identifier
+attributes. A name or a card number are examples of identifiers.   [FIPS 201-2]
+A unique label used by a system to indicate a specific entity,
+object, or group.
+APPENDIX A   PAGE 403
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+The effect on organizational operations, organizational assets, impact
+individuals, other organizations, or the Nation (including the
+national security interests of the United States) of a loss of
+confidentiality, integrity, or availability of information or a
+system.
+The assessed worst-case potential impact that could result from impact value
+[FIPS 199]a compromise of the confidentiality, integrity, or availability of
+information expressed as a value of low, moderate or high.
+An occurrence that actually or imminently jeopardizes, without incident
+[FISMA] lawful authority, the confidentiality, integrity, or availability of
+information or an information system; or constitutes a violation
+or imminent threat of violation of law, security policies, security is
+procedures, or acceptable use policies. u
+General term that encompasses several types of control systems, industrial control system a
+[SP 800-82]including supervisory control and data acquisition (SCADA) n
+systems, distributed control systems (DCS), and other control
+system configurations such as programmable logic controllers a
+(PLC) found in the industrial sectors and critical infrastructures. b
+An industrial control system consists of combinations of control
+ecomponents (e.g., electrical, mechanical, hydraulic, pneumatic)
+fthat act together to achieve an industrial objective (e.g.,
+amanufacturing, transportation of matter or energy).
+Any communication or representation of knowledge such as information f
+m [OMB A-130]facts, data, or opinions in any medium or form, including textual,
+numerical, graphic, cartographic, narrative, electronic, or t
+saudiovisual forms.
+Controls to ensure that information transfers within a system or information flow control i.
+organization are not made in violation of the security policy. g
+.The intentional or unintentional release of information to an information leakage 6
+untrusted environment.
+SOfficial with statutory or operational authority for specified information owner
+. [SP 800-37]Sinformation and responsibility for establishing the controls for its
+.generation, collection, processing, dissemination, and disposal. 8
+5Information and related resources, such as personnel, information resources
+5[OMB A-130]equipment, funds, and information technology.
+The protection of information and systems from unauthorized information security
+[OMB A-130]access, use, disclosure, disruption, modification, or destruction
+in order to provide confidentiality, integrity, and availability.
+An embedded, integral part of the enterprise architecture that information security
+describes the structure and behavior of the enterprise security architecture
+[OMB A-130]processes, security systems, personnel and organizational
+subunits, showing their alignment with the enterprise’s mission
+and strategic plans.
+APPENDIX A   PAGE 404
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+information security Aggregate of directives, regulations, rules, and practices that
+policy
+prescribes how an organization manages, protects, and
+[CNSSI 4009]
+distributes information.
+information security Formal document that provides an overview of the security
+program plan
+requirements for an organization-wide information security
+[OMB A-130]
+program and describes the program management controls and
+common controls in place or planned for meeting those
+requirements.
+The risk to organizational operations (including mission, information security risk
+[SP 800-30]functions, image, reputation), organizational assets, individuals,
+other organizations, and the Nation due to the potential for
+unauthorized access, use, disclosure, disruption, modification, or is
+destruction of information and/or systems. u
+An agency official with statutory or operational authority for information steward a
+[SP 800-37]specified information and responsibility for establishing the n
+controls for its generation, collection, processing, dissemination,
+and disposal. a
+A discrete set of information resources organized for the linformation system e
+r [USC 3502]collection, processing, maintenance, use, sharing, dissemination, e
+or disposition of information. o
+Any services, equipment, or interconnected system(s) or information technology a
+[USC 11101]subsystem(s) of equipment, that are used in the automatic e
+acquisition, storage, analysis, evaluation, manipulation, o
+:management, movement, control, display, switching,
+tinterchange, transmission, or reception of data or information by p
+/the agency. For purposes of this definition, such services or /
+equipment if used by the agency directly or is used by a i.
+contractor under a contract with the agency that requires its g
+0use; or to a significant extent, its use in the performance of a
+0service or the furnishing of a product. Information technology
+/includes computers, ancillary equipment (including imaging
+peripherals, input, output, and storage devices necessary for
+Ssecurity and surveillance), peripheral equipment designed to be
+8controlled by the central processing unit of a computer,
+software, firmware and similar procedures, services (including -
+cloud computing and help-desk services or other professional r
+services which support any point of the life cycle of the
+equipment or service), and related resources. Information
+technology does not include any equipment that is acquired by a
+contractor incidental to a contract which does not require its
+use.
+system componentSee . information technology
+product
+APPENDIX A   PAGE 405
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A specific category of information (e.g., privacy, medical, information type
+[FIPS 199]proprietary, financial, investigative, contractor-sensitive, security
+management) defined by an organization or in some instances,
+by a specific law, Executive Order, directive, policy, or regulation.
+Any person with authorized access to any organizational insider
+[CNSSI 4009, Adapted]resource, to include personnel, facilities, information,
+equipment, networks, or systems.
+The threat that an insider will use her/his authorized access, insider threat
+[CNSSI 4009, Adapted]wittingly or unwittingly, to do harm to the security of
+organizational operations and assets, individuals, other
+organizations, and the Nation. This threat can include damage
+through espionage, terrorism, unauthorized disclosure of is
+national security information, or through the loss or degradation u
+liof organizational resources or capabilities. c
+A coordinated collection of capabilities authorized by the insider threat program n
+is [CNSSI 4009, Adapted]organization and used to deter, detect, and mitigate the
+unauthorized disclosure of information. a
+Common boundary between independent systems or modules linterface e
+r [CNSSI 4009]where interactions take place. e
+fGuarding against improper information modification or integrity
+[FISMA] destruction, and includes ensuring information non-repudiation a
+and authenticity. e
+mA network where the establishment, maintenance, and internal network
+hprovisioning of security controls are under the direct control of
+sorganizational employees or contractors. Cryptographic
+dencapsulation or similar security technology implemented
+obetween organization-controlled endpoints provides the same
+/effect (at least regarding confidentiality and integrity). An 1
+.internal network is typically organization-owned yet may be 6
+organization-controlled while not being organization-owned.
+Ssecurity labelSee . label
+PThe principle that a security architecture is designed so that each least privilege
+[CNSSI 4009]0entity is granted the minimum system resources and
+5authorizations that the entity needs to perform its function.
+Access to an organizational system by a user (or process acting local access
+on behalf of a user) communicating through a direct connection
+without the use of a network.
+APPENDIX A   PAGE 406
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+logical access control An automated system that controls an individual’s ability to
+system
+access one or more computer system resources, such as a
+workstation, network, application, or database. A logical access
+control system requires the validation of an individual’s identity
+through some mechanism, such as a PIN, card, biometric, or
+other token. It has the capability to assign different access
+privileges to different individuals depending on their roles and
+responsibilities in an organization.
+A system in which all three security objectives (i.e., low-impact system
+[FIPS 200]confidentiality, integrity, and availability) are assigned a FIPS
+Publication 199 potential impact value of low.
+Software or firmware intended to perform an unauthorized malicious code is
+process that will have adverse impacts on the confidentiality, u
+liintegrity, or availability of a system. A virus, worm, Trojan horse, c
+or other code-based entity that infects a host. Spyware and i
+some forms of adware are also examples of malicious code. is
+An interface within a system that provides boundary protection managed interface a
+capabilities using automated mechanisms or devices. b
+rAn access control policy that is uniformly enforced across all mandatory access control e
+subjects and objects within a system. A subject that has been o
+granted access to information is constrained from: passing the h
+rinformation to unauthorized subjects or objects; granting its g
+privileges to other subjects; changing one or more security f
+attributes on subjects, objects, the system, or system
+components; choosing the security attributes to be associated t
+swith newly created or modified objects; or changing the rules for
+governing access control. Organization-defined subjects may
+oexplicitly be granted organization-defined privileges (i.e., they
+are trusted subjects) such that they are not limited by some or 1
+6all of the above constraints. Mandatory access control is
+considered a type of nondiscretionary access control. 8
+Ssecurity markingSee . marking
+PA written agreement between a recipient agency and a source matching agreement
+0 [OMB A-108]agency (or a non-Federal agency) that is required by the Privacy
+5Act for parties engaging in a matching program.
+Physical devices or writing surfaces including magnetic tapes, media
+[FIPS 200]optical disks, magnetic disks, Large-Scale Integration memory
+chips, and printouts (but excluding display media) onto which
+information is recorded, stored, or printed within a system.
+Information that describes the characteristics of data, including metadata
+structural metadata that describes data structures (i.e., data
+format, syntax, semantics) and descriptive metadata that
+describes data contents (i.e., security labels).
+APPENDIX A   PAGE 407
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Software programs or parts of programs obtained from remote mobile code
+systems, transmitted across a network, and executed on a local
+system without explicit installation or execution by the recipient.
+Software technologies that provide the mechanisms for the mobile code technologies
+production and use of mobile code.
+A portable computing device that has a small form factor such mobile device
+that it can easily be carried by a single individual; is designed to
+operate without a physical connection (e.g., wirelessly transmit
+or receive information); possesses local, non-removable data
+storage; and is powered on for extended periods of time with a
+self-contained power source. Mobile devices may also include
+voice communication capabilities, on-board sensors that allow is
+the device to capture (e.g., photograph, video, record, or u
+lidetermine location) information, and/or built-in features for c
+synchronizing local data with remote locations. Examples include i
+smart phones, tablets, and e-readers. is
+A system in which at least one security objective (i.e., moderate-impact system a
+[FIPS 200]confidentiality, integrity, or availability) is assigned a FIPS b
+Publication 199 potential impact value of moderate and no
+esecurity objective is assigned a potential impact value of high.
+An authentication system or an authenticator that requires more c
+multi-factor h
+than one authentication factor for successful authentication. rauthentication g
+Multi-factor authentication can be performed using a single   [SP 800-63-3]f
+authenticator that provides more than one factor or by a m
+hcombination of authenticators that provide different factors.
+sThe three authentication factors are something you know,
+authenticatorsomething you have, and something you are.See . o
+Concept of processing information with different classifications gmultilevel security
+0[CNSSI 4009]and categories that simultaneously permits access by users with
+0different security clearances and denies access to users who lack
+/authorization.
+Capability of a system that is trusted to contain, and maintain multiple security levels
+P [CNSSI 4009]separation between, resources (particularly stored data) of
+0different security domains.
+APPENDIX A   PAGE 408
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Any system (including any telecommunications system) used or national security system
+[OMB A-130]operated by an agency or by a contractor of an agency, or other
+organization on behalf of an agency—(i) the function, operation,
+or use of which involves intelligence activities; involves
+cryptologic activities related to national security; involves
+command and control of military forces; involves equipment that
+is an integral part of a weapon or weapons system; or is critical
+to the direct fulfillment of military or intelligence missions
+(excluding a system that is to be used for routine administrative
+and business applications, for example, payroll, finance, logistics,
+and personnel management applications); or (ii) is protected at
+all times by procedures established for information that have
+ibeen specifically authorized under criteria established by an s
+uExecutive Order or an Act of Congress to be kept classified in the
+liinterest of national defense or foreign policy. c
+A system implemented with a collection of connected nnetwork
+components. Such components may include routers, hubs,
+acabling, telecommunications controllers, key distribution
+bcenters, and technical control devices.
+Access to a system by a user (or a process acting on behalf of a enetwork access
+ouser) communicating through a network, including a local area
+network, a wide area network, and the Internet. h
+eA value used in security protocols that is never repeated with the nonce
+o [SP 800-63-3]same key. For example, nonces used as challenges in challenge-
+response authentication protocols are not repeated until the
+pauthentication keys are changed. Otherwise, there is a possibility
+of a replay attack.  /
+omandatory access controlSee . nondiscretionary access
+1control
+0Maintenance activities conducted by individuals who nonlocal maintenance
+/communicate through either an internal or external network.
+A user who is not an organizational user (including public users). non-organizational user
+.Protection against an individual who falsely denies having non-repudiation 8
+performed a certain action and provides the capability to
+determine whether an individual took a certain action, such as
+creating information, sending a message, approving information,
+or receiving a message.
+Cryptography that consists of an approved algorithm, an NSA-approved
+implementation that has been approved for the protection of cryptography
+classified information and/or controlled unclassified information
+in a specific environment, and a supporting key management
+infrastructure.
+APPENDIX A   PAGE 409
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Passive system-related entity, including devices, files, records, object
+tables, processes, programs, and domains that contain or receive
+information. Access to an object (by a subject) implies access to
+subjectthe information it contains. See .
+Systematic and proven process by which potential adversaries operations security
+[CNSSI 4009]can be denied information about capabilities and intentions by
+identifying, controlling, and protecting generally unclassified
+evidence of the planning and execution of sensitive activities.
+The process involves five steps: identification of critical
+information, analysis of threats, analysis of vulnerabilities,
+assessment of risks, and application of appropriate
+countermeasures. h
+An entity of any size, complexity, or positioning within an organization u
+l [FIPS 200, Adapted]iorganizational structure, including federal agencies, private c
+enterprises, academic institutions, state, local, or tribal i
+governments, or as appropriate, any of their operational is
+elements.
+The variable part of a control or control enhancement that is organization-defined b
+instantiated by an organization during the tailoring process by control parameter f
+eeither assigning an organization-defined value or selecting a
+fvalue from a predefined list provided as part of the control or
+aassignment operationselection control enhancement. See  and
+eoperation.
+An organizational employee or an individual whom the organizational user
+organization deems to have equivalent status of an employee, t
+sincluding a contractor, guest researcher, or individual detailed
+from another organization. Policies and procedures for granting
+othe equivalent status of employees to individuals may include
+need-to-know, relationship to the organization, and citizenship. 1
+0A specification of security or privacy controls, control overlay
+[OMB A-130]/enhancements, supplemental guidance, and other supporting
+information employed during the tailoring process, that is
+Sintended to complement (and further refine) security control
+8baselines. The overlay specification may be more stringent or
+less stringent than the original security control baseline -
+specification and can be applied to multiple information systems. r
+tailoringSee .
+organization-defined control parameterSee . parameter
+A test methodology in which assessors, typically working under penetration testing
+specific constraints, attempt to circumvent or defeat the security
+features of a system.
+APPENDIX A   PAGE 410
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A mode of system operation in which information of different periods processing
+sensitivities is processed at distinctly different times by the same
+system with the system being properly purged or sanitized
+between periods.
+Information that can be used to distinguish or trace an personally identifiable
+individual’s identity, either alone or when combined with other information
+[OMB A-130]information that is linked or linkable to a specific individual.
+An operation or set of operations performed upon personally personally identifiable
+identifiable information that can include, but is not limited to, information processing
+[ISO/IEC 29100, Adapted]the collection, retention, logging, generation, transformation,
+use, disclosure, transfer, and disposal of personally identifiable
+information. is
+The requirements for how personally identifiable information bpersonally identifiable
+can be processed or the conditions under which personally information processing a
+identifiable information can be processed. permissions n
+aThe discipline of assessing the conduct, integrity, judgment, personnel security
+iloyalty, reliability, and stability of individuals for duties and la
+responsibilities that require trustworthiness. le
+An electronic system that controls the ability of people or physical access control e
+fvehicles to enter a protected area by means of authentication system
+[SP 800-116]and authorization at access control points. a
+A document that identifies tasks that need to be accomplished. plan of action and f
+mIt details resources required to accomplish the elements of the milestones
+hplan, milestones for meeting the tasks, and the scheduled
+scompletion dates for the milestones.
+A system component that can communicate with and be added portable storage device i.
+rto or removed from a system or network and that is limited to g
+data storage—including text, video, audio or image data—as its 0
+0primary function (e.g., optical discs, external or removable hard
+drives, external or removable solid-state disk drives, magnetic or /
+Soptical tapes, flash memory devices, flash memory cards, and
+Sother external or removable disks).
+0The loss of confidentiality, integrity, or availability could be potential impact
+5[FIPS 199]expected to have a limited adverse effect (FIPS Publication 199
+5low); a serious adverse effect (FIPS Publication 199 moderate);
+or a severe or catastrophic adverse effect (FIPS Publication 199
+high) on organizational operations, organizational assets, or
+individuals.
+An embedded, integral part of the enterprise architecture that privacy architecture
+[SP 800-37]describes the structure and behavior for an enterprise’s privacy
+protection processes, technical measures, personnel and
+organizational sub-units, showing their alignment with the
+enterprise’s mission and strategic plans.
+APPENDIX A   PAGE 411
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+The administrative, technical, and physical safeguards employed privacy control
+[OMB A-130]within an agency to ensure compliance with applicable privacy
+requirements and manage privacy risks.
+The set of privacy controls selected based on the privacy privacy control baseline
+selection criteria that provide a starting point for the tailoring
+process.
+A domain that implements a privacy policy. privacy domain
+An analysis of how information is handled to ensure handling privacy impact
+conforms to applicable legal, regulatory, and policy requirements assessment
+[OMB A-130]regarding privacy; to determine the risks and effects of creating,
+collecting, using, processing, storing, maintaining, disseminating,
+disclosing, and disposing of information in identifiable form in an
+electronic information system; and to examine and evaluate b
+protections and alternate processes for handling information to a
+mitigate potential privacy concerns. A privacy impact assessment n
+is both an analysis and a formal document detailing the process
+and the outcome of the analysis. a
+A formal document that details the privacy controls selected for lprivacy plan e
+r [OMB A-130]an information system or environment of operation that are in e
+place or planned for meeting applicable privacy requirements o
+and managing privacy risks, details how the controls have been h
+rimplemented, and describes the methodologies and metrics that g
+will be used to assess the controls. f
+:A formal document that provides an overview of an agency’s privacy program plan
+t[OMB A-130] privacy program, including a description of the structure of the p
+/privacy program, the resources dedicated to the privacy /
+program, the role of the Senior Agency Official for Privacy and i.
+other privacy officials and staff, the strategic goals and g
+0objectives of the privacy program, and the program
+0management controls and common controls in place or planned
+/for meeting applicable privacy requirements and managing
+privacy risks.
+PA system account with the authorizations of a privileged user. privileged account
+A human-initiated command executed on a system that involves privileged command
+the control, monitoring, or administration of the system,
+including security functions and associated security-relevant
+information.
+A user that is authorized (and therefore, trusted) to perform privileged user
+[CNSSI 4009] security-relevant functions that ordinary users are not
+authorized to perform.
+APPENDIX A   PAGE 412
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Wire line or fiber optic system that includes adequate safeguards protected distribution
+and/or countermeasures (e.g., acoustic, electric, system
+[CNSSI 4009]electromagnetic, and physical) to permit its use for the
+transmission of unencrypted information through an area of
+lesser classification or control.
+The chronology of the origin, development, ownership, location, provenance
+and changes to a system or system component and associated
+data. It may also include the personnel and processes used to
+interact with or make modifications to the system, component,
+or associated data.
+The architecture, organization, techniques, practices, and public key infrastructure
+[CNSSI 4009]procedures that collectively support the implementation and is
+operation of a certificate-based public key cryptographic system. u
+liFramework established to issue, maintain, and revoke public key c
+certificates. i
+A method of sanitization that applies physical or logical purge
+[SP 800-88] techniques that render target data recovery infeasible using a
+state of the art laboratory techniques. b
+rAgreement among participating organizations to accept each reciprocity e
+[SP 800-37]other’s security assessments to reuse system resources and/or o
+to accept each other’s assessed security posture to share h
+rinformation. g
+All recorded information, regardless of form or characteristics, orecords
+:[OMB A-130]made or received by a Federal agency under Federal law or in
+tconnection with the transaction of public business and preserved p
+/or appropriate for preservation by that agency or its legitimate /
+successor as evidence of the organization, functions, policies, i.
+decisions, procedures, operations, or other activities of the g
+0United States Government or because of the informational value
+0of data in them.
+An exercise, reflecting real-world conditions that is conducted as red team exercise
+a simulated adversarial attempt to compromise organizational
+Pmissions or business processes and to provide a comprehensive
+0assessment of the security capabilities of an organization and its
+5systems.
+A set of design requirements on a reference validation reference monitor
+mechanism that, as a key component of an operating system,
+enforces an access control policy over all subjects and objects. A
+reference validation mechanism is always invoked (i.e., complete
+mediation), tamperproof, and small enough to be subject to
+analysis and tests, the completeness of which can be assured
+(i.e., verifiable).
+APPENDIX A   PAGE 413
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A trusted process explicitly authorized to re-classify and re-label regrader
+[CNSSI 4009]data in accordance with a defined policy exception. Untrusted or
+unauthorized processes are such actions by the security policy.
+Access to an organizational system by a user (or a process acting remote access
+on behalf of a user) communicating through an external
+network.
+Maintenance activities conducted by individuals communicating remote maintenance
+through an external network.
+An attack in which the Attacker is able to replay previously replay attack
+[SP 800-63-3]captured messages (between a legitimate Claimant and a
+Verifier) to masquerade as that Claimant to the Verifier or vice
+versa.
+lProtection against the capture of transmitted authentication or replay resistance ic
+taccess control information and its subsequent retransmission i
+with the intent of producing an unauthorized effect or gaining
+aunauthorized access.
+The ability of an information system to operate under adverse resilience
+[OMB A-130] conditions or stress, even if in a degraded or debilitated state,
+while maintaining essential operational capabilities, and to e
+frecover to an effective operational posture in a time frame
+consistent with mission needs.a
+All data concerning (i) design, manufacture, or utilization of restricted data f
+m[ATOM54]atomic weapons; (ii) the production of special nuclear material;
+hor (iii) the use of special nuclear material in the production of
+senergy, but shall not include data declassified or removed from
+dthe Restricted Data category pursuant to Section 142 [of the
+oAtomic Energy Act of 1954].
+A measure of the extent to which an entity is threatened by a risk 0
+0[OMB A-130] potential circumstance or event, and typically is a function of: (i)
+the adverse impact, or magnitude of harm, that would arise if /
+Sthe circumstance or event occurs; and (ii) the likelihood of
+Soccurrence.
+0The process of identifying risks to organizational operations risk assessment
+5[SP 800-39] (including mission, functions, image, reputation), organizational
+[IR 8062, adapted] 5assets, individuals, other organizations, and the Nation, resulting
+from the operation of a system.
+Risk management includes threat and vulnerability analyses as
+arising from well as analyses of adverse effects on individuals
+information processing and considers mitigations provided by
+security and privacy controls planned or in place. Synonymous
+risk analysiswith .
+APPENDIX A   PAGE 414
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+An individual or group within an organization that helps to risk executive (function)
+[SP 800-37]ensure that security risk-related considerations for individual
+systems, to include the authorization decisions for those
+systems, are viewed from an organization-wide perspective with
+regard to the overall strategic goals and objectives of the
+organization in carrying out its mission and business functions;
+and managing risk from individual systems is consistent across
+the organization, reflects organizational risk tolerance, and is
+considered along with other organizational risks affecting
+mission or business success.
+The program and supporting processes to manage risk to agency risk management
+[OMB A-130]operations (including mission, functions, image, reputation), h
+agency assets, individuals, other organizations, and the Nation,
+band includes: establishing the context for risk-related activities;
+aassessing risk; responding to risk once determined; and
+monitoring risk over time. n
+Prioritizing, evaluating, and implementing the appropriate risk-risk mitigation v
+i [CNSSI 4009]reducing controls/countermeasures recommended from the risk la
+lmanagement process. e
+eAccepting, avoiding, mitigating, sharing, or transferring risk to risk response
+f [OMB A-130]agency operations, agency assets, individuals, other
+aorganizations, or the Nation.
+The level of risk or the degree of uncertainty that is acceptable risk tolerance f
+[SP 800-39]to an organization.
+tAccess control based on user roles (i.e., a collection of access role-based access control p
+/authorizations that a user receives based on an explicit or /
+implicit assumption of a given role). Role permissions may be i.
+inherited through a role hierarchy and typically reflect the g
+0permissions needed to perform defined functions within an
+0organization. A given role may apply to a single individual or to
+/several individuals.
+The period during which a computer program is executing. runtime
+.A process to render access to target data on the media infeasible sanitization 8
+0 [SP 800-88]for a given level of effort. Clear, purge, and destroy are actions
+that can be taken to sanitize media.
+A part of tailoring guidance that provides organizations with scoping considerations
+specific considerations on the applicability and implementation
+of security and privacy controls in the control baselines.
+Considerations include policy or regulatory, technology, physical
+infrastructure, system component allocation, public access,
+scalability, common control, operational or environmental, and
+security objective.
+APPENDIX A   PAGE 415
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A condition that results from the establishment and security
+[CNSSI 4009]maintenance of protective measures that enable an organization
+to perform its mission or critical functions despite risks posed by
+threats to its use of systems. Protective measures may involve a
+combination of deterrence, avoidance, prevention, detection,
+recovery, and correction that should form part of the
+organization’s risk management approach.
+An abstraction that represents the basic properties or security attribute
+characteristics of an entity with respect to safeguarding
+information. Typically associated with internal data structures—
+including records, buffers, and files within the system—and used
+hto enable the implementation of access control and flow control
+ppolicies; reflect special dissemination, handling or distribution
+instructions; or support other aspects of the information security lic
+policy. t
+iThe process of determining the security category for information security categorization s
+vor a system. Security categorization methodologies are described
+lain CNSS Instruction 1253 for national security systems and in
+FIPS Publication 199 for other than national security systems.
+security categorySee .
+The characterization of information or an information system security category c
+[OMB A-130]based on an assessment of the potential impact that a loss of r
+confidentiality, integrity, or availability of such information or
+information system would have on agency operations, agency m
+hassets, individuals, other organizations, and the Nation.
+:The safeguards or countermeasures prescribed for an security control /
+o [OMB A-130]information system or an organization to protect the
+confidentiality, integrity, and availability of the system and its r
+information.
+The set of minimum security controls defined for a low-impact, 2security control baseline
+N [OMB A-130]moderate-impact, or high-impact information system.
+A domain that implements a security policy and is administered .security domain
+[CNSSI 4009]by a single authority. .
+-The security-related features, functions, mechanisms, services, security functionality
+rprocedures, and architectures implemented within
+organizational information systems or the environments in
+which those systems operate.
+The hardware, software, or firmware of the system responsible security functions
+for enforcing the system security policy and supporting the
+isolation of code and data on which the protection is based.
+The analysis conducted by qualified staff within an organization security impact analysis
+[SP 800-128] to determine the extent to which changes to the system affect
+the security posture of the system.
+APPENDIX A   PAGE 416
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Hardware, firmware, and software elements of a trusted security kernel
+[CNSSI 4009]computing base implementing the reference monitor concept.
+Security kernel must mediate all accesses, be protected from
+modification, and be verifiable as correct.
+The means used to associate a set of security attributes with a security label
+specific information object as part of the data structure for that
+object.
+The means used to associate a set of security attributes with security marking
+objects in a human-readable form in order to enable
+organizational, process-based enforcement of information
+security policies.
+Confidentiality, integrity, or availability. security objective
+[FIPS 199]b
+aA formal document that provides an overview of the security security plan
+nrequirements for an information system or an information
+security program and describes the security controls in place or
+aplanned for meeting those requirements. The system security
+bplan describes the system components that are included within
+the system, the environment in which the system operates, how f
+the security requirements are implemented, and the
+relationships with or connections to other systems. c
+system security planrSee .
+rA set of criteria for the provision of security services. security policy o
+h[SP 800-160-1 adapted]A set of rules that governs all aspects of security-relevant system
+and system component behavior. s
+oA hardware and/or software component that performs one or security policy filter
+rmore of the following functions: content verification to ensure
+the data type of the submitted content; content inspection to 0
+analyze the submitted content and verify that complies with a 0
+defined policy; malicious content checker that evaluates the
+content for malicious code; suspicious activity checker that S
+.evaluates or executes the content in a safe manner, such as in a S
+.sandbox or detonation chamber and monitors for suspicious
+0activity; or content sanitization, cleansing, and transformation,
+3which modifies the submitted content to comply with a defined
+policy.
+APPENDIX A   PAGE 417
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A requirement levied on an information system or an security requirement
+[FIPS 200, Adapted]organization that is derived from applicable laws, executive
+orders, directives, regulations, policies, standards, procedures,
+or mission/business needs to ensure the confidentiality,
+integrity, and availability of information that is being processed,
+stored, or transmitted.
+Note: Security requirements can be used in a variety of contexts from high-
+level policy-related activities to low-level implementation-related activities in
+system development and engineering disciplines.
+A security capability or function provided by an entity that security service
+[SP 800-160-1]supports one or more security objectives.
+Information within the system that can potentially impact the hsecurity-relevant
+operation of security functions or the provision of security information p
+services in a manner that could result in failure to enforce the
+system security policy or maintain isolation of code and data.
+iA control parameter that allows an organization to select a value selection operation s
+from a list of predefined values provided as part of the control or v
+lcontrol enhancement (e.g., selecting to either restrict an action a
+leor prohibit an action).
+assignment operationorganization-defined control See  and e
+parameterf.
+rOfficial responsible for carrying out the Chief Information Officer senior agency
+responsibilities under FISMA and serving as the Chief information security  f
+m Information Officer’s primary liaison to the agency’s authorizing officer
+h officials, information system owners, and information system
+ssecurity officers.
+Note:senior  Organizations subordinate to federal agencies may use the term o
+oinformation security officer chief information security officeror  to denote
+individuals who fill positions with similar responsibilities to senior agency /
+0 information security officers.
+Senior official, designated by the head of each agency, who has senior agency official for
+agency-wide responsibility for privacy, including implementation privacy
+T [OMB A-130]of privacy protections; compliance with Federal laws,
+Pregulations, and policies relating to privacy; management of
+0privacy risks at the agency; and a central policy-making role in
+5the agency’s development and evaluation of legislative,
+5regulatory, and other policy proposals.
+senior agency information security officerSee . senior information
+security officer
+Classified information concerning or derived from intelligence sensitive compartmented
+sources, methods, or analytical processes, which is required to information
+[CNSSI 4009]be handled within formal access control systems established by
+the Director of National Intelligence.
+APPENDIX A   PAGE 418
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+A set of principles and methodologies for designing and service-oriented
+developing software in the form of interoperable services. These architecture
+services are well-defined business functions that are built as
+software components (i.e., discrete pieces of code and/or data
+structures) that can be reused for different purposes.
+A security or privacy control that is implemented for an shared control
+information system in part as a common control and in part as a
+hybrid controlsystem-specific control. See .
+Computer programs and associated data that may be software
+[CNSSI 4009]dynamically written or modified during execution.
+The abuse of electronic messaging systems to indiscriminately spam
+send unsolicited bulk messages.
+lA program established for a specific class of classified special access program ic
+t[CNSSI 4009]information that imposes safeguarding and access requirements i
+that exceed those normally required for information at the same
+aclassification level.
+The process of allowing a remote user or device to establish a split tunneling
+non-remote connection with a system and simultaneously
+communicate via some other connection to a resource in an e
+fexternal network. This method of network access enables a user
+to access remote devices, and simultaneously, access a
+uncontrolled networks.  e
+mSoftware that is secretly or surreptitiously installed into an spyware
+hinformation system to gather information on individuals or
+sorganizations without their knowledge; a type of malicious code.
+An individual, process, or device that causes information to flow subject i.
+robjectamong objects or change to the system state. Also see . g
+.A major subdivision or component of an information system subsystem 6
+2consisting of information, information technology, and
+personnel that performs one or more specific functions.
+.Organization or individual that enters into an agreement with supplier S
+.the acquirer or integrator for the supply of a product or service.
+0This includes all suppliers in the supply chain, developers or
+3manufacturers of systems, system components, or system
+services; systems integrators; vendors; product resellers; and
+third party partners.
+Linked set of resources and processes between and among supply chain
+multiple tiers of organizations, each of which is an acquirer, that
+begins with the sourcing of products and services and extends
+through their life cycle.
+APPENDIX A   PAGE 419
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Organizations, entities, or tools employed for the research and supply chain element
+development, design, manufacturing, acquisition, delivery,
+integration, operations and maintenance, and disposal of
+systems and system components.
+The potential for harm or compromise that arises as a result of supply chain risk
+security risks from suppliers, their supply chains, and their
+products or services. Supply chain risks include exposures,
+threats, and vulnerabilities associated with the products and
+services traversing the supply chain as well as the exposures,
+threats, and vulnerabilities to the supply chain.
+A systematic examination of supply chain risks, likelihoods of supply chain risk
+their occurrence, and potential impacts. assessment is
+A systematic process for managing cyber supply chain risk bsupply chain risk
+exposures, threats, and vulnerabilities throughout the supply management a
+chain and developing risk response strategies to the risks n
+presented by the supplier, the supplied products and services, or
+the supply chain. a
+Any organized assembly of resources and procedures united and lsystem e
+r[CNSSI 4009] regulated by interaction or interdependence to accomplish a set e
+of specific functions.  o
+hNote: Systems also include specialized systems such as industrial control
+rsystems, telephone switching and private branch exchange (PBX) systems, and g
+environmental control systems.
+m [ISO 15288]Combination of interacting elements organized to achieve one or
+hmore stated purposes.
+Note 1: There are many types of systems. Examples include: general and :
+dspecial-purpose information systems; command, control, and communication
+i.systems; crypto modules; central processing unit and graphics processor o
+gboards; industrial control systems; flight control systems; weapons, targeting,
+and fire control systems; medical devices and treatment systems; financial, 0
+banking, and merchandising transaction systems; and social networking 0
+systems. 8
+Note 2: The interacting elements in the definition of system include hardware, I
+Tsoftware, data, humans, processes, facilities, materials, and naturally occurring
+physical entities. P
+Note 3: System-of-systems is included in the definition of system. 0
+A discrete identifiable information technology asset that system component 3
+[SP 800-128]represents a building block of a system and may include
+hardware, software, and firmware.
+A group of any records under the control of any agency from system of records
+[USC 552]which information is retrieved by the name of the individual or
+by some identifying number, symbol, or other identifying
+particular assigned to the individual.
+Federal Register The notice(s) published by an agency in the system of records notice
+[OMB A-108]upon the establishment and/or modification of a system of
+records describing the existence and character of the system.
+APPENDIX A   PAGE 420
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+system owner Official responsible for the overall procurement, development,
+(or program manager)
+integration, modification, operation, and maintenance of a
+system.
+system Individual with assigned responsibility for maintaining the
+security officer
+appropriate operational security posture for a system or
+[SP 800-37]
+program.
+security planSee .  system security plan
+A capability provided by a system that facilitates information system service
+processing, storage, or transmission.
+Risk that arises through the loss of confidentiality, integrity, or system-related security
+availability of information or systems and that considers impacts risk is
+p [SP 800-30]to the organization (including assets, mission, functions, image,
+lor reputation), individuals, other organizations, and the Nation. ic
+triskSee . i
+isA security or privacy control for an information system that is system-specific control
+[OMB A-130]implemented at the system level and is not inherited by any a
+other information system.
+rAn engineering discipline whose responsibility is creating and systems engineering
+[SP 800-160-1]executing an interdisciplinary process to ensure that the o
+ccustomer and all other stakeholder needs are satisfied in a high-
+rquality, trustworthy, cost-efficient, and schedule-compliant
+manner throughout a system’s entire life cycle. f
+A specialty engineering field strongly related to systems :systems security
+tengineering. It applies scientific, engineering, and information engineering p
+: [SP 800-160-1]assurance principles to deliver trustworthy systems that satisfy /
+stakeholder requirements within their established risk tolerance.
+A set of controls that result from the application of tailoring /tailored control baseline
+.tailoringguidance to a control baseline. See . 6
+The process by which security control baselines are modified by: tailoring /
+identifying and designating common controls, applying scoping S
+.considerations on the applicability and implementation of S
+.baseline controls, selecting compensating security controls,
+0assigning specific values to organization-defined security control
+3parameters, supplementing baselines with additional security
+controls or control enhancements, and providing additional
+specification information for control implementation.
+An intentional but unauthorized act resulting in the modification tampering
+CNSSI 4009of a system, components of systems, its intended behavior, or []
+data.
+APPENDIX A   PAGE 421
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Any circumstance or event with the potential to adversely threat
+[SP 800-30]impact organizational operations, organizational assets,
+individuals, other organizations, or the Nation through a system
+via unauthorized access, destruction, disclosure, modification of
+information, and/or denial of service.
+Formal description and evaluation of threat to an information threat assessment
+[CNSSI 4009]system.
+A form of risk assessment that models aspects of the attack and threat modeling
+[SP 800-154] defense sides of a logical entity, such as a piece of data, an
+application, a host, a system, or an environment.
+The intent and method targeted at the intentional exploitation Tthreat source
+isof a vulnerability or a situation and method that may  [FIPS 200]
+uthreat agentaccidentally trigger a vulnerability. See .
+The state that exists when information is being electronically transmission t
+n[CNSSI 4009]sent from one location to one or more other locations.
+A mechanism by which a user (through an input device) can trusted path v
+lcommunicate directly with the security functions of the system a
+lewith the necessary confidence to support the system security
+epolicy. This mechanism can only be activated by the user or the
+security functions of the system and cannot be imitated by
+huntrusted software.
+The attribute of a person or enterprise that provides confidence trustworthiness
+o [CNSSI 4009]to others of the qualifications, capabilities, and reliability of that  m
+entity to perform specific tasks and fulfill assigned h
+responsibilities.
+dtrustworthiness
+The degree to which an information system (including the o
+i(system) .
+information technology components that are used to build the r
+1system) can be expected to preserve the confidentiality,
+integrity, and availability of the information being processed,
+8stored, or transmitted by the system across the full range of
+Ithreats. A trustworthy information system is believed to operate
+within defined levels of risk despite the environmental .
+disruptions, human errors, structural failures, and purposeful .
+attacks that are expected to occur in its environment of 0
+operation. 3
+Individual, or (system) process acting on behalf of an individual, user
+authorized to access a system.
+organizational usernon-organizational userSee  and .
+Protected information system link utilizing tunneling, security virtual private network
+[CNSSI 4009]controls, and endpoint address translation giving the impression
+of a dedicated line.
+APPENDIX A   PAGE 422
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Weakness in an information system, system security procedures, vulnerability
+[SP 800-30]internal controls, or implementation that could be exploited or
+triggered by a threat source.
+vulnerability assessmentSee . vulnerability analysis
+Systematic examination of an information system or product to vulnerability assessment
+[CNSSI 4009]determine the adequacy of security measures, identify security
+deficiencies, provide data from which to predict the
+effectiveness of proposed security measures, and confirm the
+adequacy of such measures after implementation.
+APPENDIX A   PAGE 423

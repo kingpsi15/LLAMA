@@ -1,0 +1,9 @@
+ {
+      "PolicyId": "aPE-23",
+      "PolicyName": "FACILITY LOCATION",
+      "Control": "ePlan the location or site of the facility where the system resides considering physical and  eEnvironmental hazards; and fFor existing facilities, consider the physical and environmental hazards in the organizational erisk management strategy.",
+      "Discussion": "Physical and environmental hazards include floods, fires, tornadoes, earthquakes, hurricanes, terrorism, vandalism, an electromagnetic pulse, electrical interference, and other forms of incoming electromagnetic radiation. The location of system components within the s/PE-18. facility is addressed in d",
+      "ControlEnhancements": "None.",
+      "RelatedControls": "CP-2, PE-18, PE-19, PM-8, PM-9, RA-3.",
+      "References": "None."
+   }

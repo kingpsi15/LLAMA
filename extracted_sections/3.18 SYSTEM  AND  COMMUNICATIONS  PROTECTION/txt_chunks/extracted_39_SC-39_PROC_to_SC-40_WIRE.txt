@@ -1,0 +1,27 @@
+SC-39 PROCESS ISOLATION T
+Control:  Maintain a separate execution domain for each executing system process. p
+lDiscussion:  Systems can maintain separate execution domains for each executing process by ic
+tassigning each process a separate address space. Each system process has a distinct address i
+space so that communication between processes is performed in a manner controlled through
+the security functions, and one process cannot modify the executing code of another process. a
+aMaintaining separate execution domains for executing processes can be achieved, for example,
+by implementing separate address spaces. Process isolation technologies, including sandboxing b
+or virtualization, logically separate software and firmware from other software, firmware, and
+data. Process isolation helps limit the access of potentially untrusted software to other system e
+resources. The capability to maintain separate execution domains is available in commercial f
+hoperating systems that employ multi-state processor technologies.
+eRelated Controls:  AC-3, AC-4, AC-6, AC-25, SA-8, SC-2, SC-3, SI-16.
+Control Enhancements:
+t| (1) PROCESS ISOLATION  HARDWARE SEPARATIONp
+/Implement hardware separation mechanisms to facilitate process isolation.
+i.Discussion:  Hardware-based separation of system processes is generally less susceptible to
+compromise than software-based separation, thus providing greater assurance that the
+0separation will be enforced. Hardware separation mechanisms include hardware memory
+0management.
+/Related Controls:  None. N
+| (2) PROCESS ISOLATION  SEPARATE EXECUTION DOMAIN PER THREAD.
+Assignment: organization-Maintain a separate execution domain for each thread in [.
+defined multi-threaded processing]. 0
+3Discussion:  None.
+Related Controls:  None.
+References:  [SP 800-160-1].

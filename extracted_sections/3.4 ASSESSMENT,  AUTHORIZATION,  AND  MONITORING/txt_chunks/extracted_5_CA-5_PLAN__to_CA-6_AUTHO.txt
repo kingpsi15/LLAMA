@@ -1,0 +1,28 @@
+CA-5 PLAN OF ACTION AND MILESTONES T
+Control:  .
+a.Develop a plan of action and milestones for the system to document the planned
+3remediation actions of the organization to correct weaknesses or deficiencies noted during
+the assessment of the controls and to reduce or eliminate known vulnerabilities in the
+system; and
+Assignment: organization-defined frequencyb.Update existing plan of action and milestones []
+based on the findings from control assessments, independent audits or reviews, and
+continuous monitoring activities.
+Discussion:  Plans of action and milestones are useful for any type of organization to track
+planned remedial actions. Plans of action and milestones are required in authorization packages
+and subject to federal reporting requirements established by OMB.
+Related Controls:  CA-2, CA-7, PM-4, PM-9, RA-7, SI-2, SI-12.
+CHAPTER THREE   PAGE 88
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Control Enhancements:
+| (1) PLAN OF ACTION AND MILESTONES  AUTOMATION SUPPORT FOR ACCURACY AND CURRENCY
+Ensure the accuracy, currency, and availability of the plan of action and milestones for the
+Assignment: organization-defined automated mechanismssystem using [].
+Discussion:  Using automated tools helps maintain the accuracy, currency, and availability of
+the plan of action and milestones and facilitates the coordination and sharing of security and
+privacy information throughout the organization. Such coordination and information sharing
+help to identify systemic weaknesses or deficiencies in organizational systems and ensure
+that appropriate resources are directed at the most critical system vulnerabilities in a timely
+manner.
+Related Controls:  None.
+References:  [OMB A-130], [SP 800-37].

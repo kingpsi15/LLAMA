@@ -1,0 +1,13 @@
+aPE-23 FACILITY LOCATION
+lControl: e
+a.Plan the location or site of the facility where the system resides considering physical and  e
+environmental hazards; and f
+b.For existing facilities, consider the physical and environmental hazards in the organizational
+erisk management strategy.
+Discussion:  Physical and environmental hazards include floods, fires, tornadoes, earthquakes,
+hhurricanes, terrorism, vandalism, an electromagnetic pulse, electrical interference, and other
+forms of incoming electromagnetic radiation. The location of system components within the s
+/PE-18. facility is addressed in d
+Related Controls:  CP-2, PE-18, PE-19, PM-8, PM-9, RA-3. r
+0References:  None.
+CHAPTER THREE   PAGE 193

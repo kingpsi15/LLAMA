@@ -1,0 +1,99 @@
+MP-6 MEDIA SANITIZATION 0
+2Control:
+Assignment: organization-defined system mediaa.Sanitize [] prior to disposal, release out of  I
+Assignment: organization-defined organizational control, or release for reuse using [
+Psanitization techniques and procedures]; and
+0b.Employ sanitization mechanisms with the strength and integrity commensurate with the
+3security category or classification of the information.
+Discussion:   Media sanitization applies to all digital and non-digital system media subject to
+disposal or reuse, whether or not the media is considered removable. Examples include digital
+media in scanners, copiers, printers, notebook computers, workstations, network components,
+mobile devices, and non-digital media (e.g., paper and microfilm). The sanitization process
+removes information from system media such that the information cannot be retrieved or
+reconstructed. Sanitization techniques—including clearing, purging, cryptographic erase, de-
+identification of personally identifiable information, and destruction—prevent the disclosure of
+information to unauthorized individuals when such media is reused or released for disposal.
+Organizations determine the appropriate sanitization methods, recognizing that destruction is
+sometimes necessary when other methods cannot be applied to media requiring sanitization.
+CHAPTER THREE   PAGE 174
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Organizations use discretion on the employment of approved sanitization techniques and
+procedures for media that contains information deemed to be in the public domain or publicly
+releasable or information deemed to have no adverse impact on organizations or individuals if
+released for reuse or disposal. Sanitization of non-digital media includes destruction, removing a
+classified appendix from an otherwise unclassified document, or redacting selected sections or
+words from a document by obscuring the redacted sections or words in a manner equivalent in
+effectiveness to removing them from the document. NSA standards and policies control the
+sanitization process for media that contains classified information. NARA policies control the
+sanitization process for controlled unclassified information.
+. Related Controls:  AC-3, AC-7, AU-11, MA-2, MA-3, MA-4, MA-5, PM-22, SI-12, SI-18, SI-19, SR-11
+Control Enhancements:
+|,,,, T(1) MEDIA SANITIZATION  REVIEW APPROVE TRACK DOCUMENT AND VERIFY
+Review, approve, track, document, and verify media sanitization and disposal actions.
+bDiscussion:  Organizations review and approve media to be sanitized to ensure compliance
+with records retention policies. Tracking and documenting actions include listing personnel a
+who reviewed and approved sanitization and disposal actions, types of media sanitized, files
+isstored on the media, sanitization methods used, date and time of the sanitization actions,
+vpersonnel who performed the sanitization, verification actions taken and personnel who
+lperformed the verification, and the disposal actions taken. Organizations verify that the a
+lsanitization of the media was effective prior to disposal. e
+eRelated Controls:  None.
+| (2) MEDIA SANITIZATION  EQUIPMENT TESTING c
+Assignment: organization-defined frequencyTest sanitization equipment and procedures [] r
+to ensure that the intended sanitization is being achieved.
+mDiscussion:  Testing of sanitization equipment and procedures may be conducted by
+hqualified and authorized external entities, including federal agencies or external service
+providers.
+dRelated Controls:  None.
+|r (3) MEDIA SANITIZATION  NONDESTRUCTIVE TECHNIQUES g
+0Apply nondestructive sanitization techniques to portable storage devices prior to
+Assignment: 0connecting such devices to the system under the following circumstances: [
+organization-defined circumstances requiring sanitization of portable storage devices].
+SDiscussion:  Portable storage devices include external or removable hard disk drives (e.g.,
+.solid state, magnetic), optical discs, magnetic or optical tapes, flash memory devices, flash S
+memory cards, and other external or removable disks. Portable storage devices can be .
+obtained from untrustworthy sources and contain malicious code that can be inserted into 0
+or transferred to organizational systems through USB ports or other entry portals. While 3
+scanning storage devices is recommended, sanitization provides additional assurance that
+such devices are free of malicious code. Organizations consider nondestructive sanitization
+of portable storage devices when the devices are purchased from manufacturers or vendors
+prior to initial use or when organizations cannot maintain a positive chain of custody for the
+devices.
+Related Controls:  None.
+| (4) MEDIA SANITIZATION  CONTROLLED UNCLASSIFIED INFORMATION
+[Withdrawn: Incorporated into MP-6.]
+| (5) MEDIA SANITIZATION  CLASSIFIED INFORMATION
+CHAPTER THREE   PAGE 175
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+[Withdrawn: Incorporated into MP-6.]
+| (6) MEDIA SANITIZATION  MEDIA DESTRUCTION
+[Withdrawn: Incorporated into MP-6.]
+| (7) MEDIA SANITIZATION  DUAL AUTHORIZATION
+Assignment: organization-defined Enforce dual authorization for the sanitization of [
+system media].
+Discussion:  Organizations employ dual authorization to help ensure that system media
+sanitization cannot occur unless two technically qualified individuals conduct the designated
+task. Individuals who sanitize system media possess sufficient skills and expertise to
+determine if the proposed sanitization reflects applicable federal and organizational
+standards, policies, and procedures. Dual authorization also helps to ensure that sanitization
+occurs as intended, protecting against errors and false claims of having performed the h
+sanitization actions. Dual authorization may also be known as two-person control. To reduce
+the risk of collusion, organizations consider rotating dual authorization duties to other b
+individuals. a
+Related Controls:  AC-3, MP-2. n
+a| (8) MEDIA SANITIZATION  REMOTE PURGING OR WIPING OF INFORMATION
+lAssignment: organization-Provide the capability to purge or wipe information from [a
+ldefined systems or system componentsSelection: remotely;under the following ] [ e
+rconditions: Assignment: organization-defined conditions[]]. e
+oDiscussion:  Remote purging or wiping of information protects information on organizational
+systems and system components if systems or components are obtained by unauthorized h
+rindividuals. Remote purge or wipe commands require strong authentication to help mitigate
+the risk of unauthorized individuals purging or wiping the system, component, or device. The
+purge or wipe function can be implemented in a variety of ways, including by overwriting  m
+data or information multiple times or by destroying the key necessary to decrypt encrypted h
+pdata.
+/Related Controls:  None. d
+References:  [32 CFR 2002], [OMB A-130], [NARA CUI], [FIPS 199], [SP 800-60-1], [SP 800-60-2],
+/[SP 800-88], [SP 800-124], [IR 8023], [NSA MEDIA]. 1

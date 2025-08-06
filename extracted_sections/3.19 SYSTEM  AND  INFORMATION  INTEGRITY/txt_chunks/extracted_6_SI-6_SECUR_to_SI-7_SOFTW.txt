@@ -1,0 +1,39 @@
+lSI-6 SECURITY AND PRIVACY FUNCTION VERIFICATION a
+Control:  f
+Assignment: organization-defined security and privacy a.Verify the correct operation of [ o
+cfunctions];
+gSelection (one or more): b.Perform the verification of the functions specified in SI-6a [
+fAssignment: organization-defined system transitional states; upon command by user with []r
+appropriate privilege; Assignment: organization-defined frequency[]];
+tAssignment: organization-defined personnel or rolesc.Alert [] to failed security and privacy  p
+:verification tests; and /
+iSelection (one or more): Shut the system down; Restart the system; Assignment: .d.[[
+gorganization-defined alternative action(s)]] when anomalies are discovered.
+6Discussion:  Transitional states for systems include system startup, restart, shutdown, and abort.
+System notifications include hardware indicator lights, electronic alerts to system administrators,
+and messages to local computer consoles. In contrast to security function verification, privacy
+function verification ensures that privacy functions operate as expected and are approved by the T
+senior agency official for privacy or that privacy attributes are applied or used as expected.
+Related Controls:  CA-7, CM-4, CM-6, SI-7.
+Control Enhancements:
+| (1) SECURITY AND PRIVACY FUNCTION VERIFICATION  NOTIFICATION OF FAILED SECURITY TESTS
+[Withdrawn: Incorporated into SI-6.]
+|(2) SECURITY AND PRIVACY FUNCTION VERIFICATION  AUTOMATION SUPPORT FOR DISTRIBUTED
+TESTING
+Implement automated mechanisms to support the management of distributed security
+and privacy function testing.
+CHAPTER THREE   PAGE 344
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Discussion:  The use of automated mechanisms to support the management of distributed
+function testing helps to ensure the integrity, timeliness, completeness, and efficacy of such
+testing.
+Related Controls:  SI-2.
+| (3) SECURITY AND PRIVACY FUNCTION VERIFICATION  REPORT VERIFICATION RESULTS
+Assignment: Report the results of security and privacy function verification to [
+organization-defined personnel or roles].
+Discussion:  Organizational personnel with potential interest in the results of the verification
+of security and privacy functions include systems security officers, senior agency information
+security officers, and senior agency officials for privacy.
+Related Controls:  SI-4, SR-4, SR-5.
+hReferences:  [OMB A-130].

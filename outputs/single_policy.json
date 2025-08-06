@@ -1,0 +1,41 @@
+{
+  "functions": [
+    {
+      "id": "1",
+      "name": "Information Flow Enforcement",
+      "description": "Enforces the separation of information flows associated with defined types of data",
+      "subFunctions": [
+        {
+          "id": "1.1",
+          "name": "Content Filtering",
+          "description": "Inspects information as it traverses a cross-domain solution and determines if the information meets a predefined policy"
+        },
+        {
+          "id": "1.2",
+          "name": "Redundant Independent Filtering Mechanisms",
+          "description": "Implements content filter that uses a different code base and supporting libraries and multiple, independent system processes"
+        },
+        {
+          "id": "1.3",
+          "name": "Linear Filter Pipelines",
+          "description": "Enforces that filter processes are non-bypassable and always invoked"
+        },
+        {
+          "id": "1.4",
+          "name": "Filter Orchestration Engines",
+          "description": "Coordinates the sequencing of activities in a content filtering process to ensure successful completion without errors"
+        },
+        {
+          "id": "1.5",
+          "name": "Failed Content Transfer Prevention",
+          "description": "Prevents the transfer of failed content to the receiving domain"
+        },
+        {
+          "id": "1.6",
+          "name": "Process Requirements for Information Transfer",
+          "description": "Ensures minimum complexity and functionality of processes transferring information between filter pipelines"
+        }
+      ]
+    }
+  ]
+}

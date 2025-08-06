@@ -1,0 +1,18 @@
+8PS-8 PERSONNEL SANCTIONS
+5Control:
+a.Employ a formal sanctions process for individuals failing to comply with established
+information security and privacy policies and procedures; and
+Assignment: organization-defined personnel or rolesAssignment: b.Notify [] within [
+organization-defined time period] when a formal employee sanctions process is initiated,
+identifying the individual sanctioned and the reason for the sanction.
+Discussion:  Organizational sanctions reflect applicable laws, executive orders, directives,
+regulations, policies, standards, and guidelines. Sanctions processes are described in access
+and/or agreements and can be included as part of general personnel policies for organizations
+specified in security and privacy policies. Organizations consult with the Office of the General
+Counsel regarding matters of employee sanctions.
+CHAPTER THREE    PAGE 227
+NISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS
+_________________________________________________________________________________________________
+Related Controls:  All XX-1 Controls, PL-4, PM-12, PS-6, PT-1.
+Control Enhancements:  None.
+References:  None.

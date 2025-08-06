@@ -1,0 +1,9 @@
+ {
+     "PolicyId": "0PE-14",
+     "PolicyName": "ENVIRONMENTAL CONTROLS",
+     "Control": "ISelection (one or more): temperature; humidity; pressure; radiation;Assignment: a.Maintain [ [ S organization-defined environmental control]] levels within the facility where the system . Assignment: organization-defined acceptable levelsresides at[]; and Assignment: organization-defined frequencyb.Monitor environmental control levels [].",
+     "Discussion": "The provision of environmental controls applies primarily to organizational facilities  that contain concentrations of system resources (e.g., data centers, mainframe computer rooms, and server rooms). Insufficient environmental controls, especially in very harsh environments, can have a significant adverse impact on the availability of systems and system components that are needed to support organizational mission and business functions.",
+     "ControlEnhancements": "| (1) ENVIRONMENTAL CONTROLS  AUTOMATIC CONTROLS\nCHAPTER THREE   PAGE 189\nNISTSP800-53,R.5SPCISO                                                               EV                                                                                      ECURITY AND RIVACY ONTROLS FOR NFORMATION YSTEMS AND RGANIZATIONS\n_________________________________________________________________________________________________\nEmploy the following automatic environmental controls in the facility to prevent Assignment: organization-defined fluctuations potentially harmful to the system: [automatic environmental controls].\nDiscussion:  The implementation of automatic environmental controls provides an immediate response to environmental conditions that can damage, degrade, or destroy organizational systems or system components.",
+     "RelatedControls": "AT-3, CP-2",
+     "References": "None."
+   }
